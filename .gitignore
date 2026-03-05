@@ -1,0 +1,14 @@
+
+argumentation_papers/argument/downloaded_papers/
+argumentation_papers/papersCombined/
+argumentation_papers/papers/
+dashboard/
+weat_genomics_papers/downloaded_papers/
+tuoring_system_papers/downloaded_papers/
+tuoring_system_papers/tutoring_papers_clean/
+tuoring_system_papers/tutoring_papers_damaged/
+
+
+papers_content.json
+weat_genomics_papers/*.csv
+

@@ -1,0 +1,841 @@
+paper,doi,title,year,venue
+https://dblp.org/rec/conf/3pgcic/CaballeCG20,https://doi.org/10.1007/978-3-030-61105-7_20,Evaluation on Using Conversational Pedagogical Agents to Support Collaborative Learning in MOOCs.,2021,3PGCIC
+https://dblp.org/rec/conf/ace/CrowLW18,https://doi.org/10.1145/3160489.3160492,Intelligent tutoring systems for programming education: a systematic review.,2018,ACE
+https://dblp.org/rec/conf/acii/HawkinsHB13,https://doi.org/10.1109/ACII.2013.108,Which Is More Responsible for Boredom in Intelligent Tutoring Systems: Students (Trait) or Problems (State)?,2013,ACII
+https://dblp.org/rec/conf/acii/RobisonML09,https://doi.org/10.1109/ACII.2009.5349555,Evaluating the consequences of affective feedback in intelligent tutoring systems.,2009,ACII
+https://dblp.org/rec/conf/ACISicis/WijekumarS06,https://doi.org/10.1109/ICIS-COMSAR.2006.87,Web-Based Intelligent Tutoring Systems in K-12 Settings.,2006,ACIS-ICIS
+https://dblp.org/rec/conf/acl/EugenioFYHG05,https://doi.org/10.3115/1219840.1219847,Aggregation Improves Learning: Experiments in Natural Language Generation for Intelligent Tutoring Systems.,2005,ACL
+https://dblp.org/rec/conf/acl/Moghrabi98,https://doi.org/10.3115/980691.980715,Using Language Resources in an Intelligent Tutoring System for French.,1998,COLING-ACL
+https://dblp.org/rec/conf/acm/OLander91,https://doi.org/10.1145/327164.328846,Intelligent tutoring systems (abstract only): an interactive approach to learning.,1991,ACM Conference on Computer Science
+https://dblp.org/rec/conf/acmidc/HoCWHM21,https://doi.org/10.1145/3459990.3460709,RoboMath: Designing a Learning Companion Robot to Support Children's Numerical Skills.,2021,IDC
+https://dblp.org/rec/conf/acmidc/MasmuzidinW12,https://doi.org/10.1145/2307096.2307145,v-Penglipur Lara: the development of a pedagogical agent in Malaysian folktales land.,2012,IDC
+https://dblp.org/rec/conf/acmidc/WigginsWBHBLW19,https://doi.org/10.1145/3311927.3325321,From Doodles to Designs: Participatory Pedagogical Agent Design with Elementary Students.,2019,IDC
+https://dblp.org/rec/conf/ACMse/Bozeman90,https://doi.org/10.1145/98949.99135,Intelligent tutoring systems for teaching algebra: the handling of student misconceptions.,1990,ACM Southeast Regional Conference
+https://dblp.org/rec/conf/ACMse/LoW11,https://doi.org/10.1145/2016039.2016125,An online tutoring system with instant responses.,2011,ACM Southeast Regional Conference
+https://dblp.org/rec/conf/ACMse/Sanborn21,https://doi.org/10.1145/3409334.3452087,AirFlute: a virtual flute and tutoring system.,2021,ACM Southeast Conference
+https://dblp.org/rec/conf/ACMse/YooPYHLS06,https://doi.org/10.1145/1185448.1185482,Intelligent tutoring system for CS-I and II laboratory.,2006,ACM Southeast Regional Conference
+https://dblp.org/rec/conf/acse/WheeldonR00,https://doi.org/10.1145/359369.359413,Classical planning in an intelligent tutoring system (poster session).,2000,ACSE
+https://dblp.org/rec/conf/advis/OzdemirA00,https://doi.org/10.1007/3-540-40888-6_42,An Intelligent Tutoring System for Student Guidance in Web-Based Courses.,2000,ADVIS
+https://dblp.org/rec/conf/agents/LesterS97,https://doi.org/10.1145/267658.269943,Increasing Believability in Animated Pedagogical Agents.,1997,Agents
+https://dblp.org/rec/conf/agents/RickelJ98,https://doi.org/10.1145/280765.280851,STEVE: A Pedagogical Agent for Virtual Reality.,1998,Agents
+https://dblp.org/rec/conf/agents/ShawJG99,https://doi.org/10.1145/301136.301210,Pedagogical Agents on the Web.,1999,Agents
+https://dblp.org/rec/conf/ai/Champaign10,https://doi.org/10.1007/978-3-642-13059-5_54,Peer-Based Intelligent Tutoring Systems: A Corpus-Oriented Approach.,2010,Canadian AI
+https://dblp.org/rec/conf/aiccsa/BouhadadaL01,https://doi.org/10.1109/AICCSA.2001.933949,DB-TUTOR: An Intelligent Tutoring System Using a Troublemaker Companion.,2001,AICCSA
+https://dblp.org/rec/conf/aiccsa/LiQYZ07,https://doi.org/10.1109/AICCSA.2007.370733,Exploiting Model of Personality and Emotion of Learning Companion Agent.,2007,AICCSA
+https://dblp.org/rec/conf/aict/EnchevaT05,https://doi.org/10.1109/AICT.2005.35,Cooperative Learning Objects in an Intelligent Web-Based Tutoring System.,2005,AICT/SAPIR/ELETE
+https://dblp.org/rec/conf/aied/ArroyoWRT09,https://doi.org/10.3233/978-1-60750-028-5-41,Affective Gendered Learning Companions.,2009,AIED
+https://dblp.org/rec/conf/aied/AzevedoWGMCSCRL09,https://doi.org/10.3233/978-1-60750-028-5-635,MetaTutor: Analyzing Self-Regulated Learning in a Tutoring System for Biology.,2009,AIED
+https://dblp.org/rec/conf/aied/BlanchardLA09,https://doi.org/10.3233/978-1-60750-028-5-809,The Second Workshop on Culturally Aware Tutoring Systems.,2009,AIED
+https://dblp.org/rec/conf/aied/CaiGMHWMF09,https://doi.org/10.3233/978-1-60750-028-5-796,ARIES: An Intelligent Tutoring System Assisted by Conversational Agents.,2009,AIED
+https://dblp.org/rec/conf/aied/CetintasSXHZ09,https://doi.org/10.3233/978-1-60750-028-5-701,Learning to Identify Students' Off-Task Behavior in Intelligent Tutoring Systems.,2009,AIED
+https://dblp.org/rec/conf/aied/ChaffarDF09,https://doi.org/10.3233/978-1-60750-028-5-716,Inducing positive emotional state in Intelligent Tutoring Systems.,2009,AIED
+https://dblp.org/rec/conf/aied/DermevalABVLSP18,https://doi.org/10.1007/978-3-319-93846-2_13,Amplifying Teachers Intelligence in the Design of Gamified Intelligent Tutoring Systems.,2018,AIED (2)
+https://dblp.org/rec/conf/aied/DianaESK17,https://doi.org/10.1007/978-3-319-61425-0_74,Teaching Informal Logical Fallacy Identification with a Cognitive Tutor.,2017,AIED
+https://dblp.org/rec/conf/aied/EricksonAW18,https://doi.org/10.1007/978-3-319-93846-2_15,Exploring Gritty Students' Behavior in an Intelligent Tutoring System.,2018,AIED (2)
+https://dblp.org/rec/conf/aied/FergusonWM09,https://doi.org/10.3233/978-1-60750-028-5-605,Transfer Learning and Representation Discovery in Intelligent Tutoring Systems.,2009,AIED
+https://dblp.org/rec/conf/aied/KellyH15,https://doi.org/10.1007/978-3-319-19773-9_128,Developing Self-regulated Learners Through an Intelligent Tutoring System.,2015,AIED
+https://dblp.org/rec/conf/aied/NaismithBRL09,https://doi.org/10.3233/978-1-60750-028-5-719,EAGLE: An Intelligent Tutoring System to Support Experiential Learning Through Video Games.,2009,AIED
+https://dblp.org/rec/conf/aied/Olney09,https://doi.org/10.3233/978-1-60750-028-5-803,GnuTutor: An open source intelligent tutoring system.,2009,AIED
+https://dblp.org/rec/conf/aied/RauAR09,https://doi.org/10.3233/978-1-60750-028-5-441,Intelligent Tutoring Systems with Multiple Representations and Self-Explanation Prompts Support Learning of Fractions.,2009,AIED
+https://dblp.org/rec/conf/aied/RobisonML09,https://doi.org/10.3233/978-1-60750-028-5-25,Modeling Task-Based vs. Affect-based Feedback Behavior in Pedagogical Agents: An Inductive Approach.,2009,AIED
+https://dblp.org/rec/conf/aina/KimS10,https://doi.org/10.1109/WAINA.2010.147,An Instructional Strategy Selection Model Based on Agent and Ontology for an Intelligent Tutoring System.,2010,AINA Workshops
+https://dblp.org/rec/conf/aisi/JimenezJTR16,https://doi.org/10.1007/978-3-319-48308-5_58,Affective Dialogue Ontology for Intelligent Tutoring Systems: Human Assessment Approach.,2017,AISI
+https://dblp.org/rec/conf/amcc/YuhRTJ24,https://doi.org/10.23919/ACC60939.2024.10644169,Using Reward Shaping to Train Cognitive-Based Control Policies for Intelligent Tutoring Systems.,2024,ACC
+https://dblp.org/rec/conf/anlp/EvensCLSWZ97,https://doi.org/10.3115/974281.974289,CIRCSIM-Tutor: An Intelligent Tutoring System Using Natural Language Dialogue.,1997,ANLP
+https://dblp.org/rec/conf/annes/AlemL93,https://doi.org/10.1109/ANNES.1993.323045,A task oriented intelligent tutoring system.,1993,ANNES
+https://dblp.org/rec/conf/anziis/TyermanWW96,https://doi.org/10.1109/ANZIIS.1996.573889,Loop Tutor and Hypertutor: experiences with adaptive tutoring systems.,1996,ANZIIS
+https://dblp.org/rec/conf/apascience/OuversonIWGD18,https://doi.org/10.1145/3183654.3183701,What Intelligent Team Tutoring Systems Can Learn from Human-Agent Teams.,2018,APAScience
+https://dblp.org/rec/conf/apcc/LeL0D19,https://doi.org/10.1109/APCC47188.2019.9026411,Knowledge representation for designing an Intelligent Tutoring System in learning of courses about Algorithms.,2019,APCC
+https://dblp.org/rec/conf/apchi/DahlanC98,https://doi.org/10.1109/APCHI.1998.704484,An Interactive Tutoring System with Tutorials Generation and English-Malay Translation Abilities.,1998,APCHI
+https://dblp.org/rec/conf/apgv/KaulRH16,https://doi.org/10.1145/2931002.2948727,Exploring users' perceived activities in a sketch-based intelligent tutoring system through eye movement data.,2016,SAP
+https://dblp.org/rec/conf/asru/LuboldPW15,https://doi.org/10.1109/ASRU.2015.7404781,Naturalness and rapport in a pitch adaptive learning companion.,2015,ASRU
+https://dblp.org/rec/conf/assets/MichaudMP00,https://doi.org/10.1145/354324.354348,An intelligent tutoring system for deaf learners of written English.,2000,ASSETS
+https://dblp.org/rec/conf/assets/WenZSA21,https://doi.org/10.1145/3441852.3476568,An Intelligent Math E-Tutoring System for Students with Specific Learning Disabilities.,2021,ASSETS
+https://dblp.org/rec/conf/atal/Baylor03,https://doi.org/10.1145/860575.860729,The impact of three pedagogical agent roles.,2003,AAMAS
+https://dblp.org/rec/conf/audio/JylhaE11,https://doi.org/10.1145/2095667.2095683,Auditory feedback in an interactive rhythmic tutoring system.,2011,Audio Mostly Conference
+https://dblp.org/rec/conf/bdc/BannoMS20,https://doi.org/10.1109/BDCAT50828.2020.00007,Automated Cognitive Analyses for Intelligent Tutoring Systems.,2020,BDCAT
+https://dblp.org/rec/conf/bigdataconf/ImtiazSV21,https://doi.org/10.1109/BIGDATA52589.2021.9671757,Mining Learner-friendly Security Patterns from Huge Published Histories of Software Applications for an Intelligent Tutoring System in Secure Coding.,2021,IEEE BigData
+https://dblp.org/rec/conf/bir/DabolinsG16,https://doi.org/10.1007/978-3-319-45321-7_17,Intelligent Tutoring System for Learning Graphics in CAD/CAM.,2016,BIR
+https://dblp.org/rec/conf/c5/Core12,https://doi.org/10.1109/C5.2012.16,Natural Language Understanding Considerations for a Lifelong Learning Companion.,2012,C5
+https://dblp.org/rec/conf/candc/Williford17,https://doi.org/10.1145/3059454.3078695,SketchTivity: Improving Creativity by Learning Sketching with an Intelligent Tutoring System.,2017,Creativity & Cognition
+https://dblp.org/rec/conf/cbms/Hume92,https://doi.org/10.1109/CBMS.1992.244927,A dynamic student model in a cardiovascular intelligent tutoring system.,1992,CBMS
+https://dblp.org/rec/conf/cbms/ShimEMR91,https://doi.org/10.1109/CBMS.1991.128989,Effective cognitive modeling in an intelligent tutoring system for cardiovascular physiology.,1991,CBMS
+https://dblp.org/rec/conf/cbms/SukthankarRERM93,https://doi.org/10.1109/CBMS.1993.262968,Graphical user interfacing with domain visualization for an intelligent medical tutoring system.,1993,CBMS
+https://dblp.org/rec/conf/cbms/WooEMR91,https://doi.org/10.1109/CBMS.1991.128971,Dynamic instructional planning for an intelligent physiology tutoring system.,1991,CBMS
+https://dblp.org/rec/conf/ccnc/NuguriKGCLBSN25,https://doi.org/10.1109/CCNC54725.2025.10975863,Adaptive Virtual Reality Learning Environment with a Reinforcement Learning-Driven Pedagogical Agent.,2025,CCNC
+https://dblp.org/rec/conf/ccwc/YesirR23,https://doi.org/10.1109/CCWC57344.2023.10099098,Recent Advances in Artificial Intelligence Enabled Tutoring Systems: A Survey.,2023,CCWC
+https://dblp.org/rec/conf/cdve/KaklauskasZBSVP07,https://doi.org/10.1007/978-3-540-74780-2_18,Intelligent Library and Tutoring System for Brita in the PuBs Project.,2007,CDVE
+https://dblp.org/rec/conf/cgames/TzengW14,https://doi.org/10.1109/CGAMES.2014.6934153,Identification features and pedagogical agents in a mathematical game.,2014,CGAMES
+https://dblp.org/rec/conf/chi/Baker07,https://doi.org/10.1145/1240624.1240785,Modeling and understanding students' off-task behavior in intelligent tutoring systems.,2007,CHI
+https://dblp.org/rec/conf/chi/BakerCKW04,https://doi.org/10.1145/985692.985741,"Off-task behavior in the cognitive tutor classroom: when students ""game the system"".",2004,CHI
+https://dblp.org/rec/conf/chi/BianYGXGSM16,https://doi.org/10.1145/2858036.2858351,Effects of Pedagogical Agent's Personality and Emotional Feedback Strategy on Chinese Students' Learning Experiences and Performance: A Study Based on Virtual Tai Chi Training Studio.,2016,CHI
+https://dblp.org/rec/conf/chi/CehaL22,https://doi.org/10.1145/3491102.3517599,Expressive Auditory Gestures in a Voice-Based Pedagogical Agent.,2022,CHI
+https://dblp.org/rec/conf/chi/Hayashi15,https://doi.org/10.1145/2702613.2732751,Explanation Activities with a Pedagogical Agent in an Online Task: Lexical Network Analysis.,2015,CHI Extended Abstracts
+https://dblp.org/rec/conf/chi/Heffernan98,https://doi.org/10.1145/286498.286524,Intelligent tutoring systems have forgotten the tutor: adding a cognitive model of human tutors.,1998,CHI Conference Summary
+https://dblp.org/rec/conf/chi/Ho25,https://doi.org/10.1145/3706599.3707605,Empowering Parents and Teachers to Support Children's Learning through AI-based and Robotic Learning Companions.,2025,CHI Extended Abstracts
+https://dblp.org/rec/conf/chi/HuangQWPSCRQ21,https://doi.org/10.1145/3411764.3445283,AdapTutAR: An Adaptive Tutoring System for Machine Tasks in Augmented Reality.,2021,CHI
+https://dblp.org/rec/conf/chi/KimKLK17,https://doi.org/10.1145/3027063.3053123,"Hey, Wake Up: Come Along with the Artificial Learning Companion to the e-Learner's Outcomes High!",2017,CHI Extended Abstracts
+https://dblp.org/rec/conf/chi/LeeCL25a,https://doi.org/10.1145/3706599.3719790,"Interactive Sketchpad: A Multimodal Tutoring System for Collaborative, Visual Problem-Solving.",2025,CHI Extended Abstracts
+https://dblp.org/rec/conf/chi/LesterCKBSB97,https://doi.org/10.1145/258549.258797,The Persona Effect: Affective Impact of Animated Pedagogical Agents.,1997,CHI
+https://dblp.org/rec/conf/chi/LiaoSWLC19,https://doi.org/10.1145/3290607.3312861,Embodying Historical Learners' Messages as Learning Companions in a VR Classroom.,2019,CHI Extended Abstracts
+https://dblp.org/rec/conf/chi/Lim24,https://doi.org/10.1145/3613905.3647966,The Potential of Learning With AI-Generated Pedagogical Agents in Instructional Videos.,2024,CHI Extended Abstracts
+https://dblp.org/rec/conf/chi/MichaelisM17,https://doi.org/10.1145/3025453.3025499,Someone to Read with: Design of and Experiences with an In-Home Learning Companion Robot for Reading.,2017,CHI
+https://dblp.org/rec/conf/chi/NassaniBV25,https://doi.org/10.1145/3706599.3719877,Adaptive Learning Companions: Enhancing Education with Biosignal-Driven Digital Human.,2025,CHI Extended Abstracts
+https://dblp.org/rec/conf/chi/Nathan90,https://doi.org/10.1145/97243.97317,Empowering the student: prospects for an unintelligent tutoring system.,1990,CHI
+https://dblp.org/rec/conf/chi/OganWBRCLC12,https://doi.org/10.1145/2207676.2208597,Collaboration in cognitive tutor use in latin America: field study and design recommendations.,2012,CHI
+https://dblp.org/rec/conf/chi/PardosTASZ23,https://doi.org/10.1145/3544548.3581574,OATutor: An Open-source Adaptive Tutoring System and Curated Content Library for Learning Sciences Research.,2023,CHI
+https://dblp.org/rec/conf/chi/ParkKLKK24,https://doi.org/10.1145/3613905.3651122,Empowering Personalized Learning through a Conversation-based Tutoring System with Student Modeling.,2024,CHI Extended Abstracts
+https://dblp.org/rec/conf/chi/PetersenMM21,https://doi.org/10.1145/3411764.3445760,Pedagogical Agents in Educational VR: An in the Wild Study.,2021,CHI
+https://dblp.org/rec/conf/chi/Schultz91,https://doi.org/10.1145/108844.108989,A graphical reflection notation used in an intelligent discovery world tutoring system.,1991,CHI
+https://dblp.org/rec/conf/chi/WillifordRLLH20,https://doi.org/10.1145/3313831.3376517,Exploring the Potential of an Intelligent Tutoring System for Sketching Fundamentals.,2020,CHI
+https://dblp.org/rec/conf/chi/ZhouB21,https://doi.org/10.1145/3411763.3451675,Automating Cancer Genetic Counseling with an Adaptive Pedagogical Agent.,2021,CHI Extended Abstracts
+https://dblp.org/rec/conf/chinz/KatukR10,https://doi.org/10.1145/1832838.1832843,Seeing is believing?: rehearsing Mayer's multimedia effects in intelligent tutoring systems.,2010,CHINZ
+https://dblp.org/rec/conf/chiplay/ZhangWM25,https://doi.org/10.1145/3744736.3749191,(A)I Can Play Gomoku: An Intelligent Tutoring System for Strategic Games.,2025,CHI PLAY (Companion)
+https://dblp.org/rec/conf/cicac/LinTS11,https://doi.org/10.1109/WACI.2011.5952985,An ontology-based affective tutoring system on digital arts.,2011,WACI
+https://dblp.org/rec/conf/cisis/BaneresCC16,https://doi.org/10.1109/CISIS.2016.48,Towards a Learning Analytics Support for Intelligent Tutoring Systems on MOOC Platforms.,2016,CISIS
+https://dblp.org/rec/conf/cisis/BaneresS16,https://doi.org/10.1109/CISIS.2016.47,Intelligent Tutoring System for Learning Digital Systems on MOOC Environments.,2016,CISIS
+https://dblp.org/rec/conf/cist/ZammouriZM16,https://doi.org/10.1109/CIST.2016.7805103,Evaluating usability of brain signals for content adaptation in intelligent tutoring systems.,2016,CIST
+https://dblp.org/rec/conf/cist/ZouhairEABPB12,https://doi.org/10.1109/CIST.2012.6388066,Intelligent tutoring systems founded on the multi-agent incremental dynamic case based reasoning.,2012,CIST
+https://dblp.org/rec/conf/compsac/SetteTJ17,https://doi.org/10.1109/COMPSAC.2017.19,A Knowledge-Driven Web Tutoring System Framework for Adaptive and Assessment-Driven Open-Source Learning.,2017,COMPSAC (2)
+https://dblp.org/rec/conf/compsac/ZhaoSPSS22,https://doi.org/10.1109/COMPSAC54236.2022.00026,An Intelligent Tutoring System for API Misuse Correction by Instant Quality Feedback.,2022,COMPSAC
+https://dblp.org/rec/conf/crv/SilvaMMO06,https://doi.org/10.1109/CRV.2006.43,Integrating Animated Pedagogical Agent as Motivational Supporter into Interactive System.,2006,CRV
+https://dblp.org/rec/conf/csci/AckermanIB22,https://doi.org/10.1109/CSCI58124.2022.00329,Intelligent Tutoring Systems in Healthcare for Low Literacy Population: A Concise Review.,2022,CSCI
+https://dblp.org/rec/conf/cscloud/SetteTGJ16,https://doi.org/10.1109/CSCLOUD.2016.50,A Semantic Approach to Intelligent and Personal Tutoring System.,2016,CSCloud
+https://dblp.org/rec/conf/cscw/HarsleyGEAFA16,https://doi.org/10.1145/2818052.2869118,Collab-ChiQat: A Collaborative Remaking of a Computer Science Intelligent Tutoring System.,2016,CSCW Companion
+https://dblp.org/rec/conf/cscw/WeiC23,https://doi.org/10.1145/3584931.3607010,When Gestures and Words Synchronize: Exploring A Human Lecturer's Multimodal Interaction for the Design of Embodied Pedagogical Agents.,2023,CSCW Companion
+https://dblp.org/rec/conf/cscwd/LiuCSC10,https://doi.org/10.1109/CSCWD.2010.5471896,The study of collaborative learning grouping strategy in Intelligent Tutoring System.,2010,CSCWD
+https://dblp.org/rec/conf/cscwd/LiuW07,https://doi.org/10.1109/CSCWD.2007.4281569,A Modeling Method Based on Bayesian Networks in Intelligent Tutoring System.,2007,CSCWD
+https://dblp.org/rec/conf/cscwd/WangMZ025,https://doi.org/10.1109/CSCWD64889.2025.11033502,Intelligent Tutoring Systems for Leveraging Manufacturing Practical Skill Development.,2025,CSCWD
+https://dblp.org/rec/conf/csedu/HaendlerNS19a,https://doi.org/10.1007/978-3-030-58459-7_12,RefacTutor: An Interactive Tutoring System for Software Refactoring.,2020,CSEDU (Selected Papers)
+https://dblp.org/rec/conf/csse/TanWLY08,https://doi.org/10.1109/CSSE.2008.363,The Application of Ontology Model in Intelligent Tutoring System.,2008,CSSE (5)
+https://dblp.org/rec/conf/csse/YuTZ08,https://doi.org/10.1109/CSSE.2008.19,Intelligent Search Agents for Web-Based Intelligent Tutoring Systems.,2008,CSSE (5)
+https://dblp.org/rec/conf/csse/YuZ08,https://doi.org/10.1109/CSSE.2008.414,Intelligent Pedagogical Agents for Intelligent Tutoring Systems.,2008,CSSE (1)
+https://dblp.org/rec/conf/csse/ZhipingTY08,https://doi.org/10.1109/CSSE.2008.20,A Web-Based Personalized Intelligent Tutoring System.,2008,CSSE (5)
+https://dblp.org/rec/conf/cts/Craighead08,https://doi.org/10.1109/CTS.2008.4543938,"Distributed, game-based, intelligent tutoring systems - The next step in computer based training?",2008,CTS
+https://dblp.org/rec/conf/cts/PutchalaB16,https://doi.org/10.1109/CTS.2016.0047,Synchron-ITS: An Interactive Tutoring System to Teach Process Synchronization and Shared Memory Concepts in an Operating Systems Course.,2016,CTS
+https://dblp.org/rec/conf/cybconf/Kozierkiewicz-Hetmanska15,https://doi.org/10.1109/CYBCONF.2015.7175913,A conception for use of user profile to prediction learning effects in Intelligent Tutoring Systems.,2015,CYBCONF
+https://dblp.org/rec/conf/dese/PirvulescuA23,https://doi.org/10.1109/DESE60595.2023.10469264,The Java Starter: an Ontology-Based Tutoring System for Java Beginners.,2023,DeSE
+https://dblp.org/rec/conf/dexaw/GonzalezBN07,https://doi.org/10.1109/DEXA.2007.57,Integrating Intelligent Tutoring Systems and Health Information Systems.,2007,DEXA Workshops
+https://dblp.org/rec/conf/digitel/HsuCCYC07,https://doi.org/10.1109/DIGITEL.2007.10,An investigation of the differences between robot and virtual learning companions' influences on students' engagement.,2007,DIGITEL
+https://dblp.org/rec/conf/digitel/JormanainenZKS07,https://doi.org/10.1109/DIGITEL.2007.38,Pedagogical Agents for Teacher Intervention in Educational Robotics Classes: Implementation Issues.,2007,DIGITEL
+https://dblp.org/rec/conf/dsai/ArtificeSFJ22,https://doi.org/10.1145/3563137.3563175,Attention-Aware Pedagogical Agent for Smart Book Reading.,2022,DSAI
+https://dblp.org/rec/conf/eatis/JuradoRO07,https://doi.org/10.1145/1352694.1352728,Fuzzy algorithm representation for its application in intelligent tutoring systems for the learning of programming.,2007,EATIS
+https://dblp.org/rec/conf/eatis/SotolongoSV07,https://doi.org/10.1145/1352694.1352722,Using artificial intelligent techniques to build adaptative tutoring systems.,2007,EATIS
+https://dblp.org/rec/conf/educon/AlmetnawyOAAL25,https://doi.org/10.1109/EDUCON62633.2025.11016362,An Adaptive Intelligent Tutoring System Powered by Generative AI.,2025,EDUCON
+https://dblp.org/rec/conf/educon/DudyrevMM21,https://doi.org/10.1109/EDUCON46332.2021.9454032,Intelligent Virtual Reality Tutoring Systems as a New Generation of Simulators: Requirements and Opportunities.,2021,EDUCON
+https://dblp.org/rec/conf/educon/FrankHSKGT24,https://doi.org/10.1109/EDUCON60312.2024.10578933,Leveraging GenAI for an Intelligent Tutoring System for R: A Quantitative Evaluation of Large Language Models.,2024,EDUCON
+https://dblp.org/rec/conf/educon/JiY22,https://doi.org/10.1109/EDUCON52537.2022.9766567,Conversational Intelligent Tutoring Systems for Online Learning: What do Students and Tutors Say?,2022,EDUCON
+https://dblp.org/rec/conf/educon/TerzidouT14,https://doi.org/10.1109/EDUCON.2014.7096838,The impact of pedagogical agents in 3D collaborative serious games.,2014,EDUCON
+https://dblp.org/rec/conf/educon/VillanuevaCHR18,https://doi.org/10.1109/EDUCON.2018.8363440,SIMPLIFY ITS: An intelligent tutoring system based on cognitive diagnosis models and spaced learning.,2018,EDUCON
+https://dblp.org/rec/conf/eleot/BradacK16,https://doi.org/10.1007/978-3-319-49625-2_9,Intelligent Tutoring Systems.,2017,eLEOT
+https://dblp.org/rec/conf/embc/XuWWZ21,https://doi.org/10.1109/EMBC46164.2021.9629483,From Textbook to Teacher: an Adaptive Intelligent Tutoring System Based on BCI.,2021,EMBC
+https://dblp.org/rec/conf/enic/Kozierkiewicz-Hetmanska15,https://doi.org/10.1109/ENIC.2015.28,Modeling Learning Group's Communication in Intelligent Tutoring Systems.,2015,ENIC
+https://dblp.org/rec/conf/eucc/BolfBS03,https://doi.org/10.23919/ECC.2003.7085159,Process control teaching on laboratory plant supported by intelligent tutoring system.,2003,ECC
+https://dblp.org/rec/conf/euromicro/Al-JumeilyS97,https://doi.org/10.1109/EURMIC.1997.617250,Designing an interface on the Web for an intelligent tutoring system.,1997,EUROMICRO
+https://dblp.org/rec/conf/fgr/JoshiAMWAWSB19,https://doi.org/10.1109/FG.2019.8756624,Affect-driven Learning Outcomes Prediction in Intelligent Tutoring Systems.,2019,FG
+https://dblp.org/rec/conf/fie/BezansonSTBR23a,https://doi.org/10.1109/FIE58773.2023.10343505,Towards an Intelligent Tutoring System for Virtual Reality Learning Environments.,2023,FIE
+https://dblp.org/rec/conf/fie/CostaSSASSRL14,https://doi.org/10.1109/FIE.2014.7044342,An agent-based tutoring system for learning propositional logic using multiple linked representations.,2014,FIE
+https://dblp.org/rec/conf/fie/EpsteinPAR13,https://doi.org/10.1109/FIE.2013.6684991,Inquiry-based learning environment using intelligent tutoring system.,2013,FIE
+https://dblp.org/rec/conf/fie/FangG13,https://doi.org/10.1109/FIE.2013.6684806,A web-based interactive intelligent tutoring system for undergraduate engineering dynamics.,2013,FIE
+https://dblp.org/rec/conf/fie/FengMK21,https://doi.org/10.1109/FIE49875.2021.9637240,A Systematic Review of Literature on the Effectiveness of Intelligent Tutoring Systems in STEM.,2021,FIE
+https://dblp.org/rec/conf/fie/GuoF12,https://doi.org/10.1109/FIE.2012.6462243,Work in progress: An Intelligent Tutoring System for improving student learning in a sophomore engineering dynamics course.,2012,FIE
+https://dblp.org/rec/conf/fie/HurtRHL20,https://doi.org/10.1109/FIE44824.2020.9274208,A Study on the Impact of a Statics Sketch-Based Tutoring System Through a Truss Design Problem.,2020,FIE
+https://dblp.org/rec/conf/fie/LopesN21,https://doi.org/10.1109/FIE49875.2021.9637406,Designing Pedagogical Agents Toward the Recommendation and Intervention Based on Students' Actions in an ITS.,2021,FIE
+https://dblp.org/rec/conf/fie/LopesNSMAL19,https://doi.org/10.1109/FIE43999.2019.9028363,Improving Students Skills to Solve Elementary Equations in K-12 Programs Using an Intelligent Tutoring System.,2019,FIE
+https://dblp.org/rec/conf/fie/MaiaSLFLA24,https://doi.org/10.1109/FIE61694.2024.10893361,"Critical Factors for a Reliable AI in Tutoring Systems on Accuracy, Effectiveness, and Responsibility.",2024,FIE
+https://dblp.org/rec/conf/fie/MenezesNL22,https://doi.org/10.1109/FIE56618.2022.9962484,Educational Data Mining: Analysis Based On an Intelligent Tutoring System for Teaching Algebra.,2022,FIE
+https://dblp.org/rec/conf/fie/MenezesNLB23,https://doi.org/10.1109/FIE58773.2023.10342993,Applying Educational Data Mining to Classify Students in an Intelligent Tutoring System for Algebra Instruction.,2023,FIE
+https://dblp.org/rec/conf/fie/MenezesNLSM23,https://doi.org/10.1109/FIE58773.2023.10343000,The Proposal of a Dashboard for Analysis and Visualization of Educational Data of Intelligent Tutoring Systems.,2023,FIE
+https://dblp.org/rec/conf/fie/NedungadiR14,https://doi.org/10.1109/FIE.2014.7044200,Predicting students' performance on intelligent tutoring system - Personalized clustered BKT (PC-BKT) model.,2014,FIE
+https://dblp.org/rec/conf/fie/PinhoERCP13,https://doi.org/10.1109/FIE.2013.6684853,The use of text mining to build a pedagogical agent capable of mediating synchronous online discussions in the context of foreign language learning.,2013,FIE
+https://dblp.org/rec/conf/fie/RameshRR15,https://doi.org/10.1109/FIE.2015.7344313,Implementation of an Intelligent Tutoring System using Moodle.,2015,FIE
+https://dblp.org/rec/conf/fie/SilvaMSS24,https://doi.org/10.1109/FIE61694.2024.10893385,An Intelligent Tutoring System Proposal Based on Chatbot and Learning Styles to the Project Management Study.,2024,FIE
+https://dblp.org/rec/conf/fie/SkrommeRMSGTWCH15,https://doi.org/10.1109/FIE.2015.7344312,Step-based tutoring system for introductory linear circuit analysis.,2015,FIE
+https://dblp.org/rec/conf/fie/TangHF22,https://doi.org/10.1109/FIE56618.2022.9962718,Classroom Evaluation of a Gamified Adaptive Tutoring System.,2022,FIE
+https://dblp.org/rec/conf/fuzzIEEE/CrockettLMBO11,https://doi.org/10.1109/FUZZY.2011.6007514,On predicting learning styles in conversational intelligent tutoring systems using fuzzy classification trees.,2011,FUZZ-IEEE
+https://dblp.org/rec/conf/fuzzIEEE/CrockettLMO13,https://doi.org/10.1109/FUZZ-IEEE.2013.6622382,A fuzzy model for predicting learning styles using behavioral cues in an conversational intelligent tutoring system.,2013,FUZZ-IEEE
+https://dblp.org/rec/conf/fuzzIEEE/HostetterABC23,https://doi.org/10.1109/FUZZ52849.2023.10309741,Leveraging Fuzzy Logic Towards More Explainable Reinforcement Learning-Induced Pedagogical Policies on Intelligent Tutoring Systems.,2023,FUZZ
+https://dblp.org/rec/conf/fuzzIEEE/WuMS12,https://doi.org/10.1109/FUZZ-IEEE.2012.6251362,A curious learning companion in Virtual Learning Environment.,2012,FUZZ-IEEE
+https://dblp.org/rec/conf/gcce/KiyoharaNK18,https://doi.org/10.1109/GCCE.2018.8574714,Multi-modal Geometry Tutoring System Using Speech and Touchscreen Figure Tracing.,2018,GCCE
+https://dblp.org/rec/conf/gecco/Gulwani14,https://doi.org/10.1145/2598394.2598397,Applications of program synthesis to end-user programming and intelligent tutoring systems.,2014,GECCO (Companion)
+https://dblp.org/rec/conf/grc/SonamthiangCN07,https://doi.org/10.1109/GRC.2007.114,Discovering Hierarchical Patterns of Students' Learning Behavior in Intelligent Tutoring Systems.,2007,GrC
+https://dblp.org/rec/conf/hai/AhmedA21,https://doi.org/10.1145/3472307.3484163,"Design Implications for a Virtual Language Learning Companion Robot: Considering the Appearance, Interaction and Rewarding Behavior.",2021,HAI
+https://dblp.org/rec/conf/hai/Hayashi15,https://doi.org/10.1145/2814940.2814946,Influence of Social Communication Skills on Collaborative Learning with a Pedagogical Agent: Investigation Based on the Autism-spectrum Quotient.,2015,HAI
+https://dblp.org/rec/conf/hai/LeeOL15,https://doi.org/10.1145/2814940.2815000,Concentration Monitoring for Intelligent Tutoring System Based on Pupil and Eye-blink.,2015,HAI
+https://dblp.org/rec/conf/hcaiep/SoudiABM23,https://doi.org/10.1145/3633083.3633085,Generative AI-Based Tutoring System for Upper Egypt Community Schools.,2023,HCAIep
+https://dblp.org/rec/conf/hci/SchroederFBM22,https://doi.org/10.1007/978-3-031-05887-5_21,Assessing the Social Agency of Pedagogical Agents in Adaptive Training Systems.,2022,HCI (31)
+https://dblp.org/rec/conf/hicss/JodlowskiD04,https://doi.org/10.1109/HICSS.2004.1265330,A Knowledge Scoring Engine (KSE) for Real-Time Knowledge Base Generation Used in Intelligent Tutoring Systems.,2004,HICSS
+https://dblp.org/rec/conf/hicss/KodaganallurWR06,https://doi.org/10.1109/HICSS.2006.490,Tools for Building Intelligent Tutoring Systems.,2006,HICSS
+https://dblp.org/rec/conf/his/ChinLHLL09,https://doi.org/10.1109/HIS.2009.15,Developing an IDML-Based Embodied Pedagogical Agent System for Multimedia Learning.,2009,HIS (1)
+https://dblp.org/rec/conf/his/SunZ09a,https://doi.org/10.1109/HIS.2009.250,Basic Factors Design of Pedagogical Agent System in an Ecology View.,2009,HIS (3)
+https://dblp.org/rec/conf/hri/KimKJK17,https://doi.org/10.1145/3029798.3038360,An Imperfectly Perfect Robot: Discovering Interaction Design Strategy for Learning Companion.,2017,HRI (Companion)
+https://dblp.org/rec/conf/hri/Liang21,https://doi.org/10.1145/3434074.3446960,Distance Learning Companion Robot: Introducing Nonverbal Communication in the Digital Classroom.,2021,HRI (Companion)
+https://dblp.org/rec/conf/hri/LuboldWP16,https://doi.org/10.1109/HRI.2016.7451760,Effects of Voice-Adaptation and Social Dialogue on Perceptions of a Robotic Learning Companion.,2016,HRI
+https://dblp.org/rec/conf/hri/SinaiR22,https://doi.org/10.1109/HRI53351.2022.9889592,Perceptions of Social Robots as Motivating Learning Companions for Online Learning.,2022,HRI
+https://dblp.org/rec/conf/hri/TolksdorfHVR22,https://doi.org/10.1109/HRI53351.2022.9889420,Who is that?: ! Does Changing the Robot as a Learning Companion Impact Preschoolers' Language Learning?,2022,HRI
+https://dblp.org/rec/conf/hsi/Agnieszka13,https://doi.org/10.1109/HSI.2013.6577878,Affect-awareness framework for intelligent tutoring systems.,2013,HSI
+https://dblp.org/rec/conf/iat/AshooriMC07,https://doi.org/10.1109/WIIATW.2007.4427604,Socializing Pedagogical Agents for Personalization in Virtual Learning Environments.,2007,Web Intelligence/IAT Workshops
+https://dblp.org/rec/conf/iat/LiuC04,https://doi.org/10.1109/IAT.2004.1342935,Intelligent Pedagogical Agents with Multiparty Interaction Support.,2004,IAT
+https://dblp.org/rec/conf/icacci/EmranS14,https://doi.org/10.1109/ICACCI.2014.6968503,A Survey of Intelligent Language Tutoring Systems.,2014,ICACCI
+https://dblp.org/rec/conf/icacci/MeshrefM12,https://doi.org/10.1145/2345396.2345585,Intelligent tutoring systems: a new proposed structure.,2012,ICACCI
+https://dblp.org/rec/conf/icacs2/Alday18,https://doi.org/10.1145/3242840.3242867,Bayesian Networks in Intelligent Tutoring Systems as an Assessment of Student Performance using Student Modeling.,2018,ICACS
+https://dblp.org/rec/conf/icact/Wongwatkit19,https://doi.org/10.23919/ICACT.2019.8701994,An Online Web-based Adaptive Tutoring System for University Exit Exam on IT Literacy.,2019,ICACT
+https://dblp.org/rec/conf/icaie/Jiang24,https://doi.org/10.1145/3722237.3722248,Research on the Application of Intelligent Tutoring System in Personalized English Teaching in Colleges.,2024,ICAIE
+https://dblp.org/rec/conf/icaiic/WijayaWD25,https://doi.org/10.1109/ICAIIC64266.2025.10920665,Optimizing ERP Deployment with Intelligent Tutoring Systems.,2025,ICAIIC
+https://dblp.org/rec/conf/icail/AshleyA91,https://doi.org/10.1145/112646.112651,Toward an Intelligent Tutoring System for Teaching Law Students to Argue with Cases.,1991,ICAIL
+https://dblp.org/rec/conf/icail/Routen91,https://doi.org/10.1145/112646.112655,Complex Input: A Practical Way of Increasing the Bandwidth for Feedback and Student Modelling in a Statute-Based Tutoring System.,1991,ICAIL
+https://dblp.org/rec/conf/icail/Span93,https://doi.org/10.1145/158976.158986,"LITES, an Intelligent Tutoring System for Legal Problem Solving in the Domain of Dutch Civil Law.",1993,ICAIL
+https://dblp.org/rec/conf/icalt/Al-DujailyRK05,https://doi.org/10.1109/ICALT.2005.180,Introversion and the Implication of Intelligent Tutoring Systems: A Lesson from Arab Students.,2005,ICALT
+https://dblp.org/rec/conf/icalt/AlevenMS06,https://doi.org/10.1109/ICALT.2006.1652640,Tutorial on Rapid Development of Intelligent Tutors using the Cognitive Tutor Authoring Tools (CTAT).,2006,ICALT
+https://dblp.org/rec/conf/icalt/AmbrosioRRC03,https://doi.org/10.1109/ICALT.2003.1215189,Authoring Tool Generator for Intelligent Tutoring Systems.,2003,ICALT
+https://dblp.org/rec/conf/icalt/ArroyoWCBM11,https://doi.org/10.1109/ICALT.2011.157,"The Impact of Animated Pedagogical Agents on Girls' and Boys' Emotions, Attitudes, Behaviors and Learning.",2011,ICALT
+https://dblp.org/rec/conf/icalt/Barron-EstradaZ17,https://doi.org/10.1109/ICALT.2017.137,Sentiment Analysis in an Affective Intelligent Tutoring System.,2017,ICALT
+https://dblp.org/rec/conf/icalt/CabadaBVRGP12,https://doi.org/10.1109/ICALT.2012.140,Fermat: Merging Affective Tutoring Systems with Learning Social Networks.,2012,ICALT
+https://dblp.org/rec/conf/icalt/CarlottoJ16,https://doi.org/10.1109/ICALT.2016.15,An Animated Pedagogical Agent on a CALL System Lecturing about the English Present Perfect Tense to Brazilian Students.,2016,ICALT
+https://dblp.org/rec/conf/icalt/DermevalLCCGPB19,https://doi.org/10.1109/ICALT.2019.00024,Helping Teachers Design Gamified Intelligent Tutoring Systems.,2019,ICALT
+https://dblp.org/rec/conf/icalt/DireneBSCSGS09,https://doi.org/10.1109/ICALT.2009.166,Authoring Adaptive Tutoring Systems for Complex Visual Skills.,2009,ICALT
+https://dblp.org/rec/conf/icalt/FaracoRG04,https://doi.org/10.1109/ICALT.2004.1357393,Adaptivity in a Learning Companion System.,2004,ICALT
+https://dblp.org/rec/conf/icalt/FaroukR08,https://doi.org/10.1109/ICALT.2008.146,How Does a Pedagogical Agent Look at a Learner when Providing Evaluation Feedback?,2008,ICALT
+https://dblp.org/rec/conf/icalt/Hernandez-DominguezS01,https://doi.org/10.1109/ICALT.2001.943912,An Adapted Virtual Class Based on Intelligent Tutoring System and Agent Approaches.,2001,ICALT
+https://dblp.org/rec/conf/icalt/HernandezAS08,https://doi.org/10.1109/ICALT.2008.287,Evaluating a Probabilistic Model for Affective Behavior in an Intelligent Tutoring System.,2008,ICALT
+https://dblp.org/rec/conf/icalt/HongCCC07,https://doi.org/10.1109/ICALT.2007.167,Intelligent Web-based Tutoring System with Personalized Learning Path Guidance.,2007,ICALT
+https://dblp.org/rec/conf/icalt/HospersKNAH03,https://doi.org/10.1109/ICALT.2003.1215166,Developing a Generic Agent-Based Intelligent Tutoring System.,2003,ICALT
+https://dblp.org/rec/conf/icalt/HuangKCH04,https://doi.org/10.1109/ICALT.2004.1357429,Foundation Analysis of Emotion Model for Designing Learning Companion Agent.,2004,ICALT
+https://dblp.org/rec/conf/icalt/JamilM22,https://doi.org/10.1109/ICALT55010.2022.00024,Automated Feedback and Authentic Assessment for Online Computational Thinking Tutoring Systems.,2022,ICALT
+https://dblp.org/rec/conf/icalt/Johnson01,https://doi.org/10.1109/ICALT.2001.943994,Animated Pedagogical Agents for Education Training and Edutainment.,2001,ICALT
+https://dblp.org/rec/conf/icalt/JuanYLW25,https://doi.org/10.1109/ICALT64023.2025.00074,From Competence to Performance: Investigating AI Agent as a Statistical Learning Companion and the Role of Procrastination in AI Usage.,2025,ICALT
+https://dblp.org/rec/conf/icalt/KarimzadehJ22,https://doi.org/10.1109/ICALT55010.2022.00069,ViSQL: An Intelligent Online SQL Tutoring System.,2022,ICALT
+https://dblp.org/rec/conf/icalt/KinshukTHP01,https://doi.org/10.1109/ICALT.2001.943907,Human Teacher in Intelligent Tutoring System: A Forgotten Entity!.,2001,ICALT
+https://dblp.org/rec/conf/icalt/KortRP01,https://doi.org/10.1109/ICALT.2001.943850,An Affective Model of Interplay between Emotions and Learning: Reengineering Educational Pedagogy - Building a Learning Companion.,2001,ICALT
+https://dblp.org/rec/conf/icalt/KucharskiBK23,https://doi.org/10.1109/ICALT58122.2023.00113,"An Adaptive, Structure-Aware Intelligent Tutoring System for Learning Management Systems.",2023,ICALT
+https://dblp.org/rec/conf/icalt/LanTL08,https://doi.org/10.1109/ICALT.2008.115,Developing a Negotiation-Based Intelligent Tutoring System to Support Problem Solving: A Case Study in Role-Play Learning.,2008,ICALT
+https://dblp.org/rec/conf/icalt/LiuWC05,https://doi.org/10.1109/ICALT.2005.14,A Marking-Based Synchronized Multimedia Tutoring System for Composition Studies.,2005,ICALT
+https://dblp.org/rec/conf/icalt/LiuZYK11,https://doi.org/10.1109/ICALT.2011.26,A Robust Multi-Modal Emotion Recognition Framework for Intelligent Tutoring Systems.,2011,ICALT
+https://dblp.org/rec/conf/icalt/LollPSM09,https://doi.org/10.1109/ICALT.2009.138,Towards a Flexible Intelligent Tutoring System for Argumentation.,2009,ICALT
+https://dblp.org/rec/conf/icalt/LuWTH04,https://doi.org/10.1109/ICALT.2004.1357470,The Design of An Intelligent Tutoring System Based on the Ontology of Procedural Knowledge.,2004,ICALT
+https://dblp.org/rec/conf/icalt/Martens04,https://doi.org/10.1109/ICALT.2004.1357401,Case-based Training with Intelligent Tutoring Systems.,2004,ICALT
+https://dblp.org/rec/conf/icalt/MilicevicVIB12,https://doi.org/10.1109/ICALT.2012.125,Personalisation of Programming Tutoring System Using Tag-Based Recommender Systems.,2012,ICALT
+https://dblp.org/rec/conf/icalt/MohammedM11,https://doi.org/10.1109/ICALT.2011.156,The Design and Implementation of an Enculturated Web-Based Intelligent Tutoring System for Computer Science Education.,2011,ICALT
+https://dblp.org/rec/conf/icalt/MoraisBIJ17,https://doi.org/10.1109/ICALT.2017.142,The Use of Handwriting Input in Math Tutoring Systems: An Use Case with PAT2Math.,2017,ICALT
+https://dblp.org/rec/conf/icalt/MorozovTB03,https://doi.org/10.1109/ICALT.2003.1215027,Pedagogical Agents in the Multimedia Natural Sciences for Children.,2003,ICALT
+https://dblp.org/rec/conf/icalt/NajjarM03,https://doi.org/10.1109/ICALT.2003.1215028,A Computational Cognitive-Based Approach to Represent Knowledge within Intelligent Tutoring Systems.,2003,ICALT
+https://dblp.org/rec/conf/icalt/NascimentoHS05,https://doi.org/10.1109/ICALT.2005.118,"Developing a Teaching Supporting Tool Based on Electronic Portfolio, Agents and Intelligent Tutoring System.",2005,ICALT
+https://dblp.org/rec/conf/icalt/NesbitALM14,https://doi.org/10.1109/ICALT.2014.38,How Effective are Intelligent Tutoring Systems in Computer Science Education?,2014,ICALT
+https://dblp.org/rec/conf/icalt/PengwendeO22,https://doi.org/10.1109/ICALT55010.2022.00080,Toward an Intelligent Tutoring System for Tone Languages: Learning of Tone Levels in Mooré.,2022,ICALT
+https://dblp.org/rec/conf/icalt/PereiraBDPCL19,https://doi.org/10.1109/ICALT.2019.00104,Evaluation of an Intelligent Tutoring System Prototype for the Teaching of Electrocardiogram.,2019,ICALT
+https://dblp.org/rec/conf/icalt/PerezGI04,https://doi.org/10.1109/ICALT.2004.1357644,Modeling Affective Responses in Intelligent Tutoring Systems.,2004,ICALT
+https://dblp.org/rec/conf/icalt/Phon-AmnuaisukC05,https://doi.org/10.1109/ICALT.2005.178,Interactivities in Music Intelligent Tutoring System.,2005,ICALT
+https://dblp.org/rec/conf/icalt/RahmanYOO23,https://doi.org/10.1109/ICALT58122.2023.00092,Affective Lexicon for Intelligent Tutoring Systems.,2023,ICALT
+https://dblp.org/rec/conf/icalt/RuddeckM10,https://doi.org/10.1109/ICALT.2010.56,Communication Patterns in Component-Based Intelligent Tutoring Systems.,2010,ICALT
+https://dblp.org/rec/conf/icalt/SanchezI07,https://doi.org/10.1109/ICALT.2007.136,Effective Student Assistance in Virtual Reality Based Intelligent Tutoring Systems.,2007,ICALT
+https://dblp.org/rec/conf/icalt/SanchezIR07,https://doi.org/10.1109/ICALT.2007.46,Activity Plan Structure and Processing in Virtual Environments for Training Supported by Intelligent Tutoring Systems.,2007,ICALT
+https://dblp.org/rec/conf/icalt/SantosF10,https://doi.org/10.1109/ICALT.2010.191,Web-Based Intelligent Tutoring Systems Using the SCORM 2004 Specification - A Conceptual Framework for Implementing SCORM Compliant Intelligent Web-Based Learning Environments.,2010,ICALT
+https://dblp.org/rec/conf/icalt/SantosJ13,https://doi.org/10.1109/ICALT.2013.44,Atomic and Molecular Intelligent Tutoring Systems - A New Architecture for Interoperable Tutors as Open Educational Resources.,2013,ICALT
+https://dblp.org/rec/conf/icalt/SarrafzadehHFO03,https://doi.org/10.1109/ICALT.2003.1215111,Facial Expression Analysis for Estimating Learner?s Emotional State in Intelligent Tutoring Systems.,2003,ICALT
+https://dblp.org/rec/conf/icalt/SchattenWSG14,https://doi.org/10.1109/ICALT.2014.219,Minimal Invasive Integration of Learning Analytics Services in Intelligent Tutoring Systems.,2014,ICALT
+https://dblp.org/rec/conf/icalt/SongB14,https://doi.org/10.1109/ICALT.2014.97,Automated Tutoring System: Mobile Collaborative Experiential Learning (MCEL).,2014,ICALT
+https://dblp.org/rec/conf/icalt/Sykes03,https://doi.org/10.1109/ICALT.2003.1215208,An Intelligent Tutoring System Prototype for Learning to Program Java?,2003,ICALT
+https://dblp.org/rec/conf/icalt/TerracinaBBDM16,https://doi.org/10.1109/ICALT.2016.121,Teaching STEM through a Role-Playing Serious Game and Intelligent Pedagogical Agents.,2016,ICALT
+https://dblp.org/rec/conf/icalt/TingC03,https://doi.org/10.1109/ICALT.2003.1215100,Enhancing Conceptual Change through Cognitive Tools: An Animated Pedagogical Agent Approach.,2003,ICALT
+https://dblp.org/rec/conf/icalt/TliliSWH23,https://doi.org/10.1109/ICALT58122.2023.00020,Intelligent Tutoring Systems Examined in Social Experiments - Is the Magic Gone? A Meta-Analysis.,2023,ICALT
+https://dblp.org/rec/conf/icalt/Tsuei09,https://doi.org/10.1109/ICALT.2009.119,The G-Math Peer-Tutoring System for Supporting Effectively Remedial Instruction for Elementary Students.,2009,ICALT
+https://dblp.org/rec/conf/icalt/Tsuei15,https://doi.org/10.1109/ICALT.2015.20,Helping Strategy Support in Synchronous Peer Tutoring System for Children.,2015,ICALT
+https://dblp.org/rec/conf/icalt/Ueno05,https://doi.org/10.1109/ICALT.2005.63,Animated Pedagogical Agent Based on Decision Tree for e-Learning.,2005,ICALT
+https://dblp.org/rec/conf/icalt/VinchurkarS15,https://doi.org/10.1109/ICALT.2015.147,Intelligent Tutoring System for Voice Conversion in English.,2015,ICALT
+https://dblp.org/rec/conf/icalt/WangYJ09,https://doi.org/10.1109/ICALT.2009.147,Evaluation of Tangible Learning Companion/Robot for English Language Learning.,2009,ICALT
+https://dblp.org/rec/conf/icalt/WangYJ10,https://doi.org/10.1109/ICALT.2010.190,Using Tangible Learning Companions in English Education.,2010,ICALT
+https://dblp.org/rec/conf/icalt/WeinbrennerHLMVM10,https://doi.org/10.1109/ICALT.2010.163,Supporting Cognitive Competence Development in Virtual Classrooms - Personal Learning Management and Evaluation Using Pedagogical Agents.,2010,ICALT
+https://dblp.org/rec/conf/icalt/WilgesMSN07,https://doi.org/10.1109/ICALT.2007.53,An Animated Pedagogical Agent as a Learning Management System manipulating Intelligent Learning Objects.,2007,ICALT
+https://dblp.org/rec/conf/icalt/WisherAD01,https://doi.org/10.1109/ICALT.2001.943938,The Effectiveness of an Intelligent Tutoring System for Rocket Training.,2001,ICALT
+https://dblp.org/rec/conf/icalt/Zatarain-Cabada17a,https://doi.org/10.1109/ICALT.2017.141,Building a Face Expression Recognizer and a Face Expression Database for an Intelligent Tutoring System.,2017,ICALT
+https://dblp.org/rec/conf/icalt/Zatarain-CabadaBBVG08,https://doi.org/10.1109/ICALT.2008.219,Multiple Intelligence Tutoring Systems for Mobile Learners.,2008,ICALT
+https://dblp.org/rec/conf/icalt/Zatarain-CabadaBPG11,https://doi.org/10.1109/ICALT.2011.105,Interpreter for the Deployment of Intelligent Tutoring Systems in Mobile Devices.,2011,ICALT
+https://dblp.org/rec/conf/icalt/ZhengTLL12,https://doi.org/10.1109/ICALT.2012.71,A Group Oriented Intelligent Tutoring System For Rocket Engineers and Researchers.,2012,ICALT
+https://dblp.org/rec/conf/icarcv/Miao08,https://doi.org/10.1109/ICARCV.2008.4795876,An intelligent tutoring system using interest based negotiation.,2008,ICARCV
+https://dblp.org/rec/conf/icassp/ChouTW09,https://doi.org/10.1109/ICASSP.2009.4959985,Billiards wizard: A tutoring system for broadcasting nine-ball billiards videos.,2009,ICASSP
+https://dblp.org/rec/conf/icbl/TsueiH18,https://doi.org/10.1007/978-3-319-94505-7_20,A Mobile Synchronous Peer-Tutoring System for Elementary Students' Learning in Chinese Language Arts.,2018,ICBL
+https://dblp.org/rec/conf/icccm/JadaoneLOSD23,https://doi.org/10.1145/3617733.3617750,Aralin Baybayin: Intelligent Tutoring System for Baybayin Scripts with Character Recognition.,2023,ICCCM
+https://dblp.org/rec/conf/icce-tw/LaiLL21,https://doi.org/10.1109/ICCE-TW52618.2021.9603191,A Study of Development an English Vocabulary Learning Companion Robot Based on Progressive Prompting.,2021,ICCE-TW
+https://dblp.org/rec/conf/icce/Dowling02,https://doi.org/10.1109/CIE.2002.1185855,The Socially Interactive Pedagogical Agent within Online Learning Communities.,2002,ICCE
+https://dblp.org/rec/conf/icce/HsiehTWH02,https://doi.org/10.1109/CIE.2002.1185879,Exploiting Knowledge Representation in an Intelligent Tutoring System for English Lexical Errors.,2002,ICCE
+https://dblp.org/rec/conf/icce/LimoancoS02,https://doi.org/10.1109/CIE.2002.1186236,Use of Learner Agents as Student Modeling System and Learning Companion.,2002,ICCE
+https://dblp.org/rec/conf/icce/MartinM02,https://doi.org/10.1109/CIE.2002.1185896,Authoring Web-Based Tutoring System with WETAS.,2002,ICCE
+https://dblp.org/rec/conf/icce/MiwaTUN11,https://doi.org/10.58459/ICCE.2011.1365,Empirical Investigation of Assistance Dilemma with a Tutoring System that Can Control Levels of Support.,2011,ICCE
+https://dblp.org/rec/conf/icce/OkazakiFOK02,https://doi.org/10.1109/CIE.2002.1186213,A Java Based On-line Handwriting Interface for an Intelligent Algebraic Calculation Tutoring System.,2002,ICCE
+https://dblp.org/rec/conf/iccel/RhoHK14,https://doi.org/10.1109/ICCE.2014.6775884,Automatic piano tutoring system using consumer-level depth camera.,2014,ICCE
+https://dblp.org/rec/conf/iccse2/LuSLCCY21,https://doi.org/10.1109/ICCSE51940.2021.9569273,A Framework of AI-based Intelligent Adaptive Tutoring System.,2021,ICCSE
+https://dblp.org/rec/conf/iccvw/SathyanarayanaL13,https://doi.org/10.1109/ICCVW.2013.105,"Hand Gestures for Intelligent Tutoring Systems: Dataset, Techniques & Evaluation.",2013,ICCV Workshops
+https://dblp.org/rec/conf/iceel/CrottsT22,https://doi.org/10.1145/3578837.3578838,Promoting a Common Testbed for Natural Deduction Tutoring Systems.,2022,ICEEL
+https://dblp.org/rec/conf/iceel/CrottsT22a,https://doi.org/10.1145/3578837.3578844,Comparison of Natural Deduction Theorem Provers used in Electronic Tutoring Systems.,2022,ICEEL
+https://dblp.org/rec/conf/iceit/CenZZ25,https://doi.org/10.1109/ICEIT64364.2025.10975898,Design and Performance Validation of a Computational Thinking Gamified Intelligent Tutoring System Focusing on Thinking Process.,2025,ICEIT
+https://dblp.org/rec/conf/iceit/ChenCNLZ24,https://doi.org/10.1109/ICEIT61397.2024.10540839,Knowledge Tracing Based Wheel Spinning Detection Model in Intelligent Tutoring Systems.,2024,ICEIT
+https://dblp.org/rec/conf/iceit/SiradjLRTPK25,https://doi.org/10.1109/ICEIT64364.2025.10976189,The Effects of Cognitive and Affective Trust in Pedagogical Agents on Flow and Technology Acceptance in a Digital Game-Based Learning Environment.,2025,ICEIT
+https://dblp.org/rec/conf/iceit/UbaniN22,https://doi.org/10.1109/ICEIT54416.2022.9690733,Review of Collaborative Intelligent Tutoring Systems (CITS) 2009-2021.,2022,ICEIT
+https://dblp.org/rec/conf/icer/NelsonXK17,https://doi.org/10.1145/3105726.3106178,Comprehension First: Evaluating a Novel Pedagogy and Tutoring System for Program Tracing in CS1.,2017,ICER
+https://dblp.org/rec/conf/icetc/MarthaS18,https://doi.org/10.1145/3290511.3290530,Investigation of motivation theory on pedagogical agents design in the online learning environment.,2018,ICETC
+https://dblp.org/rec/conf/icetc/MarthaSJS19,https://doi.org/10.1145/3369255.3369267,A Scaffolding Design for Pedagogical Agents within the Higher-Education Context.,2019,ICETC
+https://dblp.org/rec/conf/icetet/GowriKIHD10,https://doi.org/10.1109/ICETET.2010.135,A Secure Agent Based Intelligent Tutoring System Using FRS.,2010,ICETET
+https://dblp.org/rec/conf/icetm/ZhaoC21,https://doi.org/10.1145/3510309.3510320,The Functional Architecture Design and Value Orientation of the Intelligent Tutoring System from the Perspective of Man-Machine Collaboration.,2021,ICETM
+https://dblp.org/rec/conf/icfet/LiewTG23,https://doi.org/10.1145/3606150.3606160,"""I am disappointed with your results!"": The effects of a pedagogical agent's negative affective feedback on mental effort and learning performance.",2023,ICFET
+https://dblp.org/rec/conf/icic/Zatarain-CabadaBCG14,https://doi.org/10.1007/978-3-319-09339-0_1,Affective Tutoring System for Android Mobiles.,2014,ICIC (2)
+https://dblp.org/rec/conf/icicic/XiangjieZJX06,https://doi.org/10.1109/ICICIC.2006.407,An Affective Intelligent Tutoring System Based on Artificial Psychology.,2006,ICICIC (3)
+https://dblp.org/rec/conf/iciit/Llanda19,https://doi.org/10.1145/3321454.3321462,Video Tutoring System with Automatic Facial Expression Recognition: An Enhancing Approach to E-Learning Environment.,2019,ICIIT
+https://dblp.org/rec/conf/icmcs2/MohtadiHA14,https://doi.org/10.1109/ICMCS.2014.6911216,Pedagogical agent for metacognitive scaffolding in interactive learning environments.,2014,ICMCS
+https://dblp.org/rec/conf/icmi/Dai21,https://doi.org/10.1145/3462244.3481280,Photogrammetry-based VR Interactive Pedagogical Agent for K12 Education.,2021,ICMI
+https://dblp.org/rec/conf/icmi/DoACAM22,https://doi.org/10.1145/3536221.3556587,The Effects of an Embodied Pedagogical Agent's Synthetic Speech Accent on Learning Outcomes.,2022,ICMI
+https://dblp.org/rec/conf/icmi/ZhaB16,https://doi.org/10.1145/3005338.3005339,Experimental study to elicit effective multimodal behaviour in pedagogical agents.,2016,SLMI@ICMI
+https://dblp.org/rec/conf/icmla/ChuanDSM14,https://doi.org/10.1109/ICMLA.2014.112,An Intelligent Tutoring System for Argument-Making in Higher Education: A Pilot Study.,2014,ICMLA
+https://dblp.org/rec/conf/icnc/KeL10,https://doi.org/10.1109/ICNC.2010.5584302,Study on intelligent tutoring system based on multi-agents.,2010,ICNC
+https://dblp.org/rec/conf/icnsc/JingTLGCL20,https://doi.org/10.1109/ICNSC48988.2020.9238052,A Parallel Education Based Intelligent Tutoring Systems Framework.,2020,ICNSC
+https://dblp.org/rec/conf/icse/Huerta-PachecoR16,https://doi.org/10.1145/2897000.2897005,Cognitive-affective modelling approach in tutoring system.,2016,SEmotion@ICSE
+https://dblp.org/rec/conf/icta/MejbriEJ21,https://doi.org/10.1109/ICTA54582.2021.9809419,Investigating 5th-grade students' opinions and attitudes towards using an Arabic pedagogical agent.,2021,ICTA
+https://dblp.org/rec/conf/ictai/AmokraneLBB08,https://doi.org/10.1109/ICTAI.2008.151,An Intelligent Tutoring System for Training and Learning in a Virtual Environment for High-Risk Sites.,2008,ICTAI (2)
+https://dblp.org/rec/conf/ictai/JanningSSBP14,https://doi.org/10.1109/ICTAI.2014.38,An SVM Plait for Improving Affect Recognition in Intelligent Tutoring Systems.,2014,ICTAI
+https://dblp.org/rec/conf/ictai/Nkambou99,https://doi.org/10.1109/TAI.1999.809760,Managing Inference Process in Student Modeling for Intelligent Tutoring Systems.,1999,ICTAI
+https://dblp.org/rec/conf/ictai/ZhouE99,https://doi.org/10.1109/TAI.1999.809759,A Practical Student Model in an Intelligent Tutoring System.,1999,ICTAI
+https://dblp.org/rec/conf/ictai/ZhouWN94,https://doi.org/10.1109/TAI.1994.346470,A Knowledge-Based Tutoring System for SQL Programming.,1994,ICTAI
+https://dblp.org/rec/conf/ictai/ZouaqNF06,https://doi.org/10.1109/ICTAI.2006.111,The Knowledge Puzzle: An Integrated Approach of Intelligent Tutoring Systems and Knowledge Management.,2006,ICTAI
+https://dblp.org/rec/conf/ictce/MokminM17,https://doi.org/10.1145/3145777.3145793,The design and development of an intelligent tutoring system as a part of the architecture of internet of things (IoT).,2017,ICTCE
+https://dblp.org/rec/conf/ictd/ChakrabortyBBBS07,https://doi.org/10.1109/ICTD.2007.4937410,Shikshak: An Intelligent Tutoring System Authoring tool for rural education.,2007,ICTD
+https://dblp.org/rec/conf/icwe/BhattR06,https://doi.org/10.1145/1145581.1145598,SCORM metadata in the context of bloom-vincenti taxonomy and intelligent tutoring system.,2006,ICWE
+https://dblp.org/rec/conf/icwet/Mavani10,https://doi.org/10.1145/1741906.1742069,Blending intelligent and reciprocal tutoring systems: a dynamic approach.,2010,ICWET
+https://dblp.org/rec/conf/ieaaie/KaulKB89,https://doi.org/10.1145/67312.67377,An intelligent tutoring system for CMOS digital design.,1989,IEA/AIE (2)
+https://dblp.org/rec/conf/ieaaie/KernerF90,https://doi.org/10.1145/98894.98888,Developing Intelligent Tutoring Systems with a Hypermedia Object-Based Intelligent Educator (HOBIE).,1990,IEA/AIE (Vol. 2)
+https://dblp.org/rec/conf/ieaaie/ScaruffiB89,https://doi.org/10.1145/67312.67327,A domain-independent framework for tutoring systems.,1989,IEA/AIE (2)
+https://dblp.org/rec/conf/ieaaie/Vantaggiato88,https://doi.org/10.1145/55674.55739,Some Considerations on Intelligent Tutoring Systems.,1988,IEA/AIE (Vol. 2)
+https://dblp.org/rec/conf/ieaaie/XiaB89,https://doi.org/10.1145/67312.67376,An intelligent tutoring system for basic set theory.,1989,IEA/AIE (2)
+https://dblp.org/rec/conf/IEEEcgiv/El-Sattar08,https://doi.org/10.1109/CGIV.2008.49,An Intelligent Tutoring System for Improving Application Accessibility of Disabled Learners.,2008,CGIV
+https://dblp.org/rec/conf/IEEEcit/YanA10,https://doi.org/10.1109/CIT.2010.277,Methods of Improving Communications by a Life-Like Animated Pedagogical Agent.,2010,CIT
+https://dblp.org/rec/conf/IEEEicci/GomezC18,https://doi.org/10.1109/ICCI-CC.2018.8482046,Meta-Modeling Process of Pedagogical Strategies in Intelligent Tutoring Systems.,2018,ICCI*CC
+https://dblp.org/rec/conf/IEEEiwcia/HamidullahS15,https://doi.org/10.1109/IWCIA.2015.7449462,"Intelligent tutoring system: Approaches, researches and e-learning solution.",2015,IWCIA
+https://dblp.org/rec/conf/iesa/HuzaHT07,https://doi.org/10.1007/978-1-84628-858-6_42,OntoMas: a Tutoring System dedicated to Ontology Matching.,2007,IESA
+https://dblp.org/rec/conf/ifita/ZhangL09a,https://doi.org/10.1109/IFITA.2009.511,Research on Internet Intelligent Tutoring System Based on MAS and CBR.,2009,IFITA (3)
+https://dblp.org/rec/conf/ifsa/Kovalerchuk13,https://doi.org/10.1109/IFSA-NAFIPS.2013.6608483,Quest for rigorous intelligent tutoring systems under uncertainty: Computing with Words and Images.,2013,IFSA/NAFIPS
+https://dblp.org/rec/conf/ihc/DamascenoMCBMO20,https://doi.org/10.1145/3424953.3426640,STUART: an intelligent tutoring system for increasing scalability of distance education courses.,2020,IHC
+https://dblp.org/rec/conf/ihtc/OmoushSKM23,https://doi.org/10.1109/IHTC58960.2023.10508848,Interactive Multimodal Learning: Towards Using Pedagogical Agents for Inclusive Education.,2023,IHTC
+https://dblp.org/rec/conf/iiaiaai/Liao23,https://doi.org/10.1109/IIAI-AAI59060.2023.00136,Design a Writing Learning Companion Chatbot based on a Knowledge Graph to Help Primary School Students Practice Writing Skill.,2023,IIAI-AAI
+https://dblp.org/rec/conf/iiaiaai/Wang15,https://doi.org/10.1109/IIAI-AAI.2015.171,Handling Exponential State Space in a POMDP-based Intelligent Tutoring System.,2015,IIAI-AAI
+https://dblp.org/rec/conf/iih-msp/ChengCWCL07,https://doi.org/10.1109/IIHMSP.2007.4457628,Applications of a Pedagogical Agent Mechanism in a Web-based Clinical Simulation System for Medical Education.,2007,IIH-MSP
+https://dblp.org/rec/conf/iih-msp/VirvouTS12,https://doi.org/10.1109/IIH-MSP.2012.127,Collaborative Support in a Multilingual Tutoring System.,2012,IIH-MSP
+https://dblp.org/rec/conf/iisa/ChristopoulosCS19,https://doi.org/10.1109/IISA.2019.8900767,What Does the Pedagogical Agent Say?,2019,IISA
+https://dblp.org/rec/conf/iisa/ChrysafiadiV14,https://doi.org/10.1109/IISA.2014.6878786,K.E.M.Cs: A set of student's characteristics for modeling in adaptive programming tutoring systems.,2014,IISA
+https://dblp.org/rec/conf/iisa/ChrysafiadiV21,https://doi.org/10.1109/IISA52424.2021.9555516,Evaluating the user experience of a fuzzy-based Intelligent Tutoring System.,2021,IISA
+https://dblp.org/rec/conf/iisa/MougiakouPV18,https://doi.org/10.1109/IISA.2018.8633652,Intelligent Tutoring Systems and Transparency: The Case of Children and Adolescents.,2018,IISA
+https://dblp.org/rec/conf/iisa/VirvouS13,https://doi.org/10.1109/IISA.2013.6623723,An Intelligent Tutoring System over a social network for mathematics learning.,2013,IISA
+https://dblp.org/rec/conf/iisa/VirvouT23b,https://doi.org/10.1109/IISA59645.2023.10345949,Is ChatGPT Beneficial to Education? A Holistic Evaluation Framework Based on Intelligent Tutoring Systems.,2023,IISA
+https://dblp.org/rec/conf/ijcnn/StathacopoulouM99,https://doi.org/10.1109/IJCNN.1999.836233,Neural network-based fuzzy modeling of the student in intelligent tutoring systems.,1999,IJCNN
+https://dblp.org/rec/conf/incos/FeidakisDC11a,https://doi.org/10.1109/INCOS.2011.82,"Emotion Measurement in Intelligent Tutoring Systems: What, When and How to Measure.",2011,INCoS
+https://dblp.org/rec/conf/intenv/LopezACTC022,https://doi.org/10.1109/IE54923.2022.9826770,EMO-Learning: Towards an intelligent tutoring system to assess online students' emotions.,2022,Intelligent Environments
+https://dblp.org/rec/conf/interaccion/Guillermina17,https://doi.org/10.1145/3123818.3123821,Proposal of development methodology on tutoring system for developing algorithmic abilities.,2017,Interacción
+https://dblp.org/rec/conf/interaccion/Pedroza-MendezG17a,https://doi.org/10.1145/3123818.3123876,"Semiautomated cognitive tutor, to serve as a support in upper secondary students in solving algebra problems.",2017,Interacción
+https://dblp.org/rec/conf/interaction/Toptsis10,https://doi.org/10.1109/ICICIS.2010.5534729,Toward an Emotion Machine-based hybrid adaptive tutoring system.,2010,ICIS
+https://dblp.org/rec/conf/iotdcc/Al-JadaaAGH17,https://doi.org/10.1145/3018896.3036389,Enhancing the intelligence of web tutoring systems using a multi-entry based open learner model.,2017,ICC
+https://dblp.org/rec/conf/iri/LeloucheL03,https://doi.org/10.1109/IRI.2003.1251428,Using a Framework to augment Reusability in the Development of an Intelligent Tutoring System.,2003,IRI
+https://dblp.org/rec/conf/iri/ReyhaniBK03,https://doi.org/10.1109/IRI.2003.1251427,A New Approach to Compositional Adaptation Based on Optimizing the Global Distance Function and Its Application in an Intelligent Tutoring System.,2003,IRI
+https://dblp.org/rec/conf/isamsr/RahmanAA16,https://doi.org/10.1109/ISAMSR.2016.7810017,The architecture of Agent-Based Intelligent Tutoring System for the learning of software engineering Function Point Metrics.,2016,ISAMSR
+https://dblp.org/rec/conf/isda/YamnaMW10,https://doi.org/10.1109/ISDA.2010.5687181,A Multicriteria Bayesian Intelligent Tutoring System MBITS.,2010,ISDA
+https://dblp.org/rec/conf/ismar/Do21,https://doi.org/10.1109/ISMAR-ADJUNCT54149.2021.00112,Designing Virtual Pedagogical Agents and Mentors for Extended Reality.,2021,ISMAR Adjunct
+https://dblp.org/rec/conf/ismar/SepulvedaFGSTL24,https://doi.org/10.1109/ISMAR-ADJUNCT64951.2024.00028,Using ACT-R Architecture in the Design of Intelligent Tutoring Systems for VR Training of Manufacturing Skills.,2024,ISMAR-Adjunct
+https://dblp.org/rec/conf/ismis/Liu05,https://doi.org/10.1007/11425274_54,Some Theoretical Properties of Mutual Information for Student Assessments in Intelligent Tutoring Systems.,2005,ISMIS
+https://dblp.org/rec/conf/itcc/BarkerD05,https://doi.org/10.1109/ITCC.2005.82,An Intelligent Tutoring System for Program Semantics.,2005,ITCC (1)
+https://dblp.org/rec/conf/itcc/MillsEF04,https://doi.org/10.1109/ITCC.2004.1286554,Implementing Directed Lines of Reasoning in an Intelligent Tutoring System Using the Atlas Planning Environment.,2004,ITCC (1)
+https://dblp.org/rec/conf/ithet/AbdelkefiK17,https://doi.org/10.1109/ITHET.2017.8067821,Towards a fuzzy multiagent tutoring system for M-learners' emotion regulation.,2017,ITHET
+https://dblp.org/rec/conf/ithet/Alhazbi16,https://doi.org/10.1109/ITHET.2016.7760714,Cognition-based adaptive programming tutoring system.,2016,ITHET
+https://dblp.org/rec/conf/ithet/BeyyoudhIB18,https://doi.org/10.1109/ITHET.2018.8424619,A new approach of designing an intelligent tutoring system based on adaptive workflows and pedagogical games.,2018,ITHET
+https://dblp.org/rec/conf/ithet/BoslA24,https://doi.org/10.1109/ITHET61869.2024.10837622,"Lifelong Learning Companion: Development Milestones in an AI-Based, Cross-Platform Companion App for Lifelong Learning Optimization.",2024,ITHET
+https://dblp.org/rec/conf/ithet/LimongelliMPSZ13,https://doi.org/10.1109/ITHET.2013.6671059,Design of a domain-independent training system based on a smart pedagogical agent.,2013,ITHET
+https://dblp.org/rec/conf/ithet/MarinovV16,https://doi.org/10.1109/ITHET.2016.7760745,Application of planning techniques in knowledge-managed tutoring systems.,2016,ITHET
+https://dblp.org/rec/conf/ithet/Montebello18,https://doi.org/10.1109/ITHET.2018.8424781,Companion Pedagogical Agents.,2018,ITHET
+https://dblp.org/rec/conf/ithings/LeungVLA11,https://doi.org/10.1109/ITHINGS/CPSCOM.2011.89,TSI-Enhanced Engaging Pedagogical Agents.,2011,iThings/CPSCom
+https://dblp.org/rec/conf/iti/DadicSR08,https://doi.org/10.1109/ITI.2008.4588458,Meaningful learning in the tutoring system for programming.,2008,ITI
+https://dblp.org/rec/conf/iticse/DavidovicWT00,https://doi.org/10.1145/343048.343208,Structural example-based adaptive tutoring system (poster session) (SEATS).,2000,ITiCSE
+https://dblp.org/rec/conf/iticse/DavidovicWT00,https://doi.org/10.1145/353519.343208,Structural example-based adaptive tutoring system (poster session) (SEATS).,2000,ITiCSE
+https://dblp.org/rec/conf/iticse/Maestro-PrietoH18,https://doi.org/10.1145/3197091.3197100,The pedagogical model of SIAL: an adaptive and open-ended intelligent tutoring system for first order logic.,2018,ITiCSE
+https://dblp.org/rec/conf/iticse/ShahK02,https://doi.org/10.1145/544414.544464,A tutoring system for parameter passing in programming languages.,2002,ITiCSE
+https://dblp.org/rec/conf/iticse/ShahK02,https://doi.org/10.1145/637610.544464,A tutoring system for parameter passing in programming languages.,2002,ITiCSE
+https://dblp.org/rec/conf/iticse/Virseda20a,https://doi.org/10.1145/3341525.3393969,An Interactive Tutoring System for Learning Language Processing and Compiler Design.,2020,ITiCSE
+https://dblp.org/rec/conf/iticse/WinderFP024,https://doi.org/10.1145/3649217.3653631,The Shell Tutor: An Intelligent Tutoring System For The UNIX Command Shell And Git.,2024,ITiCSE (1)
+https://dblp.org/rec/conf/itng/TanQFB10,https://doi.org/10.1109/ITNG.2010.28,BAUT: A Bayesian Driven Tutoring System.,2010,ITNG
+https://dblp.org/rec/conf/itre/Azoulay-SchwartzI06,https://doi.org/10.1109/ITRE.2006.381524,An Intelligent Tutoring System for Efficient Usage of Databases.,2006,ITRE
+https://dblp.org/rec/conf/its/RazzaqH04,https://doi.org/10.1007/978-3-540-30139-4_97,Tutorial Dialog in an Equation Solving Intelligent Tutoring System.,2004,Intelligent Tutoring Systems
+https://dblp.org/rec/conf/its/UglevS23,https://doi.org/10.1007/978-3-031-32883-1_20,Synthesizing Didactic Explanatory Texts in Intelligent Tutoring Systems Based on the Information in Cognitive Maps.,2023,ITS
+https://dblp.org/rec/conf/its/WalkerKMR06,https://doi.org/10.1007/11774303_21,Cognitive Tutors as Research Platforms: Extending an Established Tutoring System for Collaborative and Metacognitive Experimentation.,2006,Intelligent Tutoring Systems
+https://dblp.org/rec/conf/iui/Baylor05,https://doi.org/10.1145/1040830.1040884,Preliminary design guidelines for pedagogical agent interface image.,2005,IUI
+https://dblp.org/rec/conf/iui/Cao23,https://doi.org/10.1145/3581754.3584111,Scaffolding CS1 Courses with a Large Language Model-Powered Intelligent Tutoring System.,2023,IUI Companion
+https://dblp.org/rec/conf/iui/ConatiZ04,https://doi.org/10.1145/964442.964446,Building and evaluating an intelligent pedagogical agent to improve the effectiveness of an educational game.,2004,IUI
+https://dblp.org/rec/conf/iui/HagiyaHK18,https://doi.org/10.1145/3172944.3172995,Voice Input Tutoring System for Older Adults using Input Stumble Detection.,2018,IUI
+https://dblp.org/rec/conf/iui/Johnson03,https://doi.org/10.1145/604045.604090,Interaction tactics for socially intelligent pedagogical agents.,2003,IUI
+https://dblp.org/rec/conf/iui/RenHL04,https://doi.org/10.1145/964442.964516,Semantic analysis for a speech user interface in an intelligent tutoring system.,2004,IUI
+https://dblp.org/rec/conf/iui/SuebnukarnH04,https://doi.org/10.1145/964442.964447,A collaborative intelligent tutoring system for medical problem-based learning.,2004,IUI
+https://dblp.org/rec/conf/iui/TownsVCL98,https://doi.org/10.1145/268389.268393,"Coherent Gestures, Locomotion, and Speech in Life-like Pedagogical Agents.",1998,IUI
+https://dblp.org/rec/conf/iui/Vannaprathip18,https://doi.org/10.1145/3172944.3173154,An Intelligent Tutoring System for Situated Decision Making in Dental Surgery.,2018,IUI
+https://dblp.org/rec/conf/iui/WangJRSM05,https://doi.org/10.1145/1040830.1040845,Experimental evaluation of polite interaction tactics for pedagogical agents.,2005,IUI
+https://dblp.org/rec/conf/iva/HostetterC0ABC23,https://doi.org/10.1145/3570945.3607301,XAI to Increase the Effectiveness of an Intelligent Pedagogical Agent.,2023,IVA
+https://dblp.org/rec/conf/iva/KropOL23,https://doi.org/10.1145/3570945.3607360,Traversing the Pass: Improving the Knowledge Retention of Serious Games Using a Pedagogical Agent.,2023,IVA
+https://dblp.org/rec/conf/iva/McDonnellF25,https://doi.org/10.1145/3717511.3749300,Exploring the Impact of Gendered Virtual Pedagogical Agents on Women's Emotional Responses and Perceptions of Agent Effectiveness.,2025,IVA
+https://dblp.org/rec/conf/iva/RiedmannL23,https://doi.org/10.1145/3570945.3607320,Towards an Adaptive Pedagogical Agent in a Reading Intervention Using Reinforcement Learning.,2023,IVA
+https://dblp.org/rec/conf/jcsse/NguyenTG22,https://doi.org/10.1109/JCSSE54890.2022.9836290,The Design and Development of an Adaptive Intelligent Tutoring System Based on Constructive Alignment and Cognitive Theories.,2022,JCSSE
+https://dblp.org/rec/conf/kcap/Jung09,https://doi.org/10.1145/1597735.1597777,Using natural language to represent knowledge in an intelligent tutoring system.,2009,K-CAP
+https://dblp.org/rec/conf/kes/BadaraccoM11,https://doi.org/10.1007/978-3-642-23863-5_13,An Intelligent Tutoring System Architecture for Competency-Based Learning.,2011,KES (2)
+https://dblp.org/rec/conf/kes/NegoitaP03,https://doi.org/10.1007/978-3-540-45226-3_135,Some Test Problems Regarding Intelligent Tutoring Systems.,2003,KES
+https://dblp.org/rec/conf/kse/Thai-NgheS15,https://doi.org/10.1109/KSE.2015.9,Multi-relational Factorization Models for Student Modeling in Intelligent Tutoring Systems.,2015,KSE
+https://dblp.org/rec/conf/kse/Thanh-NhanHT17,https://doi.org/10.1109/KSE.2017.8119444,Toward integrating social networks into intelligent tutoring systems.,2017,KSE
+https://dblp.org/rec/conf/kst/RunzratHC19,https://doi.org/10.1109/KST.2019.8687462,Applying Item Response Theory in Adaptive Tutoring Systems for Thai Language Learners.,2019,KST
+https://dblp.org/rec/conf/lak/Borchers00A24,https://doi.org/10.1145/3636555.3636911,Using Think-Aloud Data to Understand Relations between Self-Regulation Cycle Characteristics and Student Performance in Intelligent Tutoring Systems.,2024,LAK
+https://dblp.org/rec/conf/lak/FancsaliR14,https://doi.org/10.1145/2567574.2567615,"Context personalization, preferences, and performance in an intelligent tutoring system for middle school mathematics.",2014,LAK
+https://dblp.org/rec/conf/lak/HuangLRMAHAK21,https://doi.org/10.1145/3448139.3448155,A General Multi-method Approach to Data-Driven Redesign of Tutoring Systems.,2021,LAK
+https://dblp.org/rec/conf/lak/RoijersJF12,https://doi.org/10.1145/2330601.2330663,Probability estimation and a competence model for rule based e-tutoring systems.,2012,LAK
+https://dblp.org/rec/conf/lak/SlaterBABH17,https://doi.org/10.1145/3027385.3027438,Using correlational topic modeling for automated topic identification in intelligent tutoring systems.,2017,LAK
+https://dblp.org/rec/conf/lats/AnastasopoulosS23,https://doi.org/10.1145/3573051.3593399,Introducing an Open-source Adaptive Tutoring System to Accelerate Learning Sciences Experimentation.,2023,L@S
+https://dblp.org/rec/conf/lats/DangYK17,https://doi.org/10.1145/3051457.3051470,Detecting Diligence with Online Behaviors on Intelligent Tutoring Systems.,2017,L@S
+https://dblp.org/rec/conf/lats/DommetiS17,https://doi.org/10.1145/3051457.3053992,Applying and Exploring Bayesian Hypothesis Testing for Large Scale Experimentation in Online Tutoring Systems.,2017,L@S
+https://dblp.org/rec/conf/lats/Ekram20,https://doi.org/10.1145/3386527.3406756,Understanding the Implications of the Use of Intelligent Tutoring Systems in Driver Training.,2020,L@S
+https://dblp.org/rec/conf/lats/MatayoshiUC20,https://doi.org/10.1145/3386527.3405927,Studying Retrieval Practice in an Intelligent Tutoring System.,2020,L@S
+https://dblp.org/rec/conf/lats/MuWAB18,https://doi.org/10.1145/3231644.3231672,Combining adaptivity with progression ordering for intelligent tutoring systems.,2018,L@S
+https://dblp.org/rec/conf/ldt/KilgerSN24,https://doi.org/10.1145/3663433.3663436,Guiding Children?s Choice Making in an Intelligent Tutoring System.,2024,LDT
+https://dblp.org/rec/conf/mcsoc/ObataH25,https://doi.org/10.1109/MCSOC67473.2025.00080,Adaptive Retrieval-Augmented Generative Intelligent Tutoring System for Automata Theory.,2025,MCSoC
+https://dblp.org/rec/conf/mhci/JainRS25,https://doi.org/10.1145/3737821.3748530,ChemVR-AI: An Immersive Virtual Reality Laboratory with Pedagogical Agents.,2025,MobileHCI (Companion)
+https://dblp.org/rec/conf/mhci/Sayago20,https://doi.org/10.1145/3406324.3410707,Voice Assistants as Learning Companions: An Initial Exploration With Computer Science Students.,2020,MobileHCI (Extended Abstracts)
+https://dblp.org/rec/conf/micai/CabadaBHB14,https://doi.org/10.1007/978-3-319-13647-9_43,Intelligent Tutoring System with Affective Learning for Mathematics.,2014,MICAI (1)
+https://dblp.org/rec/conf/micai/Zatarain-CabadaBAG14,https://doi.org/10.1007/978-3-319-13647-9_44,Emotion Recognition in Intelligent Tutoring Systems for Android-Based Mobile Devices.,2014,MICAI (1)
+https://dblp.org/rec/conf/micai/Zatarain-CabadaBCG13,https://doi.org/10.1109/MICAI.2013.36,Integrating Learning Styles and Affect with an Intelligent Tutoring System.,2013,MICAI (Special Sessions)
+https://dblp.org/rec/conf/middleware/MukhiPS17,https://doi.org/10.1145/3154847.3154852,Using a serverless framework for implementing a cognitive tutor: experiences and issues.,2017,WOSC@Middleware
+https://dblp.org/rec/conf/mipro/BunicJK19,https://doi.org/10.23919/MIPRO.2019.8756951,Analysis of clustering algorithms for group discovery in a web-based intelligent tutoring system.,2019,MIPRO
+https://dblp.org/rec/conf/mipro/JugoKS14,https://doi.org/10.1109/MIPRO.2014.6859700,Using data mining for learning path recommendation and visualization in an intelligent tutoring system.,2014,MIPRO
+https://dblp.org/rec/conf/mipro/SlavujKJ15,https://doi.org/10.1109/MIPRO.2015.7160383,Intelligent tutoring systems for language learning.,2015,MIPRO
+https://dblp.org/rec/conf/mipro/SolimanE16,https://doi.org/10.1109/MIPRO.2016.7522247,Smart immersive education for smart cities: With support via intelligent pedagogical agents.,2016,MIPRO
+https://dblp.org/rec/conf/misnc/LamiaHS18,https://doi.org/10.1145/3227696.3227705,An Intelligent Tutoring System within a Social Network (IT2SN) for logical problem solvin.,2018,MISNC
+https://dblp.org/rec/conf/missi/ChynalKP16,https://doi.org/10.1007/978-3-319-43982-2_35,Personalisation of Learning Process in Intelligent Tutoring Systems Using Behavioural Measures.,2017,MISSI
+https://dblp.org/rec/conf/mm/GirardJ10,https://doi.org/10.1145/1877826.1877840,Designing affective computing learning companions with teachers as design partners.,2010,AFFINE@MM
+https://dblp.org/rec/conf/mm/LuZWL08,https://doi.org/10.1145/1459359.1459552,iDVT: an interactive digital violin tutoring system based on audio-visual fusion.,2008,ACM Multimedia
+https://dblp.org/rec/conf/mobisys/MahmoodNW16,https://doi.org/10.1145/2938559.2948864,POSTER: Testing the Efficacy of an SMS-based Tutoring System.,2016,MobiSys (Companion Volume)
+https://dblp.org/rec/conf/nids/Uglev23,https://doi.org/10.1007/978-3-031-44097-7_11,Case Study of Organization of Decision-Making and Feedback Synthesis in Intelligent Tutoring Systems with a Cross-Cutting Approach.,2023,NiDS (1)
+https://dblp.org/rec/conf/nime/XiaCZZZ20,https://doi.org/10.5281/ZENODO.4813324,Interactive Rainbow Score: A Visual-centered Multimodal Flute Tutoring System.,2020,NIME
+https://dblp.org/rec/conf/niss/HibbiAK20,https://doi.org/10.1145/3386723.3387895,Knowledge Management in the Expert Model of the Smart Tutoring System.,2020,NISS
+https://dblp.org/rec/conf/octa/BayounesSG20,https://doi.org/10.1109/OCTA49274.2020.9151777,Definition Framework of Educational Process Construction Supported by an Intelligent Tutoring System.,2020,OCTA
+https://dblp.org/rec/conf/oopsla/BonarCS86,https://doi.org/10.1145/28697.28723,An Object-Oriented Architecture for Intelligent Tutoring Systems.,1986,OOPSLA
+https://dblp.org/rec/conf/oopsla/BonarCS86,https://doi.org/10.1145/960112.28723,An Object-Oriented Architecture for Intelligent Tutoring Systems.,1986,OOPSLA
+https://dblp.org/rec/conf/ozchi/HerbertBWEW18,https://doi.org/10.1145/3292147.3292202,"A generalized, rapid authoring tool for intelligent tutoring systems.",2018,OZCHI
+https://dblp.org/rec/conf/ozchi/ToshniwalDRS15,https://doi.org/10.1145/2838739.2838751,VibRein: An Engaging and Assistive Mobile Learning Companion for Students with Intellectual Disabilities.,2015,OZCHI
+https://dblp.org/rec/conf/paams/LavendelisG09,https://doi.org/10.1007/978-3-642-00487-2_52,MASITS - A Tool for Multi-Agent Based Intelligent Tutoring System Development.,2009,PAAMS
+https://dblp.org/rec/conf/pci/PapoutsiR20,https://doi.org/10.1145/3437120.3437332,Pedagogical Agents in E-learning: a review of recent (2009-2019) research results.,2020,PCI
+https://dblp.org/rec/conf/percom/RuscelliCBMPC21,https://doi.org/10.1109/PERCOMWORKSHOPS51409.2021.9431030,A medical tele-tutoring system for the Emergency Service.,2021,PerCom Workshops
+https://dblp.org/rec/conf/percom/SosnowskiY21,https://doi.org/10.1109/PERCOMWORKSHOPS51409.2021.9431031,Antonym Disambiguation for a German-language Conversational Intelligent Tutoring System.,2021,PerCom Workshops
+https://dblp.org/rec/conf/petra/SosnowskiY20,https://doi.org/10.1145/3389189.3397978,A probabilistic conversational agent for intelligent tutoring systems.,2020,PETRA
+https://dblp.org/rec/conf/ro-man/KoryB14,https://doi.org/10.1109/ROMAN.2014.6926325,Storytelling with robots: Learning companions for preschool children's language development.,2014,RO-MAN
+https://dblp.org/rec/conf/ro-man/Saunders07,https://doi.org/10.1109/ROMAN.2007.4415176,Employing Ideomotor Theory as the basis of a Robot Tutoring System.,2007,RO-MAN
+https://dblp.org/rec/conf/ro-man/YuhJ25,https://doi.org/10.1109/RO-MAN63969.2025.11217643,Designing Cognitively-Aware Psychomotor Intelligent Tutoring Systems via Multi-Objective and Human-Centric Optimization.,2025,RO-MAN
+https://dblp.org/rec/conf/robio/LeeK10,https://doi.org/10.1109/ROBIO.2010.5723389,A framework for an interactive robot-based tutoring system and its application to ball-passing training.,2010,ROBIO
+https://dblp.org/rec/conf/sac/JaquesLP09,https://doi.org/10.1145/1529282.1529304,Evaluating the affective tactics of an emotional pedagogical agent.,2009,SAC
+https://dblp.org/rec/conf/saicsit/ButgereitB10,https://doi.org/10.1145/1899503.1899543,"A busyness model for assigning tutors to pupils in a mobile, online tutoring system: a look at C3TO.",2010,SAICSIT
+https://dblp.org/rec/conf/sbm/KeshavabhotlaWK17,https://doi.org/10.1145/3092907.3092911,Conquering the cube: learning to sketch primitives in perspective with an intelligent tutoring system.,2017,SBIM@Expressive
+https://dblp.org/rec/conf/sbm/LeeJSH12,https://doi.org/10.2312/SBM/SBM12/057-065,"Newtons Pen II: An Intelligent, Sketch-Based Tutoring System and its Sketch Processing Techniques.",2012,SBIM@Expressive
+https://dblp.org/rec/conf/sbm/LeeSPCS07,https://doi.org/10.1145/1384429.1384445,Newton's Pen - A Pen-based Tutoring System for Statics.,2007,SBIM
+https://dblp.org/rec/conf/sbm/LeeSPCS07,https://doi.org/10.2312/SBM/SBM07/059-066,Newton's Pen - A Pen-based Tutoring System for Statics.,2007,SBIM
+https://dblp.org/rec/conf/sca2/BendouAC17,https://doi.org/10.1007/978-3-319-74500-8_32,Contribution of Pedagogical Agents to Motivate Learners in Online Learning Environments: The Case of the PAOLE Agent.,2018,SCA
+https://dblp.org/rec/conf/sca2/LaaziriBKKY18,https://doi.org/10.1145/3286606.3286819,Implementation of an intelligent tutoring system for the use of university governance information systems.,2018,SCA
+https://dblp.org/rec/conf/sccc/GiraffaV98,https://doi.org/10.1109/SCCC.1998.730785,The Use of Agents Techniques on Intelligent Tutoring Systems.,1998,SCCC
+https://dblp.org/rec/conf/seeda/TasoulasTMS24,https://doi.org/10.1109/SEEDA-CECNSM63478.2024.00025,Affective Computing in Intelligent Tutoring Systems: Exploring Insights and Innovations.,2024,SEEDA-CECNSM
+https://dblp.org/rec/conf/sgai/FerreiraA08,https://doi.org/10.1007/978-1-84882-171-2_20,Designing a Feedback Component of an Intelligent Tutoring System for Foreign Language.,2009,SGAI Conf.
+https://dblp.org/rec/conf/sigcse/EdwardsRK17,https://doi.org/10.1145/3159450.3162318,Pedagogical Agent as a Teaching Assistant for Programming Assignments: (Abstract Only).,2018,SIGCSE
+https://dblp.org/rec/conf/sigcse/HarsleyFEG17,https://doi.org/10.1145/3017680.3017786,Interactions of Individual and Pair Programmers with an Intelligent Tutoring System for Computer Science.,2017,SIGCSE
+https://dblp.org/rec/conf/sigcse/HarsleyGAAFEA16,https://doi.org/10.1145/2839509.2844637,Incorporating Analogies and Worked Out Examples as Pedagogical Strategies in a Computer Science Tutoring System.,2016,SIGCSE
+https://dblp.org/rec/conf/sigcse/JinC11,https://doi.org/10.1145/1953163.1953254,Effectiveness of cognitive apprenticeship learning (CAL) and cognitive tutors (CT) for problem solving using fundamental programming concepts.,2011,SIGCSE
+https://dblp.org/rec/conf/sigcse/KeuningHJ21,https://doi.org/10.1145/3408877.3432526,A Tutoring System to Learn Code Refactoring.,2021,SIGCSE
+https://dblp.org/rec/conf/sigcse/KurtzOC91,https://doi.org/10.1145/107004.107035,"The design, implementation, and use of DSTutor: a tutoring system for denotational semantics.",1991,SIGCSE
+https://dblp.org/rec/conf/sigcse/KurtzOC91,https://doi.org/10.1145/107005.107035,"The design, implementation, and use of DSTutor: a tutoring system for denotational semantics.",1991,SIGCSE
+https://dblp.org/rec/conf/sigcse/LiewN20,https://doi.org/10.1145/3287324.3293823,Using an Intelligent Tutoring System to Teach Red Black Trees.,2019,SIGCSE
+https://dblp.org/rec/conf/sigcse/McCartin-Lim16,https://doi.org/10.1145/2839509.2850524,Complexity Tutor: Developing an Interactive Tutoring System for Computational Complexity (Abstract Only).,2016,SIGCSE
+https://dblp.org/rec/conf/sigcse/McGuireHSS12,https://doi.org/10.1145/2157136.2157406,CodeTrainer teacher authoring system: facilitating user-created content in an intelligent tutoring system (abstract only).,2012,SIGCSE
+https://dblp.org/rec/conf/sigcse/SchmellenkampLZ23,https://doi.org/10.1145/3545945.3569806,Discovering and Quantifying Misconceptions in Formal Methods Using Intelligent Tutoring Systems.,2023,SIGCSE (1)
+https://dblp.org/rec/conf/sigcse/Soh06,https://doi.org/10.1145/1121341.1121494,Incorporating an intelligent tutoring system into CS1.,2006,SIGCSE
+https://dblp.org/rec/conf/sigcse/Soh06,https://doi.org/10.1145/1124706.1121494,Incorporating an intelligent tutoring system into CS1.,2006,SIGCSE
+https://dblp.org/rec/conf/sigcse/SpringerJEB13,https://doi.org/10.1145/2445196.2445416,Using sequential pattern mining to increase graph comprehension in intelligent tutoring system student data (abstract only).,2013,SIGCSE
+https://dblp.org/rec/conf/sigcse/WigginsBBEGHLMW15,https://doi.org/10.1145/2676723.2691877,JavaTutor: An Intelligent Tutoring System that Adapts to Cognitive and Affective States during Computer Programming.,2015,SIGCSE
+https://dblp.org/rec/conf/sigcse/YangLZD25,https://doi.org/10.1145/3641555.3705244,Pensieve Discuss: Scalable Small-Group CS Tutoring System with AI.,2025,SIGCSE (2)
+https://dblp.org/rec/conf/siggraph/Doswell05,https://doi.org/10.1145/1187358.1187389,It's virtually pedagogical: pedagogical agents in mixed reality learning environments.,2005,SIGGRAPH Educators Program
+https://dblp.org/rec/conf/siggraph/Spierling05,https://doi.org/10.1145/1187358.1187365,Beyond virtual tutors: semi-autonomous characters as learning companions.,2005,SIGGRAPH Educators Program
+https://dblp.org/rec/conf/siggraph/WilliamsBB05,https://doi.org/10.1145/1186954.1187052,An evaluation of animation in a pedagogical agent.,2005,SIGGRAPH Posters
+https://dblp.org/rec/conf/sigite/EugenioGAAHF15,https://doi.org/10.1145/2808006.2808011,Worked-out Examples in a Computer Science Intelligent Tutoring System.,2015,SIGITE
+https://dblp.org/rec/conf/siie/OcanaUPP21,https://doi.org/10.1109/SIIE53363.2021.9583626,How to create emotional learning companions to teach programming in Primary Education?,2021,SIIE
+https://dblp.org/rec/conf/sita/ZaroukK15,https://doi.org/10.1109/SITA.2015.7358437,Towards an Intelligent Tutoring System developing Metacognition: Cyclical model.,2015,SITA
+https://dblp.org/rec/conf/skg/ZhuZY17,https://doi.org/10.1109/SKG.2017.00026,A Cognitive-Related Entity and Relation Extraction Model for Online Tutoring Systems.,2017,SKG
+https://dblp.org/rec/conf/smc/Arevalillo-Herraez17,https://doi.org/10.1109/SMC.2017.8123062,Gui-driven intelligent tutoring system with affective support to help learning the algebraic method.,2017,SMC
+https://dblp.org/rec/conf/smc/BurnsPB89,https://doi.org/10.1109/ICSMC.1989.71395,Intelligent tutoring systems: perspective.,1989,SMC
+https://dblp.org/rec/conf/smc/DorneichJ98,https://doi.org/10.1109/ICSMC.1998.725536,The Apprenticeship Learning Object Toolkit: a generalized architecture for a family of computer tutoring systems.,1998,SMC
+https://dblp.org/rec/conf/smc/JohnsonND89,https://doi.org/10.1109/ICSMC.1989.71396,An authoring environment for intelligent tutoring systems.,1989,SMC
+https://dblp.org/rec/conf/smc/OtsukiS13,https://doi.org/10.1109/SMC.2013.592,An Intelligent Tutoring System for Case-Based E-Learning on Project Management.,2013,SMC
+https://dblp.org/rec/conf/smc/SilvaMMLO06,https://doi.org/10.1109/ICSMC.2006.384405,Modeling Cognitive Structure of Emotion for Developing a Pedagogical Agent Based Interactive Game.,2006,SMC
+https://dblp.org/rec/conf/smc/VirvouMK03,https://doi.org/10.1109/ICSMC.2003.1245754,An evaluation agent that simulates students' behaviour in intelligent tutoring systems.,2003,SMC
+https://dblp.org/rec/conf/softcom/BrajkovicV17,https://doi.org/10.23919/SOFTCOM.2017.8115592,Tree and word embedding based sentence similarity for evaluation of good answers in intelligent tutoring system.,2017,SoftCOM
+https://dblp.org/rec/conf/softcom/Ognjenovic17,https://doi.org/10.23919/SOFTCOM.2017.8115537,Experimental verification of the effectiveness of learning and teaching using intelligent tutoring system in secondary school education.,2017,SoftCOM
+https://dblp.org/rec/conf/softcom/SaricS18,https://doi.org/10.23919/SOFTCOM.2018.8555854,Time Spent Online as an Online Learning Behavior Variable in a Blended Learning Environment with an Ontology-Based Intelligent Tutoring System.,2018,SoftCOM
+https://dblp.org/rec/conf/somet/X17,https://doi.org/10.3233/978-1-61499-800-6-779,Construction of Intelligent Tutoring System Based on Semantic Web.,2017,SoMeT
+https://dblp.org/rec/conf/sui/KhokharB22,https://doi.org/10.1145/3565970.3567697,Modifying Pedagogical Agent Spatial Guidance Sequences to Respond to Eye-Tracked Student Gaze in VR.,2022,SUI
+https://dblp.org/rec/conf/t4e/CasasGP11,https://doi.org/10.1109/T4E.2011.10,On the Design and Use of a Cognitive Tutoring System in the Math Classroom.,2011,T4E
+https://dblp.org/rec/conf/t4e/ChenHCH12,https://doi.org/10.1109/T4E.2012.36,Applying the Technology Acceptance Model to Evaluate the Learning Companion Recommendation System on Facebook.,2012,T4E
+https://dblp.org/rec/conf/t4e/FakinledeKWK13,https://doi.org/10.1109/T4E.2013.52,Conversational Forensics: Building Conversational Pedagogical Agents with Attitude.,2013,T4E
+https://dblp.org/rec/conf/t4e/HaridasVGGRN19,https://doi.org/10.1109/T4E.2019.00-34,Feature-Aware Knowledge Tracing for Generation of Concept-Knowledge Reports in an Intelligent Tutoring System.,2019,T4E
+https://dblp.org/rec/conf/t4e/RameshR12,https://doi.org/10.1109/T4E.2012.52,Tutoring and Expert Modules of Intelligent Tutoring Systems.,2012,T4E
+https://dblp.org/rec/conf/t4e/ValayaputturAM19,https://doi.org/10.1109/T4E.2019.00060,Continuous Monitoring and Development of an Intelligent Tutoring System through Data Mining.,2019,T4E
+https://dblp.org/rec/conf/tale/CarlonC20,https://doi.org/10.1109/TALE48869.2020.9368470,A Review of Quantitative Offline Measurement Tools for Computer-Based Metacognitive Tutoring Effectiveness Assessment.,2020,TALE
+https://dblp.org/rec/conf/tale/CarlonGC21,https://doi.org/10.1109/TALE52509.2021.9678573,Development of Open-Response Prompt-Based Metacognitive Tutor for Online Classrooms.,2021,TALE
+https://dblp.org/rec/conf/tale/ChengY21,https://doi.org/10.1109/TALE52509.2021.9678760,Exploring the Students' Profiles of Academic Help Seeking in Tutoring Systems.,2021,TALE
+https://dblp.org/rec/conf/tale/FengGOS18,https://doi.org/10.1109/TALE.2018.8615413,Transferring Human Tutor's Style to Pedagogical Agent: A Possible Way by Leveraging Variety of Artificial Intelligence Achievements.,2018,TALE
+https://dblp.org/rec/conf/tale/Grivokostopoulou18,https://doi.org/10.1109/TALE.2018.8615421,Examining the Impact of Pedagogical Agents on Students Learning Experience in Virtual Worlds.,2018,TALE
+https://dblp.org/rec/conf/tale/KhadimallahAK20,https://doi.org/10.1109/TALE48869.2020.9368372,Emotion Regulation in Intelligent Tutoring Systems: A Systematic Literature Review.,2020,TALE
+https://dblp.org/rec/conf/tale/LeungHHGMZLK22,https://doi.org/10.1109/TALE54877.2022.00013,An Inquiry-based Genomics Intelligent Tutoring System.,2022,TALE
+https://dblp.org/rec/conf/tale/MelianaN18,https://doi.org/10.1109/TALE.2018.8615176,Adopting Good-Learners' Paths in an Intelligent Tutoring System.,2018,TALE
+https://dblp.org/rec/conf/tale/TaufikN19,https://doi.org/10.1109/TALE48000.2019.9226001,An Intelligent Tutoring System with Adaptive Exercises Based on a Student's Knowledge and Misconception.,2019,TALE
+https://dblp.org/rec/conf/tale/WangDGG21,https://doi.org/10.1109/TALE52509.2021.9678769,Exploring the role of different types of peer affective pedagogical agents in video learning.,2021,TALE
+https://dblp.org/rec/conf/teem/FigueiredoG20,https://doi.org/10.1145/3434780.3436614,Intelligent Tutoring Systems approach to Introductory Programming Courses.,2020,TEEM
+https://dblp.org/rec/conf/teem/GonzalezMT14,https://doi.org/10.1145/2669711.2669903,Gamification in intelligent tutoring systems.,2014,TEEM
+https://dblp.org/rec/conf/teem/KhemajaM14,https://doi.org/10.1145/2669711.2669925,Semantic reasoning for enabling mobility and context-awareness: application to an OSGi based intelligent tutoring system.,2014,TEEM
+https://dblp.org/rec/conf/ucet/AlqahtaniKR19,https://doi.org/10.1109/UCET.2019.8881872,ECG-based affective computing for difficulty level prediction in Intelligent Tutoring Systems.,2019,UCET
+https://dblp.org/rec/conf/um/Okpo16,https://doi.org/10.1145/2930238.2930369,Adaptive Exercise Selection for an Intelligent Tutoring System.,2016,UMAP
+https://dblp.org/rec/conf/um/SanzAGA17,https://doi.org/10.1145/3079628.3079635,Using System Dynamics to Model Student Performance in an Intelligent Tutoring System.,2017,UMAP
+https://dblp.org/rec/conf/vcbm/SaalfeldSDRP20,https://doi.org/10.2312/VCBM.20201172,Student and Teacher Meet in a Shared Virtual Reality: A one-on-one Tutoring System for Anatomy Education.,2020,VCBM
+https://dblp.org/rec/conf/vr/HafnerLMHYO24,https://doi.org/10.1109/VRW62533.2024.00196,Semantic Web-Enabled Intelligent VR Tutoring System for Engineering Education: A Theoretical Framework.,2024,VR Workshops
+https://dblp.org/rec/conf/vr/Khokhar23,https://doi.org/10.1109/VRW58643.2023.00339,[DC] Improving Guidance for Pedagogical Agents in Educational VR.,2023,VR Workshops
+https://dblp.org/rec/conf/vr/KhokharYB19,https://doi.org/10.1109/VR.2019.8797896,Pedagogical Agent Responsive to Eye Tracking in Educational VR.,2019,VR
+https://dblp.org/rec/conf/vr/LiaoSWL19,https://doi.org/10.1109/VR.2019.8797708,Virtual Classmates: Embodying Historical Learners' Messages as Learning Companions in a VR Classroom through Comment Mapping.,2019,VR
+https://dblp.org/rec/conf/vr/SunLPYC25,https://doi.org/10.1109/VRW66409.2025.00276,From Robots to Creatures: The Influence of Pedagogical Agent Design on Student Motivation and Learning in IVR Education.,2025,VR Workshops
+https://dblp.org/rec/conf/webi/ButzHM04,https://doi.org/10.1109/WI.2004.10104,A Web-Based Intelligent Tutoring System for Computer Programming.,2004,Web Intelligence
+https://dblp.org/rec/conf/wetice/OulhaciTEF13,https://doi.org/10.1109/WETICE.2013.78,Intelligent Tutoring Systems and Serious Game for Crisis Management: A Multi-agents Integration Architecture.,2013,WETICE
+https://dblp.org/rec/conf/wkdd/WuLW08,https://doi.org/10.1109/WKDD.2008.141,Application of Emotional Recognition in Intelligent Tutoring System.,2008,WKDD
+https://dblp.org/rec/conf/wmte/Jin06,https://doi.org/10.1109/WMUTE.2008.8,A Comprehensive Information Based Variable-Size Model for Intelligent Tutoring Systems.,2008,WMUTE
+https://dblp.org/rec/conf/wsc/AngelidesP93,https://doi.org/10.1109/WSC.1993.718392,Towards a framework for integrating intelligent tutoring systems and gaming-simulation.,1993,WSC
+https://dblp.org/rec/conf/wsc/AngelidesP93,https://doi.org/10.1145/256563.257029,Towards a framework for integrating intelligent tutoring systems and gaming-simulation.,1993,WSC
+https://dblp.org/rec/conf/wsc/AtolagbeH97,https://doi.org/10.1145/268437.268554,SimTutor: A Multimedia Intelligent Tutoring System for Simulation Modeling.,1997,WSC
+https://dblp.org/rec/conf/wsc/SiemerA94,https://doi.org/10.1109/WSC.1994.717537,Embedding an intelligent tutoring system in a business gaming-simulation environment.,1994,WSC
+https://dblp.org/rec/conf/wsks/Makri-BotsariP08,https://doi.org/10.1007/978-3-540-87783-7_44,"Enhancing Motivation, School Competence and Self-perception of Physics in the Environment of the Cognitive Tutor CTAT during Physics Instruction.",2008,WSKS (2)
+https://dblp.org/rec/conf/wsse/ChenXZZ23,https://doi.org/10.1145/3631991.3632024,Roles of ChatGPT in virtual teaching assistant and intelligent tutoring system: opportunities and challenges.,2023,WSSE
+https://dblp.org/rec/conf/www/0002ZLHYZ0025,https://doi.org/10.1145/3701716.3715244,LLM-powered Multi-agent Framework for Goal-oriented Learning in Intelligent Tutoring System.,2025,WWW (Companion Volume)
+https://dblp.org/rec/conf/www/DamljanovicMO13,https://doi.org/10.1145/2487788.2487960,Learning from quizzes using intelligent learning companions.,2013,WWW (Companion Volume)
+https://dblp.org/rec/journals/aai/AimeurFD00,https://doi.org/10.1080/088395100403388,Cooperative Learning Strategies for Intelligent Tutoring Systems.,2000,Appl. Artif. Intell.
+https://dblp.org/rec/journals/aai/GisolfiL94,https://doi.org/10.1080/08839519408945450,Designing complex systems within distributed architectures: an intelligent tutoring systems perspective.,1994,Appl. Artif. Intell.
+https://dblp.org/rec/journals/aai/LesterVTC99,https://doi.org/10.1080/088395199117324,"Deictic Believability: Coordinated Gesture, Locomotion, and Speech in Lifelike Pedagogical Agents.",1999,Appl. Artif. Intell.
+https://dblp.org/rec/journals/access/AbuIssaAHTH25,https://doi.org/10.1109/ACCESS.2025.3579575,"Empowering Student Learning in Intelligent Tutoring Systems: Building a Comprehensive Learner Model With Feedback From Students, Parents, and Instructors.",2025,IEEE Access
+https://dblp.org/rec/journals/access/ArnauGonzalezMKAA23,https://doi.org/10.1109/ACCESS.2023.3290478,Toward Automatic Tutoring of Math Word Problems in Intelligent Tutoring Systems.,2023,IEEE Access
+https://dblp.org/rec/journals/access/LiuCWCY25,https://doi.org/10.1109/ACCESS.2025.3617963,Pedagogical Agent Emotional Design: The Effects of Emotional Cues and Model-Observer Similarity on Female Learners.,2025,IEEE Access
+https://dblp.org/rec/journals/access/RidaBEM25,https://doi.org/10.1109/ACCESS.2025.3576651,Dynamic Adaptation in an Intelligent Multi-Tutoring System: A Multi-Agent Approach.,2025,IEEE Access
+https://dblp.org/rec/journals/access/RodriguesPG25,https://doi.org/10.1109/ACCESS.2025.3626473,"A Systematic Literature Review of AI-Driven Intelligent Tutoring Systems in Engineering Education: Emphasizing Personalization, Feedback, and Student Monitoring.",2025,IEEE Access
+https://dblp.org/rec/journals/advai/HerazF11,https://doi.org/10.1155/2011/384169,Towards a Brain-Sensitive Intelligent Tutoring System: Detecting Emotions from Brainwaves.,2011,Adv. Artif. Intell.
+https://dblp.org/rec/journals/aei/GutierrezEFZD98,https://doi.org/10.1016/S0954-1810(97)00015-0,Intelligent tutoring systems for training of operators for thermal power plants.,1998,Artif. Intell. Eng.
+https://dblp.org/rec/journals/ai/Auguste85,https://doi.org/10.1016/0004-3702(85)90033-5,"D. Sleeman and J. S. Brown, Intelligent Tutoring Systems.",1985,Artif. Intell.
+https://dblp.org/rec/journals/ai/Stefik85b,https://doi.org/10.1016/0004-3702(85)90034-7,"D. Sleeman and J. S. Brown, Intelligent Tutoring Systems.",1985,Artif. Intell.
+https://dblp.org/rec/journals/aicom/DuraesTGN19,https://doi.org/10.3233/AIC-190624,Intelligent tutoring system to improve learning outcomes.,2019,AI Commun.
+https://dblp.org/rec/journals/aicom/Murray89,https://doi.org/10.3233/AIC-1989-2201,Control for Intelligent Tutoring Systems: A Blackboard-based Dynamic Instructional Planer.,1989,AI Commun.
+https://dblp.org/rec/journals/aiedu/ChiVLJ11,https://doi.org/10.3233/JAI-2011-014,An Evaluation of Pedagogical Tutorial Tactics for a Natural Language Tutoring System: A Reinforcement Learning Approach.,2011,Int. J. Artif. Intell. Educ.
+https://dblp.org/rec/journals/ao/SklavakisR14,https://doi.org/10.3233/AO-140138,The MATHESIS meta-knowledge engineering framework: Ontology-driven development of intelligent tutoring systems.,2014,Appl. Ontology
+https://dblp.org/rec/journals/artmed/CrowleyM06,https://doi.org/10.1016/J.ARTMED.2005.01.005,An intelligent tutoring system for visual classification problem solving.,2006,Artif. Intell. Medicine
+https://dblp.org/rec/journals/artmed/PayneMLCTJC09,https://doi.org/10.1016/J.ARTMED.2009.07.002,"Effect of a limited-enforcement intelligent tutoring system in dermatopathology on student errors, goals and solution paths.",2009,Artif. Intell. Medicine
+https://dblp.org/rec/journals/artmed/VannaprathipHSS25,https://doi.org/10.1016/J.ARTMED.2025.103092,SDMentor: A virtual reality-based intelligent tutoring system for surgical decision making in dentistry.,2025,Artif. Intell. Medicine
+https://dblp.org/rec/journals/artmed/WooEFGSZZM06,https://doi.org/10.1016/J.ARTMED.2005.10.004,An intelligent tutoring system that generates a natural language dialogue using dynamic multi-level planning.,2006,Artif. Intell. Medicine
+https://dblp.org/rec/journals/behaviourIT/LinCST14,https://doi.org/10.1080/0144929X.2012.702356,Usability of affective interfaces for a digital arts tutoring system.,2014,Behav. Inf. Technol.
+https://dblp.org/rec/journals/behaviourIT/Sah21,https://doi.org/10.1080/0144929X.2019.1685003,Talking to a pedagogical agent in a smart TV: modality matching effect in human-TV interaction.,2021,Behav. Inf. Technol.
+https://dblp.org/rec/journals/bjet/Bowman12,https://doi.org/10.1111/J.1467-8535.2011.01198.X,Student use of animated pedagogical agents in a middle school science inquiry program.,2012,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/DeverWRA24,https://doi.org/10.1111/BJET.13432,Investigating pedagogical agents' scaffolding of self-regulated learning in relation to learners' subgoals.,2024,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/Ford08,https://doi.org/10.1111/J.1467-8535.2008.00819.X,A new intelligent tutoring system.,2008,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/Gonzalez-Calero15,https://doi.org/10.1111/BJET.12183,Intensive scaffolding in an intelligent tutoring system for the learning of algebraic word problem solving.,2015,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/HungSS15,https://doi.org/10.1111/BJET.12125,Design and usability assessment of a dialogue-based cognitive tutoring system to model expert problem solving in research design.,2015,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/Jun04,https://doi.org/10.1111/J.1467-8535.2004.00372.X,Developing a computer-based peer tutoring system.,2004,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/LinCWY08,https://doi.org/10.1111/J.1467-8535.2007.00747.X,The effectiveness of a pedagogical agent-based learning system for teaching word recognition to children with moderate mental retardation.,2008,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/Olmo-MunozGDAA22,https://doi.org/10.1111/BJET.13228,Using intra-task flexibility on an intelligent tutoring system to promote arithmetic problem-solving proficiency.,2022,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/RichardsD19,https://doi.org/10.1111/BJET.12863,Supporting and challenging learners through pedagogical agents: Addressing ethical issues through designing for values.,2019,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/SpitzerRM25,https://doi.org/10.1111/BJET.13517,Basic mathematical skills and fraction understanding predict percentage understanding: Evidence from an intelligent tutoring system.,2025,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/WangYHL20,https://doi.org/10.1111/BJET.12998,Participant or spectator? Comprehending the willingness of faculty to use intelligent tutoring systems in the artificial intelligence era.,2020,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/XuWRHI19,https://doi.org/10.1111/BJET.12758,The effectiveness of intelligent tutoring systems on K-12 students' reading comprehension: A meta-analysis.,2019,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/bjet/YoungWJ10,https://doi.org/10.1111/J.1467-8535.2009.00989.X,Exploring perceptions of integrating tangible learning companions in learning English conversation.,2010,Br. J. Educ. Technol.
+https://dblp.org/rec/journals/cacm/Woolf96,https://doi.org/10.1145/227210.227217,Intelligent Multimedia Tutoring Systems.,1996,Commun. ACM
+https://dblp.org/rec/journals/caeai/YangLLO24,https://doi.org/10.1016/J.CAEAI.2024.100309,Enhancing python learning with PyTutor: Efficacy of a ChatGPT-Based intelligent tutoring system in programming education.,2024,Comput. Educ. Artif. Intell.
+https://dblp.org/rec/journals/caee/ChenHCL04,https://doi.org/10.1002/CAE.20004,A prelab tutoring system for Strength of Materials experiment.,2004,Comput. Appl. Eng. Educ.
+https://dblp.org/rec/journals/caee/DoganC10,https://doi.org/10.1002/CAE.20272,Visual clustering of multidimensional educational data from an intelligent tutoring system.,2010,Comput. Appl. Eng. Educ.
+https://dblp.org/rec/journals/caee/OzekAO13,https://doi.org/10.1002/CAE.20501,A web-based intelligent tutoring system for a basic control course.,2013,Comput. Appl. Eng. Educ.
+https://dblp.org/rec/journals/caee/PinheiroRG00,https://doi.org/10.1002/1099-0542(2000)8:3/4%3C235::AID-CAE16%3E3.0.CO;2-Y,A software tool for classification of objects and word problems in hypermedia intelligent tutoring systems.,2000,Comput. Appl. Eng. Educ.
+https://dblp.org/rec/journals/cas/Laureano-CrucesA00,https://doi.org/10.1080/019697200124900,Reactive Agent Design for Intelligent Tutoring Systems.,2000,Cybern. Syst.
+https://dblp.org/rec/journals/ce/ArnauAPG13,https://doi.org/10.1016/J.COMPEDU.2012.11.020,Fundamentals of the design and the operation of an intelligent tutoring system for the learning of the arithmetical and algebraic way of solving word problems.,2013,Comput. Educ.
+https://dblp.org/rec/journals/ce/ChouCL03,https://doi.org/10.1016/S0360-1315(02)00130-6,"Redefining the learning companion: the past, present, and future of educational agents.",2003,Comput. Educ.
+https://dblp.org/rec/journals/ce/DaiJPL22,https://doi.org/10.1016/J.COMPEDU.2022.104607,"A systematic review of pedagogical agent research: Similarities, differences and unexplored aspects.",2022,Comput. Educ.
+https://dblp.org/rec/journals/ce/DincerD17,https://doi.org/10.1016/J.COMPEDU.2017.04.005,"The effects of multiple-pedagogical agents on learners' academic success, motivation, and cognitive load.",2017,Comput. Educ.
+https://dblp.org/rec/journals/ce/HafidiL18,https://doi.org/10.1016/J.COMPEDU.2018.05.011,Implementing flipped classroom that used an intelligent tutoring system into learning process.,2018,Comput. Educ.
+https://dblp.org/rec/journals/ce/HooshyarAYFHL16,https://doi.org/10.1016/J.COMPEDU.2015.10.013,Applying an online game-based formative assessment in a flowchart-based intelligent tutoring system for improving problem-solving skills.,2016,Comput. Educ.
+https://dblp.org/rec/journals/ce/Hwang03,https://doi.org/10.1016/S0360-1315(02)00121-5,A conceptual map model for developing intelligent tutoring systems.,2003,Comput. Educ.
+https://dblp.org/rec/journals/ce/KaklauskasKZDKSRSKJRC15,https://doi.org/10.1016/J.COMPEDU.2014.11.016,Affective Tutoring System for Built Environment Management.,2015,Comput. Educ.
+https://dblp.org/rec/journals/ce/KuoBL26,https://doi.org/10.1016/J.COMPEDU.2025.105463,Developing an AI learning companion for mathematics problem solving in elementary schools.,2026,Comput. Educ.
+https://dblp.org/rec/journals/ce/LinGWZ20,https://doi.org/10.1016/J.COMPEDU.2019.103658,Using a pedagogical agent to deliver conversational style instruction: What benefits can you obtain?,2020,Comput. Educ.
+https://dblp.org/rec/journals/ce/MaoL10,https://doi.org/10.1016/J.COMPEDU.2010.01.005,Agent based affective tutoring systems: A pilot study.,2010,Comput. Educ.
+https://dblp.org/rec/journals/ce/MicarelliB97,https://doi.org/10.1016/S0360-1315(97)00037-7,Conversation rebuilding: From the foreign language classroom to implementation in an intelligent tutoring system.,1997,Comput. Educ.
+https://dblp.org/rec/journals/ce/MoundridouV03,https://doi.org/10.1016/S0360-1315(02)00119-7,Analysis and design of a Web-based authoring tool generating intelligent tutoring systems.,2003,Comput. Educ.
+https://dblp.org/rec/journals/ce/NussbaumRPC01,https://doi.org/10.1016/S0360-1315(00)00048-8,Development of intelligent tutoring systems using knowledge structures.,2001,Comput. Educ.
+https://dblp.org/rec/journals/ce/OzogulJAR13,https://doi.org/10.1016/J.COMPEDU.2013.02.006,Investigating the impact of pedagogical agent gender matching and learner choice on learning outcomes and perceptions.,2013,Comput. Educ.
+https://dblp.org/rec/journals/ce/RauMF15,https://doi.org/10.1016/J.COMPEDU.2014.12.009,Connection making between multiple graphical representations: A multi-methods approach for domain-specific grounding of an intelligent tutoring system for chemistry.,2015,Comput. Educ.
+https://dblp.org/rec/journals/ce/SaldiasBA07,https://doi.org/10.1016/J.COMPEDU.2005.10.005,Intelligent tutoring systems: Formalization as automata and interface design using neural networks.,2007,Comput. Educ.
+https://dblp.org/rec/journals/ce/SanchezBBD14,https://doi.org/10.1016/J.COMPEDU.2014.06.013,The acceptability and efficacy of an intelligent social tutoring system.,2014,Comput. Educ.
+https://dblp.org/rec/journals/ce/SchneiderKBR22,https://doi.org/10.1016/J.COMPEDU.2021.104350,The impact of video lecturers' nonverbal communication on learning - An experiment on gestures and facial expressions of pedagogical agents.,2022,Comput. Educ.
+https://dblp.org/rec/journals/ce/SchroederRC17,https://doi.org/10.1016/J.COMPEDU.2017.02.015,Measuring pedagogical agent persona and the influence of agent persona on learning.,2017,Comput. Educ.
+https://dblp.org/rec/journals/ce/SikstromVSK22,https://doi.org/10.1016/J.COMPEDU.2022.104564,How pedagogical agents communicate with students: A two-phase systematic review.,2022,Comput. Educ.
+https://dblp.org/rec/journals/ce/StankovRZG08,https://doi.org/10.1016/J.COMPEDU.2007.10.002,TEx-Sys model for building intelligent tutoring systems.,2008,Comput. Educ.
+https://dblp.org/rec/journals/ce/Tsuei12,https://doi.org/10.1016/J.COMPEDU.2011.11.025,Using synchronous peer tutoring system to promote elementary students' learning in mathematics.,2012,Comput. Educ.
+https://dblp.org/rec/journals/ce/VaessenPJ14,https://doi.org/10.1016/J.COMPEDU.2013.11.001,University students' achievement goals and help-seeking strategies in an intelligent tutoring system.,2014,Comput. Educ.
+https://dblp.org/rec/journals/ce/WaalkensAT13,https://doi.org/10.1016/J.COMPEDU.2012.07.016,Does supporting multiple student strategies lead to greater learning and motivation? Investigating a source of complexity in the architecture of intelligent tutoring systems.,2013,Comput. Educ.
+https://dblp.org/rec/journals/ce/WangGCF23,https://doi.org/10.1016/J.COMPEDU.2022.104723,The power of affective pedagogical agent and self-explanation in computer-based learning.,2023,Comput. Educ.
+https://dblp.org/rec/journals/ce/WangHZXLR15,https://doi.org/10.1016/J.COMPEDU.2014.10.003,A problem solving oriented intelligent tutoring system to improve students' acquisition of basic computer skills.,2015,Comput. Educ.
+https://dblp.org/rec/journals/ce/WijekumarML13,https://doi.org/10.1016/J.COMPEDU.2013.05.021,High-fidelity implementation of web-based intelligent tutoring system improves fourth and fifth graders content area reading comprehension.,2013,Comput. Educ.
+https://dblp.org/rec/journals/ce/WuZS26,https://doi.org/10.1016/J.COMPEDU.2025.105555,The effects of GAI-enhanced pedagogical agents in the metaverse (GPAiM) on elementary school students' conceptual understanding and cognitive engagement patterns.,2026,Comput. Educ.
+https://dblp.org/rec/journals/ce/ZhangJSLGH24,https://doi.org/10.1016/J.COMPEDU.2024.105165,Pedagogical agent design for K-12 education: A systematic review.,2024,Comput. Educ.
+https://dblp.org/rec/journals/cg/LeeSPCS08,https://doi.org/10.1016/J.CAG.2008.05.009,Newton's Pen: A pen-based tutoring system for statics.,2008,Comput. Graph.
+https://dblp.org/rec/journals/chb/AdamsMDMRIV14,https://doi.org/10.1016/J.CHB.2014.03.053,Using erroneous examples to improve mathematics learning with a web-based tutoring system.,2014,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/BaylorK09,https://doi.org/10.1016/J.CHB.2008.10.008,Designing nonverbal communication for pedagogical agents: When less is more.,2009,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/BeegeSNR20,https://doi.org/10.1016/J.CHB.2020.106483,Does the effect of enthusiasm in a pedagogical Agent's voice depend on mental load in the Learner's working memory?,2020,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/DuffyA15,https://doi.org/10.1016/J.CHB.2015.05.041,Motivation matters: Interactions between achievement goals and agent scaffolding for self-regulated learning within an intelligent tutoring system.,2015,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/Emurian04a,https://doi.org/10.1016/S0747-5632(03)00048-7,A programmed instruction tutoring system for Java™: consideration of learning performance and software self-efficacy.,2004,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/GoldbergC15,https://doi.org/10.1016/J.CHB.2015.05.008,Feedback source modality effects on training outcomes in a serious game: Pedagogical agents make a difference.,2015,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/LinWH14,https://doi.org/10.1016/J.CHB.2014.09.052,The influence of using affective tutoring system in accounting remedial instruction on learning performance and usability.,2014,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/PilegardF16,https://doi.org/10.1016/J.CHB.2016.08.020,Helping students help themselves: Generative learning strategies improve middle school students' self-regulation in a cognitive tutor.,2016,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/Veletsianos12,https://doi.org/10.1016/J.CHB.2011.09.010,"How do learners respond to pedagogical agents that deliver social-oriented non-task messages? Impact on student learning, perceptions, and experiences.",2012,Comput. Hum. Behav.
+https://dblp.org/rec/journals/chb/ZhuhadarMTL16,https://doi.org/10.1016/J.CHB.2016.02.073,Is there a gender difference in interacting with intelligent tutoring system? Can Bayesian Knowledge Tracing and Learning Curve Analysis Models answer this question?,2016,Comput. Hum. Behav.
+https://dblp.org/rec/journals/ci/MacmillanS87,https://doi.org/10.1111/J.1467-8640.1987.TB00170.X,An architecture for a self-improving instructional planner for intelligent tutoring systems.,1987,Comput. Intell.
+https://dblp.org/rec/journals/ci/Murray87,https://doi.org/10.1111/J.1467-8640.1987.TB00169.X,Automatic program debugging for intelligent tutoring systems.,1987,Comput. Intell.
+https://dblp.org/rec/journals/cj/Ramirez-Noriega22,https://doi.org/10.1093/COMJNL/BXAB124,A Method for Building the Quantitative and Qualitative Part of Bayesian Networks for Intelligent Tutoring Systems.,2022,Comput. J.
+https://dblp.org/rec/journals/cmpb/Treceno-Fernandez20,https://doi.org/10.1016/J.CMPB.2020.105634,Integration of an intelligent tutoring system in a magnetic resonance simulator for education: Technical feasibility and user experience.,2020,Comput. Methods Programs Biomed.
+https://dblp.org/rec/journals/cogsci/AlevenK02,https://doi.org/10.1016/S0364-0213(02)00061-7,An effective metacognitive strategy: learning by doing and explaining with a computer-based Cognitive Tutor.,2002,Cogn. Sci.
+https://dblp.org/rec/journals/cogsr/Sychev24,https://doi.org/10.1016/J.COGSYS.2024.101261,Educational models for cognition: Methodology of modeling intellectual skills for intelligent tutoring systems.,2024,Cogn. Syst. Res.
+https://dblp.org/rec/journals/comj/JylhaEET11,https://doi.org/10.1162/COMJ_A_00055,Design and Evaluation of Human-Computer Rhythmic Interaction in a Tutoring System.,2011,Comput. Music. J.
+https://dblp.org/rec/journals/computers/ArguedasDCCO25,https://doi.org/10.3390/COMPUTERS14120542,Exploring the Impact of Affective Pedagogical Agents: Enhancing Emotional Engagement in Higher Education.,2025,Comput.
+https://dblp.org/rec/journals/computers/Son24,https://doi.org/10.3390/COMPUTERS13100270,"Intelligent Tutoring Systems in Mathematics Education: A Systematic Literature Review Using the Substitution, Augmentation, Modification, Redefinition Model.",2024,Comput.
+https://dblp.org/rec/journals/comsis/MilicevicVIB11,https://doi.org/10.2298/CSIS090608021K,Integration of recommendations and adaptive hypermedia into java tutoring system.,2011,Comput. Sci. Inf. Syst.
+https://dblp.org/rec/journals/comsis/Simic04,https://doi.org/10.2298/CSIS0401141S,The multi-courses tutoring system design.,2004,Comput. Sci. Inf. Syst.
+https://dblp.org/rec/journals/comsis/TakaokaO05,https://doi.org/10.2298/CSIS0502023T,A design of interaction model among pedagogical agents in collaborative teaching process.,2005,Comput. Sci. Inf. Syst.
+https://dblp.org/rec/journals/comsis/VesinIMB13,https://doi.org/10.2298/CSIS111231001V,Ontology-based architecture with recommendation strategy in java tutoring system.,2013,Comput. Sci. Inf. Syst.
+https://dblp.org/rec/journals/creativity/BoderC90,https://doi.org/10.1080/14626269009409084,An epistemological approach to intelligent tutoring systems.,1990,Intell. Tutoring Media
+https://dblp.org/rec/journals/creativity/Chan91,https://doi.org/10.1080/14626269109408297,Some techniques for building mathematical intelligent tutoring systems.,1991,Intell. Tutoring Media
+https://dblp.org/rec/journals/creativity/MajorR91,https://doi.org/10.1080/14626269109408299,Using COCA to build an intelligent tutoring system in simple algebra.,1991,Intell. Tutoring Media
+https://dblp.org/rec/journals/creativity/Nwana90a,https://doi.org/10.1080/14626269009408269,The evaluation of an intelligent tutoring system.,1990,Intell. Tutoring Media
+https://dblp.org/rec/journals/creativity/WhitakerB90,https://doi.org/10.1080/14626269009409091,Plan recognition in intelligent tutoring systems.,1990,Intell. Tutoring Media
+https://dblp.org/rec/journals/creativity/ZaharakisKP97,https://doi.org/10.1080/09579139708567075,A hybrid expert system as an embedded module in tutoring systems.,1997,Digit. Creativity
+https://dblp.org/rec/journals/crossroads/Schmucker24,https://doi.org/10.1145/3688086,Harnessing Machine Learning and Generative AI: A New Era in Online Tutoring Systems.,2024,XRDS
+https://dblp.org/rec/journals/dss/SiemerA98,https://doi.org/10.1016/S0167-9236(97)00033-X,A comprehensive method for the evaluation of complete intelligent tutoring systems.,1998,Decis. Support Syst.
+https://dblp.org/rec/journals/dss/TongA00,https://doi.org/10.1016/S0167-9236(00)00061-0,An empirical model for tutoring strategy selection in multimedia tutoring systems.,2000,Decis. Support Syst.
+https://dblp.org/rec/journals/eait/Ates25,https://doi.org/10.1007/S10639-024-12970-Y,Integrating augmented reality into intelligent tutoring systems to enhance science education outcomes.,2025,Educ. Inf. Technol.
+https://dblp.org/rec/journals/eait/ErumitC20,https://doi.org/10.1007/S10639-020-10182-8,Design framework of adaptive intelligent tutoring systems.,2020,Educ. Inf. Technol.
+https://dblp.org/rec/journals/eait/HaridasGRRN20,https://doi.org/10.1007/S10639-020-10144-0,Predicting school performance and early risk of failure from an intelligent tutoring system.,2020,Educ. Inf. Technol.
+https://dblp.org/rec/journals/eait/Hu24,https://doi.org/10.1007/S10639-024-12754-4,Improving ethical dilemma learning: Featuring thinking aloud pair problem solving (TAPPS) and AI-assisted virtual learning companion.,2024,Educ. Inf. Technol.
+https://dblp.org/rec/journals/eait/IbiliRB19,https://doi.org/10.1007/S10639-019-09925-Z,Applying the technology acceptance model to understand maths teachers' perceptions towards an augmented reality tutoring system.,2019,Educ. Inf. Technol.
+https://dblp.org/rec/journals/el/Khan02,https://doi.org/10.1108/02640470210424473,Implementing an intelligent tutoring system for adventure learning.,2002,Electron. Libr.
+https://dblp.org/rec/journals/es/JimenezJCRQ21,https://doi.org/10.1111/EXSY.12483,The use of a weighted affective lexicon in a tutoring system to improve student motivation to learn.,2021,Expert Syst. J. Knowl. Eng.
+https://dblp.org/rec/journals/es/PerikosGKH16,https://doi.org/10.1111/EXSY.12182,Automatic estimation of exercises' difficulty levels in a tutoring system for teaching the conversion of natural language into first-order logic.,2016,Expert Syst. J. Knowl. Eng.
+https://dblp.org/rec/journals/eswa/AmmarNAG10,https://doi.org/10.1016/J.ESWA.2009.09.031,The Affective Tutoring System.,2010,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/ArnauGonzalezSWA25,https://doi.org/10.1016/J.ESWA.2025.126663,A framework for adapting conversational intelligent tutoring systems to enable collaborative learning.,2025,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/BadaraccoM13,https://doi.org/10.1016/J.ESWA.2012.12.023,A fuzzy linguistic algorithm for adaptive test in Intelligent Tutoring System based on competences.,2013,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/ChenD08,https://doi.org/10.1016/J.ESWA.2007.03.010,Personalized web-based tutoring system based on fuzzy item response theory.,2008,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/GrubisicZGVD22,https://doi.org/10.1016/J.ESWA.2021.115900,Evaluation of split-and-rephrase output of the knowledge extraction tool in the intelligent tutoring system.,2022,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/GunelA10,https://doi.org/10.1016/J.ESWA.2009.12.011,Extracting learning concepts from educational texts in intelligent tutoring systems automatically.,2010,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/GutierrezA11,https://doi.org/10.1016/J.ESWA.2010.11.058,Adaptive feedback selection for intelligent tutoring systems.,2011,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/HanLJ05,https://doi.org/10.1016/J.ESWA.2005.04.026,Case-based tutoring systems for procedural problem solving on the www.,2005,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/Hatzilygeroudis04a,https://doi.org/10.1016/J.ESWA.2003.10.007,Using a hybrid rule-based approach in developing an intelligent tutoring system with knowledge acquisition and update capabilities.,2004,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/HuangGYHCZ24,https://doi.org/10.1016/J.ESWA.2023.122048,Long short-term attentional neuro-cognitive diagnostic model for skill growth assessment in intelligent tutoring systems.,2024,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/KelesOKG09,https://doi.org/10.1016/J.ESWA.2007.11.064,ZOSMAT: Web-based intelligent tutoring system for teaching-learning process.,2009,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/KukMRS12,https://doi.org/10.1016/J.ESWA.2012.01.138,Pedagogical agent in Multimedia Interactive Modules for Learning - MIMLE.,2012,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/LiuYLLSLS24,https://doi.org/10.1016/J.ESWA.2023.122451,Hyperbolic embedding of discrete evolution graphs for intelligent tutoring systems.,2024,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/LopezFG03,https://doi.org/10.1016/S0957-4174(02)00087-8,An intelligent tutoring system for turbine startup training of electrical power plant operators.,2003,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/NavarroSFVM03,https://doi.org/10.1016/S0957-4174(02)00183-5,Expert tutoring system for teaching mechanical engineering.,2003,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/VesinIMB12,https://doi.org/10.1016/J.ESWA.2012.04.052,Protus 2.0: Ontology-based semantic recommendation in programming tutoring system.,2012,Expert Syst. Appl.
+https://dblp.org/rec/journals/eswa/Zatarain-CabadaBG11,https://doi.org/10.1016/J.ESWA.2011.01.145,EDUCA: A web 2.0 authoring tool for developing adaptive and intelligent tutoring systems using a Kohonen network.,2011,Expert Syst. Appl.
+https://dblp.org/rec/journals/expert/BurlesonP07,https://doi.org/10.1109/MIS.2007.69,Gender-Specific Approaches to Developing Emotionally Intelligent Learning Companions.,2007,IEEE Intell. Syst.
+https://dblp.org/rec/journals/expert/SuebnukarnH07,https://doi.org/10.1109/MIS.2007.66,COMET: A Collaborative Tutoring System for Medical Problem-Based Learning.,2007,IEEE Intell. Syst.
+https://dblp.org/rec/journals/fi/MukherjeeLC25,https://doi.org/10.3390/FI17040154,Generative AI-Enhanced Intelligent Tutoring System for Graduate Cybersecurity Programs.,2025,Future Internet
+https://dblp.org/rec/journals/hhci/Meij13,https://doi.org/10.1080/07370024.2013.789348,Do Pedagogical Agents Enhance Software Training?,2013,Hum. Comput. Interact.
+https://dblp.org/rec/journals/hm/AngelidesG93,https://doi.org/10.1080/09558543.1993.12031222,PEDRO - The Spanish Tutor. A Hypertext-Based Intelligent Tutoring System for Foreign Language Learning.,1993,Hypermedia
+https://dblp.org/rec/journals/hm/Gartshore90,https://doi.org/10.1080/09558543.1990.12031172,A Hypermedia Tutoring System for Design Trainers.,1990,Hypermedia
+https://dblp.org/rec/journals/iahe/WangGCL25,https://doi.org/10.1016/J.IHEDUC.2025.101035,Parallel empathy or reactive empathy? The role of emotional support provided by affective pedagogical agent in online learning.,2025,Internet High. Educ.
+https://dblp.org/rec/journals/ibmrd/MutahiBKWSC15,https://doi.org/10.1147/JRD.2015.2463591,Seamless blended learning using the Cognitive Learning Companion: A systemic view.,2015,IBM J. Res. Dev.
+https://dblp.org/rec/journals/ibmrd/SundararajanN15,https://doi.org/10.1147/JRD.2015.2464085,Designing engaging intelligent tutoring systems in an age of cognitive computing.,2015,IBM J. Res. Dev.
+https://dblp.org/rec/journals/idt/HafidiB13,https://doi.org/10.3233/IDT-130167,Design and evaluation of an adaptive and intelligent tutoring system by expert system.,2013,Intell. Decis. Technol.
+https://dblp.org/rec/journals/ieee-rita/FontesNDCJS13,https://doi.org/10.1109/RITA.2013.2258235,An Animated Pedagogical Agent to Support Problem-Based Learning.,2013,Rev. Iberoam. de Tecnol. del Aprendiz.
+https://dblp.org/rec/journals/ieee-rita/RodriguezMPCJL13,https://doi.org/10.1109/RITA.2013.2258232,Tutoring System for the Efficient Driving of Combustion Vehicles.,2013,Rev. Iberoam. de Tecnol. del Aprendiz.
+https://dblp.org/rec/journals/ieeemm/TokudaC01,https://doi.org/10.1109/93.940000,An Online Tutoring System for Language Translation.,2001,IEEE Multim.
+https://dblp.org/rec/journals/ijaip/El-SheikhS09,https://doi.org/10.1504/IJAIP.2009.026568,Reusing task-specific knowledge-based systems to generate intelligent tutoring systems.,2009,Int. J. Adv. Intell. Paradigms
+https://dblp.org/rec/journals/ijaip/MishraM11,https://doi.org/10.1504/IJAIP.2011.038114,Characteristic factors and components of different modules in expert systems for intelligent tutoring system.,2011,Int. J. Adv. Intell. Paradigms
+https://dblp.org/rec/journals/ijaose/VicariG07,https://doi.org/10.1504/IJAOSE.2007.016264,An Intelligent Tutoring System (ITS) view on AOSE.,2007,Int. J. Agent Oriented Softw. Eng.
+https://dblp.org/rec/journals/ijcat/HafidiB13,https://doi.org/10.1504/IJCAT.2013.058357,Development of an adaptive and intelligent tutoring system by expert system.,2013,Int. J. Comput. Appl. Technol.
+https://dblp.org/rec/journals/ijdet/AlencarN20,https://doi.org/10.4018/IJDET.2020100101,Improving Learning in Virtual Learning Environments Using Affective Pedagogical Agent.,2020,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijdet/BoulehouacheMS15,https://doi.org/10.4018/IJDET.2015100101,A Context-Aware Self-Adaptive Fractal Based Generalized Pedagogical Agent Framework for Mobile Learning.,2015,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijdet/EkanayakeFRZBH13,https://doi.org/10.4018/JDET.2013040105,Affective Realism of Animated Films in the Development of Simulation-Based Tutoring Systems.,2013,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijdet/HafidiB15,https://doi.org/10.4018/IJDET.2015010101,Architecture for an Adaptive and Intelligent Tutoring System that Considers the Learner's Multiple Intelligences.,2015,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijdet/HuangXL25,https://doi.org/10.4018/IJDET.368420,Effects of Intelligent Tutoring Systems on Educational Outcomes: Evidence From a Comprehensive Analysis.,2025,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijdet/LeungVLAD13,https://doi.org/10.4018/JDET.2013010101,TSI-Enhanced Pedagogical Agents to Engage Learners in Virtual Worlds.,2013,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijdet/Saric-GrgicGSR20,https://doi.org/10.4018/IJDET.2020040105,Student Clustering Based on Learning Behavior Data in the Intelligent Tutoring System.,2020,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijdet/WangL18,https://doi.org/10.4018/IJDET.2018010106,Emotional Design Tutoring System Based on Multimodal Affective Computing Techniques.,2018,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijdet/XuZLY12,https://doi.org/10.4018/JDET.2012070105,FUDAOWANG: A Web-Based Intelligent Tutoring System Implementing Advanced Education Concepts.,2012,Int. J. Distance Educ. Technol.
+https://dblp.org/rec/journals/ijeb/ChopraNCKIR10,https://doi.org/10.1504/IJEB.2010.035291,Frame based Intelligent Tutoring System with weighted attributes and adaptive hypermedia.,2010,Int. J. Electron. Bus.
+https://dblp.org/rec/journals/ijec/LouY24,https://doi.org/10.4018/IJEC.343540,Examining and Visualizing the Effects of Pedagogical Agents on Learning Outcomes.,2024,Int. J. e Collab.
+https://dblp.org/rec/journals/ijhci/AhujaDCK25,https://doi.org/10.1080/10447318.2022.2124359,"""Intelligent Tutoring System in Education for Disabled Learners Using Human-Computer Interaction and Augmented Reality"".",2025,Int. J. Hum. Comput. Interact.
+https://dblp.org/rec/journals/ijhci/ChenJRD25,https://doi.org/10.1080/10447318.2024.2443534,"Effects of Augmented Reality with Pedagogical Agent on EFL Primary Students' Vocabulary Acquisition, Motivation, and Technology Perceptions.",2025,Int. J. Hum. Comput. Interact.
+https://dblp.org/rec/journals/ijhci/KimLKJKS25,https://doi.org/10.1080/10447318.2024.2425881,Empathetic Pedagogical Agent: Mitigating Harmful Effects of Negative Feedback Through Self-Disclosure.,2025,Int. J. Hum. Comput. Interact.
+https://dblp.org/rec/journals/ijhci/LinY25,https://doi.org/10.1080/10447318.2024.2359222,Learner Perceptions of Artificial Intelligence-Generated Pedagogical Agents in Language Learning Videos: Embodiment Effects on Technology Acceptance.,2025,Int. J. Hum. Comput. Interact.
+https://dblp.org/rec/journals/ijhci/MilechKRW93,https://doi.org/10.1080/10447319309526054,Applications of psychology to computer-based tutoring systems.,1993,Int. J. Hum. Comput. Interact.
+https://dblp.org/rec/journals/ijhci/ZielkeZLCRPMK25,https://doi.org/10.1080/10447318.2024.2323280,Exploring Social Learning in Collaborative Augmented Reality With Pedagogical Agents as Learning Companions.,2025,Int. J. Hum. Comput. Interact.
+https://dblp.org/rec/journals/ijhcitp/Khemaja16,https://doi.org/10.4018/IJHCITP.2016040101,Using a Knapsack Model to Optimize Continuous Building of a Hybrid Intelligent Tutoring System: Application to Information Technology Professionals.,2016,Int. J. Hum. Cap. Inf. Technol. Prof.
+https://dblp.org/rec/journals/ijhis/MandalBB17,https://doi.org/10.3233/HIS-170245,An approach to incorporate teachers' individual teaching and evaluation strategies and experience in tutoring model of an Intelligent Tutoring System.,2017,Int. J. Hybrid Intell. Syst.
+https://dblp.org/rec/journals/ijicte/HafidiB14,https://doi.org/10.4018/IJICTE.2014100106,Developing Adaptive and Intelligent Tutoring Systems (AITS): A General Framework and Its Implementations.,2014,Int. J. Inf. Commun. Technol. Educ.
+https://dblp.org/rec/journals/ijicte/LiZX15,https://doi.org/10.4018/IJICTE.2015040102,Developing an Intelligent Tutoring System that has Automatically Generated Hints and Summarization for Algebra and Geometry.,2015,Int. J. Inf. Commun. Technol. Educ.
+https://dblp.org/rec/journals/ijicte/MartinsMSJ16,https://doi.org/10.4018/IJICTE.2016070106,Pedagogical Agent Gestures to Improve Learner Comprehension of Abstract Concepts in Hints.,2016,Int. J. Inf. Commun. Technol. Educ.
+https://dblp.org/rec/journals/ijicte/TafazoliMA19,https://doi.org/10.4018/IJICTE.2019070105,Intelligent Language Tutoring System: Integrating Intelligent Computer-Assisted Language Learning Into Language Education.,2019,Int. J. Inf. Commun. Technol. Educ.
+https://dblp.org/rec/journals/ijicte/ThompsonM12,https://doi.org/10.4018/JICTE.2012100107,Affective Tutoring Systems: Enhancing e-Learning with the Emotional Awareness of a Human Tutor.,2012,Int. J. Inf. Commun. Technol. Educ.
+https://dblp.org/rec/journals/ijiit/Al-RadaeiM11,https://doi.org/10.4018/JIIT.2011100104,A Heuristic Method for Learning Path Sequencing for Intelligent Tutoring System (ITS) in E-learning.,2011,Int. J. Intell. Inf. Technol.
+https://dblp.org/rec/journals/ijiit/MishraM10,https://doi.org/10.4018/JIIT.2010100904,Multiagent Based Selection of Tutor-Subject-Student Paradigm in an Intelligent Tutoring System.,2010,Int. J. Intell. Inf. Technol.
+https://dblp.org/rec/journals/ijimai/PalominoS13,https://doi.org/10.9781/IJIMAI.2013.217,A multi-agent system model to integrate Virtual Learning Environments and Intelligent Tutoring Systems.,2013,Int. J. Interact. Multim. Artif. Intell.
+https://dblp.org/rec/journals/ijinfoman/Ramirez-Noriega17,https://doi.org/10.1016/J.IJINFOMGT.2016.05.007,Evaluation module based on Bayesian networks to Intelligent Tutoring Systems.,2017,Int. J. Inf. Manag.
+https://dblp.org/rec/journals/ijis/LiW23,https://doi.org/10.1155/2023/2578286,Knowledge Graph-Enhanced Intelligent Tutoring System Based on Exercise Representativeness and Informativeness.,2023,Int. J. Intell. Syst.
+https://dblp.org/rec/journals/ijis/WangYZTD23,https://doi.org/10.1155/2023/4468025,A Unified Interpretable Intelligent Learning Diagnosis Framework for Learning Performance Prediction in Intelligent Tutoring Systems.,2023,Int. J. Intell. Syst.
+https://dblp.org/rec/journals/ijitdm/PekP05,https://doi.org/10.1142/S0219622005001489,Making decisions in an intelligent tutoring system.,2005,Int. J. Inf. Technol. Decis. Mak.
+https://dblp.org/rec/journals/ijitwe/MohamedT13,https://doi.org/10.4018/IJITWE.2013070102,Combining Expert Systems and Multiple Intelligences in an Adaptive and Intelligent Tutoring System.,2013,Int. J. Inf. Technol. Web Eng.
+https://dblp.org/rec/journals/ijkl/DermevalLAABSIS17,https://doi.org/10.1504/IJKL.2017.10009129,An ontology-driven software product line architecture for developing gamified intelligent tutoring systems.,2017,Int. J. Knowl. Learn.
+https://dblp.org/rec/journals/ijksr/MeleskoK18,https://doi.org/10.4018/IJSEUS.2018040101,Adaptive Tutoring System With Application of Intelligent Agents.,2018,Int. J. Smart Educ. Urban Soc.
+https://dblp.org/rec/journals/ijlt/BealG15,https://doi.org/10.1504/IJLT.2015.070686,Math word problem solving by English learners and English primary students in an intelligent tutoring system.,2015,Int. J. Learn. Technol.
+https://dblp.org/rec/journals/ijlt/Cheney14,https://doi.org/10.1504/IJLT.2014.062448,Users' preference for and perception of animated pedagogical agents.,2014,Int. J. Learn. Technol.
+https://dblp.org/rec/journals/ijlt/Saric-GrgicGSS19,https://doi.org/10.1504/IJLT.2019.101847,An agent-based intelligent tutoring systems review.,2019,Int. J. Learn. Technol.
+https://dblp.org/rec/journals/ijlt/SullinsCH15,https://doi.org/10.1504/IJLT.2015.072358,Exploring the effectiveness of a novel feedback mechanism within an intelligent tutoring system.,2015,Int. J. Learn. Technol.
+https://dblp.org/rec/journals/ijmbl/LiuYDY24,https://doi.org/10.4018/IJMBL.346976,Bibliometric Analyses of the Impact of Pedagogical Agents on Learning.,2024,Int. J. Mob. Blended Learn.
+https://dblp.org/rec/journals/ijmbl/SarrafzadehAS09,https://doi.org/10.4018/JMBL.2009010105,Affective Tutoring System for Better Learning.,2009,Int. J. Mob. Blended Learn.
+https://dblp.org/rec/journals/ijmlo/JiaCZ22,https://doi.org/10.1504/IJMLO.2022.124158,The application and effect of smartphones and an online tutoring system CSIEC for vocabulary drilling through nine semesters.,2022,Int. J. Mob. Learn. Organisation
+https://dblp.org/rec/journals/ijmlo/JiaLL23,https://doi.org/10.1504/IJMLO.2023.133768,The limited usage and effect of smart phones and an online tutoring system for regular and large-scale university English teaching.,2023,Int. J. Mob. Learn. Organisation
+https://dblp.org/rec/journals/ijmms/CarlottoJ16,https://doi.org/10.1016/J.IJHCS.2016.06.001,The effects of animated pedagogical agents in an English-as-a-foreign-language learning environment.,2016,Int. J. Hum. Comput. Stud.
+https://dblp.org/rec/journals/ijmms/DMelloOWH12,https://doi.org/10.1016/J.IJHCS.2012.01.004,Gaze tutor: A gaze-reactive intelligent tutoring system.,2012,Int. J. Hum. Comput. Stud.
+https://dblp.org/rec/journals/ijmms/GulzH06,https://doi.org/10.1016/J.IJHCS.2005.08.006,Design of animated pedagogical agents - A look at their look.,2006,Int. J. Hum. Comput. Stud.
+https://dblp.org/rec/journals/ijmms/PeacheyM86,https://doi.org/10.1016/S0020-7373(86)80041-4,Using Planning Techniques in Intelligent Tutoring Systems.,1986,Int. J. Man Mach. Stud.
+https://dblp.org/rec/journals/ijmms/PilletteJMNNL20,https://doi.org/10.1016/J.IJHCS.2019.102380,A physical learning companion for Mental-Imagery BCI User Training.,2020,Int. J. Hum. Comput. Stud.
+https://dblp.org/rec/journals/ijmms/Schwind90,https://doi.org/10.1016/S0020-7373(05)80053-7,An Intelligent Language Tutoring System.,1990,Int. J. Man Mach. Stud.
+https://dblp.org/rec/journals/ijmms/WangJMRSC08,https://doi.org/10.1016/J.IJHCS.2007.09.003,The politeness effect: Pedagogical agents and learning outcomes.,2008,Int. J. Hum. Comput. Stud.
+https://dblp.org/rec/journals/ijmms/Zapata-RiveraG04,https://doi.org/10.1016/J.IJHCS.2003.12.017,Inspectable Bayesian student modelling servers in multi-agent tutoring systems.,2004,Int. J. Hum. Comput. Stud.
+https://dblp.org/rec/journals/ijmms/ZhuL25,https://doi.org/10.1016/J.IJHCS.2025.103654,"Understanding middle school students' experiences, perceptions, and desired designs about intelligent tutoring systems through co-designing activities.",2025,Int. J. Hum. Comput. Stud.
+https://dblp.org/rec/journals/ijon/GanSS22,https://doi.org/10.1016/J.NEUCOM.2022.02.080,Knowledge interaction enhanced sequential modeling for interpretable learner knowledge diagnosis in intelligent tutoring systems.,2022,Neurocomputing
+https://dblp.org/rec/journals/ijon/PuLGCX24,https://doi.org/10.1016/J.NEUCOM.2024.128442,Graph neural network based intelligent tutoring system: A survey.,2024,Neurocomputing
+https://dblp.org/rec/journals/ijopcd/SuLWH16,https://doi.org/10.4018/IJOPCD.2016010102,Multi-Modal Affective Computing Technology Design the Interaction between Computers and Human of Intelligent Tutoring Systems.,2016,Int. J. Online Pedagog. Course Des.
+https://dblp.org/rec/journals/ijsnet/ChenJWLW25,https://doi.org/10.1504/IJSNET.2025.148459,A self-distillation approach for enhancing intelligence tutoring system math solving based on large language models.,2025,Int. J. Sens. Networks
+https://dblp.org/rec/journals/ijspm/Brawner19,https://doi.org/10.1504/IJSPM.2019.100999,Individualised modelling of affective data for intelligent tutoring systems: lessons learned.,2019,Int. J. Simul. Process. Model.
+https://dblp.org/rec/journals/ijtem/Petrovica14,https://doi.org/10.4018/IJTEM.2014010106,Tutoring Process in Emotionally Intelligent Tutoring Systems.,2014,Int. J. Technol. Educ. Mark.
+https://dblp.org/rec/journals/ijthi/AnasingarajuAD20,https://doi.org/10.4018/IJTHI.2020100105,The Contribution of Different Body Channels to the Expression of Emotion in Animated Pedagogical Agents.,2020,Int. J. Technol. Hum. Interact.
+https://dblp.org/rec/journals/ijwltt/HellerP09,https://doi.org/10.4018/JWLTT.2009010104,Animated Pedagogical Agents: The Effect of Visual Information on a Historical Figure Application.,2009,Int. J. Web Based Learn. Teach. Technol.
+https://dblp.org/rec/journals/ijwltt/MarinN22,https://doi.org/10.4018/IJWLTT.288035,Multiagent Intelligent Tutoring System for Financial Literacy.,2022,Int. J. Web Based Learn. Teach. Technol.
+https://dblp.org/rec/journals/ile/BarbosaCB24,https://doi.org/10.1080/10494820.2023.2229145,Does gender-stereotyped gamification increase negative thinking? Results from an experimental study with logic tutoring systems.,2024,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/ChinHHSL16,https://doi.org/10.1080/10494820.2013.851089,Courseware development with animated pedagogical agents in learning system to improve learning motivation.,2016,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/HsiehSCC15,https://doi.org/10.1080/10494820.2013.765895,The development of a robot-based learning companion: a user-centered design approach.,2015,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/KoedingerA98,https://doi.org/10.1080/1049482980050111,Illustrating Principled Design: The Early Evolution of a Cognitive Tutor for Algebra Symbolization.,1998,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/Laureano-Cruces98,https://doi.org/10.1076/ILEE.6.3.225.3603,Multi-Agent Architecture for Intelligent Tutoring Systems.,1998,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/MousavinasabZKR21,https://doi.org/10.1080/10494820.2018.1558257,"Intelligent tutoring systems: a systematic review of characteristics, applications, and evaluation methods.",2021,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/PaladinesRB23,https://doi.org/10.1080/10494820.2021.1972012,Integrating a dialog system with an intelligent tutoring system for a 3D virtual laboratory.,2023,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/TangLWH23,https://doi.org/10.1080/10494820.2021.2010100,Modeling learning behaviors and predicting performance in an intelligent tutoring system: a two-layer hidden Markov modeling approach.,2023,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/Tsuei17,https://doi.org/10.1080/10494820.2016.1276078,Learning behaviours of low-achieving children's mathematics learning in using of helping tools in a synchronous peer-tutoring system.,2017,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/WetzelVBCDFGJKP17,https://doi.org/10.1080/10494820.2015.1131167,The design and development of the dragoon intelligent tutoring system for model construction: lessons learned.,2017,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/YangCLP25,https://doi.org/10.1080/10494820.2025.2488984,"Asking questions matters: comparing the effect of learning through dialogue with peers, ChatGPT, and intelligent tutoring system.",2025,Interact. Learn. Environ.
+https://dblp.org/rec/journals/ile/ZhangPYCZ23,https://doi.org/10.1080/10494820.2021.1958234,Evaluation of a student-centered online one-to-one tutoring system.,2023,Interact. Learn. Environ.
+https://dblp.org/rec/journals/information/DavisVYLL25,https://doi.org/10.3390/INFO16050350,The Exploration of Combining Hologram-like Images and Pedagogical Agent Gesturing.,2025,Inf.
+https://dblp.org/rec/journals/infsof/TongA99,https://doi.org/10.1016/S0950-5849(98)00122-0,Formalising tutoring strategy selection in multimedia tutoring systems.,1999,Inf. Softw. Technol.
+https://dblp.org/rec/journals/inroads/Yang10,https://doi.org/10.1145/1869746.1869765,The ideology of intelligent tutoring systems.,2010,Inroads
+https://dblp.org/rec/journals/isci/Castro-SchezGAV21,https://doi.org/10.1016/J.INS.2020.08.079,An intelligent tutoring system for supporting active learning: A case study on predictive parsing learning.,2021,Inf. Sci.
+https://dblp.org/rec/journals/isci/HolmesH94,https://doi.org/10.1016/0020-0255(94)90053-1,Attribute Pattern-Matching Equations: A Diagnostic Technique for Intelligent Tutoring Systems.,1994,Inf. Sci.
+https://dblp.org/rec/journals/itl/Lian25,https://doi.org/10.1002/ITL2.70154,User Intent Understanding and Service Classification in English Tutoring Systems via Large Language Models Over Wireless Communication Networks.,2025,Internet Technol. Lett.
+https://dblp.org/rec/journals/itse/KizilkayaA08,https://doi.org/10.1108/17415650810930893,The effect of an embedded pedagogical agent on the students' science achievement.,2008,Interact. Technol. Smart Educ.
+https://dblp.org/rec/journals/itse/LeJ22,https://doi.org/10.1108/ITSE-12-2021-0210,Design and implementation of an intelligent tutoring system in the view of learner autonomy.,2022,Interact. Technol. Smart Educ.
+https://dblp.org/rec/journals/itse/NegoitaP04,https://doi.org/10.1108/17415650480000023,Using a virtual student model for testing intelligent tutoring systems.,2004,Interact. Technol. Smart Educ.
+https://dblp.org/rec/journals/itse/ZhongZ25,https://doi.org/10.1108/ITSE-09-2023-0182,"An intelligent tutoring system for programming education based on informative tutoring feedback: system development, algorithm design, and empirical study.",2025,Interact. Technol. Smart Educ.
+https://dblp.org/rec/journals/iwc/VeletsianosSD08,https://doi.org/10.1016/J.INTCOM.2008.02.007,"When sex, drugs, and violence enter the classroom: Conversations between adolescents and a female pedagogical agent.",2008,Interact. Comput.
+https://dblp.org/rec/journals/iwc/WangLC06,https://doi.org/10.1016/J.INTCOM.2005.11.002,A web-based tutoring system with styles-matching strategy for spatial geometric transformation.,2006,Interact. Comput.
+https://dblp.org/rec/journals/jamia/CrowleyLMTRJ07,https://doi.org/10.1197/JAMIA.M2241,"Research paper: Evaluation of an Intelligent Tutoring System in Pathology: Effects of External Representation on Performance Gains, Metacognition, and Acceptance.",2007,J. Am. Medical Informatics Assoc.
+https://dblp.org/rec/journals/jcal/ArguedasD21,https://doi.org/10.1111/JCAL.12556,Analysing the role of a pedagogical agent in psychological and cognitive preparatory activities.,2021,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/AshrafzadeMMM25,https://doi.org/10.1111/JCAL.70107,The Impact of Humorous Pedagogical Agents on Student Engagement and Academic Performance in Science Education.,2025,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/DavisLVW24,https://doi.org/10.1111/JCAL.13053,Exploring gesture frequencies and images in multimedia environments with pedagogical agents.,2024,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/FengBHKCLSC25,https://doi.org/10.1111/JCAL.70106,Evaluating the Efficacy of an Intelligent Tutoring System That Integrates Affective Supports Into Math Learning.,2025,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/GrubisicSGZ25,https://doi.org/10.1111/JCAL.70071,Usability Evaluation of an Adaptive Courseware Approach in the Natural Language-Based Intelligent Tutoring System-Tutomat.,2025,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/HooshyarAYYH15,https://doi.org/10.1111/JCAL.12099,A flowchart-based intelligent tutoring system for improving problem-solving skills of novice programmers.,2015,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/HuangBGKS23,https://doi.org/10.1111/JCAL.12757,Supporting skill integration in an intelligent tutoring system for code tracing.,2023,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/HuangLWPL23,https://doi.org/10.1111/JCAL.12827,Exploring the co-occurrence of students' learning behaviours and reasoning processes in an intelligent tutoring system: An epistemic network analysis.,2023,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/JohnsonOR15,https://doi.org/10.1111/JCAL.12078,Supporting multimedia learning with visual signalling and animated pedagogical agent: moderating effects of prior knowledge.,2015,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/KimBS07,https://doi.org/10.1111/J.1365-2729.2006.00210.X,Pedagogical agents as learning companions: the impact of agent emotion and gender.,2007,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/LiWML22,https://doi.org/10.1111/JCAL.12634,Animated pedagogical agents enhance learning outcomes and brain activity during learning.,2022,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/Malakul25,https://doi.org/10.1111/JCAL.70083,Exploring Factors Influencing Teachers' Acceptance of AI Tools for Creating Animated Educational Videos With Pedagogical Agents.,2025,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/MoundridouV02,https://doi.org/10.1046/J.0266-4909.2001.00237.X,Evaluating the persona effect of an interface agent in a tutoring system.,2002,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/PoitrasMHUL19,https://doi.org/10.1111/JCAL.12380,Scaffolding student teachers' information-seeking behaviours with a network-based tutoring system.,2019,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/SharmaOAR21,https://doi.org/10.1111/JCAL.12467,Measuring causality between collaborative and individual gaze metrics for collaborative problem-solving with intelligent tutoring systems.,2021,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/SiegleC24,https://doi.org/10.1111/JCAL.13027,The voice quality of pedagogical agent impacts learning and agent perceptions.,2024,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/SpitzerBRSM25,https://doi.org/10.1111/JCAL.70093,A Psychological Network Analysis to Examine Interdependencies Between Fraction and Algebra Subtopics in an Intelligent Tutoring System.,2025,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/TacomaDJ21,https://doi.org/10.1111/JCAL.12491,Combined inner and outer loop feedback in an intelligent tutoring system for statistics in higher education.,2021,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/VirvouT01,https://doi.org/10.1046/J.0266-4909.2001.00172.X,An object-oriented software life cycle of an intelligent tutoring system.,2001,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/WangGJL25,https://doi.org/10.1111/JCAL.70157,Investigating the Effects of Affective Pedagogical Agent and Meta-Cognitive Prompts in Online Learning Environment.,2025,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/WangZTL23,https://doi.org/10.1111/JCAL.12824,Computer-based scaffoldings influence students' metacognitive monitoring and problem-solving efficiency in an intelligent tutoring system.,2023,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/WemmenhoveBCP25,https://doi.org/10.1111/JCAL.70088,Service Design for the Improvement of Intelligent Tutoring Systems: A Case Study.,2025,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/Woo09,https://doi.org/10.1111/J.1365-2729.2008.00299.X,Designing multimedia learning environments using animated pedagogical agents: factors and issues.,2009,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/WuJGM23,https://doi.org/10.1111/JCAL.12822,The zoomorphic effect: A contribution to the study of images of pedagogical agents for children's learning in instructional videos.,2023,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcal/XiaoLHZ25,https://doi.org/10.1111/JCAL.70101,Optimising Multimedia Learning: Effects of Pedagogical Agents' Appearance and Voice.,2025,J. Comput. Assist. Learn.
+https://dblp.org/rec/journals/jcit-igi/SinghAK18,https://doi.org/10.4018/JCIT.2018070101,A Novel Architecture for Learner-Centric Curriculum Sequencing in Adaptive Intelligent Tutoring System.,2018,J. Cases Inf. Technol.
+https://dblp.org/rec/journals/jcmse/Wang25b,https://doi.org/10.1177/14727978241296719,AI-driven autonomous interactive English learning language tutoring system.,2025,J. Comput. Methods Sci. Eng.
+https://dblp.org/rec/journals/jid/SychevSK23,https://doi.org/10.1177/10920617241289701,Embedding process knowledge in cyber-social systems on the example of cognitive tutor to teach scope.,2023,J. Integr. Des. Process. Sci.
+https://dblp.org/rec/journals/jifs/Ramirez-Noriega18,https://doi.org/10.3233/JIFS-169501,Determination of the course sequencing to intelligent tutoring systems using an ontology and Wikipedia.,2018,J. Intell. Fuzzy Syst.
+https://dblp.org/rec/journals/jifs/RidaBEM23,https://doi.org/10.3233/JIFS-232319,An architecture for the dynamic adaptation of an intelligent multi-tutoring system.,2023,J. Intell. Fuzzy Syst.
+https://dblp.org/rec/journals/jifs/SuFL18,https://doi.org/10.3233/JIFS-169627,Research on the influence of computer aided intelligent tutoring system on teacher's Self-efficacy.,2018,J. Intell. Fuzzy Syst.
+https://dblp.org/rec/journals/jnit/AgadaY12,https://doi.org/10.4156/JNIT.VOL3.ISSUE1.7,Research to Improve Communication by Animated Pedagogical Agents.,2012,J. Next Gener. Inf. Technol.
+https://dblp.org/rec/journals/jss/CheungHZY03,https://doi.org/10.1016/S0164-1212(02)00133-4,SmartTutor: An intelligent tutoring system in web-based adult education.,2003,J. Syst. Softw.
+https://dblp.org/rec/journals/kbs/Arevalillo-Herraez17,https://doi.org/10.1016/J.KNOSYS.2017.06.024,Adding sensor-free intention-based affective support to an Intelligent Tutoring System.,2017,Knowl. Based Syst.
+https://dblp.org/rec/journals/kbs/Arevalillo-HerraezAM13,https://doi.org/10.1016/J.KNOSYS.2013.04.017,Domain-specific knowledge representation and inference engine for an intelligent tutoring system.,2013,Knowl. Based Syst.
+https://dblp.org/rec/journals/kbs/EscuderoF10,https://doi.org/10.1016/J.KNOSYS.2010.05.011,Exchanging courses between different Intelligent Tutoring Systems: A generic course generation authoring tool.,2010,Knowl. Based Syst.
+https://dblp.org/rec/journals/kbs/Paredes-Frigolett16,https://doi.org/10.1016/J.KNOSYS.2015.10.027,A novel method for rule extraction in a knowledge-based innovation tutoring system.,2016,Knowl. Based Syst.
+https://dblp.org/rec/journals/kbs/Shih12,https://doi.org/10.1016/J.KNOSYS.2011.05.008,Zero tolerance cue angle analysis and its effect on successive sink rate of a low cost billiard reposition control tutoring system.,2012,Knowl. Based Syst.
+https://dblp.org/rec/journals/kbs/SuCWDHWCWX22,https://doi.org/10.1016/J.KNOSYS.2022.109547,Graph-based cognitive diagnosis for intelligent tutoring systems.,2022,Knowl. Based Syst.
+https://dblp.org/rec/journals/lht/HuangCWH13,https://doi.org/10.1108/07378831311329059,A multi-strategy machine learning student modeling for intelligent tutoring systems: Based on blackboard approach.,2013,Libr. Hi Tech
+https://dblp.org/rec/journals/nrhm/CetinENKK25,https://doi.org/10.1080/13614568.2025.2535697,Determining the effects of mathematics teaching with the gamified intelligent tutoring system.,2025,New Rev. Hypermedia Multim.
+https://dblp.org/rec/journals/oir/YuceAI19,https://doi.org/10.1108/OIR-11-2017-0340,Intelligent tutoring systems and learning performance.,2019,Online Inf. Rev.
+https://dblp.org/rec/journals/peerj-cs/LiuASMKV25,https://doi.org/10.7717/PEERJ-CS.2991,LPITutor: an LLM based personalized intelligent tutoring system using RAG and prompt engineering.,2025,PeerJ Comput. Sci.
+https://dblp.org/rec/journals/presence/JohnsonRSM98,https://doi.org/10.1162/105474698565929,Integrating Pedagogical Agents into Virtual Environments.,1998,Presence Teleoperators Virtual Environ.
+https://dblp.org/rec/journals/riga/LavendelisG09,https://doi.org/10.2478/V10143-009-0003-0,Requirements analysis of Multi-Agent Based Intelligent Tutoring Systems.,2009,Sci. J. Riga Tech. Univ. Ser. Comput. Sci.
+https://dblp.org/rec/journals/scjapan/ItoEOWK02,https://doi.org/10.1002/SCJ.1102,Development of an online handwritten character recognition module on WWW client and its implementation in a WWW-based intelligent tutoring system.,2002,Syst. Comput. Jpn.
+https://dblp.org/rec/journals/scjapan/KashiharaHTN92,https://doi.org/10.1002/SCJ.4690231209,Advanced explanation capabilities for intelligent tutoring systems: The explanation structure model (EXSEL).,1992,Syst. Comput. Jpn.
+https://dblp.org/rec/journals/scjapan/NakamuraIO00,https://doi.org/10.1002/1520-684X(200009)31:10%3C56::AID-SCJ6%3E3.0.CO;2-S,Intelligent tutoring system for reading mathematical expressions.,2000,Syst. Comput. Jpn.
+https://dblp.org/rec/journals/scjapan/OkazakiWK97,https://doi.org/10.1002/(SICI)1520-684X(199708)28:9%3C11::AID-SCJ2%3E3.0.CO;2-N,An ITS (Intelligent Tutoring System) on the WWW (World Wide Web).,1997,Syst. Comput. Jpn.
+https://dblp.org/rec/journals/scp/BucchiaroneMFC24,https://doi.org/10.1016/J.SCICO.2023.103003,PolyGloT: A personalized and gamified eTutoring system for learning modelling and programming skills.,2024,Sci. Comput. Program.
+https://dblp.org/rec/journals/scp/NewarZSSS23,https://doi.org/10.1016/J.SCICO.2023.102933,SSDTutor: A feedback-driven intelligent tutoring system for secure software development.,2023,Sci. Comput. Program.
+https://dblp.org/rec/journals/sensors/AlqahtaniR19,https://doi.org/10.3390/S19030460,Comparison and Efficacy of Synergistic Intelligent Tutoring Systems with Human Physiological Response.,2019,Sensors
+https://dblp.org/rec/journals/sigart/Bienkowski89,https://doi.org/10.1145/70632.1059726,Book Review: Artificial Intelligence and Tutoring Systems: Computational and Cognitive Approaches to the Communication of Knowledge by Eitenne Wenger (Morgan Kaufmann Publishers).,1989,SIGART Newsl.
+https://dblp.org/rec/journals/sigart/FreedmanAM00,https://doi.org/10.1145/350752.350756,Links: what is an intelligent tutoring system?,2000,Intell.
+https://dblp.org/rec/journals/sigart/JohnsonR97,https://doi.org/10.1145/272874.272877,Steve: an animated pedagogical agent for procedural training in virtual environments.,1997,SIGART Bull.
+https://dblp.org/rec/journals/sigart/McGraw89,https://doi.org/10.1145/65751.1059599,"Book review: Intelligent Tutoring Systems - Lessons Learned by Joseph Psotka, L. Dan Massey, and Sharon Mutter (Lawrence Erlbaum Assocs. Inc.).",1989,SIGART Newsl.
+https://dblp.org/rec/journals/sigchi/Tyler88,https://doi.org/10.1145/49103.1046398,Book review: Artificial Intelligence and Tutoring Systems by Etienne Wenger (Morgan Kaufman 1987).,1988,ACM SIGCHI Bull.
+https://dblp.org/rec/journals/sigcse/Guvenir95,https://doi.org/10.1145/209849.209856,An object-oriented tutoring system for teaching sets.,1995,ACM SIGCSE Bull.
+https://dblp.org/rec/journals/simpra/AngelidesP93,https://doi.org/10.1016/0928-4869(93)90002-8,Developing an intelligent tutoring system for a business simulation game.,1993,Simul. Pract. Theory
+https://dblp.org/rec/journals/taffco/RodrigoBANRRP12,https://doi.org/10.1109/T-AFFC.2011.41,The Effects of an Interactive Software Agent on Student Affective Dynamics while Using ;an Intelligent Tutoring System.,2012,IEEE Trans. Affect. Comput.
+https://dblp.org/rec/journals/te/ButzDM06,https://doi.org/10.1109/TE.2006.872407,An intelligent tutoring system for circuit analysis.,2006,IEEE Trans. Educ.
+https://dblp.org/rec/journals/te/ChangSWD03,https://doi.org/10.1109/TE.2002.808276,Web_Soc: a Socratic-dialectic-based collaborative tutoring system on the World Wide Web.,2003,IEEE Trans. Educ.
+https://dblp.org/rec/journals/te/DavidovicWT03,https://doi.org/10.1109/TE.2002.808240,Learning benefits of structural example-based adaptive tutoring systems.,2003,IEEE Trans. Educ.
+https://dblp.org/rec/journals/te/GraesserCHO05,https://doi.org/10.1109/TE.2005.856149,AutoTutor: an intelligent tutoring system with mixed-initiative dialogue.,2005,IEEE Trans. Educ.
+https://dblp.org/rec/journals/te/Piramuthu05,https://doi.org/10.1109/TE.2005.854574,Knowledge-based web-enabled agents and intelligent tutoring systems.,2005,IEEE Trans. Educ.
+https://dblp.org/rec/journals/te/QiuW25,https://doi.org/10.1109/TE.2024.3448532,Knowledge Tracing Through Enhanced Questions and Directed Learning Interaction Based on Multigraph Embeddings in Intelligent Tutoring Systems.,2025,IEEE Trans. Educ.
+https://dblp.org/rec/journals/te/RoldanAlvarezM24,https://doi.org/10.1109/TE.2023.3331055,Intelligent Deep-Learning Tutoring System to Assist Instructors in Programming Courses.,2024,IEEE Trans. Educ.
+https://dblp.org/rec/journals/tedu/OhW08,https://doi.org/10.1007/978-3-540-69744-2_4,ARGarden: Augmented Edutainment System with a Learning Companion.,2008,Trans. Edutainment
+https://dblp.org/rec/journals/tjs/Sole-BetetaNVZK21,https://doi.org/10.1007/S11227-020-03330-X,Automatic tutoring system to support cross-disciplinary training in Big Data.,2021,J. Supercomput.
+https://dblp.org/rec/journals/tkde/ChouCL02,https://doi.org/10.1109/TKDE.2002.1047774,An Approach of Implementing General Learning Companions for Problem Solving.,2002,IEEE Trans. Knowl. Data Eng.
+https://dblp.org/rec/journals/tlt/ButtussiC20,https://doi.org/10.1109/TLT.2019.2902401,Humor and Fear Appeals in Animated Pedagogical Agents: An Evaluation in Aviation Safety Education.,2020,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tlt/Fournier-VigerNM08,https://doi.org/10.1109/TLT.2008.13,Evaluating Spatial Representations and Skills in a Simulator-Based Tutoring System.,2008,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tlt/IlicKMMKV24,https://doi.org/10.1109/TLT.2024.3431473,Predicting Student Performance in a Programming Tutoring System Using AI and Filtering Techniques.,2024,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tlt/LiuZJ24,https://doi.org/10.1109/TLT.2024.3382000,The Design of Guiding and Adaptive Prompts for Intelligent Tutoring Systems and Its Effect on Students' Mathematics Learning.,2024,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tlt/LuburicDSVGKP25,https://doi.org/10.1109/TLT.2025.3545641,An Intelligent Tutoring System to Support Code Maintainability Skill Development.,2025,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tlt/LuWCZ24,https://doi.org/10.1109/TLT.2024.3403135,Design and Evaluation of Trustworthy Knowledge Tracing Model for Intelligent Tutoring System.,2024,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tlt/MarthaSJS23,https://doi.org/10.1109/TLT.2023.3266439,The Effect of the Integration of Metacognitive and Motivation Scaffolding Through a Pedagogical Agent on Self- and Co-Regulation Learning.,2023,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tlt/SungRV24,https://doi.org/10.1109/TLT.2024.3396393,Development of an Intelligent Tutoring System That Assesses Internal Visualization Skills in Engineering Using Multimodal Triangulation.,2024,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tlt/Varnavsky24,https://doi.org/10.1109/TLT.2024.3439470,The Three-Stage Hierarchical Logistic Model Controlling Personalized Playback of Audio Information for Intelligent Tutoring Systems.,2024,IEEE Trans. Learn. Technol.
+https://dblp.org/rec/journals/tmm/ChenL09,https://doi.org/10.1109/TMM.2008.2009721,WMA: A Marking-Based Synchronized Multimedia Tutoring System for English Composition Studies.,2009,IEEE Trans. Multim.
+https://dblp.org/rec/journals/tochi/LongA17,https://doi.org/10.1145/3057889,Educational Game and Intelligent Tutoring System: A Classroom Study and Comparative Design Analysis.,2017,ACM Trans. Comput. Hum. Interact.
+https://dblp.org/rec/journals/tois/DengRZC25,https://doi.org/10.1145/3760401,Towards Goal-oriented Intelligent Tutoring Systems in Online Education.,2025,ACM Trans. Inf. Syst.
+https://dblp.org/rec/journals/tois/LiuLYSSLZD24,https://doi.org/10.1145/3617828,Heterogeneous Evolution Network Embedding with Temporal Extension for Intelligent Tutoring Systems.,2024,ACM Trans. Inf. Syst.
+https://dblp.org/rec/journals/tse/NgBK95,https://doi.org/10.1109/32.387471,An Intelligent Tutoring System for the Dijkstra-Gries Methodology.,1995,IEEE Trans. Software Eng.
+https://dblp.org/rec/journals/tse/XuC03,https://doi.org/10.1109/TSE.2003.1191799,Transformation-Based Diagnosis of Student Programs for Programming Tutoring Systems.,2003,IEEE Trans. Software Eng.
+https://dblp.org/rec/journals/tsmc/ChuMJ95,https://doi.org/10.1109/21.391287,Using the operator function model and OFMspert as the basis for an intelligent tutoring system: towards a tutor/aid paradigm for operators of supervisory control systems.,1995,IEEE Trans. Syst. Man Cybern.
+https://dblp.org/rec/journals/tsmc/GohQ07,https://doi.org/10.1109/TSMCA.2006.886340,EpiList: An Intelligent Tutoring System Shell for Implicit Development of Generic Cognitive Skills That Support Bottom-Up Knowledge Construction.,2007,IEEE Trans. Syst. Man Cybern. Part A
+https://dblp.org/rec/journals/tsmc/HuangT96,https://doi.org/10.1109/3468.485756,A syntactical approach to diagnosing multiple bugs in an intelligent tutoring system.,1996,IEEE Trans. Syst. Man Cybern. Part A
+https://dblp.org/rec/journals/tsmc/VasandaniG95,https://doi.org/10.1109/21.391288,Knowledge organization in intelligent tutoring systems for diagnostic problem solving in complex dynamic domains.,1995,IEEE Trans. Syst. Man Cybern.
+https://dblp.org/rec/journals/tsmc/WongQL98,https://doi.org/10.1109/3468.668963,TAP: a software architecture for an inquiry dialogue-based tutoring system.,1998,IEEE Trans. Syst. Man Cybern. Part A
+https://dblp.org/rec/journals/wdl/ChawlaC10,https://doi.org/10.3233/WDL-120064,Agent-based web intelligent tutoring system.,2010,World Digit. Libr.
+https://dblp.org/rec/journals/zmp/Domagk10,https://doi.org/10.1027/1864-1105/A000011,Do Pedagogical Agents Facilitate Learner Motivation and Learning Outcomes?,2010,J. Media Psychol. Theor. Methods Appl.
+https://dblp.org/rec/journals/zmp/FrechetteM10,https://doi.org/10.1027/1864-1105/A000009,The Roles of Animated Pedagogical Agents' Presence and Nonverbal Communication in Multimedia Learning Environments.,2010,J. Media Psychol. Theor. Methods Appl.
+https://dblp.org/rec/journals/zmp/Kramer10,https://doi.org/10.1027/1864-1105/A000007,Psychological Research on Embodied Conversational Agents: The Case of Pedagogical Agents.,2010,J. Media Psychol. Theor. Methods Appl.
+https://dblp.org/rec/journals/zmp/StraflingFPLK10,https://doi.org/10.1027/1864-1105/A000010,Teaching Learning Strategies with a Pedagogical Agent.,2010,J. Media Psychol. Theor. Methods Appl.

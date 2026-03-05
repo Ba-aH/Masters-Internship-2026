@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────
+# STEP 4: Reduce to 5D for Clustering (UMAP)
+# ─────────────────────────────────────────────
+print("\n📉 Reducing to 5D for clustering (UMAP)...")
+umap_5d = umap.UMAP(
+    n_neighbors=15,
+    n_components=20,  # dimensionality reduction
+    metric='cosine',
+    random_state=42
+).fit_transform(embeddings)
+
+
+# ─────────────────────────────────────────────
+# STEP 5: Cluster with HDBSCAN
+# ─────────────────────────────────────────────
+print("🧪 Clustering with HDBSCAN...")
+clusterer = hdbscan.HDBSCAN(
+    min_cluster_size=20,
+    min_samples=5, # how many neighbors does a point need to be considered 'core'
+    metric='euclidean',
+    cluster_selection_method='leaf' # "eom Excess of Mass" picks the most persistent clusters; 
+                                   # alternative is 'leaf' for more hierarchical/smaller clusters
+)

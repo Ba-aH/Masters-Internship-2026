@@ -1,0 +1,14 @@
+================================================================================
+SCRAPING STATISTICS
+================================================================================
+PDF files processed:  1
+PDFs found:           0 (0.0%)
+PDFs not found:       0
+Failed scrapes:       0
+
+PAPERS EXTRACTED FROM GRAPHS:
+Total papers:         815
+New papers added:     0
+
+Driver restarts:      0
+================================================================================

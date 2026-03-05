@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────
+# STEP 4: Reduce to 5D for Clustering (UMAP)
+# ─────────────────────────────────────────────
+print("\n📉 Reducing to 5D for clustering (UMAP)...")
+umap_5d = umap.UMAP(
+    n_neighbors=15,
+    n_components=10,  # dimensionality reduction
+    metric='cosine',
+    random_state=42
+).fit_transform(embeddings)
+
+
+# ─────────────────────────────────────────────
+# STEP 5: Cluster with HDBSCAN
+# ─────────────────────────────────────────────
+print("🧪 Clustering with HDBSCAN...")
+clusterer = hdbscan.HDBSCAN(
+    min_cluster_size=20,
+    min_samples=15, #minimum number of neighbors a point needs to be considered "core"
+    metric='euclidean',
+    cluster_selection_method='eom' # "eom Excess of Mass" picks the most persistent clusters; 
+                                   # alternative is 'leaf' for more hierarchical/smaller clusters
+)
+cluster_labels = clusterer.fit_predict(umap_5d)
+df['cluster'] = cluster_labels
+
+n_clusters = len(set(cluster_labels)) - (1 if -1 in cluster_labels else 0)
+n_noise    = (cluster_labels == -1).sum()
+print(f"   Found {n_clusters} clusters | Noise points: {n_noise:,} ({100*n_noise/len(df):.1f}%)")
