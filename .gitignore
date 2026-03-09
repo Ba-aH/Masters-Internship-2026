@@ -1,13 +1,15 @@
 
-argumentation_papers/argument/downloaded_papers/
-argumentation_papers/papersCombined/
-argumentation_papers/papers/
-dashboard/
+argumentation_papers/argumentation/
+argumentation_papers/argumentation1/
+argumentation_papers/argumentation2/
+argumentation_papers/argumentation3/
+citation_graphs/all_citation_graphs.json
 weat_genomics_papers/downloaded_papers/
 tuoring_system_papers/downloaded_papers/
 tuoring_system_papers/tutoring_papers_clean/
 tuoring_system_papers/tutoring_papers_damaged/
-
+clustering/1000daataset/
+clustering/2400dataset/
 
 papers_content.json
 weat_genomics_papers/*.csv
