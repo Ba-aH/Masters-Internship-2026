@@ -10,7 +10,13 @@ tuoring_system_papers/tutoring_papers_clean/
 tuoring_system_papers/tutoring_papers_damaged/
 clustering/1000daataset/
 clustering/2400dataset/
+data_prep/n8n-pipeline/venv
+data_prep/n8n-pipeline/__pycache__
+data_prep/n8n-pipeline/config.py
 
 papers_content.json
 weat_genomics_papers/*.csv
 
+
+"data_prep/n8n-pipeline/*.json" 
+"data_prep/n8n-pipeline/*.json" 
