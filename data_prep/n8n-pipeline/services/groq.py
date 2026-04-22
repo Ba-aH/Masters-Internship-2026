@@ -1,29 +1,10 @@
 import json
 import re
-import threading
-
 import requests
-
-from config import GROQ_API_KEYS, GROQ_MODEL, LINES_PER_CHUNK
-
-_groq_key_index = 0
-_groq_key_lock  = threading.Lock()
-
-
-def _get_groq_api_key() -> str:
-    """Return the next Groq API key, rotating round-robin across all keys."""
-    global _groq_key_index
-    with _groq_key_lock:
-        key = GROQ_API_KEYS[_groq_key_index % len(GROQ_API_KEYS)]
-        _groq_key_index += 1
-    return key
+from config import LOCAL_LLM_URL, LOCAL_LLM_MODEL, LINES_PER_CHUNK
 
 
 def split_into_chunks(text: str) -> list[str]:
-    """
-    Split reference text into chunks at LINE boundaries (never mid-entry).
-    Each chunk has at most LINES_PER_CHUNK lines.
-    """
     lines = text.splitlines()
     chunks = []
     for i in range(0, len(lines), LINES_PER_CHUNK):
@@ -34,59 +15,60 @@ def split_into_chunks(text: str) -> list[str]:
 
 
 def call_groq(raw_content: str) -> list:
-    """
-    Send one chunk to the Groq API and return a list of parsed reference dicts.
-    Raises requests.HTTPError on 4xx / 5xx responses.
-    """
-    headers = {
-        "Content-Type":  "application/json",
-        "Authorization": f"Bearer {_get_groq_api_key()}",
-        "User-Agent":    "Mozilla/5.0",   # urllib UA is blocked by Cloudflare
-    }
-
     payload = {
-        "model": GROQ_MODEL,
-        "messages": [
-            {
-                "role":    "system",
-                "content": "You are an expert academic reference extractor and cleaner. Always respond with valid JSON only.",
-            },
-            {
-                "role": "user",
-                "content": (
-                    "Extract and clean the following messy reference list into a JSON array of references.\n\n"
-                    "Each reference must have these fields:\n"
-                    "- title (string, required)\n"
-                    "- authors (array of strings)\n"
-                    "- year (number or null)\n"
-                    "- venue (string or null)\n\n"
-                    "Rules:\n"
-                    "- Split merged references into separate entries\n"
-                    "- Clean and correct obvious errors in titles and author names\n"
-                    "- Return ONLY a valid JSON array like: [ { \"title\": \"...\", \"authors\": [...], ... }, ... ]\n"
-                    "- Do not add any extra text, explanations, or markdown.\n\n"
-                    f"Here is the messy reference list:\n\n{raw_content}"
-                ),
-            },
-        ],
-        "temperature":     0.1,
-        "max_tokens":      2500,
-        "response_format": {"type": "json_object"},
+        "model": LOCAL_LLM_MODEL,
+        "system_prompt": (
+            "You are an academic reference extractor. "
+            "Return ONLY a valid JSON array. No explanations, no markdown, no thinking."
+        ),
+        "input": (
+            "Extract references into a JSON array. Each item must have:\n"
+            "- title (string, required)\n"
+            "- authors (array of strings)\n"
+            "- year (number or null)\n"
+            "- venue (string or null)\n\n"
+            "Rules: split merged entries, fix obvious OCR typos in titles/authors only, "
+            "do NOT include the source paper if it appears at the end.\n\n"
+            f"Reference list:\n\n{raw_content}"
+        ),
+        "temperature": 0.0,
     }
 
-    resp = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        json=payload,
-        headers=headers,
-        timeout=60,
-    )
+    resp = requests.post(LOCAL_LLM_URL, json=payload, timeout=180)
     resp.raise_for_status()
 
-    raw = resp.json()["choices"][0]["message"]["content"]
-    raw = re.sub(r'^```[a-z]*\n?', '', raw.strip())
-    raw = re.sub(r'\n?```$',       '', raw.strip())
+    output_blocks = resp.json().get("output", [])
 
-    parsed = json.loads(raw)
+    # Per the API docs, the final answer block has type "message" (not "text")
+    raw = ""
+    for block in output_blocks:
+        if block.get("type") == "message":
+            raw = block.get("content", "").strip()
+            if raw:
+                break
+
+    # Fallback to text block
+    if not raw:
+        for block in output_blocks:
+            if block.get("type") == "text":
+                raw = block.get("content", "").strip()
+                if raw:
+                    break
+
+    # Strip any leaked <think> tags just in case
+    raw = re.sub(r'<think>.*?</think>', '', raw, flags=re.DOTALL).strip()
+
+    # Strip markdown fences
+    raw = re.sub(r'^```[a-z]*\n?', '', raw)
+    raw = re.sub(r'\n?```$', '', raw).strip()
+
+    if not raw:
+        raise ValueError(f"LLM returned no usable content. Blocks: {output_blocks}")
+
+    try:
+        parsed = json.loads(raw)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"LLM returned non-JSON: {e}\nRaw: {raw[:300]}")
 
     if isinstance(parsed, dict):
         for key in ("references", "data", "items", "results"):

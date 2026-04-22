@@ -119,15 +119,15 @@ def author_match(ref_authors: list, oa_authors: list, ref_year: int | None = Non
 
             # 1. Last name - very lenient
             if len(ref_last) >= 3 and len(oa_last) >= 3:
-                if fuzz.ratio(ref_last, oa_last) >= 32 or fuzz.token_sort_ratio(ref_last, oa_last) >= 42:
+                if fuzz.ratio(ref_last, oa_last) >= 75 or fuzz.token_sort_ratio(ref_last, oa_last) >= 80:  # was 32/42
                     return True
 
             # 2. Full name token matching
-            if fuzz.token_set_ratio(ref_full, oa_norm) >= 58:
+            if fuzz.token_set_ratio(ref_full, oa_norm) >= 85:
                 return True
-            if fuzz.partial_ratio(ref_full, oa_norm) >= 62:
+            if fuzz.partial_ratio(ref_full, oa_norm) >= 85:
                 return True
-            if fuzz.token_sort_ratio(ref_full, oa_norm) >= 60:
+            if fuzz.token_sort_ratio(ref_full, oa_norm) >= 80:
                 return True
 
             # 3. Initials matching with year boost
@@ -146,9 +146,7 @@ def author_match(ref_authors: list, oa_authors: list, ref_year: int | None = Non
 # ── Shared scoring logic ──────────────────────────────────────────────────────
 
 def _score_and_build_result(ref: dict, match: dict) -> dict:
-    """
-    Scoring with exact year matching for rescue + citation_count from OpenAlex.
-    """
+    
     title = ref.get("title", "")
     oa_title = match.get("title") or ""
     ref_year = ref.get("year")
@@ -175,10 +173,10 @@ def _score_and_build_result(ref: dict, match: dict) -> dict:
 
     score = title_similarity
 
-    if score < 0.75:
-        if exact_year_match and authors_confirmed and score >= 0.35:
+    if score < 0.85:
+        if exact_year_match and authors_confirmed and score >= 0.65:
             score = 1.0                              
-        elif authors_confirmed and score >= 0.40:
+        elif authors_confirmed and score >= 0.70:
             score = 0.90                             
         else:
             return {
@@ -200,7 +198,8 @@ def _score_and_build_result(ref: dict, match: dict) -> dict:
         "openalex_id":    match.get("id"),
         "openalex_found": True,
         "openalex_score": round(score * 100, 1),
-        "citation_count": oa_citation_count,          # ← added / fixed
+        "citation_count": oa_citation_count,
+        "openalex_authors":  oa_authors,          
     }
 
 # ── Low-level fetch helpers ───────────────────────────────────────────────────

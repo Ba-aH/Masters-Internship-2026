@@ -5,7 +5,7 @@ from routes.folders    import bp as folders_bp
 from routes.parser     import bp as parser_bp
 from routes.references import bp as references_bp
 from routes.rml        import bp as rml_bp
- 
+from routes.context_route        import bp as context_route_bp
  
 def create_app() -> Flask:
     app = Flask(__name__)
@@ -15,7 +15,8 @@ def create_app() -> Flask:
     app.register_blueprint(checkpoint_bp)
     app.register_blueprint(parser_bp)
     app.register_blueprint(rml_bp)
- 
+    app.register_blueprint(context_route_bp)
+
     return app
  
  

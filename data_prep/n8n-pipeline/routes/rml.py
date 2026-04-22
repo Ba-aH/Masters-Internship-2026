@@ -25,13 +25,15 @@ def _count_triples(ttl_path: str) -> int:
 # ── POST /rml/convert ─────────────────────────────────────────────────────────
 @bp.route("/rml/convert", methods=["POST"])
 def rml_convert():
-    body = request.get_json(silent=True)
-    if not body:
-        return jsonify({"success": False, "error": "Missing JSON body"}), 400
+    body = request.get_json(silent=True) or {}
+    json_path = body.get("json_path", "").strip()
+    if not json_path:
+        return jsonify({"success": False, "skipped": True,
+                        "reason": "No json_path provided — folder skipped"}), 200
 
-    json_path = body.get("json_path", "")
-    if not json_path or not os.path.isfile(json_path):
-        return jsonify({"success": False, "error": f"references.json not found: {json_path}"}), 400
+    if not os.path.isfile(json_path):
+        return jsonify({"success": False, "skipped": True,
+                        "reason": f"references.json not found: {json_path}"}), 200
 
     paper_folder = os.path.dirname(json_path)
 

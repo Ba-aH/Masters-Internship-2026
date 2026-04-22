@@ -55,68 +55,6 @@
     },
     {
       "parameters": {
-        "url": "=http://127.0.0.1:3000/references/{{ $json.folders }}",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.4,
-      "position": [
-        1616,
-        672
-      ],
-      "id": "b61e74b8-caea-46ce-8a1f-461e1a91850a",
-      "name": "GET references"
-    },
-    {
-      "parameters": {
-        "assignments": {
-          "assignments": [
-            {
-              "id": "afdfb157-2798-4074-8824-b426d8ee4054",
-              "name": "content",
-              "value": "={{ $json.choices[0].message.content }}",
-              "type": "string"
-            },
-            {
-              "id": "722fb9ea-b634-4edb-91f0-2e1fab0eed19",
-              "name": "folder",
-              "value": "={{ $('Loop Over Items').item.json.folders }}",
-              "type": "string"
-            }
-          ]
-        },
-        "options": {}
-      },
-      "type": "n8n-nodes-base.set",
-      "typeVersion": 3.4,
-      "position": [
-        1920,
-        -944
-      ],
-      "id": "3b7a69ef-e198-4624-b926-a3e76b8ea4ae",
-      "name": "Prepare Cleaned Content"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "=http://127.0.0.1:3000/cleaned_references/{{ $json.folder }}",
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={{ $json }}",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.4,
-      "position": [
-        1216,
-        672
-      ],
-      "id": "7d166ac0-577f-48e0-822f-61248ed3a3bc",
-      "name": "Save Cleaned References",
-      "executeOnce": true
-    },
-    {
-      "parameters": {
         "url": "http://127.0.0.1:3000/checkpoint",
         "options": {}
       },
@@ -181,128 +119,11 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.4,
       "position": [
-        2320,
-        -160
+        2400,
+        -224
       ],
       "id": "45a62d3b-b3fe-4cba-89c4-679cd4cdf462",
       "name": "Save Checkpoint"
-    },
-    {
-      "parameters": {
-        "url": "=https://api.openalex.org/works?search={{ encodeURIComponent( $json.originalRef.title || \"\" ) }}&filter=type:journal-article|article&per_page=1&sort=relevance_score:desc&api_key=h2VQLBHlgD4wBNOuroywew",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.4,
-      "position": [
-        752,
-        672
-      ],
-      "id": "ca1fd2ce-4cae-495d-9cf5-ea3e95245c0d",
-      "name": "Lookup OpenAlex"
-    },
-    {
-      "parameters": {
-        "conditions": {
-          "options": {
-            "caseSensitive": true,
-            "leftValue": "",
-            "typeValidation": "strict",
-            "version": 3
-          },
-          "conditions": [
-            {
-              "id": "54307a85-d91f-4a05-a591-1f24edf33c2b",
-              "leftValue": "={{ $json.validation.fixedByOpenAlex }}",
-              "rightValue": "",
-              "operator": {
-                "type": "boolean",
-                "operation": "true",
-                "singleValue": true
-              }
-            }
-          ],
-          "combinator": "and"
-        },
-        "options": {}
-      },
-      "type": "n8n-nodes-base.if",
-      "typeVersion": 2.3,
-      "position": [
-        912,
-        480
-      ],
-      "id": "c0ebb294-d0e1-45e0-926a-fe6a978ed0a0",
-      "name": "if reference is valid"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "http://127.0.0.1:3000/extract_references",
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify($json) }}",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.4,
-      "position": [
-        512,
-        672
-      ],
-      "id": "24bb2637-eeb8-4e2a-8a2b-81d38e699a50",
-      "name": "Parse Groq Output"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "http://127.0.0.1:3000/fix_reference",
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={\n  \"originalRef\": {{ JSON.stringify($('Parse Groq Output').item.json.originalRef) }},\n  \"folder\": \"{{ $('Parse Groq Output').item.json.folder }}\",\n  \"openalexResults\": {{ JSON.stringify($json.results || []) }}\n}",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.4,
-      "position": [
-        992,
-        672
-      ],
-      "id": "92c4df46-883d-4ad9-9621-3b62cb0641ad",
-      "name": "Fix Reference with OpenAlex"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://api.groq.com/openai/v1/chat/completions",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "Authorization",
-              "value": "Bearer YOUR_GROQ_API_KEY"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
-        },
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={\n  \"model\": \"llama-3.1-8b-instant\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You are an expert academic reference extractor and cleaner. Always respond with valid JSON only.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"Extract and clean the following messy reference list into a JSON array of references.\\n\\nEach reference must have these fields:\\n- title (string, required)\\n- authors (array of strings)\\n- year (number or null)\\n- journal (string or null)\\n\\nRules:\\n- Split merged references into separate entries\\n- Clean and correct obvious errors in titles and author names\\n- Return ONLY a valid JSON array like: [ { \\\"title\\\": \\\"...\\\", \\\"authors\\\": [...], ... }, ... ]\\n- Do not add any extra text, explanations, or markdown.\\n\\nHere is the messy reference list:\\n\\n{{ $('GET references').item.json.content }}\"\n    }\n  ],\n  \"temperature\": 0.1,\n  \"max_tokens\": 2500,\n  \"response_format\": { \"type\": \"json_object\" }\n}",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.4,
-      "position": [
-        1408,
-        672
-      ],
-      "id": "a8d80649-9ae4-431c-aa6c-5b623a82c507",
-      "name": "Groq API",
-      "executeOnce": false,
-      "retryOnFail": false
     },
     {
       "parameters": {
@@ -334,7 +155,7 @@
           "conditions": [
             {
               "id": "b96585e7-24d8-4bc2-8a22-284d75fd1143",
-              "leftValue": "={{ $json.skipped === true }}",
+              "leftValue": "={{ $json.skipped === true || $json.count === 0 }}",
               "rightValue": "",
               "operator": {
                 "type": "boolean",
@@ -362,7 +183,7 @@
         "url": "=http://127.0.0.1:3000/save_all_references/{{ $json.folder }}",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify($json) }}",
+        "jsonBody": "={{ ({ \"references\": $json.references }) }}",
         "options": {}
       },
       "type": "n8n-nodes-base.httpRequest",
@@ -379,8 +200,14 @@
         "method": "POST",
         "url": "http://127.0.0.1:3000/rml/convert",
         "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={{ JSON.stringify({ \"json_path\": $json.json_path }) }}",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "json_path",
+              "value": "={{ $('Save References (MD + JSON)').item.json.json_path }}"
+            }
+          ]
+        },
         "options": {}
       },
       "type": "n8n-nodes-base.httpRequest",
@@ -391,20 +218,6 @@
       ],
       "id": "6c25852e-5a93-4a10-ba80-1784831d7d27",
       "name": "Convert to RDF"
-    },
-    {
-      "parameters": {
-        "amount": 15
-      },
-      "type": "n8n-nodes-base.wait",
-      "typeVersion": 1.1,
-      "position": [
-        2384,
-        48
-      ],
-      "id": "760de6e7-c1bd-46fc-b563-529ec315480f",
-      "name": "Wait - 10s",
-      "webhookId": "ae5451e1-d04e-4b72-b1c8-0100470e5bfb"
     }
   ],
   "pinData": {},
@@ -454,21 +267,6 @@
         ]
       ]
     },
-    "GET references": {
-      "main": [
-        []
-      ]
-    },
-    "Prepare Cleaned Content": {
-      "main": [
-        []
-      ]
-    },
-    "Save Cleaned References": {
-      "main": [
-        []
-      ]
-    },
     "Get Checkpoint": {
       "main": [
         [
@@ -502,55 +300,11 @@
       "main": [
         [
           {
-            "node": "Wait - 10s",
+            "node": "Loop Over Items",
             "type": "main",
             "index": 0
           }
         ]
-      ]
-    },
-    "Lookup OpenAlex": {
-      "main": [
-        [
-          {
-            "node": "Fix Reference with OpenAlex",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "if reference is valid": {
-      "main": [
-        [],
-        []
-      ]
-    },
-    "Parse Groq Output": {
-      "main": [
-        [
-          {
-            "node": "Lookup OpenAlex",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Fix Reference with OpenAlex": {
-      "main": [
-        [
-          {
-            "node": "Save Cleaned References",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "Groq API": {
-      "main": [
-        []
       ]
     },
     "Process References (Groq API)": {
@@ -603,17 +357,6 @@
           }
         ]
       ]
-    },
-    "Wait - 10s": {
-      "main": [
-        [
-          {
-            "node": "Loop Over Items",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
     }
   },
   "active": false,
@@ -621,7 +364,7 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "41688ab4-93b1-492d-aedc-8d4bc3410a59",
+  "versionId": "b23fa93d-a29f-418f-96bd-c48197fa5295",
   "meta": {
     "instanceId": "b5e65ae4ae7edd15e643d4675d28417c2cfed039196d25a203860fa47d251a4d"
   },
