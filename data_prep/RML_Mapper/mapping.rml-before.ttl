@@ -1,0 +1,266 @@
+@prefix rr:      <http://www.w3.org/ns/r2rml#> .
+@prefix rml:     <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:      <http://semweb.mmlab.be/ns/ql#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix cito:    <http://purl.org/spar/cito/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix map:    <https://citekg.org/mapping/> .      
+@prefix citekg: <https://citekg.org/ontology/> .     
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> . 
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+
+# ====================== LOGICAL SOURCES ======================
+
+map:PaperSource
+    rml:source "references.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$" .
+
+map:RefsSource
+    rml:source "references.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.references[*]" .
+
+map:AuthorLinksSource
+    rml:source "references.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.author_links[*]" .
+
+map:CitationContextSource
+    rml:source "context_clean.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.citations[*]" .
+
+# ====================== MAIN PAPER ======================
+
+map:MainPaperMap
+    a rr:TriplesMap ;
+    rml:logicalSource map:PaperSource ;
+
+    rr:subjectMap [
+        rr:template "https://citekg.org/resource/paper/{paper.paper_id}";
+        rr:class bibo:Article
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [ rml:reference "paper.title" ; rr:language "en" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate fabio:hasPublicationYear ;
+        rr:objectMap [ rml:reference "paper.year" ; rr:datatype xsd:gYear ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate citekg:doi ;
+        rr:objectMap [ rml:reference "paper.doi" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [ rml:reference "paper.title" ; rr:language "en" ]
+    ] ;
+    
+    rr:predicateObjectMap [
+        rr:predicate citekg:openalexId ;
+        rr:objectMap [ rml:reference "paper.openalex_id" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate citekg:totalReferences ;
+        rr:objectMap [ rml:reference "total" ; rr:datatype xsd:integer ]
+    ] .
+
+# ====================== REFERENCE PAPERS ======================
+
+map:RefPaperMap
+    a rr:TriplesMap ;
+    rml:logicalSource map:RefsSource ;
+
+    rr:subjectMap [
+        rr:template "https://citekg.org/resource/paper/{paper_id}";
+        rr:class bibo:Article   
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate dcterms:title ;
+        rr:objectMap [ rml:reference "title" ; rr:language "en" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate fabio:hasPublicationYear ;
+        rr:objectMap [ rml:reference "year" ; rr:datatype xsd:gYear ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate citekg:doi ;
+        rr:objectMap [ rml:reference "doi" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [ rml:reference "title" ; rr:language "en" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate bibo:publishedIn ;
+        rr:objectMap [ rml:reference "venue" ; rr:language "en" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate citekg:openalexId ;
+        rr:objectMap [ rml:reference "openalex_id" ]
+    ] .
+
+
+# ====================== DIRECT CITATION RELATIONS ======================
+
+map:MainCitesRef
+    a rr:TriplesMap ;
+    rml:logicalSource map:RefsSource ;
+
+    rr:subjectMap [
+        rr:template "https://citekg.org/resource/paper/{main_paper_id}"
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate cito:cites ;
+        rr:objectMap [
+            rr:template "https://citekg.org/resource/paper/{paper_id}" ;
+            rr:termType rr:IRI
+        ]
+    ] .
+
+map:RefIsCitedBy
+    a rr:TriplesMap ;
+    rml:logicalSource map:RefsSource ;
+
+    rr:subjectMap [
+        rr:template "https://citekg.org/resource/paper/{paper_id}"
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate cito:isCitedBy ;
+        rr:objectMap [
+            rr:template "https://citekg.org/resource/paper/{main_paper_id}" ;
+            rr:termType rr:IRI
+        ]
+    ] .
+
+# ====================== AUTHORS ======================
+
+map:AuthorMap
+    a rr:TriplesMap ;
+    rml:logicalSource map:AuthorLinksSource ;
+
+    rr:subjectMap [
+        rr:template "https://citekg.org/resource/author/{author_id}" ;
+        rr:class citekg:Author
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate foaf:name ;
+        rr:objectMap [ rml:reference "author_name" ; rr:language "en" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label ;
+        rr:objectMap [ rml:reference "author_name" ; rr:language "en" ]
+    ] .
+
+# ====================== PAPER → AUTHOR (hasAuthor) ======================
+
+map:PaperAuthorLink
+    a rr:TriplesMap ;
+    rml:logicalSource map:AuthorLinksSource ;
+
+    rr:subjectMap [
+        rr:template "https://citekg.org/resource/paper/{paper_id}"
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate citekg:hasAuthor ;
+        rr:objectMap [
+            rr:template "https://citekg.org/resource/author/{author_id}" ;
+            rr:termType rr:IRI
+        ]
+    ] .
+
+# ====================== AUTHOR → PAPER (authorOf) ======================
+
+map:AuthorPaperLink
+    a rr:TriplesMap ;
+    rml:logicalSource map:AuthorLinksSource ;
+
+    rr:subjectMap [
+        rr:template "https://citekg.org/resource/author/{author_id}"
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate citekg:authorOf ;
+        rr:objectMap [
+            rr:template "https://citekg.org/resource/paper/{paper_id}" ;
+            rr:termType rr:IRI
+        ]
+    ] .
+
+    # ====================== CITATION CONTEXTS ======================
+
+map:CitationContextMap
+    a rr:TriplesMap ;
+    rml:logicalSource map:CitationContextSource ;
+
+    # Create a Citation Context individual
+    rr:subjectMap [
+        rr:template "https://citekg.org/resource/citationContext/{paper_id}_{citation_marker}" ;
+        rr:class c4o:CitationContext
+    ] ;
+
+    # Link to Citing Paper (Main Paper)
+    rr:predicateObjectMap [
+        rr:predicate c4o:hasCitingEntity ;
+        rr:objectMap [
+            rr:template "https://citekg.org/resource/paper/{paper_id}" ;
+            rr:termType rr:IRI
+        ]
+    ] ;
+
+    # Link to Cited Paper
+    rr:predicateObjectMap [
+        rr:predicate c4o:hasCitedEntity ;
+        rr:objectMap [
+            rr:template "https://citekg.org/resource/paper/{reference.title}" ;   # better to use ID if available
+            rr:termType rr:IRI
+        ]
+    ] ;
+
+    # Citation Marker
+    rr:predicateObjectMap [
+        rr:predicate c4o:hasCitationMarker ;
+        rr:objectMap [ rml:reference "citation_marker" ]
+    ] ;
+
+    # Citation Type
+    rr:predicateObjectMap [
+        rr:predicate c4o:hasCitationType ;
+        rr:objectMap [ rml:reference "citation_type" ]
+    ] ;
+
+    # Source Marker
+    rr:predicateObjectMap [
+        rr:predicate c4o:hasSourceMarker ;
+        rr:objectMap [ rml:reference "source_marker" ]
+    ] ;
+
+    # Full Citation Context (before + after)
+    rr:predicateObjectMap [
+        rr:predicate c4o:hasCitationContext ;
+        rr:objectMap [
+            rr:template "{local_context.before} {local_context.after}" ;
+            rr:language "en"
+        ]
+    ] .

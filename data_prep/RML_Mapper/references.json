@@ -1,0 +1,2313 @@
+{
+  "paper": {
+    "title": "A Bayesian Argumentation Framework for Distributed Fault Diagnosis in Telecommunication Networks",
+    "authors": [
+      {
+        "name": "Álvaro Carrera",
+        "author_id": "eb27d4c012a83628"
+      },
+      {
+        "name": "Eduardo Alonso",
+        "author_id": "84bf567cce0a345f"
+      },
+      {
+        "name": "Carlos Á. Iglesias",
+        "author_id": "ec47be6b057f6537"
+      }
+    ],
+    "year": 2019,
+    "venue": "Sensors",
+    "doi": "https://doi.org/10.3390/s19153408",
+    "openalex_id": "https://openalex.org/W2964387527",
+    "openalex_found": true,
+    "openalex_score": 100.0,
+    "citation_count": 10,
+    "paper_id": "8a9d22295eb28701"
+  },
+  "references": [
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "openalex_id": "W2156568423",
+      "title": "Fundamental design issues for the future Internet",
+      "year": 1995,
+      "doi": "10.1109/49.414637",
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "authors": [
+        "Scott Shenker"
+      ],
+      "citation_count": 1110,
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true
+    },
+    {
+      "title": "The Internet of Things: A survey",
+      "authors": [
+        {
+          "name": "Luigi Atzori",
+          "author_id": "fa58fce04ac6756f"
+        },
+        {
+          "name": "Antonio Iera",
+          "author_id": "efaf1394b06ea69e"
+        },
+        {
+          "name": "Giacomo Morabito",
+          "author_id": "1e42a465b35265d1"
+        }
+      ],
+      "year": 2011,
+      "venue": "CISCO White Pap.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2105103777",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 15175,
+      "paper_id": "8c028a502998a1af",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Next Generation Telecommunications Networks, Services, and Management",
+      "authors": [
+        {
+          "name": "Plevyak, T.",
+          "author_id": "d33c9771bea461ae"
+        },
+        {
+          "name": "Sahin, V.",
+          "author_id": "0a88068367a81e98"
+        }
+      ],
+      "year": 2011,
+      "venue": "John Wiley & Sons",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 67.2,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "fc537758df621c13",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Towards autonomic management of communications networks",
+      "authors": [
+        {
+          "name": "Brendan Jennings",
+          "author_id": "3e183b9bd65dd061"
+        },
+        {
+          "name": "Sven van der Meer",
+          "author_id": "213cc176e92c29fe"
+        },
+        {
+          "name": "Sasitharan Balasubramaniam",
+          "author_id": "b11cb7aeb2c6bfb5"
+        },
+        {
+          "name": "Dmitri Botvich",
+          "author_id": "c42bcbe3775e5af6"
+        },
+        {
+          "name": "Mícheál Ó Foghlú",
+          "author_id": "f7df6d53d6122058"
+        },
+        {
+          "name": "William Donnelly",
+          "author_id": "5a2ccf65e6f97ca8"
+        },
+        {
+          "name": "John Strassner",
+          "author_id": "e609493d4322715f"
+        }
+      ],
+      "year": 2007,
+      "venue": "Commun. Mag. IEEE",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2129282379",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 207,
+      "paper_id": "0192d016f6d20c4a",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "An Architectural Approach Towards the Future Internet of Things",
+      "authors": [
+        {
+          "name": "Dieter Uckelmann",
+          "author_id": "1a0a8c22d7585473"
+        },
+        {
+          "name": "Mark Harrison",
+          "author_id": "1642fc3066d3f0ed"
+        },
+        {
+          "name": "Florian Michahelles",
+          "author_id": "c77d48a1b3d42ec2"
+        }
+      ],
+      "year": 2010,
+      "venue": "IOS Prss",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W91206318",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 412,
+      "paper_id": "f0e9e3146eaca322",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Foundations for Complex Systems Research in the Physical Sciences and Engineering",
+      "authors": [
+        {
+          "name": "Guckenheimer, J.",
+          "author_id": "06cbc900d42c2ecc"
+        },
+        {
+          "name": "Ottino, J.M.",
+          "author_id": "ef64d8df44a4331b"
+        }
+      ],
+      "year": 2008,
+      "venue": "Report from an NSF Workshop",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 53.5,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "1d19cc8f07312d84",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "GENI Research Plan (Version 4.5)",
+      "authors": [
+        {
+          "name": "Clark, D.",
+          "author_id": "82184f7396e74873"
+        },
+        {
+          "name": "Shenker, S.",
+          "author_id": "00d6ed1cfd97d92a"
+        },
+        {
+          "name": "Falk, A.",
+          "author_id": "0ea6109ee49b59a8"
+        }
+      ],
+      "year": 2007,
+      "venue": "GENI Research Coordination Working Group and GENI Planning Group",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 49.4,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "8f8056533c5efbf0",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Chapter 1—Introduction to Autonomic Concepts Applied to Future Self-Managed Networks",
+      "authors": [
+        {
+          "name": "Agoulmine, N.",
+          "author_id": "0b9c3dda867f5ed2"
+        }
+      ],
+      "year": 2011,
+      "venue": "Autonomic Network Management Principles",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 60.7,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "ab3930ccca414eb3",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Key research challenges in network management",
+      "authors": [
+        {
+          "name": "Pras, A.",
+          "author_id": "f227de8b765e9741"
+        },
+        {
+          "name": "Schönwälder, J.",
+          "author_id": "258f855448069ebc"
+        },
+        {
+          "name": "Burgess, M.",
+          "author_id": "68d14d4538f19e99"
+        },
+        {
+          "name": "Festor, O.",
+          "author_id": "aa41440cbe61ab21"
+        },
+        {
+          "name": "Perez, G.M.",
+          "author_id": "29cde1112ae98ac9"
+        },
+        {
+          "name": "Stadler, R.",
+          "author_id": "03eddcf47ad02286"
+        },
+        {
+          "name": "Stiler, B.",
+          "author_id": "bb875761af188650"
+        }
+      ],
+      "year": 2007,
+      "venue": "Commun. Mag. IEEE",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 57.1,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "38f4103b570901a4",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "An architectural blueprint for autonomic computing",
+      "authors": [
+        {
+          "name": "Kephart, J.",
+          "author_id": "6ed9bbd6c833f5be"
+        },
+        {
+          "name": "Kephart, J.",
+          "author_id": "6ed9bbd6c833f5be"
+        },
+        {
+          "name": "Chess, D.",
+          "author_id": "5becca3e1bf686b8"
+        },
+        {
+          "name": "Boutilier, C.",
+          "author_id": "eda85de0792d8855"
+        },
+        {
+          "name": "Das, R.",
+          "author_id": "dc17e0c2b842ce62"
+        },
+        {
+          "name": "Kephart, J.O.",
+          "author_id": "aecb84971a765a62"
+        },
+        {
+          "name": "Walsh, W.E.",
+          "author_id": "93c1c509c45b430a"
+        }
+      ],
+      "year": 2003,
+      "venue": "IBM White Paper",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 81.8,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "b3a3f90fbf441eea",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "paper_id": "eb63615b6411f9ee",
+      "openalex_id": "W200361552",
+      "title": "FOCALE – A Novel Autonomic Networking Architecture",
+      "year": 2006,
+      "doi": null,
+      "venue": "SETU Waterford Libraries - Open Access Repository",
+      "authors": [
+        "John C. Strassner",
+        "Nazim Agoulmine",
+        "Elyes Lehtihet"
+      ],
+      "citation_count": 93,
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "openalex_id": "W2114935162",
+      "title": "The autonomic network architecture (ANA)",
+      "year": 2010,
+      "doi": "10.1109/jsac.2010.100102",
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "authors": [
+        "Ghazi Bouabene",
+        "Christophe Jelger",
+        "Christian Tschudin",
+        "Stefan Schmid",
+        "Ariane Keller",
+        "Martin May"
+      ],
+      "citation_count": 84,
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true
+    },
+    {
+      "title": "An Ensemble Learning Approach for Fault Diagnosis in Self-organizing Heterogeneous Networks",
+      "authors": [
+        {
+          "name": "Wang, Y.",
+          "author_id": "b90b1f6bac808f25"
+        },
+        {
+          "name": "Zhu, K.",
+          "author_id": "eb7c2352a353f164"
+        },
+        {
+          "name": "Sun, M.",
+          "author_id": "5070d04a9ba5b057"
+        },
+        {
+          "name": "Deng, Y.",
+          "author_id": "d6eeb406c71cc20f"
+        }
+      ],
+      "year": 2019,
+      "venue": "IEEE Access",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 71.0,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "021b694788262341",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "General Gap Analysis for Autonomic Networking",
+      "authors": [
+        {
+          "name": "Jiang, S.",
+          "author_id": "72e83e761bac6e1c"
+        },
+        {
+          "name": "Carpenter, B.",
+          "author_id": "d75fd65c4170407f"
+        },
+        {
+          "name": "Behringer, M.",
+          "author_id": "25c20287007e6a73"
+        }
+      ],
+      "year": null,
+      "venue": "Technical Report",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 68.8,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "dff6c12a39732822",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "A Novel Energy Efficiency Metric for Model-Based Fault Diagnosis of Telecommunication Central Offices",
+      "authors": [
+        {
+          "name": "Sorrentino, M.",
+          "author_id": "548df6db84abcf5b"
+        },
+        {
+          "name": "Bruno, M.",
+          "author_id": "7f20cacf16259e4c"
+        },
+        {
+          "name": "Trifirò, A.",
+          "author_id": "a7b6c27384051f22"
+        },
+        {
+          "name": "Rizzo, G.",
+          "author_id": "a53c8979628c0449"
+        }
+      ],
+      "year": 2019,
+      "venue": "Energy Procedia",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 52.1,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "66d8773c1b923380",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "AMNA: Probe Agent Based Inter-Process Dependency Model for Wireless Sensor Network's Fault Diagnosis",
+      "authors": [
+        {
+          "name": "Zafar, A.",
+          "author_id": "3c259f1a30314576"
+        },
+        {
+          "name": "Akbar, A.H.",
+          "author_id": "0c1c7fa12b92113b"
+        },
+        {
+          "name": "Wajid, B.",
+          "author_id": "84b27d74a6be1701"
+        },
+        {
+          "name": "Akram, B.A.",
+          "author_id": "8dd1992e4c28a0d0"
+        },
+        {
+          "name": "Irfan, T.",
+          "author_id": "3f1f14e12f1cea78"
+        }
+      ],
+      "year": 2019,
+      "venue": "Proceedings of the International Telecommunications Conference",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 51.7,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "fbadc9f920345448",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Discrete-Event Systems Fault Diagnosis",
+      "authors": [
+        {
+          "name": "Grastien, A.",
+          "author_id": "1a8b2703e2fffb36"
+        },
+        {
+          "name": "Zanella, M.",
+          "author_id": "b5c8b556eb06c483"
+        }
+      ],
+      "year": 2019,
+      "venue": "Fault Diagnosis of Dynamic Systems: Quantitative and Qualitative Approaches",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 48.1,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "d2629e09a942349a",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Application of Agent Technology for Fault Diagnosis of Telecommunication Networks",
+      "authors": [
+        {
+          "name": "Carrera Barroso, A.",
+          "author_id": "93fbfe6cc08e931d"
+        }
+      ],
+      "year": 201,
+      "venue": "E.T.S.I. Telecomunicación (UPM)",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 57.0,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "6e70982aab4bf097",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "A real-life application of multi-agent systems for fault diagnosis in the provision of an Internet business service",
+      "authors": [
+        {
+          "name": "Carrera, A.",
+          "author_id": "44a2b9e614a3a231"
+        },
+        {
+          "name": "Iglesias, C.A.",
+          "author_id": "0034589d28de5a3a"
+        },
+        {
+          "name": "García-Algarra, J.",
+          "author_id": "2a91913cd51516fe"
+        },
+        {
+          "name": "Kolařik, D.",
+          "author_id": "00222cd48ff60fd1"
+        }
+      ],
+      "year": 2014,
+      "venue": "J. Netw. Comput. Appl.",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 81.1,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "17efcfeaf357307c",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Bayesian Networks in Fault Diagnosis",
+      "authors": [
+        {
+          "name": "Baoping Cai",
+          "author_id": "aa4a02ca73629981"
+        },
+        {
+          "name": "Lei Huang",
+          "author_id": "634d93293770bdc9"
+        },
+        {
+          "name": "Min Xie",
+          "author_id": "f101f374523bb0c7"
+        }
+      ],
+      "year": 2018,
+      "venue": "World Scientific",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2606788990",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 451,
+      "paper_id": "5ecd697ad7fbdc1c",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "MBAN-MLC: a multi-label classification method and its application in automating fault diagnosis",
+      "authors": [
+        {
+          "name": "Shijun Chen",
+          "author_id": "cefbf26e9e8d67d5"
+        },
+        {
+          "name": "Lin Gao",
+          "author_id": "bb1ac4edf99133b7"
+        },
+        {
+          "name": "Guoqiong Liao",
+          "author_id": "cb0f2b8d165a98bb"
+        }
+      ],
+      "year": 2018,
+      "venue": "Int. J. Internet Manuf. Serv.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W4254738342",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 3,
+      "paper_id": "402c012fe8c33a12",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "A Bayesian Network Approach for Imbalanced Fault Detection in High Speed Rail Systems",
+      "authors": [
+        {
+          "name": "Yan‐Fu Li",
+          "author_id": "353970e06686214f"
+        },
+        {
+          "name": "Jie Liu",
+          "author_id": "341b1ffc38328548"
+        }
+      ],
+      "year": 2018,
+      "venue": "Proceedings of the 2018 IEEE International Conference on Prognostics and Health Management (ICPHM)",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2889053167",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 4,
+      "paper_id": "12ad66b3d04d2625",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "A fault diagnostic methodology for railway automatics systems",
+      "authors": [
+        {
+          "name": "Z. Łukasik",
+          "author_id": "b382fd7bc23fa844"
+        },
+        {
+          "name": "Waldemar Nowakowski",
+          "author_id": "591d2cecd9882d2f"
+        },
+        {
+          "name": "Tomasz Ciszewski",
+          "author_id": "fc04f3a665779680"
+        },
+        {
+          "name": "Julija Freimane",
+          "author_id": "cb34c17f1489fba2"
+        }
+      ],
+      "year": 2019,
+      "venue": "Procedia Comput. Sci.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2922336765",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 13,
+      "paper_id": "11f970d2e5d0436c",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "A Survey on Fault Diagnosis in Wireless Sensor Networks",
+      "authors": [
+        {
+          "name": "Zeyu Zhang",
+          "author_id": "c7310f9a0f6d69e7"
+        },
+        {
+          "name": "Amjad Mehmood",
+          "author_id": "38d1981a6c595787"
+        },
+        {
+          "name": "Lei Shu",
+          "author_id": "caeb635c5f46b7eb"
+        },
+        {
+          "name": "Zhiqiang Huo",
+          "author_id": "3b97807b8fe0815c"
+        },
+        {
+          "name": "Yu Zhang",
+          "author_id": "6a15d6b50c3f7969"
+        },
+        {
+          "name": "Mithun Mukherjee",
+          "author_id": "965704b149560499"
+        }
+      ],
+      "year": 2018,
+      "venue": "IEEE Access",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2767266276",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 168,
+      "paper_id": "253bdd8729a8860d",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "An innovative energy efficiency metric for data analytics and diagnostics in telecommunication applications",
+      "authors": [
+        {
+          "name": "Marco Sorrentino",
+          "author_id": "3adcf7f1dfb189ae"
+        },
+        {
+          "name": "Marco Bruno",
+          "author_id": "f1a335e8c56d3661"
+        },
+        {
+          "name": "Alena Trifirò",
+          "author_id": "a65f99318ef5314b"
+        },
+        {
+          "name": "Gianfranco Rizzo",
+          "author_id": "6eba1dffb385993f"
+        }
+      ],
+      "year": 2019,
+      "venue": "Appl. Energy",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2935590118",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 17,
+      "paper_id": "b3a5c40d75c4d929",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Artificial intelligence (AI) methods in optical networks: A comprehensive survey",
+      "authors": [
+        {
+          "name": "Javier Mata",
+          "author_id": "18cb58cb0d98320a"
+        },
+        {
+          "name": "Ignacio de Miguel",
+          "author_id": "d8053fd7dfa022af"
+        },
+        {
+          "name": "Ramón J. Durán",
+          "author_id": "5186c0307c191a2f"
+        },
+        {
+          "name": "Noemí Merayo",
+          "author_id": "f53fd7e62c05b4b5"
+        },
+        {
+          "name": "Sandeep Kumar Singh",
+          "author_id": "1ccda8b43dbc620f"
+        },
+        {
+          "name": "Admela Jukan",
+          "author_id": "aebbbb314cdaa481"
+        },
+        {
+          "name": "Mohit Chamania",
+          "author_id": "c086f29757477cdf"
+        }
+      ],
+      "year": 2018,
+      "venue": "Opt. Switch. Netw.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2781788077",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 345,
+      "paper_id": "99bcf79c24ed6bda",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Fault Management Based on Machine Learning [Invited]",
+      "authors": [
+        {
+          "name": "Luis Velasco",
+          "author_id": "a17064d00d656a47"
+        },
+        {
+          "name": "Danish Rafique",
+          "author_id": "835424988591b3fc"
+        }
+      ],
+      "year": 2019,
+      "venue": "Proceedings of the 2019 Optical Fiber Communications Conference and Exhibition (OFC)",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2915447283",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 13,
+      "paper_id": "44c22a6210d92e5f",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Multi-agent based control of large-scale complex systems employing distributed dynamic inference engine",
+      "authors": [
+        {
+          "name": "Dimitri N. Mavris",
+          "author_id": "074475bb00f1bfbf"
+        },
+        {
+          "name": "Daili Zhang",
+          "author_id": "acc280bbdeb130f3"
+        }
+      ],
+      "year": 2010,
+      "venue": "Georgia Institute of Technology",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W1541995171",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 6,
+      "paper_id": "67b283da8a0ea8fc",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Distributed Perception Networks for Crisis Management",
+      "authors": [
+        {
+          "name": "Marinus Maris",
+          "author_id": "0da3d8e963ae3b8c"
+        },
+        {
+          "name": "Gregor Pavlin",
+          "author_id": "374bbad3a76264c4"
+        }
+      ],
+      "year": 2006,
+      "venue": "Proceedings of the 2006 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2317397686",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 14,
+      "paper_id": "84f5ff7cac83905d",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "MULTIPLY SECTIONED BAYESIAN NETWORKS AND JUNCTION FORESTS FOR LARGE KNOWLEDGE‐BASED SYSTEMS",
+      "authors": [
+        {
+          "name": "Yang Xiang",
+          "author_id": "4723ff000a302951"
+        },
+        {
+          "name": "David Poole",
+          "author_id": "c88639f948675619"
+        },
+        {
+          "name": "Michael P. Beddoes",
+          "author_id": "2c197a47207788a5"
+        }
+      ],
+      "year": 1993,
+      "venue": "Comput. Intell.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2019942636",
+      "openalex_found": true,
+      "openalex_score": 93.9,
+      "openalex_title_validated": true,
+      "citation_count": 109,
+      "paper_id": "17373ff5d30cfbe9",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "A Distributed Probabilistic Model for Fault Diagnosis",
+      "authors": [
+        {
+          "name": "Ana Li Oña García",
+          "author_id": "cd4d7678d626fe8c"
+        },
+        {
+          "name": "Luis Enrique Sucar",
+          "author_id": "9a41d635098099e7"
+        },
+        {
+          "name": "Eduardo F. Morales",
+          "author_id": "124604edbb8c58d3"
+        }
+      ],
+      "year": 2018,
+      "venue": "Advances in Artificial Intelligence—IBERAMIA 2018",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2900081148",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 1,
+      "paper_id": "2a16a6955bb9e477",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Collaborative multiagent learning for classification tasks",
+      "authors": [
+        {
+          "name": "Modi, P.J.",
+          "author_id": "b427b802284b9cd0"
+        },
+        {
+          "name": "Shen, W.M.",
+          "author_id": "0068674d45973261"
+        }
+      ],
+      "year": 2001,
+      "venue": "Proceedings of the Fifth International Conference on Autonomous Agents",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 58.3,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "cde8c64d02f07f4a",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Multi-agent based classification using argumentation from experience",
+      "authors": [
+        {
+          "name": "Maya Wardeh",
+          "author_id": "e899589063ce07ae"
+        },
+        {
+          "name": "Frans Coenen",
+          "author_id": "432fcf8923ca804a"
+        },
+        {
+          "name": "Trevor Bench‐Capon",
+          "author_id": "9f4710e0ad1a653c"
+        }
+      ],
+      "year": 2012,
+      "venue": "Auton. Agents Multi Agent Syst.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W1992203727",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 18,
+      "paper_id": "7a3c56a1a0b0b679",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Multi-agent technology for distributed data mining and classification",
+      "authors": [
+        {
+          "name": "Vladimir Gorodetsky",
+          "author_id": "6eacd08d736d4d2a"
+        },
+        {
+          "name": "O. Karsaeyv",
+          "author_id": "adac354089216b96"
+        },
+        {
+          "name": "Vladimir Samoilov",
+          "author_id": "093d72e57b663e57"
+        }
+      ],
+      "year": 2003,
+      "venue": "Proceedings of the IEEE/WIC International Conference on Intelligent Agent Technology",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2121555320",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 50,
+      "paper_id": "531376e208fbaa7c",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Belief Update in Bayesian Networks Using Uncertain Evidence",
+      "authors": [
+        {
+          "name": "Rong Pan",
+          "author_id": "a621596e612134d6"
+        },
+        {
+          "name": "Yun Peng",
+          "author_id": "0cb8bd9ce27e3818"
+        },
+        {
+          "name": "Zhongli Ding",
+          "author_id": "6faa409d73fe83d2"
+        }
+      ],
+      "year": 2006,
+      "venue": "Proceedings of the 2006 18th IEEE International Conference on Tools with Artificial Intelligence (ICTAI'06)",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2092445266",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 45,
+      "paper_id": "483adc976c4e5750",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games",
+      "authors": [
+        {
+          "name": "Dung, P.M.",
+          "author_id": "ef259fc21ba5920c"
+        }
+      ],
+      "year": 1995,
+      "venue": "Artif. Intell.",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 68.9,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "ceb558129a3c05ea",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "An Assumption-based Framework for Non-monotonic Reasoning",
+      "authors": [
+        {
+          "name": "A. G. Bondarenko",
+          "author_id": "40b1891a0fd1a06d"
+        },
+        {
+          "name": "Francesca Toni",
+          "author_id": "9dad33896fbe7d02"
+        },
+        {
+          "name": "Robert Kowalski",
+          "author_id": "95f8c80b29ac25b2"
+        }
+      ],
+      "year": 1993,
+      "venue": "Second International Workshop on Logic Programming and Non-Monotonic Reasoning",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W98858009",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 126,
+      "paper_id": "6161aa9f0300ef3c",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Theorie and Applications of Formal Argumentation",
+      "authors": [
+        {
+          "name": "Modgil, Sanjay",
+          "author_id": "a430f324b2f447a3"
+        },
+        {
+          "name": "Toni, Francesca",
+          "author_id": "6d35533078b726bf"
+        },
+        {
+          "name": "Oren, Nir",
+          "author_id": "cdc29b689ff591f9"
+        }
+      ],
+      "year": 2012,
+      "venue": "Theorie and Applications of Formal Argumentation",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W4242001749",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 9,
+      "paper_id": "a813e01807449a11",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Probabilistic Abstract Argumentation Based on SCC Decomposability",
+      "authors": [
+        {
+          "name": "Tjitze Rienstra",
+          "author_id": "44ebb9a998fcd81e"
+        },
+        {
+          "name": "Matthias Thimm",
+          "author_id": "4d50a218b2d59e69"
+        },
+        {
+          "name": "Beishui Liao",
+          "author_id": "29801df04638520e"
+        },
+        {
+          "name": "Leendert van der Torre",
+          "author_id": "0cd0338f09bdc23a"
+        }
+      ],
+      "year": 2018,
+      "venue": "Proceedings of the Sixteenth International Conference on Principles of Knowledge Representation and Reasoning",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2899064096",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 12,
+      "paper_id": "b561791f248bb693",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Probabilistic Strength of Arguments with Structure.",
+      "authors": [
+        {
+          "name": "Henry Prakken",
+          "author_id": "d9350d05e79594d4"
+        }
+      ],
+      "year": 2018,
+      "venue": "Proceedings of the Sixteenth International Conference on Principles of Knowledge Representation and Reasoning",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2899229515",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 14,
+      "paper_id": "f6694cd44d82925e",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "A probabilistic approach to modelling uncertain logical arguments",
+      "authors": [
+        {
+          "name": "Anthony Hunter",
+          "author_id": "1f533aeec4d6c370"
+        }
+      ],
+      "year": 2013,
+      "venue": "Int. J. Approx. Reason.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2078438690",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 206,
+      "paper_id": "9be66ae89e49ae36",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Argument diagram extraction from evidential Bayesian networks",
+      "authors": [
+        {
+          "name": "Jeroen Keppens",
+          "author_id": "17429ad19bac0220"
+        }
+      ],
+      "year": 2012,
+      "venue": "Artif. Intell. Law",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W1980423071",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 33,
+      "paper_id": "5c38ec479c2045a3",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "paper_id": "9a6918a032e80563",
+      "openalex_id": "W2557901201",
+      "title": "Bayesian argumentation and the value of logical validity.",
+      "year": 2018,
+      "doi": "10.1037/rev0000114",
+      "venue": "Psychological Review",
+      "authors": [
+        "Benjamin Eva",
+        "Stephan Hartmann"
+      ],
+      "citation_count": 43,
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true
+    },
+    {
+      "title": "A labelling framework for probabilistic argumentation",
+      "authors": [
+        {
+          "name": "Régis Riveret",
+          "author_id": "ae1ea1692b0fed34"
+        },
+        {
+          "name": "Pietro Baroni",
+          "author_id": "3c21cbf4beaf9afb"
+        },
+        {
+          "name": "Yang Gao",
+          "author_id": "f88f26d34ecf39f9"
+        },
+        {
+          "name": "Guido Governatori",
+          "author_id": "ae869ac6ed913f8b"
+        },
+        {
+          "name": "Antonino Rotolo",
+          "author_id": "811938d1550186b2"
+        },
+        {
+          "name": "Giovanni Sartor",
+          "author_id": "377ba909f3d3e383"
+        }
+      ],
+      "year": 2018,
+      "venue": "Ann. Math. Artif. Intell.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2741916207",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 22,
+      "paper_id": "c53f00537f7d60e7",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Testimony and Argument: A Bayesian Perspective",
+      "authors": [
+        {
+          "name": "Hahn, U.",
+          "author_id": "306f4d5d1451ae4e"
+        },
+        {
+          "name": "Oaksford, M.",
+          "author_id": "01bb849cde1e813f"
+        },
+        {
+          "name": "Harris, A.",
+          "author_id": "7308cb22fb7052cf"
+        }
+      ],
+      "year": 2013,
+      "venue": "Bayesian Argumentation",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 74.3,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "14d10aa3080e438e",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Supplemental Material for Bayesian Argumentation and the Value of Logical Validity",
+      "authors": [
+        {
+          "name": "Eva, B.",
+          "author_id": "8d8b0da30368c2a0"
+        },
+        {
+          "name": "Hartmann, S.",
+          "author_id": "ad79e497d328f019"
+        }
+      ],
+      "year": 2018,
+      "venue": "Psychol. Rev.",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 54.3,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "c99d2a246c6e87b8",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "A new use case for argumentation support tools: Supporting discussions of Bayesian analyses of complex criminal cases",
+      "authors": [
+        {
+          "name": "Prakken, H.",
+          "author_id": "470a99814573ef81"
+        }
+      ],
+      "year": 2018,
+      "venue": "Artif. Intell. Law",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 58.2,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "b7420b7df1bf7ff5",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference",
+      "authors": [
+        {
+          "name": "Judea Pearl",
+          "author_id": "27dd06f730bb3f6c"
+        }
+      ],
+      "year": 1988,
+      "venue": "Morgan Kaufmann",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2159080219",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 16985,
+      "paper_id": "c2a130fdbb4cf4db",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Abstraction, Federation, and Scalability",
+      "authors": [
+        {
+          "name": "Cerf, V.",
+          "author_id": "6f7c519a7efadcc7"
+        }
+      ],
+      "year": 2013,
+      "venue": "Internet Comput. IEEE",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 81.5,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "50a282d88382199d",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Visualizing Inference in Bayesian Networks",
+      "authors": [
+        {
+          "name": "Koiter, J.R.",
+          "author_id": "cc1ce7425ee0689b"
+        }
+      ],
+      "year": 2006,
+      "venue": "Delft University of Technology",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 52.1,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "37341624dc8575e7",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Minimum Hellinger Distance Estimates for Parametric Models",
+      "authors": [
+        {
+          "name": "Rudolf Beran",
+          "author_id": "71bae26b10ddc702"
+        }
+      ],
+      "year": 2002,
+      "venue": "Encyclopaedia of Mathematics",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2084238990",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 751,
+      "paper_id": "d729c62cb1c19da5",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "BPMN 2.0: Introduction to the Standard for Business Process Modeling",
+      "authors": [
+        {
+          "name": "Allweyer, T.",
+          "author_id": "843102e7a78e35b6"
+        }
+      ],
+      "year": null,
+      "venue": "BoD-Books on Demand",
+      "doi": null,
+      "openalex_id": null,
+      "openalex_found": false,
+      "openalex_score": 49.7,
+      "openalex_title_validated": false,
+      "citation_count": null,
+      "paper_id": "b80befe5327eeb49",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Problem-Solving Methods for Diagnosis and their Role in Knowledge Acquisition",
+      "authors": [
+        {
+          "name": "V. Richard Benjamins",
+          "author_id": "c846b074f01e7e2e"
+        }
+      ],
+      "year": 1995,
+      "venue": "Int. J. Expert Syst. Res. Appl.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W2140251863",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 87,
+      "paper_id": "49bd72e97886f41d",
+      "main_paper_id": "8a9d22295eb28701"
+    },
+    {
+      "title": "Statistical Comparisons of Classifiers over Multiple Data Sets",
+      "authors": [
+        {
+          "name": "Janez Demšar",
+          "author_id": "49993190d0339346"
+        }
+      ],
+      "year": 2006,
+      "venue": "J. Mach. Learn. Res.",
+      "doi": null,
+      "openalex_id": "https://openalex.org/W1565746575",
+      "openalex_found": true,
+      "openalex_score": 100.0,
+      "openalex_title_validated": true,
+      "citation_count": 11214,
+      "paper_id": "1d4feab88308a20b",
+      "main_paper_id": "8a9d22295eb28701"
+    }
+  ],
+  "author_links": [
+    {
+      "paper_id": "8a9d22295eb28701",
+      "author_id": "eb27d4c012a83628",
+      "author_name": "Álvaro Carrera"
+    },
+    {
+      "paper_id": "8a9d22295eb28701",
+      "author_id": "84bf567cce0a345f",
+      "author_name": "Eduardo Alonso"
+    },
+    {
+      "paper_id": "8a9d22295eb28701",
+      "author_id": "ec47be6b057f6537",
+      "author_name": "Carlos Á. Iglesias"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "5aa780444830b370",
+      "author_name": "Lu Tan"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "ca6dd984483a3674",
+      "author_name": "Neng Wang"
+    },
+    {
+      "paper_id": "8c028a502998a1af",
+      "author_id": "fa58fce04ac6756f",
+      "author_name": "Luigi Atzori"
+    },
+    {
+      "paper_id": "8c028a502998a1af",
+      "author_id": "efaf1394b06ea69e",
+      "author_name": "Antonio Iera"
+    },
+    {
+      "paper_id": "8c028a502998a1af",
+      "author_id": "1e42a465b35265d1",
+      "author_name": "Giacomo Morabito"
+    },
+    {
+      "paper_id": "fc537758df621c13",
+      "author_id": "d33c9771bea461ae",
+      "author_name": "Plevyak, T."
+    },
+    {
+      "paper_id": "fc537758df621c13",
+      "author_id": "0a88068367a81e98",
+      "author_name": "Sahin, V."
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "5aa780444830b370",
+      "author_name": "Lu Tan"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "ca6dd984483a3674",
+      "author_name": "Neng Wang"
+    },
+    {
+      "paper_id": "0192d016f6d20c4a",
+      "author_id": "3e183b9bd65dd061",
+      "author_name": "Brendan Jennings"
+    },
+    {
+      "paper_id": "0192d016f6d20c4a",
+      "author_id": "213cc176e92c29fe",
+      "author_name": "Sven van der Meer"
+    },
+    {
+      "paper_id": "0192d016f6d20c4a",
+      "author_id": "b11cb7aeb2c6bfb5",
+      "author_name": "Sasitharan Balasubramaniam"
+    },
+    {
+      "paper_id": "0192d016f6d20c4a",
+      "author_id": "c42bcbe3775e5af6",
+      "author_name": "Dmitri Botvich"
+    },
+    {
+      "paper_id": "0192d016f6d20c4a",
+      "author_id": "f7df6d53d6122058",
+      "author_name": "Mícheál Ó Foghlú"
+    },
+    {
+      "paper_id": "0192d016f6d20c4a",
+      "author_id": "5a2ccf65e6f97ca8",
+      "author_name": "William Donnelly"
+    },
+    {
+      "paper_id": "0192d016f6d20c4a",
+      "author_id": "e609493d4322715f",
+      "author_name": "John Strassner"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "5aa780444830b370",
+      "author_name": "Lu Tan"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "ca6dd984483a3674",
+      "author_name": "Neng Wang"
+    },
+    {
+      "paper_id": "f0e9e3146eaca322",
+      "author_id": "1a0a8c22d7585473",
+      "author_name": "Dieter Uckelmann"
+    },
+    {
+      "paper_id": "f0e9e3146eaca322",
+      "author_id": "1642fc3066d3f0ed",
+      "author_name": "Mark Harrison"
+    },
+    {
+      "paper_id": "f0e9e3146eaca322",
+      "author_id": "c77d48a1b3d42ec2",
+      "author_name": "Florian Michahelles"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "5aa780444830b370",
+      "author_name": "Lu Tan"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "ca6dd984483a3674",
+      "author_name": "Neng Wang"
+    },
+    {
+      "paper_id": "1d19cc8f07312d84",
+      "author_id": "06cbc900d42c2ecc",
+      "author_name": "Guckenheimer, J."
+    },
+    {
+      "paper_id": "1d19cc8f07312d84",
+      "author_id": "ef64d8df44a4331b",
+      "author_name": "Ottino, J.M."
+    },
+    {
+      "paper_id": "8f8056533c5efbf0",
+      "author_id": "82184f7396e74873",
+      "author_name": "Clark, D."
+    },
+    {
+      "paper_id": "8f8056533c5efbf0",
+      "author_id": "00d6ed1cfd97d92a",
+      "author_name": "Shenker, S."
+    },
+    {
+      "paper_id": "8f8056533c5efbf0",
+      "author_id": "0ea6109ee49b59a8",
+      "author_name": "Falk, A."
+    },
+    {
+      "paper_id": "ab3930ccca414eb3",
+      "author_id": "0b9c3dda867f5ed2",
+      "author_name": "Agoulmine, N."
+    },
+    {
+      "paper_id": "38f4103b570901a4",
+      "author_id": "f227de8b765e9741",
+      "author_name": "Pras, A."
+    },
+    {
+      "paper_id": "38f4103b570901a4",
+      "author_id": "258f855448069ebc",
+      "author_name": "Schönwälder, J."
+    },
+    {
+      "paper_id": "38f4103b570901a4",
+      "author_id": "68d14d4538f19e99",
+      "author_name": "Burgess, M."
+    },
+    {
+      "paper_id": "38f4103b570901a4",
+      "author_id": "aa41440cbe61ab21",
+      "author_name": "Festor, O."
+    },
+    {
+      "paper_id": "38f4103b570901a4",
+      "author_id": "29cde1112ae98ac9",
+      "author_name": "Perez, G.M."
+    },
+    {
+      "paper_id": "38f4103b570901a4",
+      "author_id": "03eddcf47ad02286",
+      "author_name": "Stadler, R."
+    },
+    {
+      "paper_id": "38f4103b570901a4",
+      "author_id": "bb875761af188650",
+      "author_name": "Stiler, B."
+    },
+    {
+      "paper_id": "b3a3f90fbf441eea",
+      "author_id": "6ed9bbd6c833f5be",
+      "author_name": "Kephart, J."
+    },
+    {
+      "paper_id": "b3a3f90fbf441eea",
+      "author_id": "6ed9bbd6c833f5be",
+      "author_name": "Kephart, J."
+    },
+    {
+      "paper_id": "b3a3f90fbf441eea",
+      "author_id": "5becca3e1bf686b8",
+      "author_name": "Chess, D."
+    },
+    {
+      "paper_id": "b3a3f90fbf441eea",
+      "author_id": "eda85de0792d8855",
+      "author_name": "Boutilier, C."
+    },
+    {
+      "paper_id": "b3a3f90fbf441eea",
+      "author_id": "dc17e0c2b842ce62",
+      "author_name": "Das, R."
+    },
+    {
+      "paper_id": "b3a3f90fbf441eea",
+      "author_id": "aecb84971a765a62",
+      "author_name": "Kephart, J.O."
+    },
+    {
+      "paper_id": "b3a3f90fbf441eea",
+      "author_id": "93c1c509c45b430a",
+      "author_name": "Walsh, W.E."
+    },
+    {
+      "paper_id": "eb63615b6411f9ee",
+      "author_id": "ae1aed9ba55790cb",
+      "author_name": "John C. Strassner"
+    },
+    {
+      "paper_id": "eb63615b6411f9ee",
+      "author_id": "ef2157e4069b6be4",
+      "author_name": "Nazim Agoulmine"
+    },
+    {
+      "paper_id": "eb63615b6411f9ee",
+      "author_id": "a14f7bf82cc6324d",
+      "author_name": "Elyes Lehtihet"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "630494afb8a7e7f5",
+      "author_name": "Ghazi Bouabene"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "ba55cb6fbac2f6d1",
+      "author_name": "Christophe Jelger"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "6c7d13e4559fee47",
+      "author_name": "Christian Tschudin"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "def5550486017b07",
+      "author_name": "Stefan Schmid"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "27848b2ebab7aeaf",
+      "author_name": "Ariane Keller"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "13297aaa63fc9445",
+      "author_name": "Martin May"
+    },
+    {
+      "paper_id": "021b694788262341",
+      "author_id": "b90b1f6bac808f25",
+      "author_name": "Wang, Y."
+    },
+    {
+      "paper_id": "021b694788262341",
+      "author_id": "eb7c2352a353f164",
+      "author_name": "Zhu, K."
+    },
+    {
+      "paper_id": "021b694788262341",
+      "author_id": "5070d04a9ba5b057",
+      "author_name": "Sun, M."
+    },
+    {
+      "paper_id": "021b694788262341",
+      "author_id": "d6eeb406c71cc20f",
+      "author_name": "Deng, Y."
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "630494afb8a7e7f5",
+      "author_name": "Ghazi Bouabene"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "ba55cb6fbac2f6d1",
+      "author_name": "Christophe Jelger"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "6c7d13e4559fee47",
+      "author_name": "Christian Tschudin"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "def5550486017b07",
+      "author_name": "Stefan Schmid"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "27848b2ebab7aeaf",
+      "author_name": "Ariane Keller"
+    },
+    {
+      "paper_id": "01723899d61aacda",
+      "author_id": "13297aaa63fc9445",
+      "author_name": "Martin May"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "5aa780444830b370",
+      "author_name": "Lu Tan"
+    },
+    {
+      "paper_id": "40dc4c0dfbf0527f",
+      "author_id": "ca6dd984483a3674",
+      "author_name": "Neng Wang"
+    },
+    {
+      "paper_id": "eb63615b6411f9ee",
+      "author_id": "ae1aed9ba55790cb",
+      "author_name": "John C. Strassner"
+    },
+    {
+      "paper_id": "eb63615b6411f9ee",
+      "author_id": "ef2157e4069b6be4",
+      "author_name": "Nazim Agoulmine"
+    },
+    {
+      "paper_id": "eb63615b6411f9ee",
+      "author_id": "a14f7bf82cc6324d",
+      "author_name": "Elyes Lehtihet"
+    },
+    {
+      "paper_id": "dff6c12a39732822",
+      "author_id": "72e83e761bac6e1c",
+      "author_name": "Jiang, S."
+    },
+    {
+      "paper_id": "dff6c12a39732822",
+      "author_id": "d75fd65c4170407f",
+      "author_name": "Carpenter, B."
+    },
+    {
+      "paper_id": "dff6c12a39732822",
+      "author_id": "25c20287007e6a73",
+      "author_name": "Behringer, M."
+    },
+    {
+      "paper_id": "66d8773c1b923380",
+      "author_id": "548df6db84abcf5b",
+      "author_name": "Sorrentino, M."
+    },
+    {
+      "paper_id": "66d8773c1b923380",
+      "author_id": "7f20cacf16259e4c",
+      "author_name": "Bruno, M."
+    },
+    {
+      "paper_id": "66d8773c1b923380",
+      "author_id": "a7b6c27384051f22",
+      "author_name": "Trifirò, A."
+    },
+    {
+      "paper_id": "66d8773c1b923380",
+      "author_id": "a53c8979628c0449",
+      "author_name": "Rizzo, G."
+    },
+    {
+      "paper_id": "fbadc9f920345448",
+      "author_id": "3c259f1a30314576",
+      "author_name": "Zafar, A."
+    },
+    {
+      "paper_id": "fbadc9f920345448",
+      "author_id": "0c1c7fa12b92113b",
+      "author_name": "Akbar, A.H."
+    },
+    {
+      "paper_id": "fbadc9f920345448",
+      "author_id": "84b27d74a6be1701",
+      "author_name": "Wajid, B."
+    },
+    {
+      "paper_id": "fbadc9f920345448",
+      "author_id": "8dd1992e4c28a0d0",
+      "author_name": "Akram, B.A."
+    },
+    {
+      "paper_id": "fbadc9f920345448",
+      "author_id": "3f1f14e12f1cea78",
+      "author_name": "Irfan, T."
+    },
+    {
+      "paper_id": "d2629e09a942349a",
+      "author_id": "1a8b2703e2fffb36",
+      "author_name": "Grastien, A."
+    },
+    {
+      "paper_id": "d2629e09a942349a",
+      "author_id": "b5c8b556eb06c483",
+      "author_name": "Zanella, M."
+    },
+    {
+      "paper_id": "6e70982aab4bf097",
+      "author_id": "93fbfe6cc08e931d",
+      "author_name": "Carrera Barroso, A."
+    },
+    {
+      "paper_id": "17efcfeaf357307c",
+      "author_id": "44a2b9e614a3a231",
+      "author_name": "Carrera, A."
+    },
+    {
+      "paper_id": "17efcfeaf357307c",
+      "author_id": "0034589d28de5a3a",
+      "author_name": "Iglesias, C.A."
+    },
+    {
+      "paper_id": "17efcfeaf357307c",
+      "author_id": "2a91913cd51516fe",
+      "author_name": "García-Algarra, J."
+    },
+    {
+      "paper_id": "17efcfeaf357307c",
+      "author_id": "00222cd48ff60fd1",
+      "author_name": "Kolařik, D."
+    },
+    {
+      "paper_id": "5ecd697ad7fbdc1c",
+      "author_id": "aa4a02ca73629981",
+      "author_name": "Baoping Cai"
+    },
+    {
+      "paper_id": "5ecd697ad7fbdc1c",
+      "author_id": "634d93293770bdc9",
+      "author_name": "Lei Huang"
+    },
+    {
+      "paper_id": "5ecd697ad7fbdc1c",
+      "author_id": "f101f374523bb0c7",
+      "author_name": "Min Xie"
+    },
+    {
+      "paper_id": "402c012fe8c33a12",
+      "author_id": "cefbf26e9e8d67d5",
+      "author_name": "Shijun Chen"
+    },
+    {
+      "paper_id": "402c012fe8c33a12",
+      "author_id": "bb1ac4edf99133b7",
+      "author_name": "Lin Gao"
+    },
+    {
+      "paper_id": "402c012fe8c33a12",
+      "author_id": "cb0f2b8d165a98bb",
+      "author_name": "Guoqiong Liao"
+    },
+    {
+      "paper_id": "12ad66b3d04d2625",
+      "author_id": "353970e06686214f",
+      "author_name": "Yan‐Fu Li"
+    },
+    {
+      "paper_id": "12ad66b3d04d2625",
+      "author_id": "341b1ffc38328548",
+      "author_name": "Jie Liu"
+    },
+    {
+      "paper_id": "11f970d2e5d0436c",
+      "author_id": "b382fd7bc23fa844",
+      "author_name": "Z. Łukasik"
+    },
+    {
+      "paper_id": "11f970d2e5d0436c",
+      "author_id": "591d2cecd9882d2f",
+      "author_name": "Waldemar Nowakowski"
+    },
+    {
+      "paper_id": "11f970d2e5d0436c",
+      "author_id": "fc04f3a665779680",
+      "author_name": "Tomasz Ciszewski"
+    },
+    {
+      "paper_id": "11f970d2e5d0436c",
+      "author_id": "cb34c17f1489fba2",
+      "author_name": "Julija Freimane"
+    },
+    {
+      "paper_id": "253bdd8729a8860d",
+      "author_id": "c7310f9a0f6d69e7",
+      "author_name": "Zeyu Zhang"
+    },
+    {
+      "paper_id": "253bdd8729a8860d",
+      "author_id": "38d1981a6c595787",
+      "author_name": "Amjad Mehmood"
+    },
+    {
+      "paper_id": "253bdd8729a8860d",
+      "author_id": "caeb635c5f46b7eb",
+      "author_name": "Lei Shu"
+    },
+    {
+      "paper_id": "253bdd8729a8860d",
+      "author_id": "3b97807b8fe0815c",
+      "author_name": "Zhiqiang Huo"
+    },
+    {
+      "paper_id": "253bdd8729a8860d",
+      "author_id": "6a15d6b50c3f7969",
+      "author_name": "Yu Zhang"
+    },
+    {
+      "paper_id": "253bdd8729a8860d",
+      "author_id": "965704b149560499",
+      "author_name": "Mithun Mukherjee"
+    },
+    {
+      "paper_id": "b3a5c40d75c4d929",
+      "author_id": "3adcf7f1dfb189ae",
+      "author_name": "Marco Sorrentino"
+    },
+    {
+      "paper_id": "b3a5c40d75c4d929",
+      "author_id": "f1a335e8c56d3661",
+      "author_name": "Marco Bruno"
+    },
+    {
+      "paper_id": "b3a5c40d75c4d929",
+      "author_id": "a65f99318ef5314b",
+      "author_name": "Alena Trifirò"
+    },
+    {
+      "paper_id": "b3a5c40d75c4d929",
+      "author_id": "6eba1dffb385993f",
+      "author_name": "Gianfranco Rizzo"
+    },
+    {
+      "paper_id": "99bcf79c24ed6bda",
+      "author_id": "18cb58cb0d98320a",
+      "author_name": "Javier Mata"
+    },
+    {
+      "paper_id": "99bcf79c24ed6bda",
+      "author_id": "d8053fd7dfa022af",
+      "author_name": "Ignacio de Miguel"
+    },
+    {
+      "paper_id": "99bcf79c24ed6bda",
+      "author_id": "5186c0307c191a2f",
+      "author_name": "Ramón J. Durán"
+    },
+    {
+      "paper_id": "99bcf79c24ed6bda",
+      "author_id": "f53fd7e62c05b4b5",
+      "author_name": "Noemí Merayo"
+    },
+    {
+      "paper_id": "99bcf79c24ed6bda",
+      "author_id": "1ccda8b43dbc620f",
+      "author_name": "Sandeep Kumar Singh"
+    },
+    {
+      "paper_id": "99bcf79c24ed6bda",
+      "author_id": "aebbbb314cdaa481",
+      "author_name": "Admela Jukan"
+    },
+    {
+      "paper_id": "99bcf79c24ed6bda",
+      "author_id": "c086f29757477cdf",
+      "author_name": "Mohit Chamania"
+    },
+    {
+      "paper_id": "44c22a6210d92e5f",
+      "author_id": "a17064d00d656a47",
+      "author_name": "Luis Velasco"
+    },
+    {
+      "paper_id": "44c22a6210d92e5f",
+      "author_id": "835424988591b3fc",
+      "author_name": "Danish Rafique"
+    },
+    {
+      "paper_id": "67b283da8a0ea8fc",
+      "author_id": "074475bb00f1bfbf",
+      "author_name": "Dimitri N. Mavris"
+    },
+    {
+      "paper_id": "67b283da8a0ea8fc",
+      "author_id": "acc280bbdeb130f3",
+      "author_name": "Daili Zhang"
+    },
+    {
+      "paper_id": "84f5ff7cac83905d",
+      "author_id": "0da3d8e963ae3b8c",
+      "author_name": "Marinus Maris"
+    },
+    {
+      "paper_id": "84f5ff7cac83905d",
+      "author_id": "374bbad3a76264c4",
+      "author_name": "Gregor Pavlin"
+    },
+    {
+      "paper_id": "17373ff5d30cfbe9",
+      "author_id": "4723ff000a302951",
+      "author_name": "Yang Xiang"
+    },
+    {
+      "paper_id": "17373ff5d30cfbe9",
+      "author_id": "c88639f948675619",
+      "author_name": "David Poole"
+    },
+    {
+      "paper_id": "17373ff5d30cfbe9",
+      "author_id": "2c197a47207788a5",
+      "author_name": "Michael P. Beddoes"
+    },
+    {
+      "paper_id": "2a16a6955bb9e477",
+      "author_id": "cd4d7678d626fe8c",
+      "author_name": "Ana Li Oña García"
+    },
+    {
+      "paper_id": "2a16a6955bb9e477",
+      "author_id": "9a41d635098099e7",
+      "author_name": "Luis Enrique Sucar"
+    },
+    {
+      "paper_id": "2a16a6955bb9e477",
+      "author_id": "124604edbb8c58d3",
+      "author_name": "Eduardo F. Morales"
+    },
+    {
+      "paper_id": "cde8c64d02f07f4a",
+      "author_id": "b427b802284b9cd0",
+      "author_name": "Modi, P.J."
+    },
+    {
+      "paper_id": "cde8c64d02f07f4a",
+      "author_id": "0068674d45973261",
+      "author_name": "Shen, W.M."
+    },
+    {
+      "paper_id": "7a3c56a1a0b0b679",
+      "author_id": "e899589063ce07ae",
+      "author_name": "Maya Wardeh"
+    },
+    {
+      "paper_id": "7a3c56a1a0b0b679",
+      "author_id": "432fcf8923ca804a",
+      "author_name": "Frans Coenen"
+    },
+    {
+      "paper_id": "7a3c56a1a0b0b679",
+      "author_id": "9f4710e0ad1a653c",
+      "author_name": "Trevor Bench‐Capon"
+    },
+    {
+      "paper_id": "531376e208fbaa7c",
+      "author_id": "6eacd08d736d4d2a",
+      "author_name": "Vladimir Gorodetsky"
+    },
+    {
+      "paper_id": "531376e208fbaa7c",
+      "author_id": "adac354089216b96",
+      "author_name": "O. Karsaeyv"
+    },
+    {
+      "paper_id": "531376e208fbaa7c",
+      "author_id": "093d72e57b663e57",
+      "author_name": "Vladimir Samoilov"
+    },
+    {
+      "paper_id": "483adc976c4e5750",
+      "author_id": "a621596e612134d6",
+      "author_name": "Rong Pan"
+    },
+    {
+      "paper_id": "483adc976c4e5750",
+      "author_id": "0cb8bd9ce27e3818",
+      "author_name": "Yun Peng"
+    },
+    {
+      "paper_id": "483adc976c4e5750",
+      "author_id": "6faa409d73fe83d2",
+      "author_name": "Zhongli Ding"
+    },
+    {
+      "paper_id": "ceb558129a3c05ea",
+      "author_id": "ef259fc21ba5920c",
+      "author_name": "Dung, P.M."
+    },
+    {
+      "paper_id": "6161aa9f0300ef3c",
+      "author_id": "40b1891a0fd1a06d",
+      "author_name": "A. G. Bondarenko"
+    },
+    {
+      "paper_id": "6161aa9f0300ef3c",
+      "author_id": "9dad33896fbe7d02",
+      "author_name": "Francesca Toni"
+    },
+    {
+      "paper_id": "6161aa9f0300ef3c",
+      "author_id": "95f8c80b29ac25b2",
+      "author_name": "Robert Kowalski"
+    },
+    {
+      "paper_id": "a813e01807449a11",
+      "author_id": "a430f324b2f447a3",
+      "author_name": "Modgil, Sanjay"
+    },
+    {
+      "paper_id": "a813e01807449a11",
+      "author_id": "6d35533078b726bf",
+      "author_name": "Toni, Francesca"
+    },
+    {
+      "paper_id": "a813e01807449a11",
+      "author_id": "cdc29b689ff591f9",
+      "author_name": "Oren, Nir"
+    },
+    {
+      "paper_id": "b561791f248bb693",
+      "author_id": "44ebb9a998fcd81e",
+      "author_name": "Tjitze Rienstra"
+    },
+    {
+      "paper_id": "b561791f248bb693",
+      "author_id": "4d50a218b2d59e69",
+      "author_name": "Matthias Thimm"
+    },
+    {
+      "paper_id": "b561791f248bb693",
+      "author_id": "29801df04638520e",
+      "author_name": "Beishui Liao"
+    },
+    {
+      "paper_id": "b561791f248bb693",
+      "author_id": "0cd0338f09bdc23a",
+      "author_name": "Leendert van der Torre"
+    },
+    {
+      "paper_id": "f6694cd44d82925e",
+      "author_id": "d9350d05e79594d4",
+      "author_name": "Henry Prakken"
+    },
+    {
+      "paper_id": "9be66ae89e49ae36",
+      "author_id": "1f533aeec4d6c370",
+      "author_name": "Anthony Hunter"
+    },
+    {
+      "paper_id": "5c38ec479c2045a3",
+      "author_id": "17429ad19bac0220",
+      "author_name": "Jeroen Keppens"
+    },
+    {
+      "paper_id": "9a6918a032e80563",
+      "author_id": "4d3ce2677bca2b85",
+      "author_name": "Benjamin Eva"
+    },
+    {
+      "paper_id": "9a6918a032e80563",
+      "author_id": "9aedcd3e63b8ef21",
+      "author_name": "Stephan Hartmann"
+    },
+    {
+      "paper_id": "c53f00537f7d60e7",
+      "author_id": "ae1ea1692b0fed34",
+      "author_name": "Régis Riveret"
+    },
+    {
+      "paper_id": "c53f00537f7d60e7",
+      "author_id": "3c21cbf4beaf9afb",
+      "author_name": "Pietro Baroni"
+    },
+    {
+      "paper_id": "c53f00537f7d60e7",
+      "author_id": "f88f26d34ecf39f9",
+      "author_name": "Yang Gao"
+    },
+    {
+      "paper_id": "c53f00537f7d60e7",
+      "author_id": "ae869ac6ed913f8b",
+      "author_name": "Guido Governatori"
+    },
+    {
+      "paper_id": "c53f00537f7d60e7",
+      "author_id": "811938d1550186b2",
+      "author_name": "Antonino Rotolo"
+    },
+    {
+      "paper_id": "c53f00537f7d60e7",
+      "author_id": "377ba909f3d3e383",
+      "author_name": "Giovanni Sartor"
+    },
+    {
+      "paper_id": "9a6918a032e80563",
+      "author_id": "4d3ce2677bca2b85",
+      "author_name": "Benjamin Eva"
+    },
+    {
+      "paper_id": "9a6918a032e80563",
+      "author_id": "9aedcd3e63b8ef21",
+      "author_name": "Stephan Hartmann"
+    },
+    {
+      "paper_id": "14d10aa3080e438e",
+      "author_id": "306f4d5d1451ae4e",
+      "author_name": "Hahn, U."
+    },
+    {
+      "paper_id": "14d10aa3080e438e",
+      "author_id": "01bb849cde1e813f",
+      "author_name": "Oaksford, M."
+    },
+    {
+      "paper_id": "14d10aa3080e438e",
+      "author_id": "7308cb22fb7052cf",
+      "author_name": "Harris, A."
+    },
+    {
+      "paper_id": "c99d2a246c6e87b8",
+      "author_id": "8d8b0da30368c2a0",
+      "author_name": "Eva, B."
+    },
+    {
+      "paper_id": "c99d2a246c6e87b8",
+      "author_id": "ad79e497d328f019",
+      "author_name": "Hartmann, S."
+    },
+    {
+      "paper_id": "b7420b7df1bf7ff5",
+      "author_id": "470a99814573ef81",
+      "author_name": "Prakken, H."
+    },
+    {
+      "paper_id": "c2a130fdbb4cf4db",
+      "author_id": "27dd06f730bb3f6c",
+      "author_name": "Judea Pearl"
+    },
+    {
+      "paper_id": "50a282d88382199d",
+      "author_id": "6f7c519a7efadcc7",
+      "author_name": "Cerf, V."
+    },
+    {
+      "paper_id": "37341624dc8575e7",
+      "author_id": "cc1ce7425ee0689b",
+      "author_name": "Koiter, J.R."
+    },
+    {
+      "paper_id": "d729c62cb1c19da5",
+      "author_id": "71bae26b10ddc702",
+      "author_name": "Rudolf Beran"
+    },
+    {
+      "paper_id": "b80befe5327eeb49",
+      "author_id": "843102e7a78e35b6",
+      "author_name": "Allweyer, T."
+    },
+    {
+      "paper_id": "49bd72e97886f41d",
+      "author_id": "c846b074f01e7e2e",
+      "author_name": "V. Richard Benjamins"
+    },
+    {
+      "paper_id": "1d4feab88308a20b",
+      "author_id": "49993190d0339346",
+      "author_name": "Janez Demšar"
+    }
+  ],
+  "total": 61,
+  "verified": 40
+}

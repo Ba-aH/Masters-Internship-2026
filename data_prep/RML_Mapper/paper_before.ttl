@@ -1,0 +1,1394 @@
+@prefix citekg: <https://citekg.org/ontology#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix map: <http://citekg.org/mapping#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://w3id.org/rml/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://citekg.org/resource/author/00222cd48ff60fd1> a citekg:Author;
+  rdfs:label "Kolařik, D."@en;
+  foaf:name "Kolařik, D."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/17efcfeaf357307c> .
+
+<https://citekg.org/resource/author/0034589d28de5a3a> a citekg:Author;
+  rdfs:label "Iglesias, C.A."@en;
+  foaf:name "Iglesias, C.A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/17efcfeaf357307c> .
+
+<https://citekg.org/resource/author/0068674d45973261> a citekg:Author;
+  rdfs:label "Shen, W.M."@en;
+  foaf:name "Shen, W.M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/cde8c64d02f07f4a> .
+
+<https://citekg.org/resource/author/00d6ed1cfd97d92a> a citekg:Author;
+  rdfs:label "Shenker, S."@en;
+  foaf:name "Shenker, S."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8f8056533c5efbf0> .
+
+<https://citekg.org/resource/author/01bb849cde1e813f> a citekg:Author;
+  rdfs:label "Oaksford, M."@en;
+  foaf:name "Oaksford, M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/14d10aa3080e438e> .
+
+<https://citekg.org/resource/author/03eddcf47ad02286> a citekg:Author;
+  rdfs:label "Stadler, R."@en;
+  foaf:name "Stadler, R."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/38f4103b570901a4> .
+
+<https://citekg.org/resource/author/06cbc900d42c2ecc> a citekg:Author;
+  rdfs:label "Guckenheimer, J."@en;
+  foaf:name "Guckenheimer, J."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/1d19cc8f07312d84> .
+
+<https://citekg.org/resource/author/074475bb00f1bfbf> a citekg:Author;
+  rdfs:label "Dimitri N. Mavris"@en;
+  foaf:name "Dimitri N. Mavris"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/67b283da8a0ea8fc> .
+
+<https://citekg.org/resource/author/093d72e57b663e57> a citekg:Author;
+  rdfs:label "Vladimir Samoilov"@en;
+  foaf:name "Vladimir Samoilov"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/531376e208fbaa7c> .
+
+<https://citekg.org/resource/author/0a88068367a81e98> a citekg:Author;
+  rdfs:label "Sahin, V."@en;
+  foaf:name "Sahin, V."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/fc537758df621c13> .
+
+<https://citekg.org/resource/author/0b9c3dda867f5ed2> a citekg:Author;
+  rdfs:label "Agoulmine, N."@en;
+  foaf:name "Agoulmine, N."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/ab3930ccca414eb3> .
+
+<https://citekg.org/resource/author/0c1c7fa12b92113b> a citekg:Author;
+  rdfs:label "Akbar, A.H."@en;
+  foaf:name "Akbar, A.H."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/fbadc9f920345448> .
+
+<https://citekg.org/resource/author/0cb8bd9ce27e3818> a citekg:Author;
+  rdfs:label "Yun Peng"@en;
+  foaf:name "Yun Peng"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/483adc976c4e5750> .
+
+<https://citekg.org/resource/author/0cd0338f09bdc23a> a citekg:Author;
+  rdfs:label "Leendert van der Torre"@en;
+  foaf:name "Leendert van der Torre"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b561791f248bb693> .
+
+<https://citekg.org/resource/author/0da3d8e963ae3b8c> a citekg:Author;
+  rdfs:label "Marinus Maris"@en;
+  foaf:name "Marinus Maris"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/84f5ff7cac83905d> .
+
+<https://citekg.org/resource/author/0ea6109ee49b59a8> a citekg:Author;
+  rdfs:label "Falk, A."@en;
+  foaf:name "Falk, A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8f8056533c5efbf0> .
+
+<https://citekg.org/resource/author/124604edbb8c58d3> a citekg:Author;
+  rdfs:label "Eduardo F. Morales"@en;
+  foaf:name "Eduardo F. Morales"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/2a16a6955bb9e477> .
+
+<https://citekg.org/resource/author/13297aaa63fc9445> a citekg:Author;
+  rdfs:label "Martin May"@en;
+  foaf:name "Martin May"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/01723899d61aacda> .
+
+<https://citekg.org/resource/author/1642fc3066d3f0ed> a citekg:Author;
+  rdfs:label "Mark Harrison"@en;
+  foaf:name "Mark Harrison"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/f0e9e3146eaca322> .
+
+<https://citekg.org/resource/author/17429ad19bac0220> a citekg:Author;
+  rdfs:label "Jeroen Keppens"@en;
+  foaf:name "Jeroen Keppens"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/5c38ec479c2045a3> .
+
+<https://citekg.org/resource/author/18cb58cb0d98320a> a citekg:Author;
+  rdfs:label "Javier Mata"@en;
+  foaf:name "Javier Mata"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/99bcf79c24ed6bda> .
+
+<https://citekg.org/resource/author/1a0a8c22d7585473> a citekg:Author;
+  rdfs:label "Dieter Uckelmann"@en;
+  foaf:name "Dieter Uckelmann"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/f0e9e3146eaca322> .
+
+<https://citekg.org/resource/author/1a8b2703e2fffb36> a citekg:Author;
+  rdfs:label "Grastien, A."@en;
+  foaf:name "Grastien, A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/d2629e09a942349a> .
+
+<https://citekg.org/resource/author/1ccda8b43dbc620f> a citekg:Author;
+  rdfs:label "Sandeep Kumar Singh"@en;
+  foaf:name "Sandeep Kumar Singh"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/99bcf79c24ed6bda> .
+
+<https://citekg.org/resource/author/1e42a465b35265d1> a citekg:Author;
+  rdfs:label "Giacomo Morabito"@en;
+  foaf:name "Giacomo Morabito"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8c028a502998a1af> .
+
+<https://citekg.org/resource/author/1f533aeec4d6c370> a citekg:Author;
+  rdfs:label "Anthony Hunter"@en;
+  foaf:name "Anthony Hunter"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/9be66ae89e49ae36> .
+
+<https://citekg.org/resource/author/213cc176e92c29fe> a citekg:Author;
+  rdfs:label "Sven van der Meer"@en;
+  foaf:name "Sven van der Meer"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/0192d016f6d20c4a> .
+
+<https://citekg.org/resource/author/258f855448069ebc> a citekg:Author;
+  rdfs:label "Schönwälder, J."@en;
+  foaf:name "Schönwälder, J."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/38f4103b570901a4> .
+
+<https://citekg.org/resource/author/25c20287007e6a73> a citekg:Author;
+  rdfs:label "Behringer, M."@en;
+  foaf:name "Behringer, M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/dff6c12a39732822> .
+
+<https://citekg.org/resource/author/27848b2ebab7aeaf> a citekg:Author;
+  rdfs:label "Ariane Keller"@en;
+  foaf:name "Ariane Keller"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/01723899d61aacda> .
+
+<https://citekg.org/resource/author/27dd06f730bb3f6c> a citekg:Author;
+  rdfs:label "Judea Pearl"@en;
+  foaf:name "Judea Pearl"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c2a130fdbb4cf4db> .
+
+<https://citekg.org/resource/author/29801df04638520e> a citekg:Author;
+  rdfs:label "Beishui Liao"@en;
+  foaf:name "Beishui Liao"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b561791f248bb693> .
+
+<https://citekg.org/resource/author/29cde1112ae98ac9> a citekg:Author;
+  rdfs:label "Perez, G.M."@en;
+  foaf:name "Perez, G.M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/38f4103b570901a4> .
+
+<https://citekg.org/resource/author/2a91913cd51516fe> a citekg:Author;
+  rdfs:label "García-Algarra, J."@en;
+  foaf:name "García-Algarra, J."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/17efcfeaf357307c> .
+
+<https://citekg.org/resource/author/2c197a47207788a5> a citekg:Author;
+  rdfs:label "Michael P. Beddoes"@en;
+  foaf:name "Michael P. Beddoes"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/17373ff5d30cfbe9> .
+
+<https://citekg.org/resource/author/306f4d5d1451ae4e> a citekg:Author;
+  rdfs:label "Hahn, U."@en;
+  foaf:name "Hahn, U."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/14d10aa3080e438e> .
+
+<https://citekg.org/resource/author/341b1ffc38328548> a citekg:Author;
+  rdfs:label "Jie Liu"@en;
+  foaf:name "Jie Liu"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/12ad66b3d04d2625> .
+
+<https://citekg.org/resource/author/353970e06686214f> a citekg:Author;
+  rdfs:label "Yan‐Fu Li"@en;
+  foaf:name "Yan‐Fu Li"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/12ad66b3d04d2625> .
+
+<https://citekg.org/resource/author/374bbad3a76264c4> a citekg:Author;
+  rdfs:label "Gregor Pavlin"@en;
+  foaf:name "Gregor Pavlin"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/84f5ff7cac83905d> .
+
+<https://citekg.org/resource/author/377ba909f3d3e383> a citekg:Author;
+  rdfs:label "Giovanni Sartor"@en;
+  foaf:name "Giovanni Sartor"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c53f00537f7d60e7> .
+
+<https://citekg.org/resource/author/38d1981a6c595787> a citekg:Author;
+  rdfs:label "Amjad Mehmood"@en;
+  foaf:name "Amjad Mehmood"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/253bdd8729a8860d> .
+
+<https://citekg.org/resource/author/3adcf7f1dfb189ae> a citekg:Author;
+  rdfs:label "Marco Sorrentino"@en;
+  foaf:name "Marco Sorrentino"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a5c40d75c4d929> .
+
+<https://citekg.org/resource/author/3b97807b8fe0815c> a citekg:Author;
+  rdfs:label "Zhiqiang Huo"@en;
+  foaf:name "Zhiqiang Huo"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/253bdd8729a8860d> .
+
+<https://citekg.org/resource/author/3c21cbf4beaf9afb> a citekg:Author;
+  rdfs:label "Pietro Baroni"@en;
+  foaf:name "Pietro Baroni"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c53f00537f7d60e7> .
+
+<https://citekg.org/resource/author/3c259f1a30314576> a citekg:Author;
+  rdfs:label "Zafar, A."@en;
+  foaf:name "Zafar, A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/fbadc9f920345448> .
+
+<https://citekg.org/resource/author/3e183b9bd65dd061> a citekg:Author;
+  rdfs:label "Brendan Jennings"@en;
+  foaf:name "Brendan Jennings"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/0192d016f6d20c4a> .
+
+<https://citekg.org/resource/author/3f1f14e12f1cea78> a citekg:Author;
+  rdfs:label "Irfan, T."@en;
+  foaf:name "Irfan, T."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/fbadc9f920345448> .
+
+<https://citekg.org/resource/author/40b1891a0fd1a06d> a citekg:Author;
+  rdfs:label "A. G. Bondarenko"@en;
+  foaf:name "A. G. Bondarenko"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/6161aa9f0300ef3c> .
+
+<https://citekg.org/resource/author/432fcf8923ca804a> a citekg:Author;
+  rdfs:label "Frans Coenen"@en;
+  foaf:name "Frans Coenen"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/7a3c56a1a0b0b679> .
+
+<https://citekg.org/resource/author/44a2b9e614a3a231> a citekg:Author;
+  rdfs:label "Carrera, A."@en;
+  foaf:name "Carrera, A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/17efcfeaf357307c> .
+
+<https://citekg.org/resource/author/44ebb9a998fcd81e> a citekg:Author;
+  rdfs:label "Tjitze Rienstra"@en;
+  foaf:name "Tjitze Rienstra"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b561791f248bb693> .
+
+<https://citekg.org/resource/author/470a99814573ef81> a citekg:Author;
+  rdfs:label "Prakken, H."@en;
+  foaf:name "Prakken, H."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b7420b7df1bf7ff5> .
+
+<https://citekg.org/resource/author/4723ff000a302951> a citekg:Author;
+  rdfs:label "Yang Xiang"@en;
+  foaf:name "Yang Xiang"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/17373ff5d30cfbe9> .
+
+<https://citekg.org/resource/author/49993190d0339346> a citekg:Author;
+  rdfs:label "Janez Demšar"@en;
+  foaf:name "Janez Demšar"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/1d4feab88308a20b> .
+
+<https://citekg.org/resource/author/4d3ce2677bca2b85> a citekg:Author;
+  rdfs:label "Benjamin Eva"@en;
+  foaf:name "Benjamin Eva"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/9a6918a032e80563> .
+
+<https://citekg.org/resource/author/4d50a218b2d59e69> a citekg:Author;
+  rdfs:label "Matthias Thimm"@en;
+  foaf:name "Matthias Thimm"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b561791f248bb693> .
+
+<https://citekg.org/resource/author/5070d04a9ba5b057> a citekg:Author;
+  rdfs:label "Sun, M."@en;
+  foaf:name "Sun, M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/021b694788262341> .
+
+<https://citekg.org/resource/author/5186c0307c191a2f> a citekg:Author;
+  rdfs:label "Ramón J. Durán"@en;
+  foaf:name "Ramón J. Durán"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/99bcf79c24ed6bda> .
+
+<https://citekg.org/resource/author/548df6db84abcf5b> a citekg:Author;
+  rdfs:label "Sorrentino, M."@en;
+  foaf:name "Sorrentino, M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/66d8773c1b923380> .
+
+<https://citekg.org/resource/author/591d2cecd9882d2f> a citekg:Author;
+  rdfs:label "Waldemar Nowakowski"@en;
+  foaf:name "Waldemar Nowakowski"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/11f970d2e5d0436c> .
+
+<https://citekg.org/resource/author/5a2ccf65e6f97ca8> a citekg:Author;
+  rdfs:label "William Donnelly"@en;
+  foaf:name "William Donnelly"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/0192d016f6d20c4a> .
+
+<https://citekg.org/resource/author/5aa780444830b370> a citekg:Author;
+  rdfs:label "Lu Tan"@en;
+  foaf:name "Lu Tan"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/40dc4c0dfbf0527f> .
+
+<https://citekg.org/resource/author/5becca3e1bf686b8> a citekg:Author;
+  rdfs:label "Chess, D."@en;
+  foaf:name "Chess, D."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a3f90fbf441eea> .
+
+<https://citekg.org/resource/author/630494afb8a7e7f5> a citekg:Author;
+  rdfs:label "Ghazi Bouabene"@en;
+  foaf:name "Ghazi Bouabene"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/01723899d61aacda> .
+
+<https://citekg.org/resource/author/634d93293770bdc9> a citekg:Author;
+  rdfs:label "Lei Huang"@en;
+  foaf:name "Lei Huang"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/5ecd697ad7fbdc1c> .
+
+<https://citekg.org/resource/author/68d14d4538f19e99> a citekg:Author;
+  rdfs:label "Burgess, M."@en;
+  foaf:name "Burgess, M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/38f4103b570901a4> .
+
+<https://citekg.org/resource/author/6a15d6b50c3f7969> a citekg:Author;
+  rdfs:label "Yu Zhang"@en;
+  foaf:name "Yu Zhang"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/253bdd8729a8860d> .
+
+<https://citekg.org/resource/author/6c7d13e4559fee47> a citekg:Author;
+  rdfs:label "Christian Tschudin"@en;
+  foaf:name "Christian Tschudin"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/01723899d61aacda> .
+
+<https://citekg.org/resource/author/6d35533078b726bf> a citekg:Author;
+  rdfs:label "Toni, Francesca"@en;
+  foaf:name "Toni, Francesca"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/a813e01807449a11> .
+
+<https://citekg.org/resource/author/6eacd08d736d4d2a> a citekg:Author;
+  rdfs:label "Vladimir Gorodetsky"@en;
+  foaf:name "Vladimir Gorodetsky"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/531376e208fbaa7c> .
+
+<https://citekg.org/resource/author/6eba1dffb385993f> a citekg:Author;
+  rdfs:label "Gianfranco Rizzo"@en;
+  foaf:name "Gianfranco Rizzo"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a5c40d75c4d929> .
+
+<https://citekg.org/resource/author/6ed9bbd6c833f5be> a citekg:Author;
+  rdfs:label "Kephart, J."@en;
+  foaf:name "Kephart, J."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a3f90fbf441eea> .
+
+<https://citekg.org/resource/author/6f7c519a7efadcc7> a citekg:Author;
+  rdfs:label "Cerf, V."@en;
+  foaf:name "Cerf, V."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/50a282d88382199d> .
+
+<https://citekg.org/resource/author/6faa409d73fe83d2> a citekg:Author;
+  rdfs:label "Zhongli Ding"@en;
+  foaf:name "Zhongli Ding"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/483adc976c4e5750> .
+
+<https://citekg.org/resource/author/71bae26b10ddc702> a citekg:Author;
+  rdfs:label "Rudolf Beran"@en;
+  foaf:name "Rudolf Beran"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/d729c62cb1c19da5> .
+
+<https://citekg.org/resource/author/72e83e761bac6e1c> a citekg:Author;
+  rdfs:label "Jiang, S."@en;
+  foaf:name "Jiang, S."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/dff6c12a39732822> .
+
+<https://citekg.org/resource/author/7308cb22fb7052cf> a citekg:Author;
+  rdfs:label "Harris, A."@en;
+  foaf:name "Harris, A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/14d10aa3080e438e> .
+
+<https://citekg.org/resource/author/7f20cacf16259e4c> a citekg:Author;
+  rdfs:label "Bruno, M."@en;
+  foaf:name "Bruno, M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/66d8773c1b923380> .
+
+<https://citekg.org/resource/author/811938d1550186b2> a citekg:Author;
+  rdfs:label "Antonino Rotolo"@en;
+  foaf:name "Antonino Rotolo"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c53f00537f7d60e7> .
+
+<https://citekg.org/resource/author/82184f7396e74873> a citekg:Author;
+  rdfs:label "Clark, D."@en;
+  foaf:name "Clark, D."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8f8056533c5efbf0> .
+
+<https://citekg.org/resource/author/835424988591b3fc> a citekg:Author;
+  rdfs:label "Danish Rafique"@en;
+  foaf:name "Danish Rafique"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/44c22a6210d92e5f> .
+
+<https://citekg.org/resource/author/843102e7a78e35b6> a citekg:Author;
+  rdfs:label "Allweyer, T."@en;
+  foaf:name "Allweyer, T."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b80befe5327eeb49> .
+
+<https://citekg.org/resource/author/84b27d74a6be1701> a citekg:Author;
+  rdfs:label "Wajid, B."@en;
+  foaf:name "Wajid, B."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/fbadc9f920345448> .
+
+<https://citekg.org/resource/author/84bf567cce0a345f> a citekg:Author;
+  rdfs:label "Eduardo Alonso"@en;
+  foaf:name "Eduardo Alonso"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8a9d22295eb28701> .
+
+<https://citekg.org/resource/author/8d8b0da30368c2a0> a citekg:Author;
+  rdfs:label "Eva, B."@en;
+  foaf:name "Eva, B."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c99d2a246c6e87b8> .
+
+<https://citekg.org/resource/author/8dd1992e4c28a0d0> a citekg:Author;
+  rdfs:label "Akram, B.A."@en;
+  foaf:name "Akram, B.A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/fbadc9f920345448> .
+
+<https://citekg.org/resource/author/93c1c509c45b430a> a citekg:Author;
+  rdfs:label "Walsh, W.E."@en;
+  foaf:name "Walsh, W.E."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a3f90fbf441eea> .
+
+<https://citekg.org/resource/author/93fbfe6cc08e931d> a citekg:Author;
+  rdfs:label "Carrera Barroso, A."@en;
+  foaf:name "Carrera Barroso, A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/6e70982aab4bf097> .
+
+<https://citekg.org/resource/author/95f8c80b29ac25b2> a citekg:Author;
+  rdfs:label "Robert Kowalski"@en;
+  foaf:name "Robert Kowalski"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/6161aa9f0300ef3c> .
+
+<https://citekg.org/resource/author/965704b149560499> a citekg:Author;
+  rdfs:label "Mithun Mukherjee"@en;
+  foaf:name "Mithun Mukherjee"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/253bdd8729a8860d> .
+
+<https://citekg.org/resource/author/9a41d635098099e7> a citekg:Author;
+  rdfs:label "Luis Enrique Sucar"@en;
+  foaf:name "Luis Enrique Sucar"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/2a16a6955bb9e477> .
+
+<https://citekg.org/resource/author/9aedcd3e63b8ef21> a citekg:Author;
+  rdfs:label "Stephan Hartmann"@en;
+  foaf:name "Stephan Hartmann"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/9a6918a032e80563> .
+
+<https://citekg.org/resource/author/9dad33896fbe7d02> a citekg:Author;
+  rdfs:label "Francesca Toni"@en;
+  foaf:name "Francesca Toni"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/6161aa9f0300ef3c> .
+
+<https://citekg.org/resource/author/9f4710e0ad1a653c> a citekg:Author;
+  rdfs:label "Trevor Bench‐Capon"@en;
+  foaf:name "Trevor Bench‐Capon"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/7a3c56a1a0b0b679> .
+
+<https://citekg.org/resource/author/a14f7bf82cc6324d> a citekg:Author;
+  rdfs:label "Elyes Lehtihet"@en;
+  foaf:name "Elyes Lehtihet"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/eb63615b6411f9ee> .
+
+<https://citekg.org/resource/author/a17064d00d656a47> a citekg:Author;
+  rdfs:label "Luis Velasco"@en;
+  foaf:name "Luis Velasco"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/44c22a6210d92e5f> .
+
+<https://citekg.org/resource/author/a430f324b2f447a3> a citekg:Author;
+  rdfs:label "Modgil, Sanjay"@en;
+  foaf:name "Modgil, Sanjay"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/a813e01807449a11> .
+
+<https://citekg.org/resource/author/a53c8979628c0449> a citekg:Author;
+  rdfs:label "Rizzo, G."@en;
+  foaf:name "Rizzo, G."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/66d8773c1b923380> .
+
+<https://citekg.org/resource/author/a621596e612134d6> a citekg:Author;
+  rdfs:label "Rong Pan"@en;
+  foaf:name "Rong Pan"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/483adc976c4e5750> .
+
+<https://citekg.org/resource/author/a65f99318ef5314b> a citekg:Author;
+  rdfs:label "Alena Trifirò"@en;
+  foaf:name "Alena Trifirò"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a5c40d75c4d929> .
+
+<https://citekg.org/resource/author/a7b6c27384051f22> a citekg:Author;
+  rdfs:label "Trifirò, A."@en;
+  foaf:name "Trifirò, A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/66d8773c1b923380> .
+
+<https://citekg.org/resource/author/aa41440cbe61ab21> a citekg:Author;
+  rdfs:label "Festor, O."@en;
+  foaf:name "Festor, O."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/38f4103b570901a4> .
+
+<https://citekg.org/resource/author/aa4a02ca73629981> a citekg:Author;
+  rdfs:label "Baoping Cai"@en;
+  foaf:name "Baoping Cai"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/5ecd697ad7fbdc1c> .
+
+<https://citekg.org/resource/author/acc280bbdeb130f3> a citekg:Author;
+  rdfs:label "Daili Zhang"@en;
+  foaf:name "Daili Zhang"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/67b283da8a0ea8fc> .
+
+<https://citekg.org/resource/author/ad79e497d328f019> a citekg:Author;
+  rdfs:label "Hartmann, S."@en;
+  foaf:name "Hartmann, S."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c99d2a246c6e87b8> .
+
+<https://citekg.org/resource/author/adac354089216b96> a citekg:Author;
+  rdfs:label "O. Karsaeyv"@en;
+  foaf:name "O. Karsaeyv"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/531376e208fbaa7c> .
+
+<https://citekg.org/resource/author/ae1aed9ba55790cb> a citekg:Author;
+  rdfs:label "John C. Strassner"@en;
+  foaf:name "John C. Strassner"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/eb63615b6411f9ee> .
+
+<https://citekg.org/resource/author/ae1ea1692b0fed34> a citekg:Author;
+  rdfs:label "Régis Riveret"@en;
+  foaf:name "Régis Riveret"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c53f00537f7d60e7> .
+
+<https://citekg.org/resource/author/ae869ac6ed913f8b> a citekg:Author;
+  rdfs:label "Guido Governatori"@en;
+  foaf:name "Guido Governatori"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c53f00537f7d60e7> .
+
+<https://citekg.org/resource/author/aebbbb314cdaa481> a citekg:Author;
+  rdfs:label "Admela Jukan"@en;
+  foaf:name "Admela Jukan"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/99bcf79c24ed6bda> .
+
+<https://citekg.org/resource/author/aecb84971a765a62> a citekg:Author;
+  rdfs:label "Kephart, J.O."@en;
+  foaf:name "Kephart, J.O."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a3f90fbf441eea> .
+
+<https://citekg.org/resource/author/b11cb7aeb2c6bfb5> a citekg:Author;
+  rdfs:label "Sasitharan Balasubramaniam"@en;
+  foaf:name "Sasitharan Balasubramaniam"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/0192d016f6d20c4a> .
+
+<https://citekg.org/resource/author/b382fd7bc23fa844> a citekg:Author;
+  rdfs:label "Z. Łukasik"@en;
+  foaf:name "Z. Łukasik"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/11f970d2e5d0436c> .
+
+<https://citekg.org/resource/author/b427b802284b9cd0> a citekg:Author;
+  rdfs:label "Modi, P.J."@en;
+  foaf:name "Modi, P.J."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/cde8c64d02f07f4a> .
+
+<https://citekg.org/resource/author/b5c8b556eb06c483> a citekg:Author;
+  rdfs:label "Zanella, M."@en;
+  foaf:name "Zanella, M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/d2629e09a942349a> .
+
+<https://citekg.org/resource/author/b90b1f6bac808f25> a citekg:Author;
+  rdfs:label "Wang, Y."@en;
+  foaf:name "Wang, Y."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/021b694788262341> .
+
+<https://citekg.org/resource/author/ba55cb6fbac2f6d1> a citekg:Author;
+  rdfs:label "Christophe Jelger"@en;
+  foaf:name "Christophe Jelger"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/01723899d61aacda> .
+
+<https://citekg.org/resource/author/bb1ac4edf99133b7> a citekg:Author;
+  rdfs:label "Lin Gao"@en;
+  foaf:name "Lin Gao"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/402c012fe8c33a12> .
+
+<https://citekg.org/resource/author/bb875761af188650> a citekg:Author;
+  rdfs:label "Stiler, B."@en;
+  foaf:name "Stiler, B."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/38f4103b570901a4> .
+
+<https://citekg.org/resource/author/c086f29757477cdf> a citekg:Author;
+  rdfs:label "Mohit Chamania"@en;
+  foaf:name "Mohit Chamania"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/99bcf79c24ed6bda> .
+
+<https://citekg.org/resource/author/c42bcbe3775e5af6> a citekg:Author;
+  rdfs:label "Dmitri Botvich"@en;
+  foaf:name "Dmitri Botvich"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/0192d016f6d20c4a> .
+
+<https://citekg.org/resource/author/c7310f9a0f6d69e7> a citekg:Author;
+  rdfs:label "Zeyu Zhang"@en;
+  foaf:name "Zeyu Zhang"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/253bdd8729a8860d> .
+
+<https://citekg.org/resource/author/c77d48a1b3d42ec2> a citekg:Author;
+  rdfs:label "Florian Michahelles"@en;
+  foaf:name "Florian Michahelles"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/f0e9e3146eaca322> .
+
+<https://citekg.org/resource/author/c846b074f01e7e2e> a citekg:Author;
+  rdfs:label "V. Richard Benjamins"@en;
+  foaf:name "V. Richard Benjamins"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/49bd72e97886f41d> .
+
+<https://citekg.org/resource/author/c88639f948675619> a citekg:Author;
+  rdfs:label "David Poole"@en;
+  foaf:name "David Poole"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/17373ff5d30cfbe9> .
+
+<https://citekg.org/resource/author/ca6dd984483a3674> a citekg:Author;
+  rdfs:label "Neng Wang"@en;
+  foaf:name "Neng Wang"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/40dc4c0dfbf0527f> .
+
+<https://citekg.org/resource/author/caeb635c5f46b7eb> a citekg:Author;
+  rdfs:label "Lei Shu"@en;
+  foaf:name "Lei Shu"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/253bdd8729a8860d> .
+
+<https://citekg.org/resource/author/cb0f2b8d165a98bb> a citekg:Author;
+  rdfs:label "Guoqiong Liao"@en;
+  foaf:name "Guoqiong Liao"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/402c012fe8c33a12> .
+
+<https://citekg.org/resource/author/cb34c17f1489fba2> a citekg:Author;
+  rdfs:label "Julija Freimane"@en;
+  foaf:name "Julija Freimane"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/11f970d2e5d0436c> .
+
+<https://citekg.org/resource/author/cc1ce7425ee0689b> a citekg:Author;
+  rdfs:label "Koiter, J.R."@en;
+  foaf:name "Koiter, J.R."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/37341624dc8575e7> .
+
+<https://citekg.org/resource/author/cd4d7678d626fe8c> a citekg:Author;
+  rdfs:label "Ana Li Oña García"@en;
+  foaf:name "Ana Li Oña García"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/2a16a6955bb9e477> .
+
+<https://citekg.org/resource/author/cdc29b689ff591f9> a citekg:Author;
+  rdfs:label "Oren, Nir"@en;
+  foaf:name "Oren, Nir"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/a813e01807449a11> .
+
+<https://citekg.org/resource/author/cefbf26e9e8d67d5> a citekg:Author;
+  rdfs:label "Shijun Chen"@en;
+  foaf:name "Shijun Chen"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/402c012fe8c33a12> .
+
+<https://citekg.org/resource/author/d33c9771bea461ae> a citekg:Author;
+  rdfs:label "Plevyak, T."@en;
+  foaf:name "Plevyak, T."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/fc537758df621c13> .
+
+<https://citekg.org/resource/author/d6eeb406c71cc20f> a citekg:Author;
+  rdfs:label "Deng, Y."@en;
+  foaf:name "Deng, Y."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/021b694788262341> .
+
+<https://citekg.org/resource/author/d75fd65c4170407f> a citekg:Author;
+  rdfs:label "Carpenter, B."@en;
+  foaf:name "Carpenter, B."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/dff6c12a39732822> .
+
+<https://citekg.org/resource/author/d8053fd7dfa022af> a citekg:Author;
+  rdfs:label "Ignacio de Miguel"@en;
+  foaf:name "Ignacio de Miguel"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/99bcf79c24ed6bda> .
+
+<https://citekg.org/resource/author/d9350d05e79594d4> a citekg:Author;
+  rdfs:label "Henry Prakken"@en;
+  foaf:name "Henry Prakken"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/f6694cd44d82925e> .
+
+<https://citekg.org/resource/author/dc17e0c2b842ce62> a citekg:Author;
+  rdfs:label "Das, R."@en;
+  foaf:name "Das, R."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a3f90fbf441eea> .
+
+<https://citekg.org/resource/author/def5550486017b07> a citekg:Author;
+  rdfs:label "Stefan Schmid"@en;
+  foaf:name "Stefan Schmid"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/01723899d61aacda> .
+
+<https://citekg.org/resource/author/e609493d4322715f> a citekg:Author;
+  rdfs:label "John Strassner"@en;
+  foaf:name "John Strassner"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/0192d016f6d20c4a> .
+
+<https://citekg.org/resource/author/e899589063ce07ae> a citekg:Author;
+  rdfs:label "Maya Wardeh"@en;
+  foaf:name "Maya Wardeh"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/7a3c56a1a0b0b679> .
+
+<https://citekg.org/resource/author/eb27d4c012a83628> a citekg:Author;
+  rdfs:label "Álvaro Carrera"@en;
+  foaf:name "Álvaro Carrera"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8a9d22295eb28701> .
+
+<https://citekg.org/resource/author/eb7c2352a353f164> a citekg:Author;
+  rdfs:label "Zhu, K."@en;
+  foaf:name "Zhu, K."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/021b694788262341> .
+
+<https://citekg.org/resource/author/ec47be6b057f6537> a citekg:Author;
+  rdfs:label "Carlos Á. Iglesias"@en;
+  foaf:name "Carlos Á. Iglesias"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8a9d22295eb28701> .
+
+<https://citekg.org/resource/author/eda85de0792d8855> a citekg:Author;
+  rdfs:label "Boutilier, C."@en;
+  foaf:name "Boutilier, C."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a3f90fbf441eea> .
+
+<https://citekg.org/resource/author/ef2157e4069b6be4> a citekg:Author;
+  rdfs:label "Nazim Agoulmine"@en;
+  foaf:name "Nazim Agoulmine"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/eb63615b6411f9ee> .
+
+<https://citekg.org/resource/author/ef259fc21ba5920c> a citekg:Author;
+  rdfs:label "Dung, P.M."@en;
+  foaf:name "Dung, P.M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/ceb558129a3c05ea> .
+
+<https://citekg.org/resource/author/ef64d8df44a4331b> a citekg:Author;
+  rdfs:label "Ottino, J.M."@en;
+  foaf:name "Ottino, J.M."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/1d19cc8f07312d84> .
+
+<https://citekg.org/resource/author/efaf1394b06ea69e> a citekg:Author;
+  rdfs:label "Antonio Iera"@en;
+  foaf:name "Antonio Iera"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8c028a502998a1af> .
+
+<https://citekg.org/resource/author/f101f374523bb0c7> a citekg:Author;
+  rdfs:label "Min Xie"@en;
+  foaf:name "Min Xie"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/5ecd697ad7fbdc1c> .
+
+<https://citekg.org/resource/author/f1a335e8c56d3661> a citekg:Author;
+  rdfs:label "Marco Bruno"@en;
+  foaf:name "Marco Bruno"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/b3a5c40d75c4d929> .
+
+<https://citekg.org/resource/author/f227de8b765e9741> a citekg:Author;
+  rdfs:label "Pras, A."@en;
+  foaf:name "Pras, A."@en;
+  citekg:authorOf <https://citekg.org/resource/paper/38f4103b570901a4> .
+
+<https://citekg.org/resource/author/f53fd7e62c05b4b5> a citekg:Author;
+  rdfs:label "Noemí Merayo"@en;
+  foaf:name "Noemí Merayo"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/99bcf79c24ed6bda> .
+
+<https://citekg.org/resource/author/f7df6d53d6122058> a citekg:Author;
+  rdfs:label "Mícheál Ó Foghlú"@en;
+  foaf:name "Mícheál Ó Foghlú"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/0192d016f6d20c4a> .
+
+<https://citekg.org/resource/author/f88f26d34ecf39f9> a citekg:Author;
+  rdfs:label "Yang Gao"@en;
+  foaf:name "Yang Gao"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/c53f00537f7d60e7> .
+
+<https://citekg.org/resource/author/fa58fce04ac6756f> a citekg:Author;
+  rdfs:label "Luigi Atzori"@en;
+  foaf:name "Luigi Atzori"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/8c028a502998a1af> .
+
+<https://citekg.org/resource/author/fc04f3a665779680> a citekg:Author;
+  rdfs:label "Tomasz Ciszewski"@en;
+  foaf:name "Tomasz Ciszewski"@en;
+  citekg:authorOf <https://citekg.org/resource/paper/11f970d2e5d0436c> .
+
+<https://citekg.org/resource/paper/01723899d61aacda> a citekg:Paper;
+  dcterms:title "The autonomic network architecture (ANA)"@en;
+  rdfs:label "The autonomic network architecture (ANA)"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/13297aaa63fc9445>, <https://citekg.org/resource/author/27848b2ebab7aeaf>,
+    <https://citekg.org/resource/author/630494afb8a7e7f5>, <https://citekg.org/resource/author/6c7d13e4559fee47>,
+    <https://citekg.org/resource/author/ba55cb6fbac2f6d1>, <https://citekg.org/resource/author/def5550486017b07>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2114935162";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Praxis der Informationsverarbeitung und Kommunikation"@en, "Sel. Areas Commun. IEEE J."@en;
+  citekg:year "2007"^^xsd:gYear, "2010"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/0192d016f6d20c4a> a citekg:Paper;
+  dcterms:title "Towards autonomic management of communications networks"@en;
+  rdfs:label "Towards autonomic management of communications networks"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/213cc176e92c29fe>, <https://citekg.org/resource/author/3e183b9bd65dd061>,
+    <https://citekg.org/resource/author/5a2ccf65e6f97ca8>, <https://citekg.org/resource/author/b11cb7aeb2c6bfb5>,
+    <https://citekg.org/resource/author/c42bcbe3775e5af6>, <https://citekg.org/resource/author/e609493d4322715f>,
+    <https://citekg.org/resource/author/f7df6d53d6122058>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2129282379";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Commun. Mag. IEEE"@en;
+  citekg:year "2007"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/021b694788262341> a citekg:Paper;
+  dcterms:title "An Ensemble Learning Approach for Fault Diagnosis in Self-organizing Heterogeneous Networks"@en;
+  rdfs:label "An Ensemble Learning Approach for Fault Diagnosis in Self-organizing Heterogeneous Networks"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/5070d04a9ba5b057>, <https://citekg.org/resource/author/b90b1f6bac808f25>,
+    <https://citekg.org/resource/author/d6eeb406c71cc20f>, <https://citekg.org/resource/author/eb7c2352a353f164>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "IEEE Access"@en;
+  citekg:year "2019"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/11f970d2e5d0436c> a citekg:Paper;
+  dcterms:title "A fault diagnostic methodology for railway automatics systems"@en;
+  rdfs:label "A fault diagnostic methodology for railway automatics systems"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/591d2cecd9882d2f>, <https://citekg.org/resource/author/b382fd7bc23fa844>,
+    <https://citekg.org/resource/author/cb34c17f1489fba2>, <https://citekg.org/resource/author/fc04f3a665779680>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2922336765";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Procedia Comput. Sci."@en;
+  citekg:year "2019"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/12ad66b3d04d2625> a citekg:Paper;
+  dcterms:title "A Bayesian Network Approach for Imbalanced Fault Detection in High Speed Rail Systems"@en;
+  rdfs:label "A Bayesian Network Approach for Imbalanced Fault Detection in High Speed Rail Systems"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/341b1ffc38328548>, <https://citekg.org/resource/author/353970e06686214f>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2889053167";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Proceedings of the 2018 IEEE International Conference on Prognostics and Health Management (ICPHM)"@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/14d10aa3080e438e> a citekg:Paper;
+  dcterms:title "Testimony and Argument: A Bayesian Perspective"@en;
+  rdfs:label "Testimony and Argument: A Bayesian Perspective"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/01bb849cde1e813f>, <https://citekg.org/resource/author/306f4d5d1451ae4e>,
+    <https://citekg.org/resource/author/7308cb22fb7052cf>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Bayesian Argumentation"@en;
+  citekg:year "2013"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/17373ff5d30cfbe9> a citekg:Paper;
+  dcterms:title "MULTIPLY SECTIONED BAYESIAN NETWORKS AND JUNCTION FORESTS FOR LARGE KNOWLEDGE‐BASED SYSTEMS"@en;
+  rdfs:label "MULTIPLY SECTIONED BAYESIAN NETWORKS AND JUNCTION FORESTS FOR LARGE KNOWLEDGE‐BASED SYSTEMS"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/2c197a47207788a5>, <https://citekg.org/resource/author/4723ff000a302951>,
+    <https://citekg.org/resource/author/c88639f948675619>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2019942636";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Comput. Intell."@en;
+  citekg:year "1993"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/17efcfeaf357307c> a citekg:Paper;
+  dcterms:title "A real-life application of multi-agent systems for fault diagnosis in the provision of an Internet business service"@en;
+  rdfs:label "A real-life application of multi-agent systems for fault diagnosis in the provision of an Internet business service"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/00222cd48ff60fd1>, <https://citekg.org/resource/author/0034589d28de5a3a>,
+    <https://citekg.org/resource/author/2a91913cd51516fe>, <https://citekg.org/resource/author/44a2b9e614a3a231>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "J. Netw. Comput. Appl."@en;
+  citekg:year "2014"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/1d19cc8f07312d84> a citekg:Paper;
+  dcterms:title "Foundations for Complex Systems Research in the Physical Sciences and Engineering"@en;
+  rdfs:label "Foundations for Complex Systems Research in the Physical Sciences and Engineering"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/06cbc900d42c2ecc>, <https://citekg.org/resource/author/ef64d8df44a4331b>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Report from an NSF Workshop"@en;
+  citekg:year "2008"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/1d4feab88308a20b> a citekg:Paper;
+  dcterms:title "Statistical Comparisons of Classifiers over Multiple Data Sets"@en;
+  rdfs:label "Statistical Comparisons of Classifiers over Multiple Data Sets"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/49993190d0339346>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W1565746575";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "J. Mach. Learn. Res."@en;
+  citekg:year "2006"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/253bdd8729a8860d> a citekg:Paper;
+  dcterms:title "A Survey on Fault Diagnosis in Wireless Sensor Networks"@en;
+  rdfs:label "A Survey on Fault Diagnosis in Wireless Sensor Networks"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/38d1981a6c595787>, <https://citekg.org/resource/author/3b97807b8fe0815c>,
+    <https://citekg.org/resource/author/6a15d6b50c3f7969>, <https://citekg.org/resource/author/965704b149560499>,
+    <https://citekg.org/resource/author/c7310f9a0f6d69e7>, <https://citekg.org/resource/author/caeb635c5f46b7eb>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2767266276";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "IEEE Access"@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/2a16a6955bb9e477> a citekg:Paper;
+  dcterms:title "A Distributed Probabilistic Model for Fault Diagnosis"@en;
+  rdfs:label "A Distributed Probabilistic Model for Fault Diagnosis"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/124604edbb8c58d3>, <https://citekg.org/resource/author/9a41d635098099e7>,
+    <https://citekg.org/resource/author/cd4d7678d626fe8c>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2900081148";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Advances in Artificial Intelligence—IBERAMIA 2018"@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/37341624dc8575e7> a citekg:Paper;
+  dcterms:title "Visualizing Inference in Bayesian Networks"@en;
+  rdfs:label "Visualizing Inference in Bayesian Networks"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/cc1ce7425ee0689b>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Delft University of Technology"@en;
+  citekg:year "2006"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/38f4103b570901a4> a citekg:Paper;
+  dcterms:title "Key research challenges in network management"@en;
+  rdfs:label "Key research challenges in network management"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/03eddcf47ad02286>, <https://citekg.org/resource/author/258f855448069ebc>,
+    <https://citekg.org/resource/author/29cde1112ae98ac9>, <https://citekg.org/resource/author/68d14d4538f19e99>,
+    <https://citekg.org/resource/author/aa41440cbe61ab21>, <https://citekg.org/resource/author/bb875761af188650>,
+    <https://citekg.org/resource/author/f227de8b765e9741>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Commun. Mag. IEEE"@en;
+  citekg:year "2007"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/402c012fe8c33a12> a citekg:Paper;
+  dcterms:title "MBAN-MLC: a multi-label classification method and its application in automating fault diagnosis"@en;
+  rdfs:label "MBAN-MLC: a multi-label classification method and its application in automating fault diagnosis"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/bb1ac4edf99133b7>, <https://citekg.org/resource/author/cb0f2b8d165a98bb>,
+    <https://citekg.org/resource/author/cefbf26e9e8d67d5>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W4254738342";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Int. J. Internet Manuf. Serv."@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/40dc4c0dfbf0527f> a citekg:Paper;
+  dcterms:title "Future internet: The Internet of Things"@en;
+  rdfs:label "Future internet: The Internet of Things"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/5aa780444830b370>, <https://citekg.org/resource/author/ca6dd984483a3674>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2094729371";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "ETSI"@en, "European Commission—Information Society and Media"@en, "Netw. IEEE"@en,
+    "Proceedings of the 2009 Fourth International Conference on Communications and Networking in China"@en,
+    "Telecommun. Syst."@en;
+  citekg:year "2009"^^xsd:gYear, "2011"^^xsd:gYear, "2012"^^xsd:gYear, "2013"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/44c22a6210d92e5f> a citekg:Paper;
+  dcterms:title "Fault Management Based on Machine Learning [Invited]"@en;
+  rdfs:label "Fault Management Based on Machine Learning [Invited]"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/835424988591b3fc>, <https://citekg.org/resource/author/a17064d00d656a47>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2915447283";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Proceedings of the 2019 Optical Fiber Communications Conference and Exhibition (OFC)"@en;
+  citekg:year "2019"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/483adc976c4e5750> a citekg:Paper;
+  dcterms:title "Belief Update in Bayesian Networks Using Uncertain Evidence"@en;
+  rdfs:label "Belief Update in Bayesian Networks Using Uncertain Evidence"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/0cb8bd9ce27e3818>, <https://citekg.org/resource/author/6faa409d73fe83d2>,
+    <https://citekg.org/resource/author/a621596e612134d6>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2092445266";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Proceedings of the 2006 18th IEEE International Conference on Tools with Artificial Intelligence (ICTAI'06)"@en;
+  citekg:year "2006"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/49bd72e97886f41d> a citekg:Paper;
+  dcterms:title "Problem-Solving Methods for Diagnosis and their Role in Knowledge Acquisition"@en;
+  rdfs:label "Problem-Solving Methods for Diagnosis and their Role in Knowledge Acquisition"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/c846b074f01e7e2e>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2140251863";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Int. J. Expert Syst. Res. Appl."@en;
+  citekg:year "1995"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/50a282d88382199d> a citekg:Paper;
+  dcterms:title "Abstraction, Federation, and Scalability"@en;
+  rdfs:label "Abstraction, Federation, and Scalability"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/6f7c519a7efadcc7>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Internet Comput. IEEE"@en;
+  citekg:year "2013"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/531376e208fbaa7c> a citekg:Paper;
+  dcterms:title "Multi-agent technology for distributed data mining and classification"@en;
+  rdfs:label "Multi-agent technology for distributed data mining and classification"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/093d72e57b663e57>, <https://citekg.org/resource/author/6eacd08d736d4d2a>,
+    <https://citekg.org/resource/author/adac354089216b96>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2121555320";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Proceedings of the IEEE/WIC International Conference on Intelligent Agent Technology"@en;
+  citekg:year "2003"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/5c38ec479c2045a3> a citekg:Paper;
+  dcterms:title "Argument diagram extraction from evidential Bayesian networks"@en;
+  rdfs:label "Argument diagram extraction from evidential Bayesian networks"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/17429ad19bac0220>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W1980423071";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Artif. Intell. Law"@en;
+  citekg:year "2012"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/5ecd697ad7fbdc1c> a citekg:Paper;
+  dcterms:title "Bayesian Networks in Fault Diagnosis"@en;
+  rdfs:label "Bayesian Networks in Fault Diagnosis"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/634d93293770bdc9>, <https://citekg.org/resource/author/aa4a02ca73629981>,
+    <https://citekg.org/resource/author/f101f374523bb0c7>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2606788990";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "World Scientific"@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/6161aa9f0300ef3c> a citekg:Paper;
+  dcterms:title "An Assumption-based Framework for Non-monotonic Reasoning"@en;
+  rdfs:label "An Assumption-based Framework for Non-monotonic Reasoning"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/40b1891a0fd1a06d>, <https://citekg.org/resource/author/95f8c80b29ac25b2>,
+    <https://citekg.org/resource/author/9dad33896fbe7d02>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W98858009";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Second International Workshop on Logic Programming and Non-Monotonic Reasoning"@en;
+  citekg:year "1993"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/66d8773c1b923380> a citekg:Paper;
+  dcterms:title "A Novel Energy Efficiency Metric for Model-Based Fault Diagnosis of Telecommunication Central Offices"@en;
+  rdfs:label "A Novel Energy Efficiency Metric for Model-Based Fault Diagnosis of Telecommunication Central Offices"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/548df6db84abcf5b>, <https://citekg.org/resource/author/7f20cacf16259e4c>,
+    <https://citekg.org/resource/author/a53c8979628c0449>, <https://citekg.org/resource/author/a7b6c27384051f22>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Energy Procedia"@en;
+  citekg:year "2019"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/67b283da8a0ea8fc> a citekg:Paper;
+  dcterms:title "Multi-agent based control of large-scale complex systems employing distributed dynamic inference engine"@en;
+  rdfs:label "Multi-agent based control of large-scale complex systems employing distributed dynamic inference engine"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/074475bb00f1bfbf>, <https://citekg.org/resource/author/acc280bbdeb130f3>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W1541995171";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Georgia Institute of Technology"@en;
+  citekg:year "2010"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/6e70982aab4bf097> a citekg:Paper;
+  dcterms:title "Application of Agent Technology for Fault Diagnosis of Telecommunication Networks"@en;
+  rdfs:label "Application of Agent Technology for Fault Diagnosis of Telecommunication Networks"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/93fbfe6cc08e931d>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "E.T.S.I. Telecomunicación (UPM)"@en;
+  citekg:year "201"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/7a3c56a1a0b0b679> a citekg:Paper;
+  dcterms:title "Multi-agent based classification using argumentation from experience"@en;
+  rdfs:label "Multi-agent based classification using argumentation from experience"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/432fcf8923ca804a>, <https://citekg.org/resource/author/9f4710e0ad1a653c>,
+    <https://citekg.org/resource/author/e899589063ce07ae>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W1992203727";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Auton. Agents Multi Agent Syst."@en;
+  citekg:year "2012"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/84f5ff7cac83905d> a citekg:Paper;
+  dcterms:title "Distributed Perception Networks for Crisis Management"@en;
+  rdfs:label "Distributed Perception Networks for Crisis Management"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/0da3d8e963ae3b8c>, <https://citekg.org/resource/author/374bbad3a76264c4>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2317397686";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Proceedings of the 2006 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems"@en;
+  citekg:year "2006"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/8a9d22295eb28701> a citekg:Paper;
+  dcterms:title "A Bayesian Argumentation Framework for Distributed Fault Diagnosis in Telecommunication Networks"@en;
+  rdfs:label "A Bayesian Argumentation Framework for Distributed Fault Diagnosis in Telecommunication Networks"@en;
+  citekg:cites <https://citekg.org/resource/paper/01723899d61aacda>, <https://citekg.org/resource/paper/0192d016f6d20c4a>,
+    <https://citekg.org/resource/paper/021b694788262341>, <https://citekg.org/resource/paper/11f970d2e5d0436c>,
+    <https://citekg.org/resource/paper/12ad66b3d04d2625>, <https://citekg.org/resource/paper/14d10aa3080e438e>,
+    <https://citekg.org/resource/paper/17373ff5d30cfbe9>, <https://citekg.org/resource/paper/17efcfeaf357307c>,
+    <https://citekg.org/resource/paper/1d19cc8f07312d84>, <https://citekg.org/resource/paper/1d4feab88308a20b>,
+    <https://citekg.org/resource/paper/253bdd8729a8860d>, <https://citekg.org/resource/paper/2a16a6955bb9e477>,
+    <https://citekg.org/resource/paper/37341624dc8575e7>, <https://citekg.org/resource/paper/38f4103b570901a4>,
+    <https://citekg.org/resource/paper/402c012fe8c33a12>, <https://citekg.org/resource/paper/40dc4c0dfbf0527f>,
+    <https://citekg.org/resource/paper/44c22a6210d92e5f>, <https://citekg.org/resource/paper/483adc976c4e5750>,
+    <https://citekg.org/resource/paper/49bd72e97886f41d>, <https://citekg.org/resource/paper/50a282d88382199d>,
+    <https://citekg.org/resource/paper/531376e208fbaa7c>, <https://citekg.org/resource/paper/5c38ec479c2045a3>,
+    <https://citekg.org/resource/paper/5ecd697ad7fbdc1c>, <https://citekg.org/resource/paper/6161aa9f0300ef3c>,
+    <https://citekg.org/resource/paper/66d8773c1b923380>, <https://citekg.org/resource/paper/67b283da8a0ea8fc>,
+    <https://citekg.org/resource/paper/6e70982aab4bf097>, <https://citekg.org/resource/paper/7a3c56a1a0b0b679>,
+    <https://citekg.org/resource/paper/84f5ff7cac83905d>, <https://citekg.org/resource/paper/8c028a502998a1af>,
+    <https://citekg.org/resource/paper/8f8056533c5efbf0>, <https://citekg.org/resource/paper/99bcf79c24ed6bda>,
+    <https://citekg.org/resource/paper/9a6918a032e80563>, <https://citekg.org/resource/paper/9be66ae89e49ae36>,
+    <https://citekg.org/resource/paper/a813e01807449a11>, <https://citekg.org/resource/paper/ab3930ccca414eb3>,
+    <https://citekg.org/resource/paper/b3a3f90fbf441eea>, <https://citekg.org/resource/paper/b3a5c40d75c4d929>,
+    <https://citekg.org/resource/paper/b561791f248bb693>, <https://citekg.org/resource/paper/b7420b7df1bf7ff5>,
+    <https://citekg.org/resource/paper/b80befe5327eeb49>, <https://citekg.org/resource/paper/c2a130fdbb4cf4db>,
+    <https://citekg.org/resource/paper/c53f00537f7d60e7>, <https://citekg.org/resource/paper/c99d2a246c6e87b8>,
+    <https://citekg.org/resource/paper/cde8c64d02f07f4a>, <https://citekg.org/resource/paper/ceb558129a3c05ea>,
+    <https://citekg.org/resource/paper/d2629e09a942349a>, <https://citekg.org/resource/paper/d729c62cb1c19da5>,
+    <https://citekg.org/resource/paper/dff6c12a39732822>, <https://citekg.org/resource/paper/eb63615b6411f9ee>,
+    <https://citekg.org/resource/paper/f0e9e3146eaca322>, <https://citekg.org/resource/paper/f6694cd44d82925e>,
+    <https://citekg.org/resource/paper/fbadc9f920345448>, <https://citekg.org/resource/paper/fc537758df621c13>;
+  citekg:doi "https://doi.org/10.3390/s19153408";
+  citekg:hasAuthor <https://citekg.org/resource/author/84bf567cce0a345f>, <https://citekg.org/resource/author/eb27d4c012a83628>,
+    <https://citekg.org/resource/author/ec47be6b057f6537>;
+  citekg:openalexFound true;
+  citekg:openalexId "https://openalex.org/W2964387527";
+  citekg:totalReferences 61;
+  citekg:year "2019"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/8c028a502998a1af> a citekg:Paper;
+  dcterms:title "The Internet of Things: A survey"@en;
+  rdfs:label "The Internet of Things: A survey"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/1e42a465b35265d1>, <https://citekg.org/resource/author/efaf1394b06ea69e>,
+    <https://citekg.org/resource/author/fa58fce04ac6756f>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2105103777";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "CISCO White Pap."@en;
+  citekg:year "2011"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/8f8056533c5efbf0> a citekg:Paper;
+  dcterms:title "GENI Research Plan (Version 4.5)"@en;
+  rdfs:label "GENI Research Plan (Version 4.5)"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/00d6ed1cfd97d92a>, <https://citekg.org/resource/author/0ea6109ee49b59a8>,
+    <https://citekg.org/resource/author/82184f7396e74873>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "GENI Research Coordination Working Group and GENI Planning Group"@en;
+  citekg:year "2007"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/99bcf79c24ed6bda> a citekg:Paper;
+  dcterms:title "Artificial intelligence (AI) methods in optical networks: A comprehensive survey"@en;
+  rdfs:label "Artificial intelligence (AI) methods in optical networks: A comprehensive survey"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/18cb58cb0d98320a>, <https://citekg.org/resource/author/1ccda8b43dbc620f>,
+    <https://citekg.org/resource/author/5186c0307c191a2f>, <https://citekg.org/resource/author/aebbbb314cdaa481>,
+    <https://citekg.org/resource/author/c086f29757477cdf>, <https://citekg.org/resource/author/d8053fd7dfa022af>,
+    <https://citekg.org/resource/author/f53fd7e62c05b4b5>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2781788077";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Opt. Switch. Netw."@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/9a6918a032e80563> a citekg:Paper;
+  dcterms:title "Bayesian argumentation and the value of logical validity."@en;
+  rdfs:label "Bayesian argumentation and the value of logical validity."@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/4d3ce2677bca2b85>, <https://citekg.org/resource/author/9aedcd3e63b8ef21>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2557901201";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Bayesian Argumentation"@en, "Psychol. Rev."@en;
+  citekg:year "2013"^^xsd:gYear, "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/9be66ae89e49ae36> a citekg:Paper;
+  dcterms:title "A probabilistic approach to modelling uncertain logical arguments"@en;
+  rdfs:label "A probabilistic approach to modelling uncertain logical arguments"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/1f533aeec4d6c370>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2078438690";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Int. J. Approx. Reason."@en;
+  citekg:year "2013"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/a813e01807449a11> a citekg:Paper;
+  dcterms:title "Theorie and Applications of Formal Argumentation"@en;
+  rdfs:label "Theorie and Applications of Formal Argumentation"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/6d35533078b726bf>, <https://citekg.org/resource/author/a430f324b2f447a3>,
+    <https://citekg.org/resource/author/cdc29b689ff591f9>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W4242001749";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Theorie and Applications of Formal Argumentation"@en;
+  citekg:year "2012"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/ab3930ccca414eb3> a citekg:Paper;
+  dcterms:title "Chapter 1—Introduction to Autonomic Concepts Applied to Future Self-Managed Networks"@en;
+  rdfs:label "Chapter 1—Introduction to Autonomic Concepts Applied to Future Self-Managed Networks"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/0b9c3dda867f5ed2>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Autonomic Network Management Principles"@en;
+  citekg:year "2011"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/b3a3f90fbf441eea> a citekg:Paper;
+  dcterms:title "An architectural blueprint for autonomic computing"@en;
+  rdfs:label "An architectural blueprint for autonomic computing"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/5becca3e1bf686b8>, <https://citekg.org/resource/author/6ed9bbd6c833f5be>,
+    <https://citekg.org/resource/author/93c1c509c45b430a>, <https://citekg.org/resource/author/aecb84971a765a62>,
+    <https://citekg.org/resource/author/dc17e0c2b842ce62>, <https://citekg.org/resource/author/eda85de0792d8855>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "IBM White Paper"@en;
+  citekg:year "2003"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/b3a5c40d75c4d929> a citekg:Paper;
+  dcterms:title "An innovative energy efficiency metric for data analytics and diagnostics in telecommunication applications"@en;
+  rdfs:label "An innovative energy efficiency metric for data analytics and diagnostics in telecommunication applications"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/3adcf7f1dfb189ae>, <https://citekg.org/resource/author/6eba1dffb385993f>,
+    <https://citekg.org/resource/author/a65f99318ef5314b>, <https://citekg.org/resource/author/f1a335e8c56d3661>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2935590118";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Appl. Energy"@en;
+  citekg:year "2019"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/b561791f248bb693> a citekg:Paper;
+  dcterms:title "Probabilistic Abstract Argumentation Based on SCC Decomposability"@en;
+  rdfs:label "Probabilistic Abstract Argumentation Based on SCC Decomposability"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/0cd0338f09bdc23a>, <https://citekg.org/resource/author/29801df04638520e>,
+    <https://citekg.org/resource/author/44ebb9a998fcd81e>, <https://citekg.org/resource/author/4d50a218b2d59e69>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2899064096";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Proceedings of the Sixteenth International Conference on Principles of Knowledge Representation and Reasoning"@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/b7420b7df1bf7ff5> a citekg:Paper;
+  dcterms:title "A new use case for argumentation support tools: Supporting discussions of Bayesian analyses of complex criminal cases"@en;
+  rdfs:label "A new use case for argumentation support tools: Supporting discussions of Bayesian analyses of complex criminal cases"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/470a99814573ef81>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Artif. Intell. Law"@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/b80befe5327eeb49> a citekg:Paper;
+  dcterms:title "BPMN 2.0: Introduction to the Standard for Business Process Modeling"@en;
+  rdfs:label "BPMN 2.0: Introduction to the Standard for Business Process Modeling"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/843102e7a78e35b6>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "BoD-Books on Demand"@en .
+
+<https://citekg.org/resource/paper/c2a130fdbb4cf4db> a citekg:Paper;
+  dcterms:title "Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference"@en;
+  rdfs:label "Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/27dd06f730bb3f6c>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2159080219";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Morgan Kaufmann"@en;
+  citekg:year "1988"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/c53f00537f7d60e7> a citekg:Paper;
+  dcterms:title "A labelling framework for probabilistic argumentation"@en;
+  rdfs:label "A labelling framework for probabilistic argumentation"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/377ba909f3d3e383>, <https://citekg.org/resource/author/3c21cbf4beaf9afb>,
+    <https://citekg.org/resource/author/811938d1550186b2>, <https://citekg.org/resource/author/ae1ea1692b0fed34>,
+    <https://citekg.org/resource/author/ae869ac6ed913f8b>, <https://citekg.org/resource/author/f88f26d34ecf39f9>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2741916207";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Ann. Math. Artif. Intell."@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/c99d2a246c6e87b8> a citekg:Paper;
+  dcterms:title "Supplemental Material for Bayesian Argumentation and the Value of Logical Validity"@en;
+  rdfs:label "Supplemental Material for Bayesian Argumentation and the Value of Logical Validity"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/8d8b0da30368c2a0>, <https://citekg.org/resource/author/ad79e497d328f019>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Psychol. Rev."@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/cde8c64d02f07f4a> a citekg:Paper;
+  dcterms:title "Collaborative multiagent learning for classification tasks"@en;
+  rdfs:label "Collaborative multiagent learning for classification tasks"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/0068674d45973261>, <https://citekg.org/resource/author/b427b802284b9cd0>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Proceedings of the Fifth International Conference on Autonomous Agents"@en;
+  citekg:year "2001"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/ceb558129a3c05ea> a citekg:Paper;
+  dcterms:title "On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games"@en;
+  rdfs:label "On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/ef259fc21ba5920c>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Artif. Intell."@en;
+  citekg:year "1995"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/d2629e09a942349a> a citekg:Paper;
+  dcterms:title "Discrete-Event Systems Fault Diagnosis"@en;
+  rdfs:label "Discrete-Event Systems Fault Diagnosis"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/1a8b2703e2fffb36>, <https://citekg.org/resource/author/b5c8b556eb06c483>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Fault Diagnosis of Dynamic Systems: Quantitative and Qualitative Approaches"@en;
+  citekg:year "2019"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/d729c62cb1c19da5> a citekg:Paper;
+  dcterms:title "Minimum Hellinger Distance Estimates for Parametric Models"@en;
+  rdfs:label "Minimum Hellinger Distance Estimates for Parametric Models"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/71bae26b10ddc702>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2084238990";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Encyclopaedia of Mathematics"@en;
+  citekg:year "2002"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/dff6c12a39732822> a citekg:Paper;
+  dcterms:title "General Gap Analysis for Autonomic Networking"@en;
+  rdfs:label "General Gap Analysis for Autonomic Networking"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/25c20287007e6a73>, <https://citekg.org/resource/author/72e83e761bac6e1c>,
+    <https://citekg.org/resource/author/d75fd65c4170407f>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Technical Report"@en .
+
+<https://citekg.org/resource/paper/eb63615b6411f9ee> a citekg:Paper;
+  dcterms:title "FOCALE – A Novel Autonomic Networking Architecture"@en;
+  rdfs:label "FOCALE – A Novel Autonomic Networking Architecture"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/a14f7bf82cc6324d>, <https://citekg.org/resource/author/ae1aed9ba55790cb>,
+    <https://citekg.org/resource/author/ef2157e4069b6be4>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W200361552";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Int. Trans. Syst. Sci. Appl."@en, "Technical Report"@en;
+  citekg:year "2007"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/f0e9e3146eaca322> a citekg:Paper;
+  dcterms:title "An Architectural Approach Towards the Future Internet of Things"@en;
+  rdfs:label "An Architectural Approach Towards the Future Internet of Things"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/1642fc3066d3f0ed>, <https://citekg.org/resource/author/1a0a8c22d7585473>,
+    <https://citekg.org/resource/author/c77d48a1b3d42ec2>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W91206318";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "IOS Prss"@en;
+  citekg:year "2010"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/f6694cd44d82925e> a citekg:Paper;
+  dcterms:title "Probabilistic Strength of Arguments with Structure."@en;
+  rdfs:label "Probabilistic Strength of Arguments with Structure."@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/d9350d05e79594d4>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:openalexId "https://openalex.org/W2899229515";
+  citekg:titleValidatedByOpenAlex true;
+  citekg:venue "Proceedings of the Sixteenth International Conference on Principles of Knowledge Representation and Reasoning"@en;
+  citekg:year "2018"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/fbadc9f920345448> a citekg:Paper;
+  dcterms:title "AMNA: Probe Agent Based Inter-Process Dependency Model for Wireless Sensor Network's Fault Diagnosis"@en;
+  rdfs:label "AMNA: Probe Agent Based Inter-Process Dependency Model for Wireless Sensor Network's Fault Diagnosis"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/0c1c7fa12b92113b>, <https://citekg.org/resource/author/3c259f1a30314576>,
+    <https://citekg.org/resource/author/3f1f14e12f1cea78>, <https://citekg.org/resource/author/84b27d74a6be1701>,
+    <https://citekg.org/resource/author/8dd1992e4c28a0d0>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "Proceedings of the International Telecommunications Conference"@en;
+  citekg:year "2019"^^xsd:gYear .
+
+<https://citekg.org/resource/paper/fc537758df621c13> a citekg:Paper;
+  dcterms:title "Next Generation Telecommunications Networks, Services, and Management"@en;
+  rdfs:label "Next Generation Telecommunications Networks, Services, and Management"@en;
+  citekg:hasAuthor <https://citekg.org/resource/author/0a88068367a81e98>, <https://citekg.org/resource/author/d33c9771bea461ae>;
+  citekg:isCitedBy <https://citekg.org/resource/paper/8a9d22295eb28701>;
+  citekg:titleValidatedByOpenAlex false;
+  citekg:venue "John Wiley & Sons"@en;
+  citekg:year "2011"^^xsd:gYear .

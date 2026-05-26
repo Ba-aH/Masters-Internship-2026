@@ -1,0 +1,815 @@
+{
+  "paper_id": "8a9d22295eb28701",
+  "relative_path": "C:\\Users\\behan\\OneDrive\\Desktop\\Master_Internship\\scrapping\\data_prep\\extracted\\A Bayesian Argumentation Framework for Distributed Fault Diagnosis in Telecommunication Networks\\context_clean.json",
+  "global_context": {
+    "title": "A Bayesian Argumentation Framework for Distributed Fault Diagnosis in Telecommunication Networks",
+    "abstract": ""
+  },
+  "citations": [
+    {
+      "reference": {
+        "title": "Fundamental design issues for the future Internet"
+      },
+      "citation_marker": "[1]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "keeping data privacy among them. The proposed approach is compared against existing alternatives using benchmark multi-domain datasets. Moreover, we include data collected from a previous fault diagnosis system running in a telecommunication network for one and a half years. Results show that the proposed approach is suitable for the motivational scenario. Keywords: argumentation; Bayesian; distributed;fault diagnosis;federation; future Intrnet;multi-agent system [SECTION: 1. Introduction ] Telecommunication companies have seen an exponential increase in their activity in the last few decades",
+        "after": "As a consequence, telecommunication networks have been continuously growing,both in size, heterogeneity and complexity. The current Internet is based on the premise of a simple network service used to interconnect end systems where relatively intelligent services are running.That simplicity has allowed a massive growth of the network since the beginning of the primitive Internet [cite]. However, the management approach followed by network operators in the current Internet is obstructing its evolution. Furthermore, network management is challenging for next-generation networks [cite]. The future In"
+      }
+    },
+    {
+      "reference": {
+        "title": "The Internet of Things: A survey"
+      },
+      "citation_marker": "[2]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "ayesian; distributed;fault diagnosis;federation; future Intrnet;multi-agent system [SECTION: 1. Introduction ] Telecommunication companies have seen an exponential increase in their activity in the last few decades [cite]. As a consequence, telecommunication networks have been continuously growing,both in size, heterogeneity and complexity. The current Internet is based on the premise of a simple network service used to interconnect end systems where relatively intelligent services are running.That simplicity has allowed a massive growth of the network since the beginning of the primitive Internet",
+        "after": "However, the management approach followed by network operators in the current Internet is obstructing its evolution. Furthermore, network management is challenging for next-generation networks [cite]. The future Internet needs to optimise the use of its resources continuously and recover from problems, faults or attacks transparently for the network operator and without any impact on the services running over it [cite]. Thus, future networks need to be more intelligent and adaptive than the current ones, and their management systems need to be embedded in the network itself, instead of being exter"
+      }
+    },
+    {
+      "reference": {
+        "title": "Next Generation Telecommunications Networks, Services, and Management"
+      },
+      "citation_marker": "[3]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "st few decades [cite]. As a consequence, telecommunication networks have been continuously growing,both in size, heterogeneity and complexity. The current Internet is based on the premise of a simple network service used to interconnect end systems where relatively intelligent services are running.That simplicity has allowed a massive growth of the network since the beginning of the primitive Internet [cite]. However, the management approach followed by network operators in the current Internet is obstructing its evolution. Furthermore, network management is challenging for next-generation networks",
+        "after": "The future Internet needs to optimise the use of its resources continuously and recover from problems, faults or attacks transparently for the network operator and without any impact on the services running over it [cite]. Thus, future networks need to be more intelligent and adaptive than the current ones, and their management systems need to be embedded in the network itself, instead of being external systems [cite]. In those next-generation networks, many different actors will interact dynamically to offer reliable end-to-end services. That diversity of actors (users, sensors, devices or cont"
+      }
+    },
+    {
+      "reference": {
+        "title": "Towards autonomic management of communications networks"
+      },
+      "citation_marker": "[4]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "interconnect end systems where relatively intelligent services are running.That simplicity has allowed a massive growth of the network since the beginning of the primitive Internet [cite]. However, the management approach followed by network operators in the current Internet is obstructing its evolution. Furthermore, network management is challenging for next-generation networks [cite]. The future Internet needs to optimise the use of its resources continuously and recover from problems, faults or attacks transparently for the network operator and without any impact on the services running over it",
+        "after": "Thus, future networks need to be more intelligent and adaptive than the current ones, and their management systems need to be embedded in the network itself, instead of being external systems [cite]. In those next-generation networks, many different actors will interact dynamically to offer reliable end-to-end services. That diversity of actors (users, sensors, devices or content providers) will make network operation and management very hard for the traditional network management approach [cite]Services deployed on top of those next-generation networks will be considered as one of those actors"
+      }
+    },
+    {
+      "reference": {
+        "title": "An Architectural Approach Towards the Future Internet of Things"
+      },
+      "citation_marker": "[5]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "he management approach followed by network operators in the current Internet is obstructing its evolution. Furthermore, network management is challenging for next-generation networks [cite]. The future Internet needs to optimise the use of its resources continuously and recover from problems, faults or attacks transparently for the network operator and without any impact on the services running over it [cite]. Thus, future networks need to be more intelligent and adaptive than the current ones, and their management systems need to be embedded in the network itself, instead of being external systems",
+        "after": "In those next-generation networks, many different actors will interact dynamically to offer reliable end-to-end services. That diversity of actors (users, sensors, devices or content providers) will make network operation and management very hard for the traditional network management approach [cite]Services deployed on top of those next-generation networks will be considered as one of those actors that will have to cooperate autonomously with other actors to get the expected result [cite]. That dynamic,autonomous and complex cooperation among actors is a crucial requirement to get flexible and"
+      }
+    },
+    {
+      "reference": {
+        "title": "Foundations for Complex Systems Research in the Physical Sciences and Engineering"
+      },
+      "citation_marker": "[6]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "ttacks transparently for the network operator and without any impact on the services running over it [cite]. Thus, future networks need to be more intelligent and adaptive than the current ones, and their management systems need to be embedded in the network itself, instead of being external systems [cite]. In those next-generation networks, many different actors will interact dynamically to offer reliable end-to-end services. That diversity of actors (users, sensors, devices or content providers) will make network operation and management very hard for the traditional network management approach",
+        "after": "Services deployed on top of those next-generation networks will be considered as one of those actors that will have to cooperate autonomously with other actors to get the expected result [cite]. That dynamic,autonomous and complex cooperation among actors is a crucial requirement to get flexible and efficient networks [cite]. Moreover, that complexity of the future Internet will bring a high level of uncertainty to management tasks [cite]. However, that uncertainty is not only an issue for the future Internet.The current Internet deals with it as exposed by Clark et al. [cite]. They estimated that the cu"
+      }
+    },
+    {
+      "reference": {
+        "title": "GENI Research Plan (Version 4.5)"
+      },
+      "citation_marker": "[7]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "and their management systems need to be embedded in the network itself, instead of being external systems [cite]. In those next-generation networks, many different actors will interact dynamically to offer reliable end-to-end services. That diversity of actors (users, sensors, devices or content providers) will make network operation and management very hard for the traditional network management approach [cite]Services deployed on top of those next-generation networks will be considered as one of those actors that will have to cooperate autonomously with other actors to get the expected result",
+        "after": "That dynamic,autonomous and complex cooperation among actors is a crucial requirement to get flexible and efficient networks [cite]. Moreover, that complexity of the future Internet will bring a high level of uncertainty to management tasks [cite]. However, that uncertainty is not only an issue for the future Internet.The current Internet deals with it as exposed by Clark et al. [cite]. They estimated that the current Internet is over-dimensioned by a factor of 400% to ensure its performance under almost any conditions.This means that the strategy of the current Internet is to over-size the network"
+      }
+    },
+    {
+      "reference": {
+        "title": "Chapter 1—Introduction to Autonomic Concepts Applied to Future Self-Managed Networks"
+      },
+      "citation_marker": "[8]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "eneration networks, many different actors will interact dynamically to offer reliable end-to-end services. That diversity of actors (users, sensors, devices or content providers) will make network operation and management very hard for the traditional network management approach [cite]Services deployed on top of those next-generation networks will be considered as one of those actors that will have to cooperate autonomously with other actors to get the expected result [cite]. That dynamic,autonomous and complex cooperation among actors is a crucial requirement to get flexible and efficient networks",
+        "after": "Moreover, that complexity of the future Internet will bring a high level of uncertainty to management tasks [cite]. However, that uncertainty is not only an issue for the future Internet.The current Internet deals with it as exposed by Clark et al. [cite]. They estimated that the current Internet is over-dimensioned by a factor of 400% to ensure its performance under almost any conditions.This means that the strategy of the current Internet is to over-size the network to ensure its availability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed"
+      }
+    },
+    {
+      "reference": {
+        "title": "Key research challenges in network management"
+      },
+      "citation_marker": "[9]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "iversity of actors (users, sensors, devices or content providers) will make network operation and management very hard for the traditional network management approach [cite]Services deployed on top of those next-generation networks will be considered as one of those actors that will have to cooperate autonomously with other actors to get the expected result [cite]. That dynamic,autonomous and complex cooperation among actors is a crucial requirement to get flexible and efficient networks [cite]. Moreover, that complexity of the future Internet will bring a high level of uncertainty to management tasks",
+        "after": "However, that uncertainty is not only an issue for the future Internet.The current Internet deals with it as exposed by Clark et al. [cite]. They estimated that the current Internet is over-dimensioned by a factor of 400% to ensure its performance under almost any conditions.This means that the strategy of the current Internet is to over-size the network to ensure its availability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed,the cost of network management and support has increased drastically in recent years due to the complexity of the"
+      }
+    },
+    {
+      "reference": {
+        "title": "An architectural blueprint for autonomic computing"
+      },
+      "citation_marker": "[10]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "network management approach [cite]Services deployed on top of those next-generation networks will be considered as one of those actors that will have to cooperate autonomously with other actors to get the expected result [cite]. That dynamic,autonomous and complex cooperation among actors is a crucial requirement to get flexible and efficient networks [cite]. Moreover, that complexity of the future Internet will bring a high level of uncertainty to management tasks [cite]. However, that uncertainty is not only an issue for the future Internet.The current Internet deals with it as exposed by Clark et al.",
+        "after": "They estimated that the current Internet is over-dimensioned by a factor of 400% to ensure its performance under almost any conditions.This means that the strategy of the current Internet is to over-size the network to ensure its availability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed,the cost of network management and support has increased drastically in recent years due to the complexity of the network technologies requiring more highly-skilled engineers and administrators and rounding 200 billion dollars [cite]. Therefore, uncertai"
+      }
+    },
+    {
+      "reference": {
+        "title": "FOCALE – A Novel Autonomic Networking Architecture"
+      },
+      "citation_marker": "[11]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "osed by Clark et al. [cite]. They estimated that the current Internet is over-dimensioned by a factor of 400% to ensure its performance under almost any conditions.This means that the strategy of the current Internet is to over-size the network to ensure its availability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed,the cost of network management and support has increased drastically in recent years due to the complexity of the network technologies requiring more highly-skilled engineers and administrators and rounding 200 billion dollars",
+        "after": "Therefore, uncertainty management coming from complex networks is an essential requirement for any management system of the future Internet [cite]. To deal with that complexity, autonomic approaches have been proposed both for computing [cite]and networking [cite]. This trend tries to achieve self-management capabilities with a Monitor-Analyse-Plan-Execute (MAPE) control loop [cite] implemented by autonomic managers.Those autonomic managers must perform different management tasks, such as self-configuring,self-healing, self-optimising and self-protecting. However, a single isolated autonomic man"
+      }
+    },
+    {
+      "reference": {
+        "title": "The autonomic network architecture (ANA)"
+      },
+      "citation_marker": "[12]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "any conditions.This means that the strategy of the current Internet is to over-size the network to ensure its availability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed,the cost of network management and support has increased drastically in recent years due to the complexity of the network technologies requiring more highly-skilled engineers and administrators and rounding 200 billion dollars [cite]. Therefore, uncertainty management coming from complex networks is an essential requirement for any management system of the future Internet",
+        "after": "To deal with that complexity, autonomic approaches have been proposed both for computing [cite]and networking [cite]. This trend tries to achieve self-management capabilities with a Monitor-Analyse-Plan-Execute (MAPE) control loop [cite] implemented by autonomic managers.Those autonomic managers must perform different management tasks, such as self-configuring,self-healing, self-optimising and self-protecting. However, a single isolated autonomic manager can achieve autonomic behaviour only for the resources it manages, which can lead to scalability problems.Many managers must be coordinated t"
+      }
+    },
+    {
+      "reference": {
+        "title": "An Ensemble Learning Approach for Fault Diagnosis in Self-organizing Heterogeneous Networks"
+      },
+      "citation_marker": "[13]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "to ensure its availability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed,the cost of network management and support has increased drastically in recent years due to the complexity of the network technologies requiring more highly-skilled engineers and administrators and rounding 200 billion dollars [cite]. Therefore, uncertainty management coming from complex networks is an essential requirement for any management system of the future Internet [cite]. To deal with that complexity, autonomic approaches have been proposed both for computing",
+        "after": "and networking [cite]. This trend tries to achieve self-management capabilities with a Monitor-Analyse-Plan-Execute (MAPE) control loop [cite] implemented by autonomic managers.Those autonomic managers must perform different management tasks, such as self-configuring,self-healing, self-optimising and self-protecting. However, a single isolated autonomic manager can achieve autonomic behaviour only for the resources it manages, which can lead to scalability problems.Many managers must be coordinated to obtain global autonomic management of the network to avoid those problems. That coordination i"
+      }
+    },
+    {
+      "reference": {
+        "title": "General Gap Analysis for Autonomic Networking"
+      },
+      "citation_marker": "[14-16]",
+      "citation_type": "multiple",
+      "source_marker": "14",
+      "local_context": {
+        "before": "lability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed,the cost of network management and support has increased drastically in recent years due to the complexity of the network technologies requiring more highly-skilled engineers and administrators and rounding 200 billion dollars [cite]. Therefore, uncertainty management coming from complex networks is an essential requirement for any management system of the future Internet [cite]. To deal with that complexity, autonomic approaches have been proposed both for computing [cite]and networking",
+        "after": "This trend tries to achieve self-management capabilities with a Monitor-Analyse-Plan-Execute (MAPE) control loop [cite] implemented by autonomic managers.Those autonomic managers must perform different management tasks, such as self-configuring,self-healing, self-optimising and self-protecting. However, a single isolated autonomic manager can achieve autonomic behaviour only for the resources it manages, which can lead to scalability problems.Many managers must be coordinated to obtain global autonomic management of the network to avoid those problems. That coordination is another critical cha"
+      }
+    },
+    {
+      "reference": {
+        "title": "A Novel Energy Efficiency Metric for Model-Based Fault Diagnosis of Telecommunication Central Offices"
+      },
+      "citation_marker": "[14-16]",
+      "citation_type": "multiple",
+      "source_marker": "15",
+      "local_context": {
+        "before": "lability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed,the cost of network management and support has increased drastically in recent years due to the complexity of the network technologies requiring more highly-skilled engineers and administrators and rounding 200 billion dollars [cite]. Therefore, uncertainty management coming from complex networks is an essential requirement for any management system of the future Internet [cite]. To deal with that complexity, autonomic approaches have been proposed both for computing [cite]and networking",
+        "after": "This trend tries to achieve self-management capabilities with a Monitor-Analyse-Plan-Execute (MAPE) control loop [cite] implemented by autonomic managers.Those autonomic managers must perform different management tasks, such as self-configuring,self-healing, self-optimising and self-protecting. However, a single isolated autonomic manager can achieve autonomic behaviour only for the resources it manages, which can lead to scalability problems.Many managers must be coordinated to obtain global autonomic management of the network to avoid those problems. That coordination is another critical cha"
+      }
+    },
+    {
+      "reference": {
+        "title": "AMNA: Probe Agent Based Inter-Process Dependency Model for Wireless Sensor Network's Fault Diagnosis"
+      },
+      "citation_marker": "[14-16]",
+      "citation_type": "multiple",
+      "source_marker": "16",
+      "local_context": {
+        "before": "lability.However, maintaining this strategy in the future Internet would be very inefficient and costly. Indeed,the cost of network management and support has increased drastically in recent years due to the complexity of the network technologies requiring more highly-skilled engineers and administrators and rounding 200 billion dollars [cite]. Therefore, uncertainty management coming from complex networks is an essential requirement for any management system of the future Internet [cite]. To deal with that complexity, autonomic approaches have been proposed both for computing [cite]and networking",
+        "after": "This trend tries to achieve self-management capabilities with a Monitor-Analyse-Plan-Execute (MAPE) control loop [cite] implemented by autonomic managers.Those autonomic managers must perform different management tasks, such as self-configuring,self-healing, self-optimising and self-protecting. However, a single isolated autonomic manager can achieve autonomic behaviour only for the resources it manages, which can lead to scalability problems.Many managers must be coordinated to obtain global autonomic management of the network to avoid those problems. That coordination is another critical cha"
+      }
+    },
+    {
+      "reference": {
+        "title": "An Ensemble Learning Approach for Fault Diagnosis in Self-organizing Heterogeneous Networks"
+      },
+      "citation_marker": "[13]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "f network management and support has increased drastically in recent years due to the complexity of the network technologies requiring more highly-skilled engineers and administrators and rounding 200 billion dollars [cite]. Therefore, uncertainty management coming from complex networks is an essential requirement for any management system of the future Internet [cite]. To deal with that complexity, autonomic approaches have been proposed both for computing [cite]and networking [cite]. This trend tries to achieve self-management capabilities with a Monitor-Analyse-Plan-Execute (MAPE) control loop",
+        "after": "implemented by autonomic managers.Those autonomic managers must perform different management tasks, such as self-configuring,self-healing, self-optimising and self-protecting. However, a single isolated autonomic manager can achieve autonomic behaviour only for the resources it manages, which can lead to scalability problems.Many managers must be coordinated to obtain global autonomic management of the network to avoid those problems. That coordination is another critical challenge to get a real autonomic network management approach. Summarising, autonomic approaches require innovative asp"
+      }
+    },
+    {
+      "reference": {
+        "title": "Discrete-Event Systems Fault Diagnosis"
+      },
+      "citation_marker": "[17]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "figuring,self-healing, self-optimising and self-protecting. However, a single isolated autonomic manager can achieve autonomic behaviour only for the resources it manages, which can lead to scalability problems.Many managers must be coordinated to obtain global autonomic management of the network to avoid those problems. That coordination is another critical challenge to get a real autonomic network management approach. Summarising, autonomic approaches require innovative aspects and mechanisms to enable the desired self-capabilities to govern an integrated behaviour of the future Internet",
+        "after": "Those mechanisms are based on the usage of the specific domain knowledge of network engineering,taking into consideration the dynamism and complexity of the supervised systems. The European Telecommunications Standards Institute (ETSI) supports this autonomic approach with a generic reference model for autonomic networking named Generic Autonomic Network Architecture (GANA) [cite], which defines a set of desired properties for those autonomic systems. Those desired properties are automation, awareness, adaptiveness, stability, scalability, robustness, security,switchable and federation. Getting"
+      }
+    },
+    {
+      "reference": {
+        "title": "Application of Agent Technology for Fault Diagnosis of Telecommunication Networks"
+      },
+      "citation_marker": "[18]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "al autonomic network management approach. Summarising, autonomic approaches require innovative aspects and mechanisms to enable the desired self-capabilities to govern an integrated behaviour of the future Internet [cite].Those mechanisms are based on the usage of the specific domain knowledge of network engineering,taking into consideration the dynamism and complexity of the supervised systems. The European Telecommunications Standards Institute (ETSI) supports this autonomic approach with a generic reference model for autonomic networking named Generic Autonomic Network Architecture (GANA)",
+        "after": "which defines a set of desired properties for those autonomic systems. Those desired properties are automation, awareness, adaptiveness, stability, scalability, robustness, security,switchable and federation. Getting all of them in an autonomic management system is challenging for network operators following the traditional management approach. Thus, Laurent et al. [cite] defined some enabling concepts and mechanisms for further research to achieve those desired properties in the management systems of the autonomic future Internet. This autonomic approach is supported by the Internet Research"
+      }
+    },
+    {
+      "reference": {
+        "title": "Application of Agent Technology for Fault Diagnosis of Telecommunication Networks"
+      },
+      "citation_marker": "[18]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "f the supervised systems. The European Telecommunications Standards Institute (ETSI) supports this autonomic approach with a generic reference model for autonomic networking named Generic Autonomic Network Architecture (GANA) [cite], which defines a set of desired properties for those autonomic systems. Those desired properties are automation, awareness, adaptiveness, stability, scalability, robustness, security,switchable and federation. Getting all of them in an autonomic management system is challenging for network operators following the traditional management approach. Thus, Laurent et al.",
+        "after": "defined some enabling concepts and mechanisms for further research to achieve those desired properties in the management systems of the autonomic future Internet. This autonomic approach is supported by the Internet Research Task Force (IRTF). Behringer et al. [cite] described the design goals of the autonomic networking in the Request For Comments (RFC) 7575, and Jiang et al. [cite] analysed the wide gap for autonomic networking reviewing the current status of the autonomic aspects of current networks. Among others, they identified troubleshooting and recovery as some of the non-autonomic behavi"
+      }
+    },
+    {
+      "reference": {
+        "title": "A real-life application of multi-agent systems for fault diagnosis in the provision of an Internet business service"
+      },
+      "citation_marker": "[19]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "perties for those autonomic systems. Those desired properties are automation, awareness, adaptiveness, stability, scalability, robustness, security,switchable and federation. Getting all of them in an autonomic management system is challenging for network operators following the traditional management approach. Thus, Laurent et al. [cite] defined some enabling concepts and mechanisms for further research to achieve those desired properties in the management systems of the autonomic future Internet. This autonomic approach is supported by the Internet Research Task Force (IRTF). Behringer et al.",
+        "after": "described the design goals of the autonomic networking in the Request For Comments (RFC) 7575, and Jiang et al. [cite] analysed the wide gap for autonomic networking reviewing the current status of the autonomic aspects of current networks. Among others, they identified troubleshooting and recovery as some of the non-autonomic behaviours of the current Internet in the RfC 7576, which motivated us to develop this work in the field of autonomic fault diagnosis of telecommunication networks. In conclusion, due to the increasing complexity, heterogeneity and consequent high level of uncertainty"
+      }
+    },
+    {
+      "reference": {
+        "title": "Bayesian Networks in Fault Diagnosis"
+      },
+      "citation_marker": "[20]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "lability, robustness, security,switchable and federation. Getting all of them in an autonomic management system is challenging for network operators following the traditional management approach. Thus, Laurent et al. [cite] defined some enabling concepts and mechanisms for further research to achieve those desired properties in the management systems of the autonomic future Internet. This autonomic approach is supported by the Internet Research Task Force (IRTF). Behringer et al. [cite] described the design goals of the autonomic networking in the Request For Comments (RFC) 7575, and Jiang et al.",
+        "after": "analysed the wide gap for autonomic networking reviewing the current status of the autonomic aspects of current networks. Among others, they identified troubleshooting and recovery as some of the non-autonomic behaviours of the current Internet in the RfC 7576, which motivated us to develop this work in the field of autonomic fault diagnosis of telecommunication networks. In conclusion, due to the increasing complexity, heterogeneity and consequent high level of uncertainty in telecommunication networks, autonomic fault management is an exciting research field for network operator companie"
+      }
+    },
+    {
+      "reference": {
+        "title": "MBAN-MLC: a multi-label classification method and its application in automating fault diagnosis"
+      },
+      "citation_marker": "[21–23]",
+      "citation_type": "multiple",
+      "source_marker": "21",
+      "local_context": {
+        "before": "utonomic networking reviewing the current status of the autonomic aspects of current networks. Among others, they identified troubleshooting and recovery as some of the non-autonomic behaviours of the current Internet in the RfC 7576, which motivated us to develop this work in the field of autonomic fault diagnosis of telecommunication networks. In conclusion, due to the increasing complexity, heterogeneity and consequent high level of uncertainty in telecommunication networks, autonomic fault management is an exciting research field for network operator companies and research institutions",
+        "after": "Accordingly, our motivation when preparing this paper was to improve the current situation concerning the challenges mentioned about the autonomic future Internet. In particular, we are motivated by the fact that there is still a lack of solutions for autonomic fault diagnosis mechanisms. In this paper, we present an innovative approach for distributed fault diagnosis based on a Multi-Agent System (MAS), which applies argumentation techniques to reach agreements among agents (i.e., autonomic managers). During the argumentation process, agents use Bayesian reasoning to handle the uncertaint"
+      }
+    },
+    {
+      "reference": {
+        "title": "A Bayesian Network Approach for Imbalanced Fault Detection in High Speed Rail Systems"
+      },
+      "citation_marker": "[21–23]",
+      "citation_type": "multiple",
+      "source_marker": "22",
+      "local_context": {
+        "before": "utonomic networking reviewing the current status of the autonomic aspects of current networks. Among others, they identified troubleshooting and recovery as some of the non-autonomic behaviours of the current Internet in the RfC 7576, which motivated us to develop this work in the field of autonomic fault diagnosis of telecommunication networks. In conclusion, due to the increasing complexity, heterogeneity and consequent high level of uncertainty in telecommunication networks, autonomic fault management is an exciting research field for network operator companies and research institutions",
+        "after": "Accordingly, our motivation when preparing this paper was to improve the current situation concerning the challenges mentioned about the autonomic future Internet. In particular, we are motivated by the fact that there is still a lack of solutions for autonomic fault diagnosis mechanisms. In this paper, we present an innovative approach for distributed fault diagnosis based on a Multi-Agent System (MAS), which applies argumentation techniques to reach agreements among agents (i.e., autonomic managers). During the argumentation process, agents use Bayesian reasoning to handle the uncertaint"
+      }
+    },
+    {
+      "reference": {
+        "title": "A fault diagnostic methodology for railway automatics systems"
+      },
+      "citation_marker": "[21–23]",
+      "citation_type": "multiple",
+      "source_marker": "23",
+      "local_context": {
+        "before": "utonomic networking reviewing the current status of the autonomic aspects of current networks. Among others, they identified troubleshooting and recovery as some of the non-autonomic behaviours of the current Internet in the RfC 7576, which motivated us to develop this work in the field of autonomic fault diagnosis of telecommunication networks. In conclusion, due to the increasing complexity, heterogeneity and consequent high level of uncertainty in telecommunication networks, autonomic fault management is an exciting research field for network operator companies and research institutions",
+        "after": "Accordingly, our motivation when preparing this paper was to improve the current situation concerning the challenges mentioned about the autonomic future Internet. In particular, we are motivated by the fact that there is still a lack of solutions for autonomic fault diagnosis mechanisms. In this paper, we present an innovative approach for distributed fault diagnosis based on a Multi-Agent System (MAS), which applies argumentation techniques to reach agreements among agents (i.e., autonomic managers). During the argumentation process, agents use Bayesian reasoning to handle the uncertaint"
+      }
+    },
+    {
+      "reference": {
+        "title": "A Survey on Fault Diagnosis in Wireless Sensor Networks"
+      },
+      "citation_marker": "[24]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "g to handle the uncertainty inherent to fault diagnosis tasks of complex systems. Moreover, data privacy restrictions and their distributed nature are also considered, enabling the application of the proposed method in federated network domains. Thus, the main contributions of the presented work are (i) an argumentation framework for fault diagnosis based on Bayesian reasoning and (ii) a coordination protocol to apply that framework in a Multi-Agent System (MAS) for distributed fault diagnosis in federated network domains. This work was based on Chapter 4 of the first author's Ph.D. thesis",
+        "after": "The rest of this paper is structured as follows. Firstly, Section 2 presents some previous work, which has been used as the basis of the method presented in this paper, and discusses other related works in the research field of distributed fault diagnosis for network management.Section 3 presents the multi-agent architecture proposed to carry out the cross-domain diagnostic process. The proposed Bayesian Argumentation Framework (BAF) is defined in Section 4, and the protocol proposed to apply it in an MAS is proposed in Section 5. Next, in Section 6, experimental results are presented, va"
+      }
+    },
+    {
+      "reference": {
+        "title": "An innovative energy efficiency metric for data analytics and diagnostics in telecommunication applications"
+      },
+      "citation_marker": "[25]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "3 presents the multi-agent architecture proposed to carry out the cross-domain diagnostic process. The proposed Bayesian Argumentation Framework (BAF) is defined in Section 4, and the protocol proposed to apply it in an MAS is proposed in Section 5. Next, in Section 6, experimental results are presented, validated and discussed. Finally, Section 7 presents some concluding remarks and a brief discussion on future work. [SECTION: 2. Background ] The method proposed in this paper is based on a previous work, which consisted of an MAS for fault diagnosis deployed in a real-telecommunication network",
+        "after": "In that MAS, the diagnosis process starts with a request made by a human operator, which offers the first evidence of a fault.Then, the system executes a set of tests to collect other relevant information from the network and other third-party systems. Finally, the system infers the most probable root cause of the fault and shows the result to network operators. The diagnosis system was evaluated in a real-life scenario for a specific service provided by Telefónica O2 Czech Republic. The system performance was measured with several Key Performance Indicators (KPIs), which show the acceptance"
+      }
+    },
+    {
+      "reference": {
+        "title": "Artificial intelligence (AI) methods in optical networks: A comprehensive survey"
+      },
+      "citation_marker": "[26,27]",
+      "citation_type": "multiple",
+      "source_marker": "26",
+      "local_context": {
+        "before": "made the system applicable to that real-life scenario. That reasoning process under uncertainty was performed with a Bayesian inference engine applying a causal model of faults, which relates the cause of the fault and their symptoms. However, as that reasoning process was centralised in one single agent, the complexity of that Bayesian model increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature",
+        "after": "for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks [cite],or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication ne"
+      }
+    },
+    {
+      "reference": {
+        "title": "Fault Management Based on Machine Learning [Invited]"
+      },
+      "citation_marker": "[26,27]",
+      "citation_type": "multiple",
+      "source_marker": "27",
+      "local_context": {
+        "before": "made the system applicable to that real-life scenario. That reasoning process under uncertainty was performed with a Bayesian inference engine applying a causal model of faults, which relates the cause of the fault and their symptoms. However, as that reasoning process was centralised in one single agent, the complexity of that Bayesian model increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature",
+        "after": "for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks [cite],or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication ne"
+      }
+    },
+    {
+      "reference": {
+        "title": "Multi-agent based control of large-scale complex systems employing distributed dynamic inference engine"
+      },
+      "citation_marker": "[28,29]",
+      "citation_type": "multiple",
+      "source_marker": "28",
+      "local_context": {
+        "before": "cess under uncertainty was performed with a Bayesian inference engine applying a causal model of faults, which relates the cause of the fault and their symptoms. However, as that reasoning process was centralised in one single agent, the complexity of that Bayesian model increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks",
+        "after": "wireless sensor networks [cite],or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. A"
+      }
+    },
+    {
+      "reference": {
+        "title": "Distributed Perception Networks for Crisis Management"
+      },
+      "citation_marker": "[28,29]",
+      "citation_type": "multiple",
+      "source_marker": "29",
+      "local_context": {
+        "before": "cess under uncertainty was performed with a Bayesian inference engine applying a causal model of faults, which relates the cause of the fault and their symptoms. However, as that reasoning process was centralised in one single agent, the complexity of that Bayesian model increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks",
+        "after": "wireless sensor networks [cite],or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. A"
+      }
+    },
+    {
+      "reference": {
+        "title": "MULTIPLY SECTIONED BAYESIAN NETWORKS AND JUNCTION FORESTS FOR LARGE KNOWLEDGE‐BASED SYSTEMS"
+      },
+      "citation_marker": "[30,31]",
+      "citation_type": "multiple",
+      "source_marker": "30",
+      "local_context": {
+        "before": "ed with a Bayesian inference engine applying a causal model of faults, which relates the cause of the fault and their symptoms. However, as that reasoning process was centralised in one single agent, the complexity of that Bayesian model increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks",
+        "after": "or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requir"
+      }
+    },
+    {
+      "reference": {
+        "title": "A Distributed Probabilistic Model for Fault Diagnosis"
+      },
+      "citation_marker": "[30,31]",
+      "citation_type": "multiple",
+      "source_marker": "31",
+      "local_context": {
+        "before": "ed with a Bayesian inference engine applying a causal model of faults, which relates the cause of the fault and their symptoms. However, as that reasoning process was centralised in one single agent, the complexity of that Bayesian model increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks",
+        "after": "or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requir"
+      }
+    },
+    {
+      "reference": {
+        "title": "Collaborative multiagent learning for classification tasks"
+      },
+      "citation_marker": "[32,33]",
+      "citation_type": "multiple",
+      "source_marker": "32",
+      "local_context": {
+        "before": "engine applying a causal model of faults, which relates the cause of the fault and their symptoms. However, as that reasoning process was centralised in one single agent, the complexity of that Bayesian model increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks [cite],or optical networks",
+        "after": "Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requirement of combining knowledge"
+      }
+    },
+    {
+      "reference": {
+        "title": "Multi-agent based classification using argumentation from experience"
+      },
+      "citation_marker": "[32,33]",
+      "citation_type": "multiple",
+      "source_marker": "33",
+      "local_context": {
+        "before": "engine applying a causal model of faults, which relates the cause of the fault and their symptoms. However, as that reasoning process was centralised in one single agent, the complexity of that Bayesian model increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks [cite],or optical networks",
+        "after": "Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requirement of combining knowledge"
+      }
+    },
+    {
+      "reference": {
+        "title": "Multi-agent technology for distributed data mining and classification"
+      },
+      "citation_marker": "[34]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "odel increased when new systems and services had to be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks [cite],or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference",
+        "after": "such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requirement of combining knowledge from different experts or domains is not directly coveredby these techniques without generating one centralised model and splitting it later into partial models. This issue reduced the scalability o"
+      }
+    },
+    {
+      "reference": {
+        "title": "Belief Update in Bayesian Networks Using Uncertain Evidence"
+      },
+      "citation_marker": "[35]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "be diagnosed by MAS, which made the system robustness decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks [cite],or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN)",
+        "after": "or Multiple Sectioned Bayesian Network (MSBN) [cite]. However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requirement of combining knowledge from different experts or domains is not directly coveredby these techniques without generating one centralised model and splitting it later into partial models. This issue reduced the scalability of the final solution. Then, we explored other alter"
+      }
+    },
+    {
+      "reference": {
+        "title": "On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games"
+      },
+      "citation_marker": "[36,37]",
+      "citation_type": "multiple",
+      "source_marker": "36",
+      "local_context": {
+        "before": "ess decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks [cite],or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN)",
+        "after": "However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requirement of combining knowledge from different experts or domains is not directly coveredby these techniques without generating one centralised model and splitting it later into partial models. This issue reduced the scalability of the final solution. Then, we explored other alternatives,which would offer an extra degree of flexibili"
+      }
+    },
+    {
+      "reference": {
+        "title": "An Assumption-based Framework for Non-monotonic Reasoning"
+      },
+      "citation_marker": "[36,37]",
+      "citation_type": "multiple",
+      "source_marker": "37",
+      "local_context": {
+        "before": "ess decrease, and the causal model maintainability was more costly. The Bayesian reasoning technique is widely used for fault diagnosis in the literature [cite] for different kinds of networks, such as high-speed rail networks [cite], wireless sensor networks [cite],or optical networks [cite]. Consequently, some distributed reasoning techniques were explored to solve that scalability isues. Our first attempt was to apply one of the existing techniques for distributed Bayesian inference [cite], such as Distributed Perception Network (DPN) [cite] or Multiple Sectioned Bayesian Network (MSBN)",
+        "after": "However, some requirements for applying those techniques in the considered scenario, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requirement of combining knowledge from different experts or domains is not directly coveredby these techniques without generating one centralised model and splitting it later into partial models. This issue reduced the scalability of the final solution. Then, we explored other alternatives,which would offer an extra degree of flexibili"
+      }
+    },
+    {
+      "reference": {
+        "title": "Application of Agent Technology for Fault Diagnosis of Telecommunication Networks"
+      },
+      "citation_marker": "[18]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "io, i.e., a dynamic and complex environment such as a telecommunication network,made them not fully compatible with the deployed MAS architecture. Among other restrictions,the requirement of combining knowledge from different experts or domains is not directly coveredby these techniques without generating one centralised model and splitting it later into partial models. This issue reduced the scalability of the final solution. Then, we explored other alternatives,which would offer an extra degree of flexibility and were compatible with the desired features of the future Internet exposed by",
+        "after": "paying particular atention to the network federation, which would allow different autonomic managers to collaborate when required. In our case, we would like to have several agents that are able to perform a distributed diagnosis process handling the uncertainty inherent in any diagnostic task under several conditions such as data privacy and access restriction,critical aspects in federated domains. Thus, the main requirement for that desired technique is the MAS must be able to perform distributed reasoning under uncertainty with access restriction to some crucial information for the fault"
+      }
+    },
+    {
+      "reference": {
+        "title": "Theorie and Applications of Formal Argumentation"
+      },
+      "citation_marker": "[38]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "at are able to perform a distributed diagnosis process handling the uncertainty inherent in any diagnostic task under several conditions such as data privacy and access restriction,critical aspects in federated domains. Thus, the main requirement for that desired technique is the MAS must be able to perform distributed reasoning under uncertainty with access restriction to some crucial information for the fault diagnosis process. Therefore, we explored other possibilities to add the desired capability to the system. Concerning the distributed classification task based on MAS, Modi and Shen",
+        "after": "proposed an approach based on each agent only receiving a subset of the attributes of the classification domain. That means each agent had a subset of attributes, and all agents knew all dataset instances during the training phase of the classifier. This feature could be a scalability issue when the number of instances increases.In contrast, in the PISA framework proposed by Wardeh et al. [cite], data were either distributed among the agents, i.e., each agent had its private local dataset. For our case study, we would need a combination of both approaches adding flexibility to allow an agent to"
+      }
+    },
+    {
+      "reference": {
+        "title": "Probabilistic Abstract Argumentation Based on SCC Decomposability"
+      },
+      "citation_marker": "[39]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "ion for the fault diagnosis process. Therefore, we explored other possibilities to add the desired capability to the system. Concerning the distributed classification task based on MAS, Modi and Shen [cite] proposed an approach based on each agent only receiving a subset of the attributes of the classification domain. That means each agent had a subset of attributes, and all agents knew all dataset instances during the training phase of the classifier. This feature could be a scalability issue when the number of instances increases.In contrast, in the PISA framework proposed by Wardeh et al.",
+        "after": "data were either distributed among the agents, i.e., each agent had its private local dataset. For our case study, we would need a combination of both approaches adding flexibility to allow an agent to have any quantity or subset of variables (i.e., attributes) of the diagnosis causal model. On the one hand, the main issue in a multi-agent distributed task is not the algorithms themselves, but the most appropriate mechanism to allow agents to collaborate, as said by Gorodetsky et al. [cite]. In this aspect, the argumentation technique applied the PISA framework [cite], providing a satisfactory c"
+      }
+    },
+    {
+      "reference": {
+        "title": "Probabilistic Strength of Arguments with Structure."
+      },
+      "citation_marker": "[40]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "ssue when the number of instances increases.In contrast, in the PISA framework proposed by Wardeh et al. [cite], data were either distributed among the agents, i.e., each agent had its private local dataset. For our case study, we would need a combination of both approaches adding flexibility to allow an agent to have any quantity or subset of variables (i.e., attributes) of the diagnosis causal model. On the one hand, the main issue in a multi-agent distributed task is not the algorithms themselves, but the most appropriate mechanism to allow agents to collaborate, as said by Gorodetsky et al.",
+        "after": "In this aspect, the argumentation technique applied the PISA framework [cite], providing a satisfactory collaboration mechanism. On the other hand, our diagnosis system deals with uncertain information and would need agents able to discuss those uncertain variables given a complete probability distribution about any unknown attribute of the diagnosis case using the soft-evidence technique [cite]. The PISA framework uses absolute values for attributes, which would be an issue in complex and dynamic environments, such as our motivational scenario. Exploring other argumentative techniques, we fo"
+      }
+    },
+    {
+      "reference": {
+        "title": "Probabilistic Abstract Argumentation Based on SCC Decomposability"
+      },
+      "citation_marker": "[39]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "k proposed by Wardeh et al. [cite], data were either distributed among the agents, i.e., each agent had its private local dataset. For our case study, we would need a combination of both approaches adding flexibility to allow an agent to have any quantity or subset of variables (i.e., attributes) of the diagnosis causal model. On the one hand, the main issue in a multi-agent distributed task is not the algorithms themselves, but the most appropriate mechanism to allow agents to collaborate, as said by Gorodetsky et al. [cite]. In this aspect, the argumentation technique applied the PISA framework",
+        "after": "providing a satisfactory collaboration mechanism. On the other hand, our diagnosis system deals with uncertain information and would need agents able to discuss those uncertain variables given a complete probability distribution about any unknown attribute of the diagnosis case using the soft-evidence technique [cite]. The PISA framework uses absolute values for attributes, which would be an issue in complex and dynamic environments, such as our motivational scenario. Exploring other argumentative techniques, we found that Dung [cite] gave the basis of the mainstream contemporary work. On tha"
+      }
+    },
+    {
+      "reference": {
+        "title": "A probabilistic approach to modelling uncertain logical arguments"
+      },
+      "citation_marker": "[41]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "model. On the one hand, the main issue in a multi-agent distributed task is not the algorithms themselves, but the most appropriate mechanism to allow agents to collaborate, as said by Gorodetsky et al. [cite]. In this aspect, the argumentation technique applied the PISA framework [cite], providing a satisfactory collaboration mechanism. On the other hand, our diagnosis system deals with uncertain information and would need agents able to discuss those uncertain variables given a complete probability distribution about any unknown attribute of the diagnosis case using the soft-evidence technique",
+        "after": "The PISA framework uses absolute values for attributes, which would be an issue in complex and dynamic environments, such as our motivational scenario. Exploring other argumentative techniques, we found that Dung [cite] gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al. [cite] proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements"
+      }
+    },
+    {
+      "reference": {
+        "title": "Argument diagram extraction from evidential Bayesian networks"
+      },
+      "citation_marker": "[42]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "ct, the argumentation technique applied the PISA framework [cite], providing a satisfactory collaboration mechanism. On the other hand, our diagnosis system deals with uncertain information and would need agents able to discuss those uncertain variables given a complete probability distribution about any unknown attribute of the diagnosis case using the soft-evidence technique [cite]. The PISA framework uses absolute values for attributes, which would be an issue in complex and dynamic environments, such as our motivational scenario. Exploring other argumentative techniques, we found that Dung",
+        "after": "gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al. [cite] proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to t"
+      }
+    },
+    {
+      "reference": {
+        "title": "Bayesian argumentation and the value of logical validity."
+      },
+      "citation_marker": "[43]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "collaboration mechanism. On the other hand, our diagnosis system deals with uncertain information and would need agents able to discuss those uncertain variables given a complete probability distribution about any unknown attribute of the diagnosis case using the soft-evidence technique [cite]. The PISA framework uses absolute values for attributes, which would be an issue in complex and dynamic environments, such as our motivational scenario. Exploring other argumentative techniques, we found that Dung [cite] gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al.",
+        "after": "proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the l"
+      }
+    },
+    {
+      "reference": {
+        "title": "A labelling framework for probabilistic argumentation"
+      },
+      "citation_marker": "[44–46]",
+      "citation_type": "multiple",
+      "source_marker": "44",
+      "local_context": {
+        "before": "amic environments, such as our motivational scenario. Exploring other argumentative techniques, we found that Dung [cite] gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al. [cite] proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks",
+        "after": "for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting too"
+      }
+    },
+    {
+      "reference": {
+        "title": "Testimony and Argument: A Bayesian Perspective"
+      },
+      "citation_marker": "[44–46]",
+      "citation_type": "multiple",
+      "source_marker": "45",
+      "local_context": {
+        "before": "amic environments, such as our motivational scenario. Exploring other argumentative techniques, we found that Dung [cite] gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al. [cite] proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks",
+        "after": "for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting too"
+      }
+    },
+    {
+      "reference": {
+        "title": "Supplemental Material for Bayesian Argumentation and the Value of Logical Validity"
+      },
+      "citation_marker": "[44–46]",
+      "citation_type": "multiple",
+      "source_marker": "46",
+      "local_context": {
+        "before": "amic environments, such as our motivational scenario. Exploring other argumentative techniques, we found that Dung [cite] gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al. [cite] proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks",
+        "after": "for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting too"
+      }
+    },
+    {
+      "reference": {
+        "title": "A new use case for argumentation support tools: Supporting discussions of Bayesian analyses of complex criminal cases"
+      },
+      "citation_marker": "[47]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "io. Exploring other argumentative techniques, we found that Dung [cite] gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al. [cite] proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments",
+        "after": "extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose t"
+      }
+    },
+    {
+      "reference": {
+        "title": "Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference"
+      },
+      "citation_marker": "[48,49]",
+      "citation_type": "multiple",
+      "source_marker": "48",
+      "local_context": {
+        "before": "s, we found that Dung [cite] gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al. [cite] proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks",
+        "after": "With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose to extend the previous diagnosis system [cite], whic"
+      }
+    },
+    {
+      "reference": {
+        "title": "Abstraction, Federation, and Scalability"
+      },
+      "citation_marker": "[48,49]",
+      "citation_type": "multiple",
+      "source_marker": "49",
+      "local_context": {
+        "before": "s, we found that Dung [cite] gave the basis of the mainstream contemporary work. On that basis, Bondarenko et al. [cite] proposed the Assumption-based Argumentation Framework (AAF), which extends Dung's framework and offers more flexibility to generate and process arguments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks",
+        "after": "With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose to extend the previous diagnosis system [cite], whic"
+      }
+    },
+    {
+      "reference": {
+        "title": "A new use case for argumentation support tools: Supporting discussions of Bayesian analyses of complex criminal cases"
+      },
+      "citation_marker": "[47,50]",
+      "citation_type": "multiple",
+      "source_marker": "47",
+      "local_context": {
+        "before": "ments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments",
+        "after": "direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose to extend the previous diagnosis system [cite], which applied Bayesian reasoning to infer fault root causes with an argumentative capability. That capability allows agents to dialogue about diagnosis cases, keeping coherence in the distributed reasoning process under some restrictive conditions mentioned previously"
+      }
+    },
+    {
+      "reference": {
+        "title": "Visualizing Inference in Bayesian Networks"
+      },
+      "citation_marker": "[47,50]",
+      "citation_type": "multiple",
+      "source_marker": "50",
+      "local_context": {
+        "before": "ments, including assumptions in the problem. However, these theoretical frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments",
+        "after": "direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose to extend the previous diagnosis system [cite], which applied Bayesian reasoning to infer fault root causes with an argumentative capability. That capability allows agents to dialogue about diagnosis cases, keeping coherence in the distributed reasoning process under some restrictive conditions mentioned previously"
+      }
+    },
+    {
+      "reference": {
+        "title": "Minimum Hellinger Distance Estimates for Parametric Models"
+      },
+      "citation_marker": "[51]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "al frameworks do not deal with uncertainty or probabilistic statements. In contrast, other recent works explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation",
+        "after": "to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose to extend the previous diagnosis system [cite], which applied Bayesian reasoning to infer fault root causes with an argumentative capability. That capability allows agents to dialogue about diagnosis cases, keeping coherence in the distributed reasoning process under some restrictive conditions mentioned previously for federated domains, such as data privacy or access restriction."
+      }
+    },
+    {
+      "reference": {
+        "title": "BPMN 2.0: Introduction to the Standard for Business Process Modeling"
+      },
+      "citation_marker": "[52,53]",
+      "citation_type": "multiple",
+      "source_marker": "52",
+      "local_context": {
+        "before": "rks explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments",
+        "after": "or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose to extend the previous diagnosis system [cite], which applied Bayesian reasoning to infer fault root causes with an argumentative capability. That capability allows agents to dialogue about diagnosis cases, keeping coherence in the distributed reasoning process under some restrictive conditions mentioned previously for federated domains, such as data privacy or access restriction. [SECTION: 3. Multi-Agent Architecture for Distributed Fault Diagnosis ] This section presents the proposed"
+      }
+    },
+    {
+      "reference": {
+        "title": "Problem-Solving Methods for Diagnosis and their Role in Knowledge Acquisition"
+      },
+      "citation_marker": "[52,53]",
+      "citation_type": "multiple",
+      "source_marker": "53",
+      "local_context": {
+        "before": "rks explore the application of probabilistic argumentation frameworks [cite] for modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments",
+        "after": "or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose to extend the previous diagnosis system [cite], which applied Bayesian reasoning to infer fault root causes with an argumentative capability. That capability allows agents to dialogue about diagnosis cases, keeping coherence in the distributed reasoning process under some restrictive conditions mentioned previously for federated domains, such as data privacy or access restriction. [SECTION: 3. Multi-Agent Architecture for Distributed Fault Diagnosis ] This section presents the proposed"
+      }
+    },
+    {
+      "reference": {
+        "title": "Statistical Comparisons of Classifiers over Multiple Data Sets"
+      },
+      "citation_marker": "[54]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "or modelling uncertain logical arguments [cite] extracting them from a Bayesian networks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting tool",
+        "after": "Following these approaches,we propose to extend the previous diagnosis system [cite], which applied Bayesian reasoning to infer fault root causes with an argumentative capability. That capability allows agents to dialogue about diagnosis cases, keeping coherence in the distributed reasoning process under some restrictive conditions mentioned previously for federated domains, such as data privacy or access restriction. [SECTION: 3. Multi-Agent Architecture for Distributed Fault Diagnosis ] This section presents the proposed multi-agent architecture for fault diagnosis in federated domains. In this s"
+      }
+    },
+    {
+      "reference": {
+        "title": "An innovative energy efficiency metric for data analytics and diagnostics in telecommunication applications"
+      },
+      "citation_marker": "[25]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "ks [cite]. With respect to the application of probabilistic reasoning in argumentation processes, we can find in the literature many works from a mathematical point of view, such as the application of a probabilistic approach to modelling uncertain logical arguments [cite], direct translations from Bayesian approach to argumentation [cite], to a philosophical point of view, such as a Bayesian perspective of testimonies and arguments [cite], or to a legal point of view, such as an argumentation supporting tool [cite]. Following these approaches,we propose to extend the previous diagnosis system",
+        "after": "which applied Bayesian reasoning to infer fault root causes with an argumentative capability. That capability allows agents to dialogue about diagnosis cases, keeping coherence in the distributed reasoning process under some restrictive conditions mentioned previously for federated domains, such as data privacy or access restriction. [SECTION: 3. Multi-Agent Architecture for Distributed Fault Diagnosis ] This section presents the proposed multi-agent architecture for fault diagnosis in federated domains. In this scenario, every agent manages a specific network domain and is responsible for monito"
+      }
+    },
+    {
+      "reference": {
+        "title": "A Survey on Fault Diagnosis in Wireless Sensor Networks"
+      },
+      "citation_marker": "[24,25]",
+      "citation_type": "multiple",
+      "source_marker": "24",
+      "local_context": {
+        "before": "a telecommunication network management scenario. This scenario is schematically depicted in Figure 1, where different network domains are federated to ensure that agents can carry out the inter-domain fault diagnosis process. <img src=\"imgs/img_in_image_box_254_396_935_821.jpg\"/> Figure 1. Overview of Bayesian Argumentative agents in federated domains. The proposed agent architecture, named the Bayesian Argumentative Agent, extends the agent architecture presented in a previous works",
+        "after": "labelled as Bayesian Agent in the figure. As the Bayesian Argumentation Framework and the Coordination Protocol are detailed in Sections 4 and 5,respectively, the following paragraphs presents a brief summary of the Bayesian Agent architecture. The aim of the Bayesian Agent architecture is monitoring and diagnosing a specific domain of a telecommunication network. These agents use Bayesian models [cite], which provide the capability of modelling causal relations to represent possible faults with their symptoms. The agent collects data in real-time, performs a diagnostic process and offers as"
+      }
+    },
+    {
+      "reference": {
+        "title": "An innovative energy efficiency metric for data analytics and diagnostics in telecommunication applications"
+      },
+      "citation_marker": "[24,25]",
+      "citation_type": "multiple",
+      "source_marker": "25",
+      "local_context": {
+        "before": "a telecommunication network management scenario. This scenario is schematically depicted in Figure 1, where different network domains are federated to ensure that agents can carry out the inter-domain fault diagnosis process. <img src=\"imgs/img_in_image_box_254_396_935_821.jpg\"/> Figure 1. Overview of Bayesian Argumentative agents in federated domains. The proposed agent architecture, named the Bayesian Argumentative Agent, extends the agent architecture presented in a previous works",
+        "after": "labelled as Bayesian Agent in the figure. As the Bayesian Argumentation Framework and the Coordination Protocol are detailed in Sections 4 and 5,respectively, the following paragraphs presents a brief summary of the Bayesian Agent architecture. The aim of the Bayesian Agent architecture is monitoring and diagnosing a specific domain of a telecommunication network. These agents use Bayesian models [cite], which provide the capability of modelling causal relations to represent possible faults with their symptoms. The agent collects data in real-time, performs a diagnostic process and offers as"
+      }
+    },
+    {
+      "reference": {
+        "title": "Fundamental design issues for the future Internet"
+      },
+      "citation_marker": "[0,1]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "and is defined as the variable state set. We define two types of variables: observations, obs, and fault root causes, frc,which compose the set V = obs U frc. Those observations and fault root causes are modelled as variables of the agent's Causal Model, which allows the agent to infer the probability of a variable is in a given state. That probability represents the agent's degree of certainty about the state of a given variable, which is the crucial concept to handle the uncertainty of the diagnosis process. In this argumentation framework, we denote that probability as p(i, j) = P(vi, j) =",
+        "after": "where s; ∈ v To condense the probabilities of all states of a given variable v, we define a set of probabilities on that variable, as a statement stv. Formally, Definition 1. A statement stv is a pair vi, D where v ∈ V and D is a set of probabilities (i, j),which represent the probability of the variable v being in the state sj. A statement ston a variable is coherent if and only if∀p(i,j) ∈ st, ∑ p(i, j) =1. That means that a statement is coherent if it represents a probability distribution for the possible states of the variable v. Formally, Definition 2. A statement sis coherent ∀p"
+      }
+    },
+    {
+      "reference": {
+        "title": "Fundamental design issues for the future Internet"
+      },
+      "citation_marker": "[0, 1]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "easure, ∆(α, β) ∈ R, about how similar two statements are between them to know if agents agree or disagree.This similarity can be measured using different distance metrics, such as Euclidean distance, Hellinger distance, Kullback-Leibler distance,J-divergence distance or Cumulative Distribution Function (CDF) distance. For a review of distance metrics between probability distributions, please refer to the work of Koiter [cite]. For our fault diagnosis field, we picked the Hellinger distance [cite], which offers the following exciting features. Firstly, it can be normalised to bound the metrics in",
+        "after": "which simplifies its processing in contrast with other unbounded metrics, such as Kullback–Leibler distance or J-divergence. Secondly, it does not require any order sequence among the states of a variable, in contrast with CDF distance, which is targeted towards ordinal distributions. Thirdly, it is symmetric, in contrast with others, such as Kullback–Leibler distance. That symmetry is an interesting feature since it does not require any order between statements to measure the distance between them; because similarity must be a symmetric measure. Finally, it is more sensitive near zero and o"
+      }
+    },
+    {
+      "reference": {
+        "title": "Fundamental design issues for the future Internet"
+      },
+      "citation_marker": "[0, 1]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "e near zero and one, in contrast with Euclidean distance. That sensitivity is a desirable feature because probabilities near those values in a statement represent that an agent is almost sure that a variable is (p(i, j) ≈ 1) or is not (p(i, j) ≈ 0) in a given state. This feature is suitable because a statement that is more sure about the state of a variable should be less similar than other less certain or confident ones. Then, with the normalised Hellinger distance [cite], shown in Definition 7, chosen to measure the similarity between two statements, ∆(α, β) ∈ R, we define a threshold th =",
+        "after": "to establish the bound distance between two statements to be classified as similar enough. Therefore, two statements α, β about the same variable v are similar enough, if the distance between them is below the threshold,∆(α, β) <img src=\"imgs/img_in_formula_box_445_1326_741_1386.jpg\"/> Based on this definition, a threshold value near zero would imply strict behaviour, because"
+      }
+    },
+    {
+      "reference": {
+        "title": "An innovative energy efficiency metric for data analytics and diagnostics in telecommunication applications"
+      },
+      "citation_marker": "[25]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "finished including the conclusion of the diagnosis process. <img src=\"imgs/img_in_image_box_396_438_790_733.jpg\"/> Figure 5. Conclusion Phase. [SECTION: 6. Results and Discussion ] This section presents a report of the experiments performed to assess the validity of the proposed argumentation framework for distributed fault diagnosis. The three main tasks of any fault diagnosis process [cite] are symptom detection, hypothesis generation and hypothesis discrimination. While the previous work",
+        "after": "addressed the evaluation of the three tasks, this work is focused on evaluating distributed hypothesis discrimination. This task can be considered a classification task that determines the probability of the possible cause being the fault root. Thus, we have evaluated the argumentation as a distributed multi-class classification technique. In this way, the evaluation compares other classification methods in a number of datasets. The rest of this section is structured as follows. Firstly, Section 6.1 presents the experimentation framework developed to carry out this evaluation process. Sect"
+      }
+    },
+    {
+      "reference": {
+        "title": "An innovative energy efficiency metric for data analytics and diagnostics in telecommunication applications"
+      },
+      "citation_marker": "[25]",
+      "citation_type": "single",
+      "source_marker": null,
+      "local_context": {
+        "before": "tified by the Manager agent when the argumentation process was finished to check the correctness of the classification conclusion. Finally,all Argumentative Agents were configured with a threshold value equal to 0.2 (th = 0.2) to measure the similarity between statements, as explained in Section 4. In conclusion, the following agents were executed in all experiments: Generator, Evaluator, Manager, and a set of Argumentative agents. [SECTION: 6.2. Datasets ] Several public datasets were used for the evaluation, as well as the private one extracted from the case study presented in the previous work",
+        "after": "which contains fault diagnosis data of a real-life telecommunication network running for one and a half years. Those datasets were used to measure the accuracy of the proposed approach for the multi-class classification problem. Public datasets were collected from the UCI (UCI Repository Website: http://archive.ics.uci.edu/ml/datasets.html)and KEEL (KEEL Repository Website: http://sci2s.ugr.es/keel/datasets.php) repositories and have a meaningful difference among their characteristics to the number of classes, number of instances and number of attributes. An overview of the complexity of the"
+      }
+    }
+  ],
+  "total_citations": 67
+}
