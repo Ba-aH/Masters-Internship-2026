@@ -1,306 +1,516 @@
 """
-context.py — LLM-Based Context Extraction Service for CiteKG Pipeline 2
+context.py — Regex-Based Context Extraction Service for CiteKG Pipeline 2
 
 Reads:
-  <EXTRACTED_DIR>/<folder>/<folder>.md       — full paper text (sent to LLM)
+  <EXTRACTED_DIR>/<folder>/<folder>.md       — full paper text
   <EXTRACTED_DIR>/<folder>/references.json   — paper_id, reference list
 
 Returns a dict structured as:
   {
     "paper_id": "",
-    "global_context": { "title": "", "abstract": "" },   ← saved ONCE here only
+    "global_context": { "title": "", "abstract": "" },
     "citations": [
       {
-        "reference": "<title of the referenced paper>",
-        "local_context": {
-          "before": "",
-          "citation_marker": "",
-          "after": ""
-        }
+        "reference":       { "title": "" },
+        "citation_marker": "[1]",
+        "citation_type":   "single" | "multiple",
+        "source_marker":   "1" | null,   ← null when citation_type == "single"
+        "local_context":   { "before": "", "after": "" }
       }
     ],
-    "total_citations": 0,
-    "skipped": False
+    "total_citations": 0
   }
+
+Failure logs
+------------
+  <EXTRACTED_DIR>/context_failures.json  — one record per folder that failed,
+      with a "reason" tag so you can triage missing context.json in bulk.
+  <EXTRACTED_DIR>/ocr_failures.json      — one record per image that OCR could
+      not process, keyed by folder + image path.
 """
 
 import json
 import re
 import logging
-import requests
+import threading
+from datetime import datetime, timezone
 from pathlib import Path
 
-from config import EXTRACTED_DIR, LOCAL_LLM_URL, LOCAL_LLM_MODEL
+from PIL import Image
+from pix2tex.cli import LatexOCR
 
-LLM_TIMEOUT = 300   # seconds — full-paper prompts can be slow
+from config import EXTRACTED_DIR
+
+GLOBAL_HEAD_CHARS = 3000    # title/abstract always sit at the top
+CONTEXT_CHARS     = 150     # max chars for before / after windows
 
 logger = logging.getLogger(__name__)
 
+# ─────────────────────────────────────────────────────────────────────────────
+# LatexOCR model — loaded ONCE at module import time.
+# ─────────────────────────────────────────────────────────────────────────────
+
+_latex_ocr: LatexOCR | None = None
+
+def _get_ocr() -> LatexOCR:
+    global _latex_ocr
+    if _latex_ocr is None:
+        logger.info("Loading LatexOCR model...")
+        _latex_ocr = LatexOCR()
+        logger.info("LatexOCR model ready.")
+    return _latex_ocr
+
 
 # ─────────────────────────────────────────────────────────────────────────────
-# LLM helpers
+# Failure logging  (written atomically; safe under multi-threading)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _call_llm(system_prompt: str, user_prompt: str) -> str:
-    payload = {
-        "model":         LOCAL_LLM_MODEL,
-        "system_prompt": system_prompt,
-        "input":         user_prompt,
-        "temperature":   0.0,
+_CONTEXT_FAILURES_PATH = Path(EXTRACTED_DIR) / "context_failures.json"
+_OCR_FAILURES_PATH     = Path(EXTRACTED_DIR) / "ocr_failures.json"
+_context_failures_lock = threading.Lock()
+_ocr_failures_lock     = threading.Lock()
+
+
+def _append_failure(path: Path, lock: threading.Lock, record: dict) -> None:
+    """Atomically append *record* to a JSON-array failure log at *path*."""
+    with lock:
+        if path.exists():
+            try:
+                with path.open(encoding="utf-8") as f:
+                    failures = json.load(f)
+            except (json.JSONDecodeError, OSError):
+                failures = []
+        else:
+            failures = []
+
+        failures.append(record)
+
+        tmp = path.with_suffix(".tmp")
+        with tmp.open("w", encoding="utf-8") as f:
+            json.dump(failures, f, indent=2, ensure_ascii=False)
+        tmp.replace(path)
+
+
+def _log_context_failure(folder: str, reason: str, detail: str = "") -> None:
+    """
+    Append a context-extraction failure to context_failures.json.
+
+    reason  — short machine-readable tag, e.g. "no_md_file", "bad_json",
+              "no_references_json", "unexpected_error"
+    detail  — human-readable elaboration (exception message, file list, …)
+    """
+    record = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "folder":    folder,
+        "reason":    reason,
+        "detail":    detail,
     }
-
-    resp = requests.post(LOCAL_LLM_URL, json=payload, timeout=LLM_TIMEOUT)
-    resp.raise_for_status()
-    body = resp.json()
-
-    # LM Studio output[] format — same as groq.py
-    raw = ""
-    for type_pref in ("message", "text"):
-        for block in body.get("output", []):
-            if block.get("type") == type_pref:
-                raw = block.get("content", "").strip()
-                if raw:
-                    break
-        if raw:
-            break
-
-    if not raw:
-        raise ValueError(f"LLM returned no usable content. Body keys: {list(body)}")
-
-    return raw
+    _append_failure(_CONTEXT_FAILURES_PATH, _context_failures_lock, record)
+    logger.error(f"[{folder}] context_failure reason={reason!r}: {detail}")
 
 
-def _clean_and_parse(raw: str) -> list | dict:
-    """Strip <think> tags and markdown fences, then parse JSON — same as groq.py."""
-    raw = re.sub(r'<think>.*?</think>', '', raw, flags=re.DOTALL).strip()
-    raw = re.sub(r'^```[a-z]*\n?', '', raw)
-    raw = re.sub(r'\n?```$', '', raw).strip()
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError as e:
-        raise ValueError(f"LLM returned non-JSON: {e}\nRaw (first 400 chars): {raw[:400]}")
+def _log_ocr_failure(folder: str, img_path: Path, error: str) -> None:
+    """Append an OCR failure to ocr_failures.json."""
+    record = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "folder":    folder,
+        "image":     str(img_path),
+        "error":     error,
+    }
+    _append_failure(_OCR_FAILURES_PATH, _ocr_failures_lock, record)
+    logger.warning(f"[{folder}] ocr_failure image={img_path}: {error}")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Step 1 — Global context (title + abstract)
+# Formula image replacement
 # ─────────────────────────────────────────────────────────────────────────────
 
-GLOBAL_SYSTEM = (
-    "You are an academic paper parser. "
-    "Return ONLY a valid JSON object. No explanations, no markdown, no thinking."
+# Matches:  <img src="imgs/foo.jpg" ... />   or   <img src="imgs/foo.png" ... >
+# src= may appear anywhere among other attributes (alt, width, style, etc.)
+IMG_TAG_RE = re.compile(
+    r'<img\b[^>]*\bsrc="([^"]+\.(?:jpg|jpeg|png))"[^>]*/?>',
+    re.IGNORECASE,
 )
 
-GLOBAL_USER = """\
-Extract the title and abstract from the academic paper below.
 
-Return exactly this JSON shape — no extra keys:
-{{
-  "title":    "<full paper title>",
-  "abstract": "<full abstract text>"
-}}
+def _replace_formula_images(text: str, paper_folder: Path, folder_name: str = "") -> str:
+    """
+    Find all <img src="..."> tags in *text*, run LatexOCR on each image,
+    and replace the tag with <latex>$$ … $$</latex>.
 
-If you cannot find the abstract, return an empty string for that field.
+    Image paths are resolved relative to *paper_folder*.
+    Tags whose image cannot be found or OCR'd are left unchanged; every
+    failure is logged to ocr_failures.json.
+    """
+    def _substitute(match: re.Match) -> str:
+        src      = match.group(1)           # e.g. "imgs/img_foo.jpg"
+        img_path = paper_folder / src
 
---- PAPER START ---
-{paper_text}
---- PAPER END ---
-"""
+        if not img_path.exists():
+            _log_ocr_failure(folder_name, img_path, "image file not found")
+            return match.group(0)           # leave tag as-is
 
+        try:
+            # FIX: always convert to RGB — RGBA PNGs will crash LatexOCR
+            image = Image.open(img_path).convert("RGB")
+            latex = _get_ocr()(image)
+
+            # FIX: LatexOCR can return None for very small / low-confidence images
+            if not latex:
+                _log_ocr_failure(folder_name, img_path,
+                                 "LatexOCR returned None or empty string")
+                return match.group(0)
+
+            latex = latex.strip().replace("\\\\", "\\")
+            return f"<latex>$$ {latex} $$</latex>"
+
+        except Exception as e:
+            _log_ocr_failure(folder_name, img_path, str(e))
+            return match.group(0)           # leave tag as-is
+
+    return IMG_TAG_RE.sub(_substitute, text)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Step 1 — Global context via regex
+# ─────────────────────────────────────────────────────────────────────────────
 
 def _extract_global_context(paper_text: str) -> dict:
-    raw    = _call_llm(GLOBAL_SYSTEM, GLOBAL_USER.format(paper_text=paper_text))
-    result = _clean_and_parse(raw)
-    if not isinstance(result, dict):
-        raise ValueError(f"Expected a JSON object for global context, got: {type(result)}")
-    return {
-        "title":    result.get("title",    "").strip(),
-        "abstract": result.get("abstract", "").strip(),
-    }
+    head = paper_text[:GLOBAL_HEAD_CHARS]
+
+    # ── Title ──────────────────────────────────────────────────────────────
+    title = ""
+    if m := re.search(r'^#\s+(.+)', head, re.MULTILINE):
+        title = m.group(1).strip()
+    else:
+        for line in head.splitlines():
+            if line.strip():
+                title = line.strip()
+                break
+
+    # ── Abstract ───────────────────────────────────────────────────────────
+    abstract = ""
+    abs_pattern = re.compile(
+        r'(?:^|\n)'
+        r'(?:#+\s*)?'
+        r'Abstract[:\s]*\n+'
+        r'(.*?)'
+        r'(?=\n{2,}(?:[A-Z#]|\d+\.)|'
+        r'\n#+\s|$)',
+        re.IGNORECASE | re.DOTALL,
+    )
+    if m := abs_pattern.search(head):
+        abstract = re.sub(r'\s+', ' ', m.group(1)).strip()
+
+    return {"title": title, "abstract": abstract}
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Step 2 — Local context (per-citation extraction)
+# Step 2 — Citation marker detection via regex
 # ─────────────────────────────────────────────────────────────────────────────
 
-LOCAL_SYSTEM = (
-    "You are an academic citation context extractor. "
-    "Return ONLY a valid JSON array. No explanations, no markdown, no thinking."
+# Character class covering ASCII letters plus the full Latin-1 Supplement and
+# Latin Extended-A/B blocks (handles é, è, ó, ñ, Á, Ā, ł, ž, etc.)
+_SC = r"A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ'-"   # surname characters (continue)
+_SU = r"A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖÙÚÛÜÝÞ"  # surname uppercase starters
+
+# Surname atom:  Hansson  /  Alchourrón  /  Fermé  /  van der Berg  are all covered.
+# "et al." allows one or two trailing periods (et al. vs et al..)
+_SURNAME = (
+    rf"[{_SU}][{_SC}]+"
+    rf"(?:\s+et\s+al\.{{1,2}}|\s+(?:and|&)\s+[{_SU}][{_SC}]+)?"
 )
 
-LOCAL_USER = """\
-You are given a full academic paper and its reference list.
+# Full author-year atom: "Parsons et al., 1998" or "Wang and Chang, 2016a"
+_AY_ATOM = rf"{_SURNAME},\s*\d{{4}}[a-z]?"
+_AY_ATOM_NOCOMMA = rf"{_SURNAME}\s+\d{{4}}[a-z]?"
 
-Your task: for every place in the paper body where a reference is cited, extract the citation context.
+CITATION_RE = re.compile(
+    rf"""(?:
+        # ── Numeric bracketed: [1]  [1,2]  [1–3]  [1; 2]  [1, 3-5, 7] ──
+        \[(?:\d+(?:\s*[-\u2012\u2013\u2014,;]\s*\d+)*)\]
 
-For each citation occurrence return one JSON object in an array:
+      |
+        # ── Parenthetical author-year ─────────────────────────────────────
+        # Optionally prefixed with "e.g.," or "i.e.,"
+        \(
+            (?:(?:e\.g\.|i\.e\.),?\s*)?
+            (?:{_AY_ATOM}|{_AY_ATOM_NOCOMMA})
+            (?:
+                \s*;\s*
+                (?:
+                    (?:{_AY_ATOM}|{_AY_ATOM_NOCOMMA})   # full author-year continuation
+                  |
+                    \d{{4}}[a-z]?                        # year-only continuation
+                )
+            )*
+        \)
 
-[
-  {{
-    "reference_index": <1-based integer matching the reference list below>,
-    "citation_marker": "<exact marker as it appears in the paper, e.g. [1] or (Smith, 2019)>",
-    "before":          "<verbatim text immediately before the citation marker — up to ~300 tokens>",
-    "after":           "<verbatim text immediately after the citation marker — up to ~300 tokens>"
-  }},
-  ...
-]
-
-Rules for "before" and "after":
-- Each field must contain verbatim text from the paper — do NOT paraphrase.
-- Aim for up to ~300 tokens (~300 words) on each side.
-- Start/end on sentence boundaries whenever possible.
-- If the citation marker falls near the BEGINNING of its sentence (i.e. there is little or no
-  text before the marker within that sentence), also include the 1–2 sentences that precede
-  the current sentence, provided the total "before" text does not exceed 300 characters.
-- If the citation marker falls near the END of its sentence (i.e. there is little or no
-  text after the marker within that sentence), also include the 1–2 sentences that follow
-  the current sentence, provided the total "after" text does not exceed 300 characters.
-- If there is genuinely no text before/after (e.g. citation at the very start or end of
-  a section with nothing adjacent), use an empty string.
-
-Other rules:
-- One entry per citation occurrence. If the same reference is cited multiple times, include each occurrence separately.
-- Do NOT include entries for references that only appear in the reference list but are never cited in the body.
-- Match each citation to the closest reference in the list by title, authors, and year.
-
---- REFERENCE LIST ---
-{reference_list}
---- END REFERENCE LIST ---
-
---- PAPER START ---
-{paper_text}
---- PAPER END ---
-"""
+      |
+        # ── Inline author-year: "Author (Year)" or "Author et al.(Year)" ──
+        # The opening parenthesis may be glued to the name (no space).
+        {_SURNAME}[ \t]*\(\d{{4}}[a-z]?\)
+    )""",
+    re.VERBOSE | re.UNICODE,
+)
 
 
-def _resolve_author(a) -> str:
-    if isinstance(a, str):
-        return a
-    if isinstance(a, dict):
-        return (
-            a.get("author_name")
-            or a.get("display_name")
-            or a.get("name")
-            or a.get("author", {}).get("display_name", "")
+def _detect_citations(paper_text: str) -> list[dict]:
+    """
+    Scan paper_text for all citation markers and return a list of dicts:
+      [{"marker": "...", "before": "...", "after": "..."}, ...]
+    """
+    results = []
+    for m in CITATION_RE.finditer(paper_text):
+        start, end = m.start(), m.end()
+        before = paper_text[max(0, start - CONTEXT_CHARS): start]
+        after  = paper_text[end: end + CONTEXT_CHARS]
+
+        before = re.sub(r'[ \t]+', ' ', before).strip()
+        after  = re.sub(r'[ \t]+', ' ', after).strip()
+
+        # Replace any citation markers nested inside the context windows
+        before = CITATION_RE.sub("[cite]", before)
+        after  = CITATION_RE.sub("[cite]", after)
+
+        results.append({"marker": m.group(), "before": before, "after": after})
+    return results
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Step 3 — Marker expansion and resolution
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _expand_numeric_marker(marker: str) -> list[int]:
+    """
+    '[1, 3-5, 7]' → [1, 3, 4, 5, 7]
+    """
+    indices = []
+    inner = marker.strip("[]")
+    for part in re.split(r'[,;]\s*', inner):
+        part = part.strip()
+        if rng := re.match(r'(\d+)\s*[-\u2012\u2013\u2014]\s*(\d+)', part):
+            indices.extend(range(int(rng.group(1)), int(rng.group(2)) + 1))
+        elif part.isdigit():
+            indices.append(int(part))
+    return indices
+
+
+def _resolve_numeric_marker(marker: str, references: list) -> list[tuple[dict, str]]:
+    """
+    '[1, 2]' → [(references[0], "1"), (references[1], "2")]
+    """
+    resolved = []
+    for idx in _expand_numeric_marker(marker):
+        i = idx - 1
+        if 0 <= i < len(references):
+            resolved.append((references[i], str(idx)))
+    return resolved
+
+
+# Matches a single author-year atom inside a parenthetical marker.
+# Handles: "Hansson, 1999" / "Fermé et al., 2003" / "Wang and Chang, 2016a"
+# Also handles double period: "Jennings et al.., 2001"
+AUTHOR_YEAR_ATOM_RE = re.compile(
+    rf"([{_SU}][{_SC}]+"
+    rf"(?:\s+(?:et\s+al\.{{1,2}}|(?:and|&)\s+[{_SU}][{_SC}]+))?)"
+    rf"[,\s]\s*(\d{{4}}[a-z]?)",
+    re.UNICODE,
+)
+
+
+def _normalize_marker_for_resolution(marker: str) -> str:
+    """
+    Convert any citation marker to a consistent parenthetical form so that
+    ``_resolve_author_year_marker`` can always use the same parsing logic.
+
+    Examples
+    --------
+    'Rahwan et al. (2003)'           → '(Rahwan et al., 2003)'
+    'Fermé et al.(2003)'             → '(Fermé et al., 2003)'
+    '(e.g., Parsons et al., 1998)'   → '(Parsons et al., 1998)'
+    '(Parsons et al., 1998)'         → '(Parsons et al., 1998)'  [unchanged]
+    """
+    m = marker.strip()
+
+    if not m.startswith("(") and not m.startswith("["):
+        inline = re.match(r'^(.+?)[ \t]*\((\d{4}[a-z]?)\)$', m, re.UNICODE)
+        if inline:
+            author = inline.group(1).rstrip(' \t')          # ← no period strip
+            author = re.sub(r'\.{2,}$', '.', author)        # ← collapse al.. → al.
+            return f"({author}, {inline.group(2)})"
+        return m
+
+    m = re.sub(r'^\((?:e\.g\.|i\.e\.),?\s*', '(', m, flags=re.UNICODE)
+    return m
+
+
+def _resolve_author_year_marker(marker: str, references: list) -> list[tuple[dict, str]]:
+    resolved = []
+    for atom in re.split(r';\s*', marker.strip("()")):
+        atom = atom.strip()
+        if not atom:
+            continue
+        m = AUTHOR_YEAR_ATOM_RE.match(atom)
+        if not m:
+            continue
+        surname = m.group(1).split()[0].lower()
+        year    = m.group(2)[:4]
+        # Compile once; \b ensures "Li" doesn't match inside "Williams"
+        surname_re = re.compile(rf'\b{re.escape(surname)}\b', re.IGNORECASE)
+        for r in references:
+            authors_str = str(r.get("authors", []))
+            if str(r.get("year", "")) == year and surname_re.search(authors_str):
+                resolved.append((r, atom))
+                break
+    return resolved
+
+
+def _resolve_marker(marker: str, references: list) -> list[tuple[dict, str]]:
+    """Dispatch to the appropriate resolver based on marker format."""
+    if marker.startswith("["):
+        return _resolve_numeric_marker(marker, references)
+    # Author-year: normalise first so both inline and parenthetical are handled
+    # identically by _resolve_author_year_marker.
+    normalized = _normalize_marker_for_resolution(marker)
+    if normalized.startswith("("):
+        return _resolve_author_year_marker(normalized, references)
+    return []
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Public entry point
+# ─────────────────────────────────────────────────────────────────────────────
+
+# .md filenames that are never the main paper body
+_MD_EXCLUDE = {"referenced_work.md", "cleaned_references.md"}
+
+
+def _find_paper_md(folder_path: Path, folder_name: str) -> Path:
+    """
+    Return the main paper .md inside folder_path.
+    1. Tries <folder_name>.md first (canonical).
+    2. Falls back to any .md not in _MD_EXCLUDE.
+    Raises FileNotFoundError with a detailed diagnostic message if nothing
+    qualifies (lists every .md actually present so callers can log it).
+    """
+    canonical = folder_path / f"{folder_name}.md"
+    if canonical.exists():
+        return canonical
+
+    # List ALL .md files present for diagnostics
+    all_mds = sorted(p.name for p in folder_path.glob("*.md"))
+
+    candidates = [p for p in folder_path.glob("*.md") if p.name not in _MD_EXCLUDE]
+    if candidates:
+        chosen = candidates[0]
+        logger.info(
+            f"[{folder_name}] Canonical '{folder_name}.md' not found; "
+            f"using fallback: '{chosen.name}' "
+            f"(all .md files present: {all_mds})"
         )
-    return ""
+        return chosen
+
+    raise FileNotFoundError(
+        f"No paper .md found in {folder_path}. "
+        f"All .md files present: {all_mds}. "
+        f"Expected canonical name: '{folder_name}.md' or any .md "
+        f"not in {sorted(_MD_EXCLUDE)}."
+    )
 
 
-def _build_reference_list(references: list) -> str:
-    lines = []
-    for i, ref in enumerate(references, start=1):
-        raw_authors = ref.get("authors", [])
-        authors     = ", ".join(filter(None, (_resolve_author(a) for a in raw_authors))) or "Unknown"
-        year        = ref.get("year") or "n.d."
-        venue       = ref.get("venue") or ""
-        title       = ref.get("title", "Untitled")
-        line        = f"[{i}] {authors} ({year}). {title}."
-        if venue:
-            line += f" {venue}."
-        lines.append(line)
-    return "\n".join(lines)
+def extract_context_for_folder(folder_name: str) -> dict:
+    """
+    Extract citation context for *folder_name* and return the result dict.
 
+    On any recoverable error the failure is logged to context_failures.json
+    and the exception is re-raised so the caller can skip this folder.
+    """
+    path      = Path(EXTRACTED_DIR) / folder_name
+    refs_path = path / "references.json"
 
-def _extract_local_context(paper_text: str, references: list) -> list:
-    raw    = _call_llm(LOCAL_SYSTEM, LOCAL_USER.format(
-        reference_list=_build_reference_list(references),
-        paper_text=paper_text,
-    ))
-    result = _clean_and_parse(raw)
+    # ── Locate paper .md ───────────────────────────────────────────────────
+    try:
+        md_path = _find_paper_md(path, folder_name)
+    except FileNotFoundError as e:
+        _log_context_failure(folder_name, "no_md_file", str(e))
+        raise
 
-    if isinstance(result, list):
-        return result
-    if isinstance(result, dict):
-        for key in ("citations", "results", "data", "items"):
-            if isinstance(result.get(key), list):
-                return result[key]
-    raise ValueError(f"Expected a JSON array for local context, got: {type(result)}")
+    # ── Load references.json ───────────────────────────────────────────────
+    if not refs_path.exists():
+        detail = f"references.json not found at {refs_path}"
+        _log_context_failure(folder_name, "no_references_json", detail)
+        raise FileNotFoundError(detail)
 
+    try:
+        with refs_path.open(encoding="utf-8") as f:
+            refs_data = json.load(f)
+    except json.JSONDecodeError as e:
+        detail = f"references.json is malformed: {e}"
+        _log_context_failure(folder_name, "bad_references_json", detail)
+        raise
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Assembler
-# ─────────────────────────────────────────────────────────────────────────────
+    references = refs_data.get("references", [])
+    paper_id   = refs_data.get("paper", {}).get("paper_id", folder_name)
+    logger.info(f"[{folder_name}] Loaded {len(references)} references from {md_path.name}")
 
-def _assemble(paper_id: str, global_context: dict, raw_citations: list, references: list) -> dict:
-    citations = []
-    for entry in raw_citations:
-        idx = entry.get("reference_index")
-        if idx is None:
-            continue
-        try:
-            ref = references[int(idx) - 1]
-        except (IndexError, ValueError, TypeError):
-            logger.warning(f"reference_index {idx} out of range (total: {len(references)})")
-            continue
+    # ── Read paper text ────────────────────────────────────────────────────
+    try:
+        paper_text = md_path.read_text(encoding="utf-8", errors="replace").strip()
+    except OSError as e:
+        detail = f"Could not read {md_path}: {e}"
+        _log_context_failure(folder_name, "md_read_error", detail)
+        raise
 
-        citations.append({
-            # "reference" holds the human-readable title of the cited paper
-            "reference": ref.get("title", "Untitled"),
-            "local_context": {
-                "before":          entry.get("before",          "").strip(),
-                "citation_marker": entry.get("citation_marker", "").strip(),
-                "after":           entry.get("after",           "").strip(),
-            },
-            # global_context is NOT repeated here — it lives once at the top level
-        })
+    # ── Step 1: Global context ─────────────────────────────────────────────
+    logger.info(f"[{folder_name}] Extracting global context...")
+    glob = _extract_global_context(paper_text)
+
+    # ── Step 2: Detect all citation markers with surrounding context windows
+    logger.info(f"[{folder_name}] Scanning for citation markers...")
+    raw_detections = _detect_citations(paper_text)
+
+    # ── Step 3: Expand, resolve, and replace formula images ───────────────
+    seen, citations = set(), []
+    _SNIPPET_LEN = 40
+
+    try:
+        for d in raw_detections:
+            m, b, a = d["marker"], d["before"], d["after"]
+
+            if IMG_TAG_RE.search(b) or IMG_TAG_RE.search(a):
+                logger.info(
+                    f"[{folder_name}] Running LatexOCR on formula images "
+                    f"in context window of marker {m!r}..."
+                )
+                b = _replace_formula_images(b, path, folder_name)
+                a = _replace_formula_images(a, path, folder_name)
+
+            resolved    = _resolve_marker(m, references)
+            is_multiple = len(resolved) > 1
+
+            for ref, source_marker in resolved:
+                title     = ref.get("title", "Untitled")
+                dedup_key = (m, title, b[-_SNIPPET_LEN:])
+                if dedup_key in seen:
+                    continue
+                seen.add(dedup_key)
+                citations.append({
+                    "reference":       {"title": title},
+                    "citation_marker": m,
+                    "citation_type":   "multiple" if is_multiple else "single",
+                    "source_marker":   source_marker if is_multiple else None,
+                    "local_context":   {"before": b, "after": a},
+                })
+
+    except Exception as e:
+        detail = f"Unexpected error during citation processing: {e}"
+        _log_context_failure(folder_name, "unexpected_error", detail)
+        raise
 
     return {
         "paper_id":        paper_id,
-        "global_context":  global_context,   # ← single copy, at the root
+        "global_context":  glob,
         "citations":       citations,
         "total_citations": len(citations),
-        "skipped":         False,
     }
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Public entry point — called by the route
-# ─────────────────────────────────────────────────────────────────────────────
-
-def extract_context_for_folder(folder_name: str) -> dict:
-    folder_path = Path(EXTRACTED_DIR) / folder_name
-
-    if not folder_path.is_dir():
-        raise ValueError(f"Folder not found: {folder_path}")
-
-    # Load <folder_name>.md
-    md_path = folder_path / f"{folder_name}.md"
-    if not md_path.exists():
-        raise ValueError(f"{folder_name}.md not found in {folder_path}")
-
-    paper_text = md_path.read_text(encoding="utf-8", errors="replace").strip()
-    if not paper_text:
-        raise ValueError(f"{folder_name}.md is empty")
-
-    # Load references.json
-    refs_path = folder_path / "references.json"
-    if not refs_path.exists():
-        raise ValueError("references.json not found — run Pipeline 1 first")
-
-    with refs_path.open(encoding="utf-8") as f:
-        refs_data = json.load(f)
-
-    paper_meta = refs_data.get("paper", {})
-    references = refs_data.get("references", [])
-    paper_id   = paper_meta.get("paper_id", folder_name)
-
-    if not references:
-        return {
-            "paper_id":        paper_id,
-            "global_context":  {"title": "", "abstract": ""},
-            "citations":       [],
-            "total_citations": 0,
-            "skipped":         False,
-            "note":            "No references in references.json",
-        }
-
-    # LLM call 1 — global context
-    logger.info(f"[{folder_name}] extracting global context …")
-    global_context = _extract_global_context(paper_text)
-    logger.info(f"[{folder_name}] title='{global_context['title'][:60]}'")
-
-    # LLM call 2 — local context
-    logger.info(f"[{folder_name}] extracting local context for {len(references)} refs …")
-    raw_citations = _extract_local_context(paper_text, references)
-    logger.info(f"[{folder_name}] LLM returned {len(raw_citations)} citation entries")
-
-    return _assemble(paper_id, global_context, raw_citations, references)

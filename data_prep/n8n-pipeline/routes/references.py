@@ -383,6 +383,37 @@ def save_all_references(folder):
 
     references = flattened_refs
 
+    # ── Step 1: Persist raw LLM output BEFORE OpenAlex mutates anything ───────
+    # This gives a reliable rollback point and lets downstream tools inspect
+    # exactly what Groq produced, independent of OpenAlex availability.
+    raw_json_path = os.path.join(folder_path, "raw_references.json")
+    raw_output = {
+        "folder":    folder,
+        "source":    "groq_llm",
+        "total":     len(references),
+        "references": [
+            {
+                "title":   str(r.get("title") or "Untitled").strip(),
+                "authors": (
+                    r.get("authors")
+                    if isinstance(r.get("authors"), list)
+                    else ([r["authors"]] if isinstance(r.get("authors"), str) else [])
+                ),
+                "year":    r.get("year"),
+                "venue":   str(r.get("venue") or r.get("journal") or "").strip() or None,
+                "doi":     r.get("doi"),
+            }
+            for r in references if isinstance(r, dict)
+        ],
+    }
+    try:
+        with open(raw_json_path, "w", encoding="utf-8") as f:
+            json.dump(raw_output, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        # Non-fatal: log and continue — raw save failure must not block the pipeline
+        print(f"Warning: Could not write raw_references.json: {e}")
+        raw_json_path = None
+
     # ── Snapshot original Groq/OCR values BEFORE OpenAlex mutates the dicts ──
     # Authors, year, and venue always come from Groq/OCR.
     # OpenAlex is used ONLY to validate/correct the title.
@@ -555,6 +586,7 @@ def save_all_references(folder):
         "success":                   True,
         "references_count":          len(json_refs),
         "title_validated_count":     output["verified"],
+        "raw_json_path":             raw_json_path,
         "md_path":                   md_path,
         "json_path":                 json_path,
         "note":                      "Title validated by OpenAlex; authors/year/venue kept from Groq/OCR",

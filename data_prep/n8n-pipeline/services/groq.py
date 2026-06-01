@@ -27,8 +27,7 @@ def call_groq(raw_content: str) -> list:
             "- authors (array of strings)\n"
             "- year (number or null)\n"
             "- venue (string or null)\n\n"
-            "Rules: split merged entries, fix obvious OCR typos in titles/authors only, "
-            "do NOT include the source paper if it appears at the end.\n\n"
+            "Rules: split merged entries "
             f"Reference list:\n\n{raw_content}"
         ),
         "temperature": 0.0,

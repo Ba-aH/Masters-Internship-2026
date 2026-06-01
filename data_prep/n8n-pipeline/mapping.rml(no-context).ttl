@@ -6,7 +6,7 @@
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 @prefix citekg:   <https://citekg.org/ontology#> .
 @prefix map:      <http://citekg.org/mapping#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 
 # ====================== LOGICAL SOURCES ======================
 
@@ -52,29 +52,24 @@ map:MainPaperMap
     ] ;
 
     rr:predicateObjectMap [
-        rr:predicate citekg:openAlexFound ;
-        rr:objectMap [ rml:reference "paper.openalex_found" ; rr:datatype xsd:boolean ]
-    ] ;
-
-    rr:predicateObjectMap [
-        rr:predicate citekg:totalReferences ;
-        rr:objectMap [ rml:reference "total" ; rr:datatype xsd:integer ]
-    ] ;
-
-    rr:predicateObjectMap [
-        rr:predicate citekg:verifiedCount ;
-        rr:objectMap [ rml:reference "verified" ; rr:datatype xsd:integer ]
-    ] ;
-
-    rr:predicateObjectMap [
-        rr:predicate citekg:citationCount ;
-        rr:objectMap [ rml:reference "paper.citation_count" ; rr:datatype xsd:integer ]
+        rr:predicate rdfs:label ;
+        rr:objectMap [ rml:reference "paper.title" ; rr:language "en" ]
     ] ;
     
     rr:predicateObjectMap [
-        rr:predicate rdfs:label ;
-        rr:objectMap [ rml:reference "paper.title" ; rr:language "en" ]
+        rr:predicate citekg:openalexId ;
+        rr:objectMap [ rml:reference "paper.openalex_id" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate citekg:openalexFound ;
+        rr:objectMap [ rml:reference "paper.openalex_found" ; rr:datatype xsd:boolean ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate citekg:totalReferences ;
+        rr:objectMap [ rml:reference "total" ; rr:datatype xsd:integer ]
     ] .
+
 # ====================== REFERENCE PAPERS ======================
 
 map:RefPaperMap
@@ -102,32 +97,28 @@ map:RefPaperMap
     ] ;
 
     rr:predicateObjectMap [
-        rr:predicate citekg:openAlexFound ;
-        rr:objectMap [ rml:reference "openalex_found" ; rr:datatype xsd:boolean ]
-    ] ;
-
-    rr:predicateObjectMap [
-        rr:predicate citekg:openAlexScore ;
-        rr:objectMap [ rml:reference "openalex_score" ; rr:datatype xsd:decimal ]
-    ] ;
-
-    rr:predicateObjectMap [
-        rr:predicate citekg:citationCount ;
-        rr:objectMap [ rml:reference "citation_count" ; rr:datatype xsd:integer ]
-    ] ;
-   
-    rr:predicateObjectMap [
         rr:predicate rdfs:label ;
         rr:objectMap [ rml:reference "title" ; rr:language "en" ]
+    ] ;
+
+    # venue and year come from Groq/OCR — OpenAlex does NOT overwrite these
+    rr:predicateObjectMap [
+        rr:predicate citekg:venue ;
+        rr:objectMap [ rml:reference "venue" ; rr:language "en" ]
+    ] ;
+
+    # OpenAlex metadata (title validation only)
+    rr:predicateObjectMap [
+        rr:predicate citekg:openalexId ;
+        rr:objectMap [ rml:reference "openalex_id" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate citekg:titleValidatedByOpenAlex ;
+        rr:objectMap [ rml:reference "openalex_title_validated" ; rr:datatype xsd:boolean ]
     ] .
 
 # ====================== DIRECT CITATION RELATIONS ======================
-# citekg:cites    — main paper → referenced paper  (forward direction)
-# citekg:isCitedBy — referenced paper → main paper (inverse direction)
-#
-# Both maps iterate over $.references[*].
-# Each reference now carries main_paper_id (stamped by Python) so the
-# template can resolve it without navigating up to the parent object.
 
 map:MainCitesRef
     a rr:TriplesMap ;
@@ -161,52 +152,7 @@ map:RefIsCitedBy
         ]
     ] .
 
-# ====================== CITATIONS (reified) ======================
-# Reified Citation node — useful when you want to attach metadata
-# (e.g. citation year, position, context) to the act of citing.
-# FIX: was using {$.paper.paper_id} which RMLMapper cannot resolve
-# from inside $.references[*]; now uses {main_paper_id} instead.
-
-# map:CitationMap
-#     a rr:TriplesMap ;
-#     rml:logicalSource map:RefsSource ;
-
-#     rr:subjectMap [
-#         rr:template "https://citekg.org/resource/citation/{main_paper_id}-{paper_id}" ;
-#         rr:class citekg:Citation
-#     ] ;
-
-#     rr:predicateObjectMap [
-#         rr:predicate citekg:citingPaper ;
-#         rr:objectMap [
-#             rr:template "https://citekg.org/resource/paper/{main_paper_id}" ;
-#             rr:termType rr:IRI
-#         ]
-#     ] ;
-
-#     rr:predicateObjectMap [
-#         rr:predicate citekg:citedPaper ;
-#         rr:objectMap [
-#             rr:template "https://citekg.org/resource/paper/{paper_id}" ;
-#             rr:termType rr:IRI
-#         ]
-#     ] ;
-
-#     rr:predicateObjectMap [
-#         rr:predicate citekg:citationYear ;
-#         rr:objectMap [ rml:reference "year" ; rr:datatype xsd:gYear ]
-#     ] ;
-
-#     rr:predicateObjectMap [
-#         rr:predicate rdfs:label ;
-#         rr:objectMap [
-#             rr:template "Citation from {main_paper_id} to {paper_id}" ;
-#             rr:language "en"
-#         ]
-#     ] .
 # ====================== AUTHORS ======================
-# Author nodes — built from author_links so every author
-# (main paper or reference) is created from one source.
 
 map:AuthorMap
     a rr:TriplesMap ;
@@ -245,7 +191,7 @@ map:PaperAuthorLink
         ]
     ] .
 
-# ====================== AUTHOR → PAPER (authorOf — inverse) ======================
+# ====================== AUTHOR → PAPER (authorOf) ======================
 
 map:AuthorPaperLink
     a rr:TriplesMap ;
